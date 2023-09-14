@@ -2,14 +2,45 @@
 <!doctype html>
 <html lang="en">
   <head>
+    {% block meta %}
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    {% endblock %}
 
+    {% block extra_meta %}
+    {% endblock %}
 
-    <title>Infinity Innovations</title>
+    {% block corecss %}
+    {% endblock %}
+
+    {% block extra_css %}
+    {% endblock %}
+
+    {% block corejs %}
+    {% endblock %}
+
+    {% block extra_js %}
+    {% endblock %}
+
+    <title>Infinity Innovations {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
+    <header>
 
+    </header>
+
+    {% if messages %}
+    <div class="message-container"></div>
+    {% endif %}
+
+    {% block page_header %}
+    {% endblock %}
+
+    {% block content %}
+    {% endblock %}
+
+    {% block postloadjs %}
+    {% endblock %}
   </body>
 </html>
