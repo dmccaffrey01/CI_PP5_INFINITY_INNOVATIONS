@@ -8,3 +8,8 @@ assignees: ''
 ---
 
 As a **role** I can **capability** so that **received benefit**
+
+Tasks:
+- Model
+- View
+- Template
