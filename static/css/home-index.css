@@ -1,0 +1,5 @@
+.home-hero-section {
+    width: 100%;
+    height: calc(100vh - 200px);
+    background-color: var(--MAIN-1);
+}

@@ -12,12 +12,14 @@
     {% endblock %}
 
     {% block corecss %}
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
     {% endblock %}
 
     {% block extra_css %}
     {% endblock %}
 
     {% block corejs %}
+    <script src="https://kit.fontawesome.com/5821df7d40.js" crossorigin="anonymous"></script>
     {% endblock %}
 
     {% block extra_js %}
@@ -26,8 +28,76 @@
     <title>Infinity Innovations {% block extra_title %}{% endblock %}</title>
   </head>
   <body>
-    <header>
+    <header class="container-col">
+         <div class="header-container container-col">
+            <div class="top-header-container container-row ">
+                <div class="logo-header-container container-row">
+                    <div class="logo-img-container img-container">
+                        
+                    </div>
+                    <h1 class="logo-text dark-text">Infinity Innovations</h1>
+                </div>
 
+                <form class="search-header-container container-row" method="GET" action="">
+                    <input type="text" class="search-products-header-input" name="q" placeholder="Search our site">
+                    <button class="search-products-header-btn container-col" type="submit">
+                        <i class="fas fa-search white-text"></i>
+                    </button>
+                </form>
+
+                <div class="account-cart-container container-row">
+                    <div class="account-header-container container-col">
+                        <div class="account-header-img-container img-container">
+
+                        </div>
+                        <div class="account-header-text dark-text">My Account</div>
+                    </div>
+
+                    <div class="cart-header-container container-col">
+                        <div class="cart-header-img-container img-container">
+
+                        </div>
+                        <div class="cart-header-text dark-text">
+                            {% if grand_total %}
+                            $<span class="cart-grand-total">{{ grand_total }}</span>
+                            {% else %}
+                            $0.00
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bottom-header-container container-row">
+                <div class="bottom-header-dropdown-heading">ALL PRODUCTS</div>
+                <div class="bottom-header-dropdown-container container-col">
+                    <div class="bottom-header-dropdown-item">By Price</div>
+                    <div class="bottom-header-dropdown-item">By Rating</div>
+                    <div class="bottom-header-dropdown-item">By Category</div>
+                    <div class="bottom-header-dropdown-item">All Products</div>
+                </div>
+
+                <div class="bottom-header-dropdown-heading">REAL WORLD</div>
+                <div class="bottom-header-dropdown-container container-col">
+                    <div class="bottom-header-dropdown-item">Category 1</div>
+                    <div class="bottom-header-dropdown-item">Category 2</div>
+                    <div class="bottom-header-dropdown-item">Category 3</div>
+                    <div class="bottom-header-dropdown-item">Category 4</div>
+                    <div class="bottom-header-dropdown-item">Category 5</div>
+                    <div class="bottom-header-dropdown-item">All Real World</div>
+                </div>
+
+                <div class="bottom-header-dropdown-heading">DIGITAL WORLD</div>
+                <div class="bottom-header-dropdown-container container-col">
+                    <div class="bottom-header-dropdown-item">Category 1</div>
+                    <div class="bottom-header-dropdown-item">Category 2</div>
+                    <div class="bottom-header-dropdown-item">Category 3</div>
+                    <div class="bottom-header-dropdown-item">Category 4</div>
+                    <div class="bottom-header-dropdown-item">Category 5</div>
+                    <div class="bottom-header-dropdown-item">All Digital World World</div>
+                </div>
+            </div>
+         </div>
     </header>
 
     {% if messages %}
@@ -39,6 +109,12 @@
 
     {% block content %}
     {% endblock %}
+
+    <footer class="container-col">
+        <div class="footer-container container-row">
+            
+        </div>
+    </footer>
 
     {% block postloadjs %}
     {% endblock %}
