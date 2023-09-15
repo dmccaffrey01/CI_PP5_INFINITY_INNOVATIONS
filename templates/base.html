@@ -69,32 +69,61 @@
             </div>
 
             <div class="bottom-header-container container-row">
-                <div class="bottom-header-dropdown-heading">ALL PRODUCTS</div>
-                <div class="bottom-header-dropdown-container container-col">
-                    <div class="bottom-header-dropdown-item">By Price</div>
-                    <div class="bottom-header-dropdown-item">By Rating</div>
-                    <div class="bottom-header-dropdown-item">By Category</div>
-                    <div class="bottom-header-dropdown-item">All Products</div>
-                </div>
-
                 <div class="bottom-header-dropdown-heading">REAL WORLD</div>
-                <div class="bottom-header-dropdown-container container-col">
-                    <div class="bottom-header-dropdown-item">Category 1</div>
-                    <div class="bottom-header-dropdown-item">Category 2</div>
-                    <div class="bottom-header-dropdown-item">Category 3</div>
-                    <div class="bottom-header-dropdown-item">Category 4</div>
-                    <div class="bottom-header-dropdown-item">Category 5</div>
-                    <div class="bottom-header-dropdown-item">All Real World</div>
+                <div class="bottom-header-dropdown-container container-row">
+                    <div class="bottom-header-dropdown-item container-col">
+                        <div class="bottom-header-dropdown-item-heading">REAL WORLD</div>
+                        <div class="bottom-header-dropdown-link">By Price</div>
+                        <div class="bottom-header-dropdown-link">By Rating</div>
+                        <div class="bottom-header-dropdown-link">By Category</div>
+                        <div class="bottom-header-dropdown-link">By Brand</div>
+                        <div class="bottom-header-dropdown-link">All REAL WORLD</div>
+                    </div>
+
+                    <div class="bottom-header-dropdown-item container-col">
+                        <div class="bottom-header-dropdown-item-heading">Category</div>
+                        <div class="bottom-header-dropdown-link">Category 1</div>
+                        <div class="bottom-header-dropdown-link">Category 2</div>
+                        <div class="bottom-header-dropdown-link">Category 3</div>
+                        <div class="bottom-header-dropdown-link">ALL CATEGORIES</div>
+                    </div>
+
+                    <div class="bottom-header-dropdown-item container-col">
+                        <div class="bottom-header-dropdown-item-heading">BRAND</div>
+                        <div class="bottom-header-dropdown-link">Brand 1</div>
+                        <div class="bottom-header-dropdown-link">Brand 2</div>
+                        <div class="bottom-header-dropdown-link">Brand 3</div>
+                        <div class="bottom-header-dropdown-link">ALL BRANDS</div>
+                    </div>
                 </div>
 
                 <div class="bottom-header-dropdown-heading">DIGITAL WORLD</div>
-                <div class="bottom-header-dropdown-container container-col">
-                    <div class="bottom-header-dropdown-item">Category 1</div>
-                    <div class="bottom-header-dropdown-item">Category 2</div>
-                    <div class="bottom-header-dropdown-item">Category 3</div>
-                    <div class="bottom-header-dropdown-item">Category 4</div>
-                    <div class="bottom-header-dropdown-item">Category 5</div>
-                    <div class="bottom-header-dropdown-item">All Digital World World</div>
+                <div class="bottom-header-dropdown-container container-row">
+                    <div class="bottom-header-dropdown-item container-col">
+                        <div class="bottom-header-dropdown-item-heading">DIGITAL WORLD</div>
+                        <div class="bottom-header-dropdown-link">By Price</div>
+                        <div class="bottom-header-dropdown-link">By Rating</div>
+                        <div class="bottom-header-dropdown-link">By Category</div>
+                        <div class="bottom-header-dropdown-link">By Brand</div>
+                        <div class="bottom-header-dropdown-link">All DIGITAL WORLD</div>
+                    </div>
+
+                    <div class="bottom-header-dropdown-item container-col">
+                        <div class="bottom-header-dropdown-item-heading">Category</div>
+                        <div class="bottom-header-dropdown-link">Category 1</div>
+                        <div class="bottom-header-dropdown-link">Category 2</div>
+                        <div class="bottom-header-dropdown-link">Category 3</div>
+                        <div class="bottom-header-dropdown-link">ALL CATEGORIES</div>
+
+                    </div>
+
+                    <div class="bottom-header-dropdown-item container-col">
+                        <div class="bottom-header-dropdown-item-heading">BRAND</div>
+                        <div class="bottom-header-dropdown-link">Brand 1</div>
+                        <div class="bottom-header-dropdown-link">Brand 2</div>
+                        <div class="bottom-header-dropdown-link">Brand 3</div>
+                        <div class="bottom-header-dropdown-link">ALL BRANDS</div>
+                    </div>
                 </div>
             </div>
          </div>
@@ -112,11 +141,12 @@
 
     <footer class="container-col">
         <div class="footer-container container-row">
-            
+
         </div>
     </footer>
 
     {% block postloadjs %}
+    <script src="{% static 'js/base.js' %}"></script>
     {% endblock %}
   </body>
 </html>

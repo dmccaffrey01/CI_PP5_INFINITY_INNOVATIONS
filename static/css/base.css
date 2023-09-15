@@ -71,7 +71,7 @@ a {
 
 header {
     width: 100%;
-    height: 200px;
+    height: 180px;
     background-color: var(--GRAY-LIGHT-1);
 }
 
@@ -107,7 +107,7 @@ header {
 }
 
 .search-header-container {
-    width: 400px;
+    width: 600px;
 }
 
 .search-products-header-input {
@@ -116,7 +116,7 @@ header {
     font-size: 1.5rem;
     border: 3px solid var(--GRAY-DARK-1);
     border-right: none !important;
-    width: 330px;
+    width: 530px;
     height: 60px;
 }
 
@@ -162,7 +162,7 @@ header {
 /* Bottom Header */
 
 .bottom-header-container {
-    height: 90px;
+    height: 70px;
     gap: 50px;
     position: relative;
 }
@@ -174,13 +174,41 @@ header {
     left: 50%;
     transform: translateX(-50%);
     background-color: var(--GRAY-LIGHT-3);
-    padding: 50px;
     display: none;
+    padding: 50px;
+    height: 300px;
+    gap: 50px;
+    align-items: flex-start;
 }
+
+.bottom-header-dropdown-container.active {
+    display: flex;
+}   
 
 .bottom-header-dropdown-heading {
     font-size: 1.8rem;
     font-weight: 600;
     color: var(--GRAY-DARK-1);
     cursor: pointer;
+}
+
+.bottom-header-dropdown-item {
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.bottom-header-dropdown-item-heading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--GRAY-DARK-1);
+}
+
+.bottom-header-dropdown-link {
+    color: var(--GRAY-DARK-2);
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+.bottom-header-dropdown-item {
+    align-items: flex-start;
 }
