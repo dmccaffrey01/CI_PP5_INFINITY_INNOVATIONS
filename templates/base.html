@@ -73,10 +73,10 @@
                 <div class="bottom-header-dropdown-container container-row">
                     <div class="bottom-header-dropdown-item container-col">
                         <h3 class="bottom-header-dropdown-item-heading">Real World</h3>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">By Price</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">By Rating</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">By Category</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">By Brand</a>
+                        <a href="{% url 'products' %}?sort=price&direction=asc" class="bottom-header-dropdown-link">By Price</a>
+                        <a href="{% url 'products' %}?sort=rating&direction=desc" class="bottom-header-dropdown-link">By Rating</a>
+                        <a href="{% url 'products' %}?sort=category&direction=asc" class="bottom-header-dropdown-link">By Category</a>
+                        <a href="" class="bottom-header-dropdown-link">By Brand</a>
                         <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">All REAL WORLD</a>
                     </div>
 
@@ -103,10 +103,10 @@
                 <div class="bottom-header-dropdown-container container-row">
                     <div class="bottom-header-dropdown-item container-col">
                         <h3 class="bottom-header-dropdown-item-heading">Digital World</h3>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">By Price</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">By Rating</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">By Category</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">By Brand</a>
+                        <a href="{% url 'products' %}?sort=price&direction=asc" class="bottom-header-dropdown-link">By Price</a>
+                        <a href="{% url 'products' %}?sort=rating&direction=desc" class="bottom-header-dropdown-link">By Rating</a>
+                        <a href="{% url 'products' %}?sort=category&direction=asc" class="bottom-header-dropdown-link">By Category</a>
+                        <a href="" class="bottom-header-dropdown-link">By Brand</a>
                         <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-link">All DIGITAL WORLD</a>
                     </div>
 
