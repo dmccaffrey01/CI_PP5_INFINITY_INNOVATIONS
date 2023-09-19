@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section class="product-detail-section section">
+    <div class="product-detail-section-container section-container container-row">
+        <div class="product-detail-img-container img-container">
+            {% if product.image %}
+            <a href="{{ product.image.url }}" target="_blank">
+                <img src="{{ product.image.url }}" alt="{{ product.name }}" class="product-detail-img img-100a">
+            </a>
+            {% else %}
+            <a href="">
+                <img src="{{ MEDIA_URL }}template.png" alt="{{ product.name }}" class="product-detail-img img-100a">
+            </a>
+            {% endif %}
+        </div>
+
+        <div class="product-detail-text-container container-col">
+            <p class="product-detail-name dark-text">{{ product.name }}</p>
+
+            <p class="product-detail-price dark-text">$ {{ product.price }}</p>
+
+            {% if product.rating %}
+            <p class="product-detail-rating dark-text">
+                <i class="fas fa-star"></i> {{ product.rating }} / 5
+            </p>
+            {% else %}
+            <p class="product-detail-rating dark-text">
+                No Rating
+            </p>
+            {% endif %}
+
+            {% if product.description %}
+            <p class="product-detail-description dark-text">
+                {{ product.description }}
+            </p>
+            {% else %}
+            <p class="product-detail-description dark-text">
+                No Description
+            </p>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/products.css' %}">
+{% endblock %}
