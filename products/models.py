@@ -8,7 +8,7 @@ class Category(models.Model):
     
     name = models.CharField(max_length=254)
     friendly_name = models.CharField(max_length=254)
-    type = models.CharField(max_length=254, default='real')
+    universe = models.CharField(max_length=254, default='real')
 
     def __str__(self):
         return self.name

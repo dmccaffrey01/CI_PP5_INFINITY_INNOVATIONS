@@ -6,18 +6,22 @@ from .models import Product, Category
 
 
 
-def all_products(request, type):
+def all_products(request, universe):
     """ A view to show all products, including sorting and search queries """
 
-    if type == 'real':
-        products = Product.objects.filter(category__type='real')
-    elif type == 'digital':
-        products = Product.objects.filter(category__type='digital')
-    elif type == 'all':
+    current_universe = 'all'
+
+    if universe == 'real':
+        products = Product.objects.filter(category__universe='real')
+        current_universe = 'real'
+    elif universe == 'digital':
+        products = Product.objects.filter(category__universe='digital')
+        current_universe = 'digital'
+    elif universe == 'all':
         products = Product.objects.all()
     else:
         return HttpResponse("Invalid type parameter")
-    
+
     query = None
     categories = None
     sort = None
@@ -30,6 +34,9 @@ def all_products(request, type):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
+
+            if sortkey == 'category':
+                sortkey = 'category__name'
 
             if 'direction' in request.GET:
                 direction = request.GET['direction']
@@ -61,6 +68,7 @@ def all_products(request, type):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
+        'current_universe': current_universe,
     }
 
     return render(request, 'products/products.html', context)
