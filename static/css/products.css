@@ -1,0 +1,39 @@
+/* Products List */
+
+.products-list-section {
+    min-height: calc(100vh - 200px);
+}
+
+.products-list-section-container {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.products-card {
+    width: 335px;
+    overflow: hidden;
+    height: 490px;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.products-card-img-container {
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+.products-card-text-container {
+    text-align: center;
+    width: 100%;
+}
+
+.product-card-name {
+    height: 70px;
+    width: 100%;
+}
+
+.product-card-rating {
+    padding-top: 10px;
+}

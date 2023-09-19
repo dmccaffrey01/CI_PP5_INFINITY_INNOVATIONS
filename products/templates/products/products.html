@@ -3,12 +3,44 @@
 
 {% block content %}
 
-<section class="products-list-section">
-    {{ products }}
+<section class="products-list-section section">
+    <div class="products-list-section-container section-container container-row">
+        {% for product in products %}
+        <div class="products-card container-col">
+            <div class="products-card-img-container img-container">
+                {% if product.image %}
+                <a href="">
+                    <img src="{{ product.image.url }}" alt="{{ product.name }}" class="products-card-img img-100a">
+                </a>
+                {% else %}
+                <a href="">
+                    <img src="{{ MEDIA_URL }}template.png" alt="{{ product.name }}" class="products-card-img img-100a">
+                </a>
+                {% endif %}
+            </div>
+
+            <div class="products-card-text-container container-col">
+                <p class="product-card-name dark-text">{{ product.name }}</p>
+
+                <p class="product-card-price dark-text">$ {{ product.price }}</p>
+
+                {% if product.rating %}
+                <p class="product-card-rating dark-text">
+                    <i class="fas fa-star"></i> {{ product.rating }} / 5
+                </p>
+                {% else %}
+                <p class="product-card-rating dark-text">
+                    No Rating
+                </p>
+                {% endif %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
 </section>
 
 {% endblock %}
 
 {% block extra_css %}
-<link rel="stylesheet" href="{% static 'css/home-index.css' %}">
+<link rel="stylesheet" href="{% static 'css/products.css' %}">
 {% endblock %}

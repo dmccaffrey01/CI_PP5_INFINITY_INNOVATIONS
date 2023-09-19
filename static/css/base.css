@@ -36,6 +36,20 @@ a {
     text-decoration: none;
 }
 
+.section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: var(--GRAY-LIGHT-1);
+    padding: 50px 0;
+}
+
+.section-container {
+    width: 1400px;
+}
+
 .container-col {
     display: flex;
     justify-content: center;
@@ -55,6 +69,11 @@ a {
     align-items: center;
     overflow: hidden;
     position: relative;
+}
+
+.img-100a {
+    width: 100%;
+    height: auto;
 }
 
 .dark-text {
@@ -179,6 +198,7 @@ header {
     height: 300px;
     gap: 50px;
     align-items: flex-start;
+    z-index: 999;
 }
 
 .bottom-header-dropdown-container.active {
