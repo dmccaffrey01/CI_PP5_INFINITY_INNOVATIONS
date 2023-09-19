@@ -1,0 +1,65 @@
+[
+    {
+        "pk": 1,
+        "model": "products.brand",
+        "fields": {
+            "name": "nova_vision",
+            "friendly_name": "NovaVison",
+            "universe": "real"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.brand",
+        "fields": {
+            "name": "quantum_sense",
+            "friendly_name": "QuantumSense",
+            "universe": "real"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.brand",
+        "fields": {
+            "name": "astral_tech",
+            "friendly_name": "AstralTech",
+            "universe": "real"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.brand",
+        "fields": {
+            "name": "marvel",
+            "friendly_name": "Marvel",
+            "universe": "digital"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.brand",
+        "fields": {
+            "name": "dc",
+            "friendly_name": "DC",
+            "universe": "digital"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.brand",
+        "fields": {
+            "name": "star_wars",
+            "friendly_name": "Star Wars",
+            "universe": "digital"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.brand",
+        "fields": {
+            "name": "fantasy_land",
+            "friendly_name": "Fantasy Land",
+            "universe": "digital"
+        }
+    }
+]

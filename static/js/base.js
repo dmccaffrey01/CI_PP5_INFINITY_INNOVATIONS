@@ -7,6 +7,7 @@ const removeActiveDropdown = (i) => {
     headerDropdownContainers.forEach((container, k) => {
         if (k !== i && container.classList.contains("active")) {
             container.classList.remove("active");
+            headerDropdownHeadings[k].classList.remove("active");
         }
     });
 }
@@ -15,6 +16,7 @@ headerDropdownHeadings.forEach((heading, index) => {
     heading.addEventListener("mouseenter", () => {
         removeActiveDropdown(index);
         headerDropdownContainers[index].classList.add("active");
+        heading.classList.add("active");
 
         bottomHeaderContainer.addEventListener("mouseleave", () => {
             removeActiveDropdown(-1);

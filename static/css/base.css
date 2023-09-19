@@ -90,7 +90,7 @@ a {
 
 header {
     width: 100%;
-    height: 180px;
+    height: 160px;
     background-color: var(--GRAY-LIGHT-1);
 }
 
@@ -181,9 +181,12 @@ header {
 /* Bottom Header */
 
 .bottom-header-container {
-    height: 70px;
-    gap: 50px;
+    height: 50px;
     position: relative;
+    justify-content: flex-start;
+    width: 100vw;
+    background-color: var(--GRAY-DARK-2);
+    padding-left: 75px;
 }
 
 .bottom-header-dropdown-container {
@@ -192,13 +195,16 @@ header {
     width: 100vw;
     left: 50%;
     transform: translateX(-50%);
-    background-color: var(--GRAY-LIGHT-3);
+    background-color: var(--GRAY-DARK-1);
     display: none;
     padding: 50px;
-    height: 300px;
     gap: 50px;
-    align-items: flex-start;
     z-index: 999;
+}
+
+.bottom-header-dropdown-wrapper {
+    gap: 80px;
+    align-items: flex-start;
 }
 
 .bottom-header-dropdown-container.active {
@@ -206,29 +212,61 @@ header {
 }   
 
 .bottom-header-dropdown-heading {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 600;
-    color: var(--GRAY-DARK-1);
+    color: var(--WHITE);
     cursor: pointer;
+    height: 100%;
+    width: 160px;
+}
+
+.bottom-header-dropdown-heading.active {
+    background-color: var(--GRAY-DARK-1);
 }
 
 .bottom-header-dropdown-item {
     justify-content: flex-start;
-    gap: 10px;
+    flex-wrap: wrap;
+    width: 350px;
 }
 
 .bottom-header-dropdown-item-heading {
     font-size: 1.5rem;
     font-weight: 600;
-    color: var(--GRAY-DARK-1);
+    color: var(--WHITE);
+    flex-basis: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.bottom-header-dropdown-item-heading::after {
+    content: "";
+    top: calc(100% + 3px);
+    height: 2px;
+    width: 350px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: var(--WHITE);
 }
 
 .bottom-header-dropdown-link {
-    color: var(--GRAY-DARK-2);
+    color: var(--WHITE);
     cursor: pointer;
     font-size: 1.3rem;
+    flex-basis: 50%;
+    margin-top: 15px;
 }
 
 .bottom-header-dropdown-item {
     align-items: flex-start;
+}
+
+.bottom-header-dropdown-item-ending {
+    color: var(--WHITE);
+    cursor: pointer;
+    font-size: 1.3rem;
+    flex-basis: 100%;
+    text-align: left;
+    margin-top: 15px;
 }

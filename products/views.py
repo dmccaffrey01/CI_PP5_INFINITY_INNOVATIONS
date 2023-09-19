@@ -2,13 +2,11 @@ from django.shortcuts import render, get_object_or_404, reverse, redirect
 from django.contrib import messages
 from django.db.models import Q
 from django.http import HttpResponse
-from .models import Product, Category
-
+from .models import Product, Category, Brand
 
 
 def all_products(request, universe):
     """ A view to show all products, including sorting and search queries """
-
     current_universe = 'all'
 
     if universe == 'real':
@@ -26,6 +24,7 @@ def all_products(request, universe):
     categories = None
     sort = None
     direction = None
+    brands = None
 
     if request.GET:
         if 'sort' in request.GET:
@@ -49,6 +48,11 @@ def all_products(request, universe):
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
+
+        if 'brand' in request.GET:
+            brands = request.GET['brand'].split(',')
+            products = products.filter(brand__name__in=brands)
+            brands = Brand.objects.filter(name__in=brands)
         
         if 'q' in request.GET:
             query = request.GET['q']
@@ -69,6 +73,7 @@ def all_products(request, universe):
         'current_categories': categories,
         'current_sorting': current_sorting,
         'current_universe': current_universe,
+        'current_brands': brands,
     }
 
     return render(request, 'products/products.html', context)
@@ -84,4 +89,6 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+
 

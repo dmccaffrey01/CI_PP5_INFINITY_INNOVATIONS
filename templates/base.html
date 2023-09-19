@@ -69,64 +69,63 @@
             </div>
 
             <div class="bottom-header-container container-row">
-                <div class="bottom-header-dropdown-heading">REAL WORLD</div>
+                <div class="bottom-header-dropdown-heading container-col">REAL</div>
                 <div class="bottom-header-dropdown-container container-row">
-                    <div class="bottom-header-dropdown-item container-col">
-                        <h3 class="bottom-header-dropdown-item-heading">Real World</h3>
-                        <a href="{% url 'products' %}?sort=price&direction=asc" class="bottom-header-dropdown-link">By Price</a>
-                        <a href="{% url 'products' %}?sort=rating&direction=desc" class="bottom-header-dropdown-link">By Rating</a>
-                        <a href="{% url 'products' %}?sort=category&direction=asc" class="bottom-header-dropdown-link">By Category</a>
-                        <a href="" class="bottom-header-dropdown-link">By Brand</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">All REAL WORLD</a>
-                    </div>
+                    <div class="bottom-header-dropdown-wrapper container-row">
+                        <div class="bottom-header-dropdown-item container-row">
+                            <h3 class="bottom-header-dropdown-item-heading">All</h3>
+                            <a href="{% url 'real_products' %}?sort=price&direction=asc" class="bottom-header-dropdown-link">By Price</a>
+                            <a href="{% url 'real_products' %}?sort=rating&direction=desc" class="bottom-header-dropdown-link">By Rating</a>
+                            <a href="{% url 'real_products' %}?sort=category&direction=asc" class="bottom-header-dropdown-link">By Category</a>
+                            <a href="{% url 'real_products' %}?sort=brand&direction=asc" class="bottom-header-dropdown-link">By Brand</a>
+                            <a href="{% url 'real_products' %}" class="bottom-header-dropdown-item-ending">All Real</a>
+                        </div>
 
-                    <div class="bottom-header-dropdown-item container-col">
-                        <h3 class="bottom-header-dropdown-item-heading">Category</h3>
-                        <a href="{% url 'products' %}?category=vr_headset" class="bottom-header-dropdown-link">VR Headsets</a>
-                        <a href="{% url 'products' %}?category=vr_lenses" class="bottom-header-dropdown-link">VR Contact Lenses</a>
-                        <a href="{% url 'products' %}?category=ar_glasses" class="bottom-header-dropdown-link">AR Glasses</a>
-                        <a href="{% url 'products' %}?category=vr_treadmill" class="bottom-header-dropdown-link">VR Treadmill</a>
-                        <a href="{% url 'products' %}?category=vr_watches" class="bottom-header-dropdown-link">VR Watches</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">ALL CATEGORIES</a>
-                    </div>
+                        <div class="bottom-header-dropdown-item container-row">
+                            <h3 class="bottom-header-dropdown-item-heading">By Category</h3>
+                            {% for category in all_real_categories %}
+                            <a href="{% url 'real_products' %}?category={{ category.name }}" class="bottom-header-dropdown-link">{{ category.friendly_name }}</a>
+                            {% endfor %}
+                            <a href="{% url 'real_products' %}" class="bottom-header-dropdown-item-ending">All Categories</a>
+                        </div>
 
-                    <div class="bottom-header-dropdown-item container-col">
-                        <h3 class="bottom-header-dropdown-item-heading">BRAND</h3>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">Brand 1</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">Brand 2</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">Brand 3</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">ALL BRANDS</a>
+                        <div class="bottom-header-dropdown-item container-row">
+                            <h3 class="bottom-header-dropdown-item-heading">By Brand</h3>
+                            {% for brand in all_real_brands %}
+                            <a href="{% url 'real_products' %}?brand={{ brand.name }}" class="bottom-header-dropdown-link">{{ brand.friendly_name }}</a>
+                            {% endfor %}
+                            <a href="{% url 'real_products' %}" class="bottom-header-dropdown-item-ending">All Brands</a>
+                        </div>
                     </div>
                 </div>
 
-                <div class="bottom-header-dropdown-heading">DIGITAL WORLD</div>
+                <div class="bottom-header-dropdown-heading container-col">DIGITAL</div>
                 <div class="bottom-header-dropdown-container container-row">
-                    <div class="bottom-header-dropdown-item container-col">
-                        <h3 class="bottom-header-dropdown-item-heading">Digital World</h3>
-                        <a href="{% url 'products' %}?sort=price&direction=asc" class="bottom-header-dropdown-link">By Price</a>
-                        <a href="{% url 'products' %}?sort=rating&direction=desc" class="bottom-header-dropdown-link">By Rating</a>
-                        <a href="{% url 'products' %}?sort=category&direction=asc" class="bottom-header-dropdown-link">By Category</a>
-                        <a href="" class="bottom-header-dropdown-link">By Brand</a>
-                        <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-link">All DIGITAL WORLD</a>
-                    </div>
+                    <div class="bottom-header-dropdown-wrapper container-row">
+                        <div class="bottom-header-dropdown-item container-row">
+                            <h3 class="bottom-header-dropdown-item-heading">All</h3>
+                            <a href="{% url 'products' %}?sort=price&direction=asc" class="bottom-header-dropdown-link">By Price</a>
+                            <a href="{% url 'products' %}?sort=rating&direction=desc" class="bottom-header-dropdown-link">By Rating</a>
+                            <a href="{% url 'products' %}?sort=category&direction=asc" class="bottom-header-dropdown-link">By Category</a>
+                            <a href="{% url 'products' %}?sort=brand&direction=asc" class="bottom-header-dropdown-link">By Brand</a>
+                            <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-item-ending">All Digital</a>
+                        </div>
 
-                    <div class="bottom-header-dropdown-item container-col">
-                        <h3 class="bottom-header-dropdown-item-heading">Category</h3>
-                        <a href="{% url 'products' %}?category=avatar" class="bottom-header-dropdown-link">Avatars</a>
-                        <a href="{% url 'products' %}?category=weapons" class="bottom-header-dropdown-link">Weapons</a>
-                        <a href="{% url 'products' %}?category=armour" class="bottom-header-dropdown-link">Armour</a>
-                        <a href="{% url 'products' %}?category=real_estate" class="bottom-header-dropdown-link">Real Estate</a>
-                        <a href="{% url 'products' %}?category=currency" class="bottom-header-dropdown-link">Currency</a>
-                        <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-link">ALL CATEGORIES</a>
+                        <div class="bottom-header-dropdown-item container-row">
+                            <h3 class="bottom-header-dropdown-item-heading">By Category</h3>
+                            {% for category in all_digital_categories %}
+                            <a href="{% url 'digital_products' %}?category={{ category.name }}" class="bottom-header-dropdown-link">{{ category.friendly_name }}</a>
+                            {% endfor %}
+                            <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-item-ending">All Categories</a>
+                        </div>
 
-                    </div>
-
-                    <div class="bottom-header-dropdown-item container-col">
-                        <h3 class="bottom-header-dropdown-item-heading">BRAND</h3>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">Brand 1</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">Brand 2</a>
-                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-link">Brand 3</a>
-                        <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-link">ALL BRANDS</a>
+                        <div class="bottom-header-dropdown-item container-row">
+                            <h3 class="bottom-header-dropdown-item-heading">By Brand</h3>
+                            {% for brand in all_digital_brands %}
+                            <a href="{% url 'real_products' %}?brand={{ brand.name }}" class="bottom-header-dropdown-link">{{ brand.friendly_name }}</a>
+                            {% endfor %}
+                            <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-item-ending">All Brands</a>
+                        </div>
                     </div>
                 </div>
             </div>
