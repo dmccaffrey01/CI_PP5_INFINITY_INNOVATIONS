@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+
+<section class="view-cart-section section">
+    <div class="view-cart-section-container section-container container-col">
+        <h2 class="view-cart-section-heading dark-text">Shopping Cart</h2>
+
+        {% if cart_items %}
+
+        {% else %}
+        <div class="empty-cart-container container-col">
+            <p class="dark-text">Your bag is empty!</p>
+            <a href="{% url 'products' %}" class="btn">Keep Shopping</a>
+        </div>
+        {% endif %}
+    </div>
+</section>
+
+{% endblock %}
+
+{% block extra_css %}
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+{% endblock %}
