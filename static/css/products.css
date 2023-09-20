@@ -68,3 +68,20 @@
     font-size: 2rem;
     align-self: center;
 }
+
+.atc-form {
+    width: 100%;
+}
+
+.atc-form-container {
+    gap: 30px;
+    width: 100%;
+}
+
+.atc-quantity-container {
+    gap: 15px;
+}
+
+.atc-add-container {
+    gap: 20px;
+}
