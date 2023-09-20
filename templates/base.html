@@ -132,6 +132,14 @@
          </div>
     </header>
 
+    <section class="discount-display-section section">
+        <div class="discount-display-section-container section-container container-row">
+            <h3 class="discount-display-text">
+                {{ discount_percentage }}% OFF ON ORDERS OVER ${{ discount_threshold }}!
+            </h3>
+        </div>
+    </section>
+
     {% if messages %}
     <div class="message-container"></div>
     {% endif %}

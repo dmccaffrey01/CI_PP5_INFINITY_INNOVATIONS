@@ -270,3 +270,16 @@ header {
     text-align: left;
     margin-top: 15px;
 }
+
+/* Discount Displays */
+
+.discount-display-section {
+    width: 100vw;
+    padding: 10px;
+    background-color: var(--GRAY-DARK-1);
+}
+
+.discount-display-text {
+    color: var(--WHITE);
+    font-size: 2rem;
+}
