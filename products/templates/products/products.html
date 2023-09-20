@@ -86,3 +86,8 @@
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/products.css' %}">
 {% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script src="{% static 'js/products.js' %}"></script>
+{% endblock %}

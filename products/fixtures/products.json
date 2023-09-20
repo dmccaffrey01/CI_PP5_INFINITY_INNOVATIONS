@@ -1,1 +1,2172 @@
-[{"pk":1,"model":"products.product","fields":{"sku":"pp5001340155","name":"NovaVision VRX1","description":"Experience the future of virtual reality with the NovaVision VRX1. Dive into immersive worlds with stunning clarity and lifelike detail. Its ergonomic design ensures hours of comfortable gameplay, and its advanced tracking technology delivers unparalleled precision. Elevate your VR experience with NovaVision","price":399.99,"category":1,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":2,"model":"products.product","fields":{"sku":"NovaVision ImmersaPro","name":"Liz Claiborne Audra Classic Fit Straight Leg Pants","description":"Step into a world of endless possibilities with the NovaVision ImmersaPro VR headset. Unmatched visuals and a wide field of view will transport you to new dimensions. Immerse yourself like never before, thanks to the ImmersaPro's cutting-edge features and sleek design","price":549.99,"category":1,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":3,"model":"products.product","fields":{"sku":"pp5001730010","name":"NovaVision SpectraView","description":"Unleash your creativity with the NovaVision SpectraView VR headset. Its high-resolution display and vibrant colors offer a breathtaking visual experience. Whether you're gaming, designing, or exploring virtual realms, the SpectraView's exceptional quality will leave you in awe","price":699.99,"category":1,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":4,"model":"products.product","fields":{"sku":"pp5001890157","name":"QuantumSense VisionWave X1","description":"Embark on an extraordinary journey with the QuantumSense VisionWave X1 VR headset. Precision-engineered for peak performance, it boasts next-gen optics and smooth tracking. Get ready to redefine reality and embrace the future of gaming and entertainment","price":449.99,"category":1,"rating":3.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":5,"model":"products.product","fields":{"sku":"pp5002111605","name":"QuantumSense QuantumGaze Pro","description":"Elevate your VR adventures with the QuantumSense QuantumGaze Pro. Its intuitive controls and advanced motion tracking let you become one with the virtual world. Experience games, movies, and more in a whole new dimension of immersion","price":599.99,"category":1,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":6,"model":"products.product","fields":{"sku":"pp5002260206","name":"QuantumSense DreamScape Elite","description":"Enter a realm of unparalleled immersion with the QuantumSense DreamScape Elite VR headset. This premium device combines stunning visuals with ergonomic comfort for extended play sessions. Discover a new level of realism and entertainment with the DreamScape Elite","price":749.99,"category":1,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":7,"model":"products.product","fields":{"sku":"pp5002440521","name":"AstralTech StellarView VR","description":"Embark on a cosmic journey with the AstralTech StellarView VR headset. Its high-resolution displays and wide field of view transport you to distant galaxies. Explore the universe or immerse yourself in interactive experiences like never before","price":429.99,"category":1,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":8,"model":"products.product","fields":{"sku":"pp5002601115","name":"AstralTech NebulaSight Pro","description":"Unleash your imagination with the AstralTech NebulaSight Pro VR headset. Immerse yourself in a world of vibrant colors and crystal-clear visuals. Designed for enthusiasts and professionals alike, NebulaSight Pro sets a new standard for virtual reality","price":579.99,"category":1,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":9,"model":"products.product","fields":{"sku":"pp5002690715","name":"AstralTech CosmosVision X3","description":"Experience the future of virtual reality with the AstralTech CosmosVision X3. Its advanced optics and immersive sound technology transport you to otherworldly realms. Get ready to explore, create, and play in ways you've never imagined with CosmosVision X3","price":729.99,"category":1,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":10,"model":"products.product","fields":{"sku":"pp5002701115","name":"NovaVision OptiSight Lenses","description":"Enhance your reality with NovaVision OptiSight Lenses. These cutting-edge VR contact lenses deliver immersive experiences directly to your eyes. Explore digital worlds with stunning clarity and comfort like never before. Elevate your vision with OptiSight","price":249.99,"category":2,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":11,"model":"products.product","fields":{"sku":"pp5002761055","name":"NovaVision VisioStream Pro Lenses","description":"Unleash the future of vision with NovaVision VisioStream Pro Lenses. Dive into virtual realities with unparalleled precision and lifelike detail. These advanced contact lenses redefine your visual experiences, offering seamless immersion at your fingertips","price":299.99,"category":2,"rating":3.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":12,"model":"products.product","fields":{"sku":"pp5002820069","name":"QuantumSense QuantumView Lenses","description":"Step into a new dimension with QuantumSense QuantumView Lenses. These VR contact lenses take you on extraordinary journeys, offering next-gen optics and intuitive controls. Reimagine your reality and explore boundless possibilities with QuantumView","price":259.99,"category":2,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":13,"model":"products.product","fields":{"sku":"pp5002820147","name":"QuantumSense GazeMaster Lenses","description":"Take control of your digital realm with QuantumSense GazeMaster Lenses. These contact lenses offer precise eye-tracking technology for seamless interaction in virtual environments. Elevate your gaze, enhance your experience, and master your virtual world","price":319.99,"category":2,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":14,"model":"products.product","fields":{"sku":"pp5002910572","name":"AstralTech StarSight Lenses","description":"Experience the cosmos in a whole new way with AstralTech StarSight Lenses. Immerse yourself in breathtaking visuals and explore distant galaxies from the comfort of your eyes. Reach for the stars and see the universe as never before with StarSight","price":269.99,"category":2,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":15,"model":"products.product","fields":{"sku":"pp5002990740","name":"AstralTech NebulaVision Lenses","description":"Unveil the wonders of the universe with AstralTech NebulaVision Lenses. These VR contact lenses transport you to awe-inspiring realms with vibrant colors and crystal-clear visuals. Witness the beauty of nebulae and beyond with NebulaVision","price":339.99,"category":2,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":16,"model":"products.product","fields":{"sku":"pp5003050248","name":"NovaVision ARX1 Vision Glasses","description":"Enhance your everyday life with NovaVision ARX1 Vision Glasses. Navigate the digital and physical worlds seamlessly, all while staying connected and informed.","price":499.99,"category":3,"rating":4.3,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":17,"model":"products.product","fields":{"sku":"pp5003070787","name":"NovaVision AugmentaView Pro Glasses","description":"Elevate your professional endeavors with NovaVision AugmentaView Pro Glasses. These AR glasses boost productivity and innovation with advanced augmented reality capabilities.","price":649.99,"category":3,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":18,"model":"products.product","fields":{"sku":"pp5003090182","name":"NovaVision HoloSight Elite Glasses","description":"Immerse yourself in stunning holographic experiences with NovaVision HoloSight Elite Glasses. Whether for gaming or entertainment, these glasses offer unparalleled realism.","price":799.99,"category":3,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":19,"model":"products.product","fields":{"sku":"pp5003090186","name":"QuantumSense QuantumView AR Glasses","description":"Experience the future of augmented reality with QuantumSense QuantumView AR Glasses. Stay connected, explore, and interact with the digital world like never before.","price":499.99,"category":3,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":20,"model":"products.product","fields":{"sku":"pp5003161326","name":"QuantumSense AugmentX Pro Glasses","description":"Boost your productivity and creativity with QuantumSense AugmentX Pro Glasses. These AR glasses empower you to work, create, and collaborate in innovative ways.","price":649.99,"category":3,"rating":4.3,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":21,"model":"products.product","fields":{"sku":"pp5003230723","name":"QuantumSense HoloGaze Elite Glasses","description":"Dive into immersive holographic experiences with QuantumSense HoloGaze Elite Glasses. Gaming, entertainment, and exploration have never been this captivating.","price":799.99,"category":3,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":22,"model":"products.product","fields":{"sku":"pp5003270936","name":"AstralTech StarSight AR Glasses","description":"Explore the cosmos and your surroundings simultaneously with AstralTech StarSight AR Glasses. Witness the beauty of augmented reality like never before.","price":499.99,"category":3,"rating":4.1,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":23,"model":"products.product","fields":{"sku":"pp5003360384","name":"AstralTech NebulaVision Pro Glasses","description":"Elevate your professional work with AstralTech NebulaVision Pro Glasses. These AR glasses provide a dynamic platform for innovation and productivity.","price":649.99,"category":3,"rating":4.2,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":24,"model":"products.product","fields":{"sku":"pp5003440111","name":"AstralTech CosmosLink Elite Glasses","description":"Embark on adventures beyond imagination with AstralTech CosmosLink Elite Glasses. Immerse yourself in holographic experiences that redefine reality.","price":799.99,"category":3,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":25,"model":"products.product","fields":{"sku":"pp5003540313","name":"NovaVision VR Runner Pro Treadmill","description":"Take your VR experiences to the next level with the NovaVision VR Runner Pro Treadmill. It offers seamless movement and immersion, enhancing your gaming adventures.","price":899.99,"category":4,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":26,"model":"products.product","fields":{"sku":"pp5003560513","name":"NovaVision VR TrackMaster Elite Treadmill","description":"Experience precision and control with the NovaVision VR TrackMaster Elite Treadmill. This treadmill provides a premium VR gaming and exercise experience.","price":1099.99,"category":4,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":27,"model":"products.product","fields":{"sku":"pp5003560948","name":"QuantumSense QuantumMove VR Treadmill","description":"Step into a world of unlimited movement with the QuantumSense QuantumMove VR Treadmill. It offers immersive VR experiences and precise control.","price":899.99,"category":4,"rating":4.3,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":28,"model":"products.product","fields":{"sku":"pp5003570628","name":"QuantumSense MotionSync Pro Treadmill","description":"Elevate your VR gaming with the QuantumSense MotionSync Pro Treadmill. It delivers synchronized movement for an immersive and dynamic experience.","price":1099.99,"category":4,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":29,"model":"products.product","fields":{"sku":"pp5003620308","name":"AstralTech StarRun VR Treadmill","description":"Run among the stars in your favorite virtual worlds with the AstralTech StarRun VR Treadmill. It combines fitness and fun for an out-of-this-world experience.","price":899.99,"category":4,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":30,"model":"products.product","fields":{"sku":"pp5003690115","name":"AstralTech CosmosStride Pro Treadmill","description":"Immerse yourself in the cosmos of VR gaming with the AstralTech CosmosStride Pro Treadmill. Precise tracking and comfort redefine your virtual adventures.","price":1099.99,"category":4,"rating":4.1,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":31,"model":"products.product","fields":{"sku":"pp5003690116","name":"NovaVision FutureLink 5000 Watch","description":"Stay connected to the future with the NovaVision FutureLink 5000 Watch. It seamlessly integrates with VR experiences, offering notifications and control at your wrist.","price":349.99,"category":5,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":32,"model":"products.product","fields":{"sku":"pp5003780391","name":"NovaVision VisionSync Pro Watch","description":"Experience the next-gen of timekeeping with the NovaVision VisionSync Pro Watch. It syncs with your VR headset for immersive timekeeping and augmented reality features.","price":429.99,"category":5,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":33,"model":"products.product","fields":{"sku":"pp5003790542","name":"NovaVision HoloTime Elite Watch","description":"Elevate your style and tech with the NovaVision HoloTime Elite Watch. It projects holographic time and VR interfaces, combining fashion and functionality.","price":499.99,"category":5,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":34,"model":"products.product","fields":{"sku":"pp5003831225","name":"QuantumSense QuantumWear X Watch","description":"Wear the future on your wrist with the QuantumSense QuantumWear X Watch. It offers VR integration, health monitoring, and a futuristic design for tech enthusiasts.","price":359.99,"category":5,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":35,"model":"products.product","fields":{"sku":"pp5003861402","name":"QuantumSense TimeSync Pro Watch","description":"Sync your time and tech with the QuantumSense TimeSync Pro Watch. It seamlessly connects to your VR experiences, providing notifications and control.","price":439.99,"category":5,"rating":4.3,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":36,"model":"products.product","fields":{"sku":"pp5003910638","name":"QuantumSense HoloWrist Elite Watch","description":"Elevate your wrist game with the QuantumSense HoloWrist Elite Watch. It projects holographic displays and combines futuristic design with advanced timekeeping.","price":519.99,"category":5,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":37,"model":"products.product","fields":{"sku":"pp5003950574","name":"AstralTech StarTime X Watch","description":"Embrace the stars with the AstralTech StarTime X Watch. It integrates seamlessly with VR for futuristic timekeeping and augmented reality features.","price":369.99,"category":5,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":38,"model":"products.product","fields":{"sku":"pp5003950576","name":"AstralTech FutureSync Pro Watch","description":"Sync your future with the AstralTech FutureSync Pro Watch. It connects effortlessly with VR experiences, offering advanced notifications and control.","price":449.99,"category":5,"rating":4.3,"image_url":"http://s7d9.scene7.com/is/image/JCPenney/DP0403201417141773M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp","image":"DP0403201417141773M.jpg"}},{"pk":39,"model":"products.product","fields":{"sku":"pp5003960062","name":"AstralTech CosmosWear Elite Watch","description":"Wear the cosmos on your wrist with the AstralTech CosmosWear Elite Watch. It projects stunning holographic displays, fusing fashion and technology.","price":529.99,"category":5,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":40,"model":"products.product","fields":{"sku":"pp5003960682","name":"Batman VR Avatar","description":"Step into the shoes of Gotham's Dark Knight in the Metaverse. Embrace Batman's iconic gadgets and detective skills to fight virtual crime.","price":69.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":41,"model":"products.product","fields":{"sku":"pp5003960775","name":"Catwoman VR Avatar","description":"Become the agile and cunning Catwoman in the Metaverse. Use her acrobatics and thieving skills for exciting virtual adventures.","price":69.99,"category":6,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":42,"model":"products.product","fields":{"sku":"pp5003990736","name":"Flash VR Avatar","description":"Experience the thrill of super speed as The Flash in the Metaverse. Dash through virtual worlds at lightning pace and save the day.","price":69.99,"category":6,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":43,"model":"products.product","fields":{"sku":"pp5003990746","name":"Harley Quinn VR Avatar","description":"Embrace the chaos with Harley Quinn in the Metaverse. Become the unpredictable and playful anti-heroine for fun-filled virtual mayhem.","price":79.99,"category":6,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":44,"model":"products.product","fields":{"sku":"pp5004111503","name":"Joker VR Avatar","description":"Spread chaos, laughter, and mayhem as The Joker in the Metaverse. Embrace the unpredictable and enigmatic persona for virtual world domination.","price":79.99,"category":6,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":45,"model":"products.product","fields":{"sku":"pp5004230059","name":"Superman VR Avatar","description":"Soar as the iconic Man of Steel in the Metaverse. Harness Superman's superhuman abilities to be a virtual hero and save the day.","price":89.99,"category":6,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":46,"model":"products.product","fields":{"sku":"pp5004310089","name":"Black Widow VR Avatar","description":"Become the stealthy and skilled Black Widow in the Metaverse. Embrace espionage, combat, and marksmanship in virtual missions.","price":79.99,"category":6,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":47,"model":"products.product","fields":{"sku":"pp5004610254","name":"Captain America VR Avatar","description":"Wield the shield of Captain America in the Metaverse. Stand for justice, freedom, and heroism in virtual battles.","price":79.99,"category":6,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":48,"model":"products.product","fields":{"sku":"pp5004650050","name":"Hulk VR Avatar","description":"Unleash the raw power of the Hulk in the Metaverse. Transform into the green giant and smash through virtual obstacles.","price":79.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":49,"model":"products.product","fields":{"sku":"pp5004821375","name":"Iron Man VR Avatar","description":"Suit up as Iron Man in the Metaverse. Don the iconic armor, and take flight to explore and protect virtual realms.","price":89.99,"category":6,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":50,"model":"products.product","fields":{"sku":"pp5004900522","name":"Magneto VR Avatar","description":"Control magnetic forces as Magneto in the Metaverse. Bend metal, manipulate fields, and shape the virtual world as you desire.","price":89.99,"category":6,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":51,"model":"products.product","fields":{"sku":"pp5004910158","name":"Spider-Man VR Avatar","description":"Swing through the Metaverse as Spider-Man. Use web-slinging and agility to traverse virtual cities and take on virtual villains.","price":89.99,"category":6,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":52,"model":"products.product","fields":{"sku":"pp5004910477","name":"Thanos VR Avatar","description":"Wield the power of the Infinity Gauntlet as Thanos in the Metaverse. Command reality and dominate virtual realms with absolute control.","price":99.99,"category":6,"rating":4.3,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":53,"model":"products.product","fields":{"sku":"pp5004940703","name":"Thor VR Avatar","description":"Wield Mjolnir and control the lightning as Thor in the Metaverse. Embark on epic adventures and protect virtual realms with godly powers.","price":99.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":54,"model":"products.product","fields":{"sku":"pp5004991006","name":"Wolverine VR Avatar","description":"Unleash your inner animal as Wolverine in the Metaverse. Equip adamantium claws and dive into intense virtual battles.","price":99.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":55,"model":"products.product","fields":{"sku":"pp5004991162","name":"Dwarven Warrior VR Avatar","description":"Embrace the stout and skilled persona of a female dwarf in the Metaverse. Master the art of melee combat and mining in virtual realms.","price":79.99,"category":6,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":56,"model":"products.product","fields":{"sku":"pp5005000046","name":"Elven Ranger VR Avatar","description":"Become an elegant and agile female elf in the Metaverse. Perfect your archery skills and connect with nature in virtual adventures.","price":79.99,"category":6,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":57,"model":"products.product","fields":{"sku":"pp5005070254","name":"Orcish Warrior VR Avatar","description":"Unleash the fierce and formidable might of a female orc in the Metaverse. Dominate battles and conquer virtual realms with raw strength.","price":79.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":58,"model":"products.product","fields":{"sku":"pp5005071145","name":"Dwarven Blacksmith VR Avatar","description":"Craft and forge your destiny as a male dwarf in the Metaverse. Master blacksmithing and create legendary weapons in virtual worlds.","price":89.99,"category":6,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":59,"model":"products.product","fields":{"sku":"pp5005140282","name":"Elven Mage VR Avatar","description":"Channel arcane magic as a male elf in the Metaverse. Study ancient spells and become a master of elemental forces in virtual adventures.","price":89.99,"category":6,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":60,"model":"products.product","fields":{"sku":"pp5005200166","name":"Orc Warlord VR Avatar","description":"Lead the charge as a male orc warlord in the Metaverse. Command armies, conquer kingdoms, and dominate virtual realms with brute force.","price":89.99,"category":6,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":61,"model":"products.product","fields":{"sku":"pp5005210241","name":"Mystical Witch VR Avatar","description":"Embrace the powers of magic and mysticism as a witch in the Metaverse. Cast spells, brew potions, and explore enchanted virtual realms.","price":99.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":62,"model":"products.product","fields":{"sku":"pp5005280104","name":"Master Wizard VR Avatar","description":"Unlock the secrets of arcane knowledge as a wizard in the Metaverse. Conjure spells, control elements, and shape virtual worlds with your mastery.","price":99.99,"category":6,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":63,"model":"products.product","fields":{"sku":"pp5005310360","name":"Darth Maul VR Avatar","description":"Embrace the dark side as Darth Maul in the Metaverse. Wield a double-bladed lightsaber and master Sith combat techniques in virtual duels.","price":89.99,"category":6,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":64,"model":"products.product","fields":{"sku":"pp5005330595","name":"Darth Vader VR Avatar","description":"Embody the power of the Sith as Darth Vader in the Metaverse. Command the Force, wield a lightsaber, and rule over virtual galaxies.","price":89.99,"category":6,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":65,"model":"products.product","fields":{"sku":"pp5005330596","name":"Han Solo VR Avatar","description":"Step into the shoes of the charming Han Solo in the Metaverse. Pilot the Millennium Falcon and embark on daring virtual adventures.","price":89.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":66,"model":"products.product","fields":{"sku":"pp5005430914","name":"Luke Skywalker VR Avatar","description":"Train as a Jedi and follow the path of the Force as Luke Skywalker in the Metaverse. Master lightsaber combat and explore virtual galaxies.","price":89.99,"category":6,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":67,"model":"products.product","fields":{"sku":"pp5005430944","name":"Mandalorian VR Avatar","description":"Don the iconic Mandalorian armor and hunt bounties in the Metaverse. Explore a vast virtual universe and forge your own path.","price":99.99,"category":6,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":68,"model":"products.product","fields":{"sku":"pp5005510265","name":"Obi-Wan Kenobi VR Avatar","description":"Train as a Jedi under the guidance of Obi-Wan Kenobi in the Metaverse. Learn the ways of the Force and defend virtual peace.","price":99.99,"category":6,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":69,"model":"products.product","fields":{"sku":"pp5005520201","name":"R2-D2 VR Avatar","description":"Experience the galaxy as the beloved R2-D2 in the Metaverse. Assist heroes, navigate starships, and save virtual lives.","price":99.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":70,"model":"products.product","fields":{"sku":"pp5005520205","name":"Storm Trooper VR Avatar","description":"Enlist in the Galactic Empire as a Storm Trooper in the Metaverse. Carry out missions, enforce order, and defend virtual empires.","price":99.99,"category":6,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":71,"model":"products.product","fields":{"sku":"pp5005630545","name":"Yoda VR Avatar","description":"Become a wise Jedi Master as Yoda in the Metaverse. Train in the Force, impart wisdom, and embark on virtual adventures.","price":99.99,"category":6,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":72,"model":"products.product","fields":{"sku":"pp5005630605","name":"Pharaoh's Legacy VR Avatar","description":"Embrace the majesty of ancient Egypt as a male Egyptian Pharaoh in the Metaverse. Lead your virtual kingdom, build pyramids, and unlock the secrets of the Nile.","price":89.99,"category":6,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":73,"model":"products.product","fields":{"sku":"pp5005630637","name":"Wild West Cowgirl VR Avatar","description":"Ride the virtual range as a fearless female cowboy in the Metaverse. Take on bandits, herd cattle, and experience the thrill of the Old West.","price":89.99,"category":6,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":74,"model":"products.product","fields":{"sku":"pp5005630638","name":"Eternal Queen of Egypt VR Avatar","description":"Become the legendary Cleopatra as a female Egyptian avatar in the Metaverse. Reign over virtual empires, navigate the sands, and command loyalty.","price":89.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":75,"model":"products.product","fields":{"sku":"pp5005650677","name":"Pirate Queen's Plunder VR Avatar","description":"Sail the digital seas as a formidable female pirate queen in the Metaverse. Seek buried treasure, engage in naval battles, and command a pirate crew.","price":89.99,"category":6,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":76,"model":"products.product","fields":{"sku":"pp5005700140","name":"Royal Monarch VR Avatar","description":"Ascend to the virtual throne as a majestic king in the Metaverse. Govern your digital realm, make strategic decisions, and shape the destiny of your kingdom.","price":99.99,"category":6,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":77,"model":"products.product","fields":{"sku":"pp5005740430","name":"Wild West Gunslinger VR Avatar","description":"Experience the frontier as a daring male cowboy gunslinger in the Metaverse. Draw your virtual six-shooter, face outlaws, and defend the town.","price":99.99,"category":6,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":78,"model":"products.product","fields":{"sku":"pp5005740561","name":"Swashbuckling Pirate Captain VR Avatar","description":"Command a pirate crew as a male swashbuckling captain in the Metaverse. Sail the virtual seas, hunt for buried treasures, and engage in epic naval battles.","price":99.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":79,"model":"products.product","fields":{"sku":"pp5005740634","name":"Elegant Queen's Reign VR Avatar","description":"Reign with grace and authority as a queen in the Metaverse. Lead virtual kingdoms, make diplomatic choices, and shape the destiny of your realm.","price":99.99,"category":6,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":80,"model":"products.product","fields":{"sku":"pp5005760088","name":"Xenon XR-47 Alien VR Avatar","description":"Embrace extraterrestrial life as Alien 1 in the Metaverse. Navigate foreign worlds, unlock alien technologies, and explore the mysteries of the cosmos.","price":89.99,"category":6,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":81,"model":"products.product","fields":{"sku":"pp5005810108","name":"Zyroxian Z-12 Alien VR Avatar","description":"Enter the Metaverse as Alien 2, a unique extraterrestrial species. Solve intergalactic puzzles, communicate with alien races, and uncover cosmic secrets.","price":89.99,"category":6,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":82,"model":"products.product","fields":{"sku":"pp5005820197","name":"Quasar Quadrant Alien VR Avatar","description":"Dive into the unknown as Alien 3 in the Metaverse. Adapt to alien environments, decipher cosmic languages, and embark on interstellar adventures.","price":89.99,"category":6,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":83,"model":"products.product","fields":{"sku":"pp5005840598","name":"StarQuest Explorer VR Avatar","description":"Don the spacesuit of Astronaut 1 in the Metaverse. Launch into space, visit celestial bodies, and experience the wonders of zero gravity.","price":99.99,"category":6,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":84,"model":"products.product","fields":{"sku":"pp5005840776","name":"Galactic Pioneer VR Avatar","description":"Embark on interstellar journeys as Astronaut 2 in the Metaverse. Explore cosmic landscapes, conduct space research, and seek out new horizons.","price":99.99,"category":6,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":85,"model":"products.product","fields":{"sku":"pp5005850180","name":"Cosmic Voyager VR Avatar","description":"Embark on epic space odysseys as Astronaut 3 in the Metaverse. Pilot advanced spacecraft, study alien worlds, and unravel the mysteries of the universe.","price":99.99,"category":6,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":86,"model":"products.product","fields":{"sku":"pp5005851218","name":"Shadowblade Curved Sword","description":"Unleash the power of the Shadowblade Curved Sword in the Metaverse. This elegant weapon is perfect for agile warriors who seek precision and speed.","price":149.99,"category":7,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":87,"model":"products.product","fields":{"sku":"pp5005860175","name":"Dragonforged Steel Sword","description":"Wield the Dragonforged Steel Sword in the Metaverse. Crafted with ancient techniques, it's a versatile weapon for knights and adventurers.","price":139.99,"category":7,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":88,"model":"products.product","fields":{"sku":"pp5005860263","name":"Warhammer Battle Axe","description":"Wage war with the mighty Warhammer Battle Axe in the Metaverse. Crush your foes with powerful swings and dominate the battlefield.","price":159.99,"category":7,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":89,"model":"products.product","fields":{"sku":"pp5005870183","name":"Thunderstrike Warhammer","description":"Strike fear into your enemies with the Thunderstrike Warhammer in the Metaverse. Its electrically charged blows are devastating in combat.","price":169.99,"category":7,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":90,"model":"products.product","fields":{"sku":"pp5005870599","name":"Ironclad Brass Knuckles","description":"Enhance your hand-to-hand combat skills with Ironclad Brass Knuckles in the Metaverse. Deliver powerful punches and dominate close quarters combat.","price":129.99,"category":7,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":91,"model":"products.product","fields":{"sku":"pp5005870638","name":"Steelflame Mace","description":"Crush your foes with the relentless power of the Steelflame Mace in the Metaverse. Its fiery enchantments make it a fearsome weapon of destruction.","price":159.99,"category":7,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":92,"model":"products.product","fields":{"sku":"pp5005910565","name":"Dwarven Battle Axe","description":"Unleash the fury of the Dwarven Battle Axe in the Metaverse. Forged deep within the mountains, it's a formidable weapon favored by warriors.","price":169.99,"category":7,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":93,"model":"products.product","fields":{"sku":"pp5005930313","name":"Thunderstrike Shotgun","description":"Blast your foes with the devastating Thunderstrike Shotgun in the Metaverse. Its wide spread and immense power make it a force to be reckoned with.","price":249.99,"category":7,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":94,"model":"products.product","fields":{"sku":"pp5005940242","name":"Sleekfire Pistol","description":"Carry the compact and deadly Sleekfire Pistol in the Metaverse. Its accuracy and high fire rate make it a favorite among sharpshooters.","price":199.99,"category":7,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":95,"model":"products.product","fields":{"sku":"pp5005940299","name":"Quantum Flux Ray Gun","description":"Unleash the power of futuristic technology with the Quantum Flux Ray Gun in the Metaverse. It fires beams of pure energy with pinpoint accuracy.","price":299.99,"category":7,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":96,"model":"products.product","fields":{"sku":"pp5005941612","name":"Stormbringer Assault Rifle","description":"Dominate the battlefield with the high-powered Stormbringer Assault Rifle in the Metaverse. It offers precise aiming and rapid-fire capabilities.","price":299.99,"category":7,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":97,"model":"products.product","fields":{"sku":"pp5005980058","name":"Viperstrike Bow","description":"Hone your archery skills with the Viperstrike Bow in the Metaverse. Its sleek design and deadly accuracy make it perfect for stealthy hunters.","price":199.99,"category":7,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":98,"model":"products.product","fields":{"sku":"pp5005980146","name":"Blastermaster Pistol","description":"Carry the reliable and versatile Blastermaster Pistol in the Metaverse. It's a sidearm trusted by adventurers and law enforcement alike.","price":199.99,"category":7,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":99,"model":"products.product","fields":{"sku":"pp5006070077","name":"Marksman's Precision Rifle","description":"Become a sharpshooter with the Marksman's Precision Rifle in the Metaverse. Its long-range capabilities and accuracy are unmatched.","price":249.99,"category":7,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":100,"model":"products.product","fields":{"sku":"pp5006081758","name":"Plasma Strike Rifle","description":"Unleash the fury of the Plasma Strike Rifle in the Metaverse. Its powerful energy bolts cut through the toughest of opponents with ease.","price":249.99,"category":7,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":101,"model":"products.product","fields":{"sku":"pp5006082011","name":"Reckoner's Handgun","description":"Duel with style using the Reckoner's Handgun in the Metaverse. Its sleek design and rapid-fire capability make it perfect for quickdraws.","price":199.99,"category":7,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":102,"model":"products.product","fields":{"sku":"pp5006150186","name":"Shadowhunter Crossbow","description":"Stealth and precision define the Shadowhunter Crossbow in the Metaverse. It's a silent but deadly choice for hunters and assassins.","price":199.99,"category":7,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":103,"model":"products.product","fields":{"sku":"pp5006153172","name":"M-98 Thunderstrike Assault Rifle","description":"Dominate the battlefield with the M-98 Thunderstrike Assault Rifle in the Metaverse. Its rapid-fire capabilities and pinpoint accuracy make it a formidable choice.","price":279.99,"category":7,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":104,"model":"products.product","fields":{"sku":"pp5006160127","name":"Precision Marksman's Rifle","description":"Become a sharpshooter with the Precision Marksman's Rifle in the Metaverse. Its long-range capabilities and enhanced optics offer unmatched accuracy.","price":259.99,"category":7,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":105,"model":"products.product","fields":{"sku":"pp5006160833","name":"X-23 Warhawk Assault Rifle","description":"Unleash chaos with the X-23 Warhawk Assault Rifle in the Metaverse. Its fully automatic mode and high-capacity magazine make it a favorite among soldiers.","price":299.99,"category":7,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":106,"model":"products.product","fields":{"sku":"pp5006170128","name":"Vanguard Elite Rifle","description":"Take control of the battlefield with the Vanguard Elite Rifle in the Metaverse. Its modular design allows for customization to suit any mission.","price":269.99,"category":7,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":107,"model":"products.product","fields":{"sku":"pp5006170131","name":"Aegis Sentinel Rifle","description":"Defend your territory with the Aegis Sentinel Rifle in the Metaverse. Its reinforced frame and advanced optics provide unparalleled protection.","price":279.99,"category":7,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":108,"model":"products.product","fields":{"sku":"pp5006170357","name":"Tempest Fury Assault Rifle","description":"Rain destruction upon your enemies with the Tempest Fury Assault Rifle in the Metaverse. Its energy projectiles deliver unparalleled firepower.","price":299.99,"category":7,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":109,"model":"products.product","fields":{"sku":"pp5006200155","name":"Eagle Eye Marksman Rifle","description":"Master the art of precision with the Eagle Eye Marksman Rifle in the Metaverse. Its enhanced optics and long-range capabilities make it a sniper's dream.","price":299.99,"category":7,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":110,"model":"products.product","fields":{"sku":"pp5006200658","name":"Shadowhunter Compound Bow","description":"Embrace the way of the hunter with the Shadowhunter Compound Bow in the Metaverse. Its advanced design and accuracy are perfect for stealthy shots.","price":249.99,"category":7,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":111,"model":"products.product","fields":{"sku":"pp5006241766","name":"Viperstrike Compact Pistol","description":"Carry the Viperstrike Compact Pistol as your trusty sidearm in the Metaverse. Its sleek design and rapid-fire capabilities make it ideal for close quarters combat.","price":199.99,"category":7,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":112,"model":"products.product","fields":{"sku":"pp5006242155","name":"Quantum Blaze Ray Gun","description":"Experience advanced technology with the Quantum Blaze Ray Gun in the Metaverse. Its energy beams are unmatched in terms of both power and precision.","price":349.99,"category":7,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":113,"model":"products.product","fields":{"sku":"pp5006242904","name":"Royal Residence","description":"Live like royalty at the Royal Residence in the Metaverse. This opulent property offers grandeur and sophistication at an affordable price.","price":799.99,"category":8,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":114,"model":"products.product","fields":{"sku":"pp5006242905","name":"Elegant Enclave","description":"Discover the Elegant Enclave in the Metaverse. This exclusive community offers luxurious living within your budget.","price":899.99,"category":8,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":115,"model":"products.product","fields":{"sku":"pp5006243106","name":"Majestic Mansion","description":"Experience the majesty of the Majestic Mansion in the Metaverse. This stately residence offers timeless elegance and comfort at an unbeatable price.","price":949.99,"category":8,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":116,"model":"products.product","fields":{"sku":"pp5006243276","name":"Tranquil Terrace","description":"Find serenity and luxury at the Tranquil Terrace in the Metaverse. This peaceful oasis offers unmatched comfort and style at an affordable rate.","price":769.99,"category":8,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":117,"model":"products.product","fields":{"sku":"pp5006280064","name":"Opulent Outlook","description":"Escape to an Opulent Outlook in the Metaverse. This luxurious property is a haven of extravagance and leisure, priced just right.","price":849.99,"category":8,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":118,"model":"products.product","fields":{"sku":"pp5006280190","name":"Regal Retreat","description":"Retreat to the Regal Retreat in the Metaverse. This exquisite property offers the epitome of regal living with every imaginable luxury, all for a great price.","price":929.99,"category":8,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":119,"model":"products.product","fields":{"sku":"pp5006291997","name":"Glamorous Getaway","description":"Experience a Glamorous Getaway in the Metaverse. This glamorous property exudes sophistication and offers an indulgent lifestyle, all at a budget-friendly rate.","price":879.99,"category":8,"rating":4.3,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":120,"model":"products.product","fields":{"sku":"pp5006310072","name":"Stunning Chateau","description":"Live in luxury at the Stunning Chateau in the Metaverse. This magnificent chateau offers timeless beauty and opulent living at a great value.","price":989.99,"category":8,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":121,"model":"products.product","fields":{"sku":"pp5006310446","name":"Elegant Estate","description":"Discover an Elegant Estate in the Metaverse. This estate offers a perfect blend of sophistication and comfort for discerning buyers, all within your budget.","price":999.99,"category":8,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":122,"model":"products.product","fields":{"sku":"pp5006310918","name":"Gold Coins","description":"This is an official currency of the metaverse, use to buy items and event tickets in the Metaverse","price":1.00,"category":10,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":123,"model":"products.product","fields":{"sku":"pp5006310935","name":"Gems","description":"This is an official currency of the metaverse, use to buy special items and boosts in the Metaverse","price":10.00,"category":10,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":124,"model":"products.product","fields":{"sku":"pp5006311067","name":"Aegis Guardian Helmet","description":"The Aegis Guardian Helmet offers unmatched protection in the Metaverse. Crafted with cutting-edge technology, it keeps you safe and stylish.","price":189.99,"category":9,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":125,"model":"products.product","fields":{"sku":"pp5006330197","name":"Titanium Sentinel Helmet","description":"The Titanium Sentinel Helmet is your guardian in the Metaverse. With its advanced design, it ensures safety and comfort.","price":169.99,"category":9,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":126,"model":"products.product","fields":{"sku":"pp5006330208","name":"Ranger's Visage","description":"The Ranger's Visage is your ultimate companion in the Metaverse. It combines durability and style, making you stand out on every adventure.","price":199.99,"category":9,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":127,"model":"products.product","fields":{"sku":"pp5006333711","name":"Cyber Knight Helmet","description":"Embrace the future with the Cyber Knight Helmet in the Metaverse. Its sleek design offers both protection and style.","price":179.99,"category":9,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":128,"model":"products.product","fields":{"sku":"pp5006340653","name":"Vanguard's Crown","description":"The Vanguard's Crown is the choice of champions in the Metaverse. It's the perfect blend of form and function for any virtual warrior.","price":159.99,"category":9,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":129,"model":"products.product","fields":{"sku":"pp5006370013","name":"Shadow Stalker Helm","description":"Become a shadow in the Metaverse with the Shadow Stalker Helm. Its stealthy design conceals your presence while providing essential protection.","price":169.99,"category":9,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":130,"model":"products.product","fields":{"sku":"pp5006380233","name":"Celestial Guardian Helmet","description":"Protect yourself like a celestial being in the Metaverse with the Celestial Guardian Helmet. It offers divine protection and comfort.","price":189.99,"category":9,"rating":4.3,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":131,"model":"products.product","fields":{"sku":"pp5006380260","name":"Phoenix Plume Helm","description":"Rise from the ashes with the Phoenix Plume Helm in the Metaverse. Its fiery design embodies rebirth and protection.","price":179.99,"category":9,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":132,"model":"products.product","fields":{"sku":"pp5006380337","name":"Guardian Plate Armor","description":"Equip yourself with the Guardian Plate Armor in the Metaverse. It offers unparalleled protection and durability, keeping you safe in virtual battles.","price":279.99,"category":9,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":133,"model":"products.product","fields":{"sku":"pp5006380693","name":"Titanium Exosuit","description":"The Titanium Exosuit is your ultimate defense in the Metaverse. Its advanced technology enhances your abilities while providing top-notch protection.","price":259.99,"category":9,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":134,"model":"products.product","fields":{"sku":"pp5006390235","name":"Dragon Scale Mail","description":"Unleash your inner dragon with the Dragon Scale Mail in the Metaverse. Crafted from mythical scales, it grants you unmatched protection and strength.","price":299.99,"category":9,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":135,"model":"products.product","fields":{"sku":"pp5006420202","name":"Nanotech Battle Suit","description":"Step into the future with the Nanotech Battle Suit in the Metaverse. Its nanomaterials provide adaptive protection, ensuring your safety.","price":269.99,"category":9,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":136,"model":"products.product","fields":{"sku":"pp5006420400","name":"Phantom Cloak","description":"Become a ghostly presence with the Phantom Cloak in the Metaverse. This ethereal armor combines stealth and protection for covert operations.","price":249.99,"category":9,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":137,"model":"products.product","fields":{"sku":"pp5006430031","name":"Quantum Barrier Suit","description":"Defy the laws of physics with the Quantum Barrier Suit in the Metaverse. Its quantum technology creates impenetrable shields, ensuring your safety.","price":289.99,"category":9,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":138,"model":"products.product","fields":{"sku":"pp5006462180","name":"Stormforged Armor","description":"Harness the power of storms with the Stormforged Armor in the Metaverse. Its lightning-infused plating grants you electrifying protection.","price":279.99,"category":9,"rating":4.3,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":139,"model":"products.product","fields":{"sku":"pp5006470681","name":"Voidwalker's Vestments","description":"Embrace the void with the Voidwalker's Vestments in the Metaverse. This mysterious armor offers unmatched protection from the unknown.","price":259.99,"category":9,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":140,"model":"products.product","fields":{"sku":"pp5006511030","name":"Dragonhide Boots","description":"Harness the strength of dragons with Dragonhide Boots in the Metaverse. These boots provide unmatched durability and protection.","price":139.99,"category":9,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":141,"model":"products.product","fields":{"sku":"pp5006511030","name":"Stealth Ninja Boots","description":"Become a silent shadow with the Stealth Ninja Boots in the Metaverse. These boots enhance your stealth and agility for covert operations.","price":129.99,"category":9,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":142,"model":"products.product","fields":{"sku":"pp5006511030","name":"Celestial Winged Boots","description":"Soar through the Metaverse with the Celestial Winged Boots. These enchanted boots grant you the power of flight and agility.","price":149.99,"category":9,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":143,"model":"products.product","fields":{"sku":"pp5006541122","name":"Elemental Frostwalkers","description":"Embrace the icy elements with Elemental Frostwalkers in the Metaverse. These boots allow you to walk on water and freeze your foes.","price":159.99,"category":9,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":144,"model":"products.product","fields":{"sku":"pp5006590111","name":"Inferno Stompers","description":"Ignite the battlefield with Inferno Stompers in the Metaverse. These fiery boots leave scorching trails and deal extra fire damage.","price":169.99,"category":9,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":145,"model":"products.product","fields":{"sku":"pp5006590213","name":"Gravity-Defying Boots","description":"Defy gravity itself with Gravity-Defying Boots in the Metaverse. These boots allow you to walk on walls and ceilings with ease.","price":179.99,"category":9,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":146,"model":"products.product","fields":{"sku":"pp5006590221","name":"Mystic Enchanter's Boots","description":"Tap into the arcane with Mystic Enchanter's Boots in the Metaverse. These enchanted boots enhance your magical abilities and protect you from curses.","price":169.99,"category":9,"rating":4.3,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":147,"model":"products.product","fields":{"sku":"pp5006620412","name":"Time-Warping Boots","description":"Bend time itself with Time-Warping Boots in the Metaverse. These boots grant you the power to slow or accelerate time, giving you the upper hand.","price":159.99,"category":9,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":148,"model":"products.product","fields":{"sku":"pp5006640930","name":"Thunderclap Gauntlets","description":"Unleash the fury of a storm with the Thunderclap Gauntlets in the Metaverse. These gauntlets channel lightning for devastating attacks.","price":179.99,"category":9,"rating":4.7,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":149,"model":"products.product","fields":{"sku":"pp5006660007","name":"Serpentstrike Gauntlets","description":"Strike like a serpent with the Serpentstrike Gauntlets in the Metaverse. These gauntlets enhance your agility and precision in combat.","price":169.99,"category":9,"rating":4.6,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":150,"model":"products.product","fields":{"sku":"pp5006750455","name":"Inferno Fury Gauntlets","description":"Ignite the battlefield with the Inferno Fury Gauntlets in the Metaverse. These gauntlets engulf your fists in flames for fiery punches.","price":189.99,"category":9,"rating":4.8,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":151,"model":"products.product","fields":{"sku":"pp5006790372","name":"Aegis Guardian Gauntlets","description":"Protect and shield your allies with the Aegis Guardian Gauntlets in the Metaverse. These gauntlets create defensive barriers and heal wounds.","price":199.99,"category":9,"rating":4.9,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":152,"model":"products.product","fields":{"sku":"pp5006790745","name":"Chrono-Force Gauntlets","description":"Manipulate time itself with the Chrono-Force Gauntlets in the Metaverse. These gauntlets allow you to rewind or accelerate time.","price":169.99,"category":9,"rating":4.5,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":153,"model":"products.product","fields":{"sku":"pp5006820170","name":"Mystic Arcanum Gauntlets","description":"Tap into the arcane mysteries with the Mystic Arcanum Gauntlets in the Metaverse. These gauntlets amplify your magical powers.","price":159.99,"category":9,"rating":4.3,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":154,"model":"products.product","fields":{"sku":"pp5006820210","name":"Frostbitten Gauntlets","description":"Bring a chilling frost to your foes with the Frostbitten Gauntlets in the Metaverse. These gauntlets freeze enemies upon touch.","price":189.99,"category":9,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}},{"pk":155,"model":"products.product","fields":{"sku":"pp5006820299","name":"Divine Paladin Gauntlets","description":"Become a divine protector with the Divine Paladin Gauntlets in the Metaverse. These gauntlets emit holy energy and purify the wicked.","price":179.99,"category":9,"rating":4.4,"image_url":"https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png","image":"template.png"}}]
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "NovaVision VRX1",
+      "description": "Experience the future of virtual reality with the NovaVision VRX1. Dive into immersive worlds with stunning clarity and lifelike detail. Its ergonomic design ensures hours of comfortable gameplay, and its advanced tracking technology delivers unparalleled precision. Elevate your VR experience with NovaVision",
+      "price": 399.99,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "NovaVision ImmersaPro",
+      "name": "Liz Claiborne Audra Classic Fit Straight Leg Pants",
+      "description": "Step into a world of endless possibilities with the NovaVision ImmersaPro VR headset. Unmatched visuals and a wide field of view will transport you to new dimensions. Immerse yourself like never before, thanks to the ImmersaPro's cutting-edge features and sleek design",
+      "price": 549.99,
+      "category": 1,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730010",
+      "name": "NovaVision SpectraView",
+      "description": "Unleash your creativity with the NovaVision SpectraView VR headset. Its high-resolution display and vibrant colors offer a breathtaking visual experience. Whether you're gaming, designing, or exploring virtual realms, the SpectraView's exceptional quality will leave you in awe",
+      "price": 699.99,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001890157",
+      "name": "QuantumSense VisionWave X1",
+      "description": "Embark on an extraordinary journey with the QuantumSense VisionWave X1 VR headset. Precision-engineered for peak performance, it boasts next-gen optics and smooth tracking. Get ready to redefine reality and embrace the future of gaming and entertainment",
+      "price": 449.99,
+      "category": 1,
+      "rating": 3.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002111605",
+      "name": "QuantumSense QuantumGaze Pro",
+      "description": "Elevate your VR adventures with the QuantumSense QuantumGaze Pro. Its intuitive controls and advanced motion tracking let you become one with the virtual world. Experience games, movies, and more in a whole new dimension of immersion",
+      "price": 599.99,
+      "category": 1,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002260206",
+      "name": "QuantumSense DreamScape Elite",
+      "description": "Enter a realm of unparalleled immersion with the QuantumSense DreamScape Elite VR headset. This premium device combines stunning visuals with ergonomic comfort for extended play sessions. Discover a new level of realism and entertainment with the DreamScape Elite",
+      "price": 749.99,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002440521",
+      "name": "AstralTech StellarView VR",
+      "description": "Embark on a cosmic journey with the AstralTech StellarView VR headset. Its high-resolution displays and wide field of view transport you to distant galaxies. Explore the universe or immerse yourself in interactive experiences like never before",
+      "price": 429.99,
+      "category": 1,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002601115",
+      "name": "AstralTech NebulaSight Pro",
+      "description": "Unleash your imagination with the AstralTech NebulaSight Pro VR headset. Immerse yourself in a world of vibrant colors and crystal-clear visuals. Designed for enthusiasts and professionals alike, NebulaSight Pro sets a new standard for virtual reality",
+      "price": 579.99,
+      "category": 1,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002690715",
+      "name": "AstralTech CosmosVision X3",
+      "description": "Experience the future of virtual reality with the AstralTech CosmosVision X3. Its advanced optics and immersive sound technology transport you to otherworldly realms. Get ready to explore, create, and play in ways you've never imagined with CosmosVision X3",
+      "price": 729.99,
+      "category": 1,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002701115",
+      "name": "NovaVision OptiSight Lenses",
+      "description": "Enhance your reality with NovaVision OptiSight Lenses. These cutting-edge VR contact lenses deliver immersive experiences directly to your eyes. Explore digital worlds with stunning clarity and comfort like never before. Elevate your vision with OptiSight",
+      "price": 249.99,
+      "category": 2,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002761055",
+      "name": "NovaVision VisioStream Pro Lenses",
+      "description": "Unleash the future of vision with NovaVision VisioStream Pro Lenses. Dive into virtual realities with unparalleled precision and lifelike detail. These advanced contact lenses redefine your visual experiences, offering seamless immersion at your fingertips",
+      "price": 299.99,
+      "category": 2,
+      "rating": 3.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002820069",
+      "name": "QuantumSense QuantumView Lenses",
+      "description": "Step into a new dimension with QuantumSense QuantumView Lenses. These VR contact lenses take you on extraordinary journeys, offering next-gen optics and intuitive controls. Reimagine your reality and explore boundless possibilities with QuantumView",
+      "price": 259.99,
+      "category": 2,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002820147",
+      "name": "QuantumSense GazeMaster Lenses",
+      "description": "Take control of your digital realm with QuantumSense GazeMaster Lenses. These contact lenses offer precise eye-tracking technology for seamless interaction in virtual environments. Elevate your gaze, enhance your experience, and master your virtual world",
+      "price": 319.99,
+      "category": 2,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002910572",
+      "name": "AstralTech StarSight Lenses",
+      "description": "Experience the cosmos in a whole new way with AstralTech StarSight Lenses. Immerse yourself in breathtaking visuals and explore distant galaxies from the comfort of your eyes. Reach for the stars and see the universe as never before with StarSight",
+      "price": 269.99,
+      "category": 2,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002990740",
+      "name": "AstralTech NebulaVision Lenses",
+      "description": "Unveil the wonders of the universe with AstralTech NebulaVision Lenses. These VR contact lenses transport you to awe-inspiring realms with vibrant colors and crystal-clear visuals. Witness the beauty of nebulae and beyond with NebulaVision",
+      "price": 339.99,
+      "category": 2,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003050248",
+      "name": "NovaVision ARX1 Vision Glasses",
+      "description": "Enhance your everyday life with NovaVision ARX1 Vision Glasses. Navigate the digital and physical worlds seamlessly, all while staying connected and informed.",
+      "price": 499.99,
+      "category": 3,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003070787",
+      "name": "NovaVision AugmentaView Pro Glasses",
+      "description": "Elevate your professional endeavors with NovaVision AugmentaView Pro Glasses. These AR glasses boost productivity and innovation with advanced augmented reality capabilities.",
+      "price": 649.99,
+      "category": 3,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003090182",
+      "name": "NovaVision HoloSight Elite Glasses",
+      "description": "Immerse yourself in stunning holographic experiences with NovaVision HoloSight Elite Glasses. Whether for gaming or entertainment, these glasses offer unparalleled realism.",
+      "price": 799.99,
+      "category": 3,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003090186",
+      "name": "QuantumSense QuantumView AR Glasses",
+      "description": "Experience the future of augmented reality with QuantumSense QuantumView AR Glasses. Stay connected, explore, and interact with the digital world like never before.",
+      "price": 499.99,
+      "category": 3,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003161326",
+      "name": "QuantumSense AugmentX Pro Glasses",
+      "description": "Boost your productivity and creativity with QuantumSense AugmentX Pro Glasses. These AR glasses empower you to work, create, and collaborate in innovative ways.",
+      "price": 649.99,
+      "category": 3,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003230723",
+      "name": "QuantumSense HoloGaze Elite Glasses",
+      "description": "Dive into immersive holographic experiences with QuantumSense HoloGaze Elite Glasses. Gaming, entertainment, and exploration have never been this captivating.",
+      "price": 799.99,
+      "category": 3,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003270936",
+      "name": "AstralTech StarSight AR Glasses",
+      "description": "Explore the cosmos and your surroundings simultaneously with AstralTech StarSight AR Glasses. Witness the beauty of augmented reality like never before.",
+      "price": 499.99,
+      "category": 3,
+      "rating": 4.1,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003360384",
+      "name": "AstralTech NebulaVision Pro Glasses",
+      "description": "Elevate your professional work with AstralTech NebulaVision Pro Glasses. These AR glasses provide a dynamic platform for innovation and productivity.",
+      "price": 649.99,
+      "category": 3,
+      "rating": 4.2,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003440111",
+      "name": "AstralTech CosmosLink Elite Glasses",
+      "description": "Embark on adventures beyond imagination with AstralTech CosmosLink Elite Glasses. Immerse yourself in holographic experiences that redefine reality.",
+      "price": 799.99,
+      "category": 3,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003540313",
+      "name": "NovaVision VR Runner Pro Treadmill",
+      "description": "Take your VR experiences to the next level with the NovaVision VR Runner Pro Treadmill. It offers seamless movement and immersion, enhancing your gaming adventures.",
+      "price": 899.99,
+      "category": 4,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003560513",
+      "name": "NovaVision VR TrackMaster Elite Treadmill",
+      "description": "Experience precision and control with the NovaVision VR TrackMaster Elite Treadmill. This treadmill provides a premium VR gaming and exercise experience.",
+      "price": 1099.99,
+      "category": 4,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 27,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003560948",
+      "name": "QuantumSense QuantumMove VR Treadmill",
+      "description": "Step into a world of unlimited movement with the QuantumSense QuantumMove VR Treadmill. It offers immersive VR experiences and precise control.",
+      "price": 899.99,
+      "category": 4,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 28,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003570628",
+      "name": "QuantumSense MotionSync Pro Treadmill",
+      "description": "Elevate your VR gaming with the QuantumSense MotionSync Pro Treadmill. It delivers synchronized movement for an immersive and dynamic experience.",
+      "price": 1099.99,
+      "category": 4,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 29,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003620308",
+      "name": "AstralTech StarRun VR Treadmill",
+      "description": "Run among the stars in your favorite virtual worlds with the AstralTech StarRun VR Treadmill. It combines fitness and fun for an out-of-this-world experience.",
+      "price": 899.99,
+      "category": 4,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 30,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003690115",
+      "name": "AstralTech CosmosStride Pro Treadmill",
+      "description": "Immerse yourself in the cosmos of VR gaming with the AstralTech CosmosStride Pro Treadmill. Precise tracking and comfort redefine your virtual adventures.",
+      "price": 1099.99,
+      "category": 4,
+      "rating": 4.1,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 31,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003690116",
+      "name": "NovaVision FutureLink 5000 Watch",
+      "description": "Stay connected to the future with the NovaVision FutureLink 5000 Watch. It seamlessly integrates with VR experiences, offering notifications and control at your wrist.",
+      "price": 349.99,
+      "category": 5,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 32,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003780391",
+      "name": "NovaVision VisionSync Pro Watch",
+      "description": "Experience the next-gen of timekeeping with the NovaVision VisionSync Pro Watch. It syncs with your VR headset for immersive timekeeping and augmented reality features.",
+      "price": 429.99,
+      "category": 5,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 33,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003790542",
+      "name": "NovaVision HoloTime Elite Watch",
+      "description": "Elevate your style and tech with the NovaVision HoloTime Elite Watch. It projects holographic time and VR interfaces, combining fashion and functionality.",
+      "price": 499.99,
+      "category": 5,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 34,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003831225",
+      "name": "QuantumSense QuantumWear X Watch",
+      "description": "Wear the future on your wrist with the QuantumSense QuantumWear X Watch. It offers VR integration, health monitoring, and a futuristic design for tech enthusiasts.",
+      "price": 359.99,
+      "category": 5,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003861402",
+      "name": "QuantumSense TimeSync Pro Watch",
+      "description": "Sync your time and tech with the QuantumSense TimeSync Pro Watch. It seamlessly connects to your VR experiences, providing notifications and control.",
+      "price": 439.99,
+      "category": 5,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 36,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003910638",
+      "name": "QuantumSense HoloWrist Elite Watch",
+      "description": "Elevate your wrist game with the QuantumSense HoloWrist Elite Watch. It projects holographic displays and combines futuristic design with advanced timekeeping.",
+      "price": 519.99,
+      "category": 5,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 37,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003950574",
+      "name": "AstralTech StarTime X Watch",
+      "description": "Embrace the stars with the AstralTech StarTime X Watch. It integrates seamlessly with VR for futuristic timekeeping and augmented reality features.",
+      "price": 369.99,
+      "category": 5,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 38,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003950576",
+      "name": "AstralTech FutureSync Pro Watch",
+      "description": "Sync your future with the AstralTech FutureSync Pro Watch. It connects effortlessly with VR experiences, offering advanced notifications and control.",
+      "price": 449.99,
+      "category": 5,
+      "rating": 4.3,
+      "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0403201417141773M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+      "image": "DP0403201417141773M.jpg"
+    }
+  },
+  {
+    "pk": 39,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003960062",
+      "name": "AstralTech CosmosWear Elite Watch",
+      "description": "Wear the cosmos on your wrist with the AstralTech CosmosWear Elite Watch. It projects stunning holographic displays, fusing fashion and technology.",
+      "price": 529.99,
+      "category": 5,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 40,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003960682",
+      "name": "Batman VR Avatar",
+      "description": "Step into the shoes of Gotham's Dark Knight in the Metaverse. Embrace Batman's iconic gadgets and detective skills to fight virtual crime.",
+      "price": 69.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 41,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003960775",
+      "name": "Catwoman VR Avatar",
+      "description": "Become the agile and cunning Catwoman in the Metaverse. Use her acrobatics and thieving skills for exciting virtual adventures.",
+      "price": 69.99,
+      "category": 6,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 42,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003990736",
+      "name": "Flash VR Avatar",
+      "description": "Experience the thrill of super speed as The Flash in the Metaverse. Dash through virtual worlds at lightning pace and save the day.",
+      "price": 69.99,
+      "category": 6,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 43,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5003990746",
+      "name": "Harley Quinn VR Avatar",
+      "description": "Embrace the chaos with Harley Quinn in the Metaverse. Become the unpredictable and playful anti-heroine for fun-filled virtual mayhem.",
+      "price": 79.99,
+      "category": 6,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 44,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004111503",
+      "name": "Joker VR Avatar",
+      "description": "Spread chaos, laughter, and mayhem as The Joker in the Metaverse. Embrace the unpredictable and enigmatic persona for virtual world domination.",
+      "price": 79.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 45,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004230059",
+      "name": "Superman VR Avatar",
+      "description": "Soar as the iconic Man of Steel in the Metaverse. Harness Superman's superhuman abilities to be a virtual hero and save the day.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 46,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004310089",
+      "name": "Black Widow VR Avatar",
+      "description": "Become the stealthy and skilled Black Widow in the Metaverse. Embrace espionage, combat, and marksmanship in virtual missions.",
+      "price": 79.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 47,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004610254",
+      "name": "Captain America VR Avatar",
+      "description": "Wield the shield of Captain America in the Metaverse. Stand for justice, freedom, and heroism in virtual battles.",
+      "price": 79.99,
+      "category": 6,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 48,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004650050",
+      "name": "Hulk VR Avatar",
+      "description": "Unleash the raw power of the Hulk in the Metaverse. Transform into the green giant and smash through virtual obstacles.",
+      "price": 79.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 49,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004821375",
+      "name": "Iron Man VR Avatar",
+      "description": "Suit up as Iron Man in the Metaverse. Don the iconic armor, and take flight to explore and protect virtual realms.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 50,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004900522",
+      "name": "Magneto VR Avatar",
+      "description": "Control magnetic forces as Magneto in the Metaverse. Bend metal, manipulate fields, and shape the virtual world as you desire.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004910158",
+      "name": "Spider-Man VR Avatar",
+      "description": "Swing through the Metaverse as Spider-Man. Use web-slinging and agility to traverse virtual cities and take on virtual villains.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 52,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004910477",
+      "name": "Thanos VR Avatar",
+      "description": "Wield the power of the Infinity Gauntlet as Thanos in the Metaverse. Command reality and dominate virtual realms with absolute control.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 53,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004940703",
+      "name": "Thor VR Avatar",
+      "description": "Wield Mjolnir and control the lightning as Thor in the Metaverse. Embark on epic adventures and protect virtual realms with godly powers.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 54,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004991006",
+      "name": "Wolverine VR Avatar",
+      "description": "Unleash your inner animal as Wolverine in the Metaverse. Equip adamantium claws and dive into intense virtual battles.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 55,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5004991162",
+      "name": "Dwarven Warrior VR Avatar",
+      "description": "Embrace the stout and skilled persona of a female dwarf in the Metaverse. Master the art of melee combat and mining in virtual realms.",
+      "price": 79.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 56,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005000046",
+      "name": "Elven Ranger VR Avatar",
+      "description": "Become an elegant and agile female elf in the Metaverse. Perfect your archery skills and connect with nature in virtual adventures.",
+      "price": 79.99,
+      "category": 6,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 57,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005070254",
+      "name": "Orcish Warrior VR Avatar",
+      "description": "Unleash the fierce and formidable might of a female orc in the Metaverse. Dominate battles and conquer virtual realms with raw strength.",
+      "price": 79.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 58,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005071145",
+      "name": "Dwarven Blacksmith VR Avatar",
+      "description": "Craft and forge your destiny as a male dwarf in the Metaverse. Master blacksmithing and create legendary weapons in virtual worlds.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 59,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005140282",
+      "name": "Elven Mage VR Avatar",
+      "description": "Channel arcane magic as a male elf in the Metaverse. Study ancient spells and become a master of elemental forces in virtual adventures.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 60,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005200166",
+      "name": "Orc Warlord VR Avatar",
+      "description": "Lead the charge as a male orc warlord in the Metaverse. Command armies, conquer kingdoms, and dominate virtual realms with brute force.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 61,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005210241",
+      "name": "Mystical Witch VR Avatar",
+      "description": "Embrace the powers of magic and mysticism as a witch in the Metaverse. Cast spells, brew potions, and explore enchanted virtual realms.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 62,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005280104",
+      "name": "Master Wizard VR Avatar",
+      "description": "Unlock the secrets of arcane knowledge as a wizard in the Metaverse. Conjure spells, control elements, and shape virtual worlds with your mastery.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 63,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005310360",
+      "name": "Darth Maul VR Avatar",
+      "description": "Embrace the dark side as Darth Maul in the Metaverse. Wield a double-bladed lightsaber and master Sith combat techniques in virtual duels.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 64,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005330595",
+      "name": "Darth Vader VR Avatar",
+      "description": "Embody the power of the Sith as Darth Vader in the Metaverse. Command the Force, wield a lightsaber, and rule over virtual galaxies.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 65,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005330596",
+      "name": "Han Solo VR Avatar",
+      "description": "Step into the shoes of the charming Han Solo in the Metaverse. Pilot the Millennium Falcon and embark on daring virtual adventures.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 66,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005430914",
+      "name": "Luke Skywalker VR Avatar",
+      "description": "Train as a Jedi and follow the path of the Force as Luke Skywalker in the Metaverse. Master lightsaber combat and explore virtual galaxies.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 67,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005430944",
+      "name": "Mandalorian VR Avatar",
+      "description": "Don the iconic Mandalorian armor and hunt bounties in the Metaverse. Explore a vast virtual universe and forge your own path.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 68,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005510265",
+      "name": "Obi-Wan Kenobi VR Avatar",
+      "description": "Train as a Jedi under the guidance of Obi-Wan Kenobi in the Metaverse. Learn the ways of the Force and defend virtual peace.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 69,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005520201",
+      "name": "R2-D2 VR Avatar",
+      "description": "Experience the galaxy as the beloved R2-D2 in the Metaverse. Assist heroes, navigate starships, and save virtual lives.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 70,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005520205",
+      "name": "Storm Trooper VR Avatar",
+      "description": "Enlist in the Galactic Empire as a Storm Trooper in the Metaverse. Carry out missions, enforce order, and defend virtual empires.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 71,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630545",
+      "name": "Yoda VR Avatar",
+      "description": "Become a wise Jedi Master as Yoda in the Metaverse. Train in the Force, impart wisdom, and embark on virtual adventures.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 72,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630605",
+      "name": "Pharaoh's Legacy VR Avatar",
+      "description": "Embrace the majesty of ancient Egypt as a male Egyptian Pharaoh in the Metaverse. Lead your virtual kingdom, build pyramids, and unlock the secrets of the Nile.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 73,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630637",
+      "name": "Wild West Cowgirl VR Avatar",
+      "description": "Ride the virtual range as a fearless female cowboy in the Metaverse. Take on bandits, herd cattle, and experience the thrill of the Old West.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 74,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005630638",
+      "name": "Eternal Queen of Egypt VR Avatar",
+      "description": "Become the legendary Cleopatra as a female Egyptian avatar in the Metaverse. Reign over virtual empires, navigate the sands, and command loyalty.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 75,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005650677",
+      "name": "Pirate Queen's Plunder VR Avatar",
+      "description": "Sail the digital seas as a formidable female pirate queen in the Metaverse. Seek buried treasure, engage in naval battles, and command a pirate crew.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 76,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005700140",
+      "name": "Royal Monarch VR Avatar",
+      "description": "Ascend to the virtual throne as a majestic king in the Metaverse. Govern your digital realm, make strategic decisions, and shape the destiny of your kingdom.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 77,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005740430",
+      "name": "Wild West Gunslinger VR Avatar",
+      "description": "Experience the frontier as a daring male cowboy gunslinger in the Metaverse. Draw your virtual six-shooter, face outlaws, and defend the town.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 78,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005740561",
+      "name": "Swashbuckling Pirate Captain VR Avatar",
+      "description": "Command a pirate crew as a male swashbuckling captain in the Metaverse. Sail the virtual seas, hunt for buried treasures, and engage in epic naval battles.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 79,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005740634",
+      "name": "Elegant Queen's Reign VR Avatar",
+      "description": "Reign with grace and authority as a queen in the Metaverse. Lead virtual kingdoms, make diplomatic choices, and shape the destiny of your realm.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 80,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005760088",
+      "name": "Xenon XR-47 Alien VR Avatar",
+      "description": "Embrace extraterrestrial life as Alien 1 in the Metaverse. Navigate foreign worlds, unlock alien technologies, and explore the mysteries of the cosmos.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 81,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005810108",
+      "name": "Zyroxian Z-12 Alien VR Avatar",
+      "description": "Enter the Metaverse as Alien 2, a unique extraterrestrial species. Solve intergalactic puzzles, communicate with alien races, and uncover cosmic secrets.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 82,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005820197",
+      "name": "Quasar Quadrant Alien VR Avatar",
+      "description": "Dive into the unknown as Alien 3 in the Metaverse. Adapt to alien environments, decipher cosmic languages, and embark on interstellar adventures.",
+      "price": 89.99,
+      "category": 6,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 83,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005840598",
+      "name": "StarQuest Explorer VR Avatar",
+      "description": "Don the spacesuit of Astronaut 1 in the Metaverse. Launch into space, visit celestial bodies, and experience the wonders of zero gravity.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 84,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005840776",
+      "name": "Galactic Pioneer VR Avatar",
+      "description": "Embark on interstellar journeys as Astronaut 2 in the Metaverse. Explore cosmic landscapes, conduct space research, and seek out new horizons.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 85,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005850180",
+      "name": "Cosmic Voyager VR Avatar",
+      "description": "Embark on epic space odysseys as Astronaut 3 in the Metaverse. Pilot advanced spacecraft, study alien worlds, and unravel the mysteries of the universe.",
+      "price": 99.99,
+      "category": 6,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 86,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005851218",
+      "name": "Shadowblade Curved Sword",
+      "description": "Unleash the power of the Shadowblade Curved Sword in the Metaverse. This elegant weapon is perfect for agile warriors who seek precision and speed.",
+      "price": 149.99,
+      "category": 7,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 87,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005860175",
+      "name": "Dragonforged Steel Sword",
+      "description": "Wield the Dragonforged Steel Sword in the Metaverse. Crafted with ancient techniques, it's a versatile weapon for knights and adventurers.",
+      "price": 139.99,
+      "category": 7,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 88,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005860263",
+      "name": "Warhammer Battle Axe",
+      "description": "Wage war with the mighty Warhammer Battle Axe in the Metaverse. Crush your foes with powerful swings and dominate the battlefield.",
+      "price": 159.99,
+      "category": 7,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 89,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005870183",
+      "name": "Thunderstrike Warhammer",
+      "description": "Strike fear into your enemies with the Thunderstrike Warhammer in the Metaverse. Its electrically charged blows are devastating in combat.",
+      "price": 169.99,
+      "category": 7,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 90,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005870599",
+      "name": "Ironclad Brass Knuckles",
+      "description": "Enhance your hand-to-hand combat skills with Ironclad Brass Knuckles in the Metaverse. Deliver powerful punches and dominate close quarters combat.",
+      "price": 129.99,
+      "category": 7,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 91,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005870638",
+      "name": "Steelflame Mace",
+      "description": "Crush your foes with the relentless power of the Steelflame Mace in the Metaverse. Its fiery enchantments make it a fearsome weapon of destruction.",
+      "price": 159.99,
+      "category": 7,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 92,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005910565",
+      "name": "Dwarven Battle Axe",
+      "description": "Unleash the fury of the Dwarven Battle Axe in the Metaverse. Forged deep within the mountains, it's a formidable weapon favored by warriors.",
+      "price": 169.99,
+      "category": 7,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 93,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005930313",
+      "name": "Thunderstrike Shotgun",
+      "description": "Blast your foes with the devastating Thunderstrike Shotgun in the Metaverse. Its wide spread and immense power make it a force to be reckoned with.",
+      "price": 249.99,
+      "category": 7,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 94,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005940242",
+      "name": "Sleekfire Pistol",
+      "description": "Carry the compact and deadly Sleekfire Pistol in the Metaverse. Its accuracy and high fire rate make it a favorite among sharpshooters.",
+      "price": 199.99,
+      "category": 7,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 95,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005940299",
+      "name": "Quantum Flux Ray Gun",
+      "description": "Unleash the power of futuristic technology with the Quantum Flux Ray Gun in the Metaverse. It fires beams of pure energy with pinpoint accuracy.",
+      "price": 299.99,
+      "category": 7,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 96,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005941612",
+      "name": "Stormbringer Assault Rifle",
+      "description": "Dominate the battlefield with the high-powered Stormbringer Assault Rifle in the Metaverse. It offers precise aiming and rapid-fire capabilities.",
+      "price": 299.99,
+      "category": 7,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 97,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005980058",
+      "name": "Viperstrike Bow",
+      "description": "Hone your archery skills with the Viperstrike Bow in the Metaverse. Its sleek design and deadly accuracy make it perfect for stealthy hunters.",
+      "price": 199.99,
+      "category": 7,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 98,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5005980146",
+      "name": "Blastermaster Pistol",
+      "description": "Carry the reliable and versatile Blastermaster Pistol in the Metaverse. It's a sidearm trusted by adventurers and law enforcement alike.",
+      "price": 199.99,
+      "category": 7,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 99,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006070077",
+      "name": "Marksman's Precision Rifle",
+      "description": "Become a sharpshooter with the Marksman's Precision Rifle in the Metaverse. Its long-range capabilities and accuracy are unmatched.",
+      "price": 249.99,
+      "category": 7,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 100,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006081758",
+      "name": "Plasma Strike Rifle",
+      "description": "Unleash the fury of the Plasma Strike Rifle in the Metaverse. Its powerful energy bolts cut through the toughest of opponents with ease.",
+      "price": 249.99,
+      "category": 7,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 101,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006082011",
+      "name": "Reckoner's Handgun",
+      "description": "Duel with style using the Reckoner's Handgun in the Metaverse. Its sleek design and rapid-fire capability make it perfect for quickdraws.",
+      "price": 199.99,
+      "category": 7,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 102,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006150186",
+      "name": "Shadowhunter Crossbow",
+      "description": "Stealth and precision define the Shadowhunter Crossbow in the Metaverse. It's a silent but deadly choice for hunters and assassins.",
+      "price": 199.99,
+      "category": 7,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 103,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006153172",
+      "name": "M-98 Thunderstrike Assault Rifle",
+      "description": "Dominate the battlefield with the M-98 Thunderstrike Assault Rifle in the Metaverse. Its rapid-fire capabilities and pinpoint accuracy make it a formidable choice.",
+      "price": 279.99,
+      "category": 7,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 104,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006160127",
+      "name": "Precision Marksman's Rifle",
+      "description": "Become a sharpshooter with the Precision Marksman's Rifle in the Metaverse. Its long-range capabilities and enhanced optics offer unmatched accuracy.",
+      "price": 259.99,
+      "category": 7,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 105,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006160833",
+      "name": "X-23 Warhawk Assault Rifle",
+      "description": "Unleash chaos with the X-23 Warhawk Assault Rifle in the Metaverse. Its fully automatic mode and high-capacity magazine make it a favorite among soldiers.",
+      "price": 299.99,
+      "category": 7,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 106,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006170128",
+      "name": "Vanguard Elite Rifle",
+      "description": "Take control of the battlefield with the Vanguard Elite Rifle in the Metaverse. Its modular design allows for customization to suit any mission.",
+      "price": 269.99,
+      "category": 7,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 107,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006170131",
+      "name": "Aegis Sentinel Rifle",
+      "description": "Defend your territory with the Aegis Sentinel Rifle in the Metaverse. Its reinforced frame and advanced optics provide unparalleled protection.",
+      "price": 279.99,
+      "category": 7,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 108,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006170357",
+      "name": "Tempest Fury Assault Rifle",
+      "description": "Rain destruction upon your enemies with the Tempest Fury Assault Rifle in the Metaverse. Its energy projectiles deliver unparalleled firepower.",
+      "price": 299.99,
+      "category": 7,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 109,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006200155",
+      "name": "Eagle Eye Marksman Rifle",
+      "description": "Master the art of precision with the Eagle Eye Marksman Rifle in the Metaverse. Its enhanced optics and long-range capabilities make it a sniper's dream.",
+      "price": 299.99,
+      "category": 7,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 110,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006200658",
+      "name": "Shadowhunter Compound Bow",
+      "description": "Embrace the way of the hunter with the Shadowhunter Compound Bow in the Metaverse. Its advanced design and accuracy are perfect for stealthy shots.",
+      "price": 249.99,
+      "category": 7,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 111,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006241766",
+      "name": "Viperstrike Compact Pistol",
+      "description": "Carry the Viperstrike Compact Pistol as your trusty sidearm in the Metaverse. Its sleek design and rapid-fire capabilities make it ideal for close quarters combat.",
+      "price": 199.99,
+      "category": 7,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 112,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006242155",
+      "name": "Quantum Blaze Ray Gun",
+      "description": "Experience advanced technology with the Quantum Blaze Ray Gun in the Metaverse. Its energy beams are unmatched in terms of both power and precision.",
+      "price": 349.99,
+      "category": 7,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 113,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006242904",
+      "name": "Royal Residence",
+      "description": "Live like royalty at the Royal Residence in the Metaverse. This opulent property offers grandeur and sophistication at an affordable price.",
+      "price": 799.99,
+      "category": 8,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 114,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006242905",
+      "name": "Elegant Enclave",
+      "description": "Discover the Elegant Enclave in the Metaverse. This exclusive community offers luxurious living within your budget.",
+      "price": 899.99,
+      "category": 8,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 115,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006243106",
+      "name": "Majestic Mansion",
+      "description": "Experience the majesty of the Majestic Mansion in the Metaverse. This stately residence offers timeless elegance and comfort at an unbeatable price.",
+      "price": 949.99,
+      "category": 8,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 116,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006243276",
+      "name": "Tranquil Terrace",
+      "description": "Find serenity and luxury at the Tranquil Terrace in the Metaverse. This peaceful oasis offers unmatched comfort and style at an affordable rate.",
+      "price": 769.99,
+      "category": 8,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 117,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006280064",
+      "name": "Opulent Outlook",
+      "description": "Escape to an Opulent Outlook in the Metaverse. This luxurious property is a haven of extravagance and leisure, priced just right.",
+      "price": 849.99,
+      "category": 8,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 118,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006280190",
+      "name": "Regal Retreat",
+      "description": "Retreat to the Regal Retreat in the Metaverse. This exquisite property offers the epitome of regal living with every imaginable luxury, all for a great price.",
+      "price": 929.99,
+      "category": 8,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 119,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006291997",
+      "name": "Glamorous Getaway",
+      "description": "Experience a Glamorous Getaway in the Metaverse. This glamorous property exudes sophistication and offers an indulgent lifestyle, all at a budget-friendly rate.",
+      "price": 879.99,
+      "category": 8,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 120,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006310072",
+      "name": "Stunning Chateau",
+      "description": "Live in luxury at the Stunning Chateau in the Metaverse. This magnificent chateau offers timeless beauty and opulent living at a great value.",
+      "price": 989.99,
+      "category": 8,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 121,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006310446",
+      "name": "Elegant Estate",
+      "description": "Discover an Elegant Estate in the Metaverse. This estate offers a perfect blend of sophistication and comfort for discerning buyers, all within your budget.",
+      "price": 999.99,
+      "category": 8,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 122,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006310918",
+      "name": "Gold Coins",
+      "description": "This is an official currency of the metaverse, use to buy items and event tickets in the Metaverse",
+      "price": 1.0,
+      "category": 10,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 123,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006310935",
+      "name": "Gems",
+      "description": "This is an official currency of the metaverse, use to buy special items and boosts in the Metaverse",
+      "price": 10.0,
+      "category": 10,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 124,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006311067",
+      "name": "Aegis Guardian Helmet",
+      "description": "The Aegis Guardian Helmet offers unmatched protection in the Metaverse. Crafted with cutting-edge technology, it keeps you safe and stylish.",
+      "price": 189.99,
+      "category": 9,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 125,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006330197",
+      "name": "Titanium Sentinel Helmet",
+      "description": "The Titanium Sentinel Helmet is your guardian in the Metaverse. With its advanced design, it ensures safety and comfort.",
+      "price": 169.99,
+      "category": 9,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 126,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006330208",
+      "name": "Ranger's Visage",
+      "description": "The Ranger's Visage is your ultimate companion in the Metaverse. It combines durability and style, making you stand out on every adventure.",
+      "price": 199.99,
+      "category": 9,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 127,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006333711",
+      "name": "Cyber Knight Helmet",
+      "description": "Embrace the future with the Cyber Knight Helmet in the Metaverse. Its sleek design offers both protection and style.",
+      "price": 179.99,
+      "category": 9,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 128,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006340653",
+      "name": "Vanguard's Crown",
+      "description": "The Vanguard's Crown is the choice of champions in the Metaverse. It's the perfect blend of form and function for any virtual warrior.",
+      "price": 159.99,
+      "category": 9,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 129,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006370013",
+      "name": "Shadow Stalker Helm",
+      "description": "Become a shadow in the Metaverse with the Shadow Stalker Helm. Its stealthy design conceals your presence while providing essential protection.",
+      "price": 169.99,
+      "category": 9,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 130,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006380233",
+      "name": "Celestial Guardian Helmet",
+      "description": "Protect yourself like a celestial being in the Metaverse with the Celestial Guardian Helmet. It offers divine protection and comfort.",
+      "price": 189.99,
+      "category": 9,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 131,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006380260",
+      "name": "Phoenix Plume Helm",
+      "description": "Rise from the ashes with the Phoenix Plume Helm in the Metaverse. Its fiery design embodies rebirth and protection.",
+      "price": 179.99,
+      "category": 9,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 132,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006380337",
+      "name": "Guardian Plate Armor",
+      "description": "Equip yourself with the Guardian Plate Armor in the Metaverse. It offers unparalleled protection and durability, keeping you safe in virtual battles.",
+      "price": 279.99,
+      "category": 9,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 133,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006380693",
+      "name": "Titanium Exosuit",
+      "description": "The Titanium Exosuit is your ultimate defense in the Metaverse. Its advanced technology enhances your abilities while providing top-notch protection.",
+      "price": 259.99,
+      "category": 9,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 134,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006390235",
+      "name": "Dragon Scale Mail",
+      "description": "Unleash your inner dragon with the Dragon Scale Mail in the Metaverse. Crafted from mythical scales, it grants you unmatched protection and strength.",
+      "price": 299.99,
+      "category": 9,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 135,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006420202",
+      "name": "Nanotech Battle Suit",
+      "description": "Step into the future with the Nanotech Battle Suit in the Metaverse. Its nanomaterials provide adaptive protection, ensuring your safety.",
+      "price": 269.99,
+      "category": 9,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 136,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006420400",
+      "name": "Phantom Cloak",
+      "description": "Become a ghostly presence with the Phantom Cloak in the Metaverse. This ethereal armor combines stealth and protection for covert operations.",
+      "price": 249.99,
+      "category": 9,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 137,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006430031",
+      "name": "Quantum Barrier Suit",
+      "description": "Defy the laws of physics with the Quantum Barrier Suit in the Metaverse. Its quantum technology creates impenetrable shields, ensuring your safety.",
+      "price": 289.99,
+      "category": 9,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 138,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006462180",
+      "name": "Stormforged Armor",
+      "description": "Harness the power of storms with the Stormforged Armor in the Metaverse. Its lightning-infused plating grants you electrifying protection.",
+      "price": 279.99,
+      "category": 9,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 139,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006470681",
+      "name": "Voidwalker's Vestments",
+      "description": "Embrace the void with the Voidwalker's Vestments in the Metaverse. This mysterious armor offers unmatched protection from the unknown.",
+      "price": 259.99,
+      "category": 9,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 140,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006511030",
+      "name": "Dragonhide Boots",
+      "description": "Harness the strength of dragons with Dragonhide Boots in the Metaverse. These boots provide unmatched durability and protection.",
+      "price": 139.99,
+      "category": 9,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 141,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006511030",
+      "name": "Stealth Ninja Boots",
+      "description": "Become a silent shadow with the Stealth Ninja Boots in the Metaverse. These boots enhance your stealth and agility for covert operations.",
+      "price": 129.99,
+      "category": 9,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 142,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006511030",
+      "name": "Celestial Winged Boots",
+      "description": "Soar through the Metaverse with the Celestial Winged Boots. These enchanted boots grant you the power of flight and agility.",
+      "price": 149.99,
+      "category": 9,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 143,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006541122",
+      "name": "Elemental Frostwalkers",
+      "description": "Embrace the icy elements with Elemental Frostwalkers in the Metaverse. These boots allow you to walk on water and freeze your foes.",
+      "price": 159.99,
+      "category": 9,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 144,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006590111",
+      "name": "Inferno Stompers",
+      "description": "Ignite the battlefield with Inferno Stompers in the Metaverse. These fiery boots leave scorching trails and deal extra fire damage.",
+      "price": 169.99,
+      "category": 9,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 145,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006590213",
+      "name": "Gravity-Defying Boots",
+      "description": "Defy gravity itself with Gravity-Defying Boots in the Metaverse. These boots allow you to walk on walls and ceilings with ease.",
+      "price": 179.99,
+      "category": 9,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 146,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006590221",
+      "name": "Mystic Enchanter's Boots",
+      "description": "Tap into the arcane with Mystic Enchanter's Boots in the Metaverse. These enchanted boots enhance your magical abilities and protect you from curses.",
+      "price": 169.99,
+      "category": 9,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 147,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006620412",
+      "name": "Time-Warping Boots",
+      "description": "Bend time itself with Time-Warping Boots in the Metaverse. These boots grant you the power to slow or accelerate time, giving you the upper hand.",
+      "price": 159.99,
+      "category": 9,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 148,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006640930",
+      "name": "Thunderclap Gauntlets",
+      "description": "Unleash the fury of a storm with the Thunderclap Gauntlets in the Metaverse. These gauntlets channel lightning for devastating attacks.",
+      "price": 179.99,
+      "category": 9,
+      "rating": 4.7,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 149,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006660007",
+      "name": "Serpentstrike Gauntlets",
+      "description": "Strike like a serpent with the Serpentstrike Gauntlets in the Metaverse. These gauntlets enhance your agility and precision in combat.",
+      "price": 169.99,
+      "category": 9,
+      "rating": 4.6,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 150,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006750455",
+      "name": "Inferno Fury Gauntlets",
+      "description": "Ignite the battlefield with the Inferno Fury Gauntlets in the Metaverse. These gauntlets engulf your fists in flames for fiery punches.",
+      "price": 189.99,
+      "category": 9,
+      "rating": 4.8,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 151,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006790372",
+      "name": "Aegis Guardian Gauntlets",
+      "description": "Protect and shield your allies with the Aegis Guardian Gauntlets in the Metaverse. These gauntlets create defensive barriers and heal wounds.",
+      "price": 199.99,
+      "category": 9,
+      "rating": 4.9,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 152,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006790745",
+      "name": "Chrono-Force Gauntlets",
+      "description": "Manipulate time itself with the Chrono-Force Gauntlets in the Metaverse. These gauntlets allow you to rewind or accelerate time.",
+      "price": 169.99,
+      "category": 9,
+      "rating": 4.5,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 153,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006820170",
+      "name": "Mystic Arcanum Gauntlets",
+      "description": "Tap into the arcane mysteries with the Mystic Arcanum Gauntlets in the Metaverse. These gauntlets amplify your magical powers.",
+      "price": 159.99,
+      "category": 9,
+      "rating": 4.3,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 154,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006820210",
+      "name": "Frostbitten Gauntlets",
+      "description": "Bring a chilling frost to your foes with the Frostbitten Gauntlets in the Metaverse. These gauntlets freeze enemies upon touch.",
+      "price": 189.99,
+      "category": 9,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  },
+  {
+    "pk": 155,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5006820299",
+      "name": "Divine Paladin Gauntlets",
+      "description": "Become a divine protector with the Divine Paladin Gauntlets in the Metaverse. These gauntlets emit holy energy and purify the wicked.",
+      "price": 179.99,
+      "category": 9,
+      "rating": 4.4,
+      "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
+      "image": "template.png"
+    }
+  }
+]
