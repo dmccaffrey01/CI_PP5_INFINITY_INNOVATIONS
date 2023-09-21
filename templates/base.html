@@ -59,7 +59,7 @@
                         </div>
                         <div class="cart-header-text dark-text">
                             {% if grand_total %}
-                            $<span class="cart-grand-total">{{ grand_total }}</span>
+                            $<span class="cart-grand-total">{{ grand_total|floatformat:2 }}</span>
                             {% else %}
                             $0.00
                             {% endif %}
