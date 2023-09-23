@@ -55,7 +55,7 @@
     height: 300px;
 }
 
-.product-info-name-sku-container {
+.product-info-text-container {
     width: calc(100% - 300px);
     justify-content: flex-start;
     align-items: flex-start;

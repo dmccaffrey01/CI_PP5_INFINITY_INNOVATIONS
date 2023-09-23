@@ -31,9 +31,13 @@
                         <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" class="img-100a">
                     </div>
 
-                    <div class="product-info-name-sku-container container-col">
+                    <div class="product-info-text-container container-col">
                         <p class="product-info-name dark-text">
                             <strong>{{ item.product.name }}</strong>
+                        </p>
+
+                        <p class="product-info-theme dark-text">
+                            <strong>Theme:</strong> {% if item.product.has_themes %}{{ item.theme|upper }}{% else %}N/A{% endif %}
                         </p>
 
                         <p class="product-info-sku dark-text">
