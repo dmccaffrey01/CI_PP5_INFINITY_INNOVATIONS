@@ -49,7 +49,35 @@
                     <p class="product-price dark-text">${{ item.product.price }}</p>
                 </div>
                 <div class="product-qty-row-container container-row">
-                    <p class="product-qty dark-text">{{ item.quantity }}</p>
+                    <form class="update-qty-form" action="" method="POST">
+                        {% csrf_token %}
+
+                        <div class="atc-qauntity-input-container container-row">
+                            <button class="decrement-qty btn"
+                                data-item_id="{{ item.item_id }}"
+                                id="decrement-qty_{{ item.item_id }}">
+                                <i class="fas fa-minus"></i>
+                            </button>
+
+                            <input type="number" 
+                            name="quantity" min="1" max="99" 
+                            data-item_id="{{ item.item_id }}" 
+                            id="id_qty_{{ item.item_id }}"
+                            value="{{ item.quantity }}"
+                            class="atc-input qty_input">
+
+                            <button class="increment-qty btn"
+                                data-item_id="{{ item.item_id }}"
+                                id="increment-qty_{{ item.item_id }}">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                            {% if item.product.has_themes %}
+                            <input type="hidden" name="product_theme" value="{{ item.theme }}">
+                            {% endif %}
+                        </div>
+                    </form>
+                    <div class="update-qty-btn">Update</div>
+                    <div class="remove-item-btn" id="remove_{{ item.item_id }}" data-theme="{{ item.theme }}"></div>
                 </div>
                 <div class="product-subtotal-row-container container-row">
                     <p class="product-subtotal dark-text">${{ item.product.price }}</p>
@@ -96,4 +124,32 @@
 
 {% block postloadjs %}
 {{ block.super }}
+<script src="{% static 'js/quantity-input.js' %}"></script>
+<script type="text/javascript">
+    const updateQtyBtns = document.querySelectorAll(".update-qty-btn");
+    const removeItemBtns = document.querySelectorAll(".remove-item-btn");
+
+    updateQtyBtns.forEach((btn) => {
+        btn.addEventListener("click", (e) => {
+            let form = btn.parentElement.querySelector(".update-qty-btn");
+            form.submit();
+        });
+    });
+
+    removeItemBtns.forEach((btn) => {
+        let csrfToken = "{{ crsf_token }}";
+        let itemId = btn.getAttribute("id").split("remove_")[1];
+        let theme = btn.getAttribute("theme");
+        let url = "/cart/remove/${itemId}";
+        let data = {"crsfmiddlewaretoken": crsfToken, "theme": theme};
+
+        fetch(url, {
+            method: "POST",
+            body: data,
+        })
+        .then(() => {
+            location.reload();
+        });
+    });
+</script>
 {% endblock %}
