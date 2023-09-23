@@ -58,9 +58,27 @@
                         </select>
                     </div>
                     {% endif %}
-                    <div class="atc-quantiity-container container-col">
+                    <div class="atc-quantity-container container-col">
                         <p class="dark-text">Quantity:</p>
-                        <input type="number" name="quantity" value="1" min="1" max="99" data-item_id="{{ product.id }}" id="id_qty_{{ product.id }}" class="atc-input">
+                        <div class="atc-qauntity-input-container container-row">
+                            <button class="decrement-qty btn"
+                                data-item_id="{{ product.id }}"
+                                id="decrement-qty_{{ product.id }}">
+                                <i class="fas fa-minus"></i>
+                            </button>
+
+                            <input type="number" 
+                            name="quantity" value="1" min="1" max="99" 
+                            data-item_id="{{ product.id }}" 
+                            id="id_qty_{{ product.id }}" 
+                            class="atc-input qty_input">
+
+                            <button class="increment-qty btn"
+                                data-item_id="{{ product.id }}"
+                                id="increment-qty_{{ product.id }}">
+                                <i class="fas fa-plus"></i>
+                            </button>
+                        </div>
                     </div>
 
                     <div class="atc-add-container container-col">
@@ -79,4 +97,9 @@
 
 {% block extra_css %}
 <link rel="stylesheet" href="{% static 'css/products.css' %}">
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script src="{% static 'js/quantity-input.js' %}"></script>
 {% endblock %}
