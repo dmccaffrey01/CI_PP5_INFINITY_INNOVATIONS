@@ -1,5 +1,6 @@
 {% extends "base.html" %}
 {% load static %}
+{% load cart_tools %}
 
 {% block content %}
 
@@ -48,8 +49,8 @@
                 <div class="product-price-row-container container-row">
                     <p class="product-price dark-text">${{ item.product.price }}</p>
                 </div>
-                <div class="product-qty-row-container container-row">
-                    <form class="update-qty-form" action="" method="POST">
+                <div class="product-qty-row-container container-col">
+                    <form class="update-qty-form" action="{% url 'adjust_cart' item.item_id %}" method="POST">
                         {% csrf_token %}
 
                         <div class="atc-qauntity-input-container container-row">
@@ -76,11 +77,13 @@
                             {% endif %}
                         </div>
                     </form>
-                    <div class="update-qty-btn">Update</div>
-                    <div class="remove-item-btn" id="remove_{{ item.item_id }}" data-theme="{{ item.theme }}"></div>
+                    <div class="adjust-cart-btns-container container-row">
+                        <div class="update-qty-btn btn">Update</div>
+                        <div class="remove-item-btn btn" id="remove_{{ item.item_id }}" data-product_theme="{{ item.theme }}">Delete</div>
+                    </div>
                 </div>
                 <div class="product-subtotal-row-container container-row">
-                    <p class="product-subtotal dark-text">${{ item.product.price }}</p>
+                    <p class="product-subtotal dark-text">${{ item.product.price | calc_subtotal:item.quantity }}</p>
                 </div>
             </div>
             {% endfor %}
@@ -131,24 +134,30 @@
 
     updateQtyBtns.forEach((btn) => {
         btn.addEventListener("click", (e) => {
-            let form = btn.parentElement.querySelector(".update-qty-btn");
+            let form = btn.parentElement.parentElement.querySelector(".update-qty-form");
             form.submit();
         });
     });
 
     removeItemBtns.forEach((btn) => {
-        let csrfToken = "{{ crsf_token }}";
-        let itemId = btn.getAttribute("id").split("remove_")[1];
-        let theme = btn.getAttribute("theme");
-        let url = "/cart/remove/${itemId}";
-        let data = {"crsfmiddlewaretoken": crsfToken, "theme": theme};
+        btn.addEventListener("click", (e) => {
+            let csrfToken = document.querySelector('input[name="csrfmiddlewaretoken"]').value;
+            let itemId = btn.getAttribute("id").split("remove_")[1];
+            let theme = btn.getAttribute("data-product_theme");
 
-        fetch(url, {
-            method: "POST",
-            body: data,
-        })
-        .then(() => {
-            location.reload();
+            let form = new FormData();
+            form.append("csrfmiddlewaretoken", csrfToken);
+            form.append("product_theme", theme);
+
+            let url = `/cart/remove/${itemId}/`;
+
+            fetch(url, {
+                method: "POST",
+                body: form,
+            })
+            .then(() => {
+                location.reload();
+            });
         });
     });
 </script>
