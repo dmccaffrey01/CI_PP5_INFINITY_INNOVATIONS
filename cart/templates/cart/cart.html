@@ -2,6 +2,10 @@
 {% load static %}
 {% load cart_tools %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/cart.css' %}">
+{% endblock %}
+
 {% block content %}
 
 <section class="view-cart-section section">
@@ -107,7 +111,7 @@
 
         <div class="checkout-return-btns-container container-row">
             <a href="{% url 'products' %}" class="keep-shopping-btn btn">Keep Shopping</a>
-            <a href="" class="btn checkout-btn">Secure Checkout</a>
+            <a href="{% url 'checkout' %}" class="btn checkout-btn">Secure Checkout</a>
         </div>
 
         {% else %}
@@ -119,10 +123,6 @@
     </div>
 </section>
 
-{% endblock %}
-
-{% block extra_css %}
-<link rel="stylesheet" href="{% static 'css/cart.css' %}">
 {% endblock %}
 
 {% block postloadjs %}

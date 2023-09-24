@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+{% load static %}
+{% load cart_tools %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/checkout.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="checkout-section section">
+    <div class="checkout-section-container section-container container-col">
+        <div class="checkout-section-heading dark-text">Checkout</div>
+        <div class="checkout-section-wrapper container-row">
+            <div class="checkout-form-container container-col">
+                <p class="dark-text">Please fill out the form below to complete your order</p>
+
+                <form action="{% url 'checkout' %}" method="POST" class="checkout-form container-col" id="payment-form">
+                    {% csrf_token %}
+
+                    <div class="details-checkout-form-container container-col">
+                        <p class="checkout-form-heading dark-text">Details</p>
+                        {{ order_form.full_name }}
+                        {{ order_form.email }}
+                    </div>
+
+                    <div class="delivery-checkout-form-container container-col">
+                        <p class="checkout-form-heading dark-text">Delivery</p>
+                        {{ order_form.phone_number}}
+                        {{ order_form.country}}
+                        {{ order_form.postcode}}
+                        {{ order_form.town_or_city }}
+                        {{ order_form.street_address1 }}
+                        {{ order_form.street_address2 }}
+                        {{ order_form.county}}
+                    </div>
+
+                    <div class="save-info-checkout-form-container container-row">
+                        {% if user.is_authenticated %}
+                        <label for="id-save-info" class="form-check-label">Save this delivery information to my profile</label>
+                        <input type="checkbox" id="id-save-info" class="form-check-input" name="save-info" checked>
+                        {% else %}
+                        <label for="id-save-info" class="form-check-label">
+                            <a href="{% url 'account_signup' %}" class="dark-text">Create an account</a> or
+                            <a href="{% url 'account_login' %}" class="dark-text">login</a> to save this information
+                        </label>
+                        {% endif %}
+                    </div>
+
+                    <div class="payment-checkout-form-container container-col">
+                        <div id="card-element" class="strip-card-element"></div>
+
+                        <div id="card-errors" class="form-errors" role="alert"></div>
+                    </div>
+
+                    <div class="submit-checkout-form-container container-col">
+                        <a href="{% url 'view_cart' %}" class="btn">Adjust Cart</a>
+
+                        <button class="btn" id="submit-button">
+                            Complete Order
+                        </button>
+
+                        <p class="charged-amount dark-text">
+                            Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong>
+                        </p>
+                    </div>
+
+                </form>
+            </div>
+
+            <div class="cart-summary-container container-col">
+                <div class="cart-summary-heading dark-text">Order Summary ({{ product_count }})</div>
+                <div class="cart-summary-heading-container container-row">
+                    <div class="cart-summary-item-heading dark-text">Item</div>
+                    <div class="cart-summary-subtotal-heading dark-text">Subtotal</div>
+                </div>
+                {% for item in cart_items %}
+                <div class="cart-summary-product-container container-row">
+                    <div class="cart-summary-product-item-container container-row">
+                        <a href="{% url 'product_detail' item.product.id %}" class="cart-summary-img-container img-container">
+                            {% if item.product.image %}
+                            <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" class="img-100a">
+                            {% else %}
+                            <img src="{{ MEDIA_URL }}template.png" alt="{{ item.product.name }}" class="img-100a">
+                            {% endif %}
+                        </a>
+
+                        <div class="cart-summary-product-info-container container-col">
+                            <p class="name-summary dark-text">{{ item.product.name }}</p>
+                            <p class="theme-summary dark-text">{{ item.theme|upper }}</p>
+                            <p class="qty-summary dark-text">{{ item.quantity }}</p>
+                        </div>
+                    </div>
+
+                    <div class="summary-subtotal dark-text">${{ item.product.price | calc_subtotal:item.quantity }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
