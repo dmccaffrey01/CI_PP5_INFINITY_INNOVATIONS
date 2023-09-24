@@ -8,6 +8,7 @@ def cart_contents(request):
 
     cart_items = []
     total = 0
+    real_items_total = 0
     product_count = 0
     cart = request.session.get('cart', {})
 
@@ -21,6 +22,9 @@ def cart_contents(request):
                 'quantity': item_data,
                 'product': product,
             })
+
+            if product.category == "real":
+                real_items_total += product.price
         else:
             product = get_object_or_404(Product, pk=item_id)
             for theme, quantity in item_data['items_by_theme'].items():
@@ -33,6 +37,9 @@ def cart_contents(request):
                     'theme': theme,
                 })
 
+                if product.category == "real":
+                    real_items_total += product.price
+
     if total >= settings.DISCOUNT_THRESHOLD:
         discounted_total = total - (Decimal(settings.STANDARD_DISCOUNT_PERCENTAGE / 100) * total)
         discount_delta = 0
@@ -40,7 +47,7 @@ def cart_contents(request):
         discounted_total = total
         discount_delta = settings.DISCOUNT_THRESHOLD - total
 
-    delivery = total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
+    delivery = real_items_total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
 
     grand_total = delivery + discounted_total
 
@@ -53,6 +60,7 @@ def cart_contents(request):
         'discount_threshold': settings.DISCOUNT_THRESHOLD,
         'discount_percentage': settings.STANDARD_DISCOUNT_PERCENTAGE,
         'delivery': delivery,
+        'real_items_total': real_items_total,
         'grand_total': grand_total,
     }
 
