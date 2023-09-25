@@ -19,7 +19,10 @@
     {% endblock %}
 
     {% block corejs %}
+    <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/5821df7d40.js" crossorigin="anonymous"></script>
+    <!-- Stripe -->
+    <script src="https://js.stripe.com/v3/"></script>
     {% endblock %}
 
     {% block extra_js %}
@@ -29,107 +32,105 @@
   </head>
   <body>
     <header class="container-col">
-         <div class="header-container container-col">
-            <div class="top-header-container container-row ">
-                <div class="logo-header-container container-row">
-                    <div class="logo-img-container img-container">
-                        
+        <div class="top-header-container container-row ">
+            <div class="logo-header-container container-row">
+                <div class="logo-img-container img-container">
+                    
+                </div>
+                <h1 class="logo-text dark-text">Infinity Innovations</h1>
+            </div>
+
+            <form class="search-header-container container-row" method="GET" action="{% url 'products' %}">
+                <input type="text" class="search-products-header-input" name="q" placeholder="Search our site">
+                <button class="search-products-header-btn container-col" type="submit">
+                    <i class="fas fa-search white-text"></i>
+                </button>
+            </form>
+
+            <div class="account-cart-container container-row">
+                <div class="account-header-container container-col">
+                    <div class="account-header-img-container img-container">
+
                     </div>
-                    <h1 class="logo-text dark-text">Infinity Innovations</h1>
+                    <div class="account-header-text dark-text">My Account</div>
                 </div>
 
-                <form class="search-header-container container-row" method="GET" action="{% url 'products' %}">
-                    <input type="text" class="search-products-header-input" name="q" placeholder="Search our site">
-                    <button class="search-products-header-btn container-col" type="submit">
-                        <i class="fas fa-search white-text"></i>
-                    </button>
-                </form>
+                <a href="{% url 'view_cart' %}" class="cart-header-container container-col">
+                    <div class="cart-header-img-container img-container">
 
-                <div class="account-cart-container container-row">
-                    <div class="account-header-container container-col">
-                        <div class="account-header-img-container img-container">
+                    </div>
+                    <div class="cart-header-text dark-text">
+                        {% if grand_total %}
+                        $<span class="cart-grand-total">{{ grand_total|floatformat:2 }}</span>
+                        {% else %}
+                        $0.00
+                        {% endif %}
+                    </div>
+                </a>
+            </div>
+        </div>
 
-                        </div>
-                        <div class="account-header-text dark-text">My Account</div>
+        <div class="bottom-header-container container-row">
+            <div class="bottom-header-dropdown-heading container-col">REAL</div>
+            <div class="bottom-header-dropdown-container container-row">
+                <div class="bottom-header-dropdown-wrapper container-row">
+                    <div class="bottom-header-dropdown-item container-row">
+                        <h3 class="bottom-header-dropdown-item-heading">All</h3>
+                        <a href="{% url 'real_products' %}?sort=price&direction=asc" class="bottom-header-dropdown-link">By Price</a>
+                        <a href="{% url 'real_products' %}?sort=rating&direction=desc" class="bottom-header-dropdown-link">By Rating</a>
+                        <a href="{% url 'real_products' %}?sort=category&direction=asc" class="bottom-header-dropdown-link">By Category</a>
+                        <a href="{% url 'real_products' %}?sort=brand&direction=asc" class="bottom-header-dropdown-link">By Brand</a>
+                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-item-ending">All Real</a>
                     </div>
 
-                    <a href="{% url 'view_cart' %}" class="cart-header-container container-col">
-                        <div class="cart-header-img-container img-container">
+                    <div class="bottom-header-dropdown-item container-row">
+                        <h3 class="bottom-header-dropdown-item-heading">By Category</h3>
+                        {% for category in all_real_categories %}
+                        <a href="{% url 'real_products' %}?category={{ category.name }}" class="bottom-header-dropdown-link">{{ category.friendly_name }}</a>
+                        {% endfor %}
+                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-item-ending">All Categories</a>
+                    </div>
 
-                        </div>
-                        <div class="cart-header-text dark-text">
-                            {% if grand_total %}
-                            $<span class="cart-grand-total">{{ grand_total|floatformat:2 }}</span>
-                            {% else %}
-                            $0.00
-                            {% endif %}
-                        </div>
-                    </a>
+                    <div class="bottom-header-dropdown-item container-row">
+                        <h3 class="bottom-header-dropdown-item-heading">By Brand</h3>
+                        {% for brand in all_real_brands %}
+                        <a href="{% url 'real_products' %}?brand={{ brand.name }}" class="bottom-header-dropdown-link">{{ brand.friendly_name }}</a>
+                        {% endfor %}
+                        <a href="{% url 'real_products' %}" class="bottom-header-dropdown-item-ending">All Brands</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="bottom-header-container container-row">
-                <div class="bottom-header-dropdown-heading container-col">REAL</div>
-                <div class="bottom-header-dropdown-container container-row">
-                    <div class="bottom-header-dropdown-wrapper container-row">
-                        <div class="bottom-header-dropdown-item container-row">
-                            <h3 class="bottom-header-dropdown-item-heading">All</h3>
-                            <a href="{% url 'real_products' %}?sort=price&direction=asc" class="bottom-header-dropdown-link">By Price</a>
-                            <a href="{% url 'real_products' %}?sort=rating&direction=desc" class="bottom-header-dropdown-link">By Rating</a>
-                            <a href="{% url 'real_products' %}?sort=category&direction=asc" class="bottom-header-dropdown-link">By Category</a>
-                            <a href="{% url 'real_products' %}?sort=brand&direction=asc" class="bottom-header-dropdown-link">By Brand</a>
-                            <a href="{% url 'real_products' %}" class="bottom-header-dropdown-item-ending">All Real</a>
-                        </div>
-
-                        <div class="bottom-header-dropdown-item container-row">
-                            <h3 class="bottom-header-dropdown-item-heading">By Category</h3>
-                            {% for category in all_real_categories %}
-                            <a href="{% url 'real_products' %}?category={{ category.name }}" class="bottom-header-dropdown-link">{{ category.friendly_name }}</a>
-                            {% endfor %}
-                            <a href="{% url 'real_products' %}" class="bottom-header-dropdown-item-ending">All Categories</a>
-                        </div>
-
-                        <div class="bottom-header-dropdown-item container-row">
-                            <h3 class="bottom-header-dropdown-item-heading">By Brand</h3>
-                            {% for brand in all_real_brands %}
-                            <a href="{% url 'real_products' %}?brand={{ brand.name }}" class="bottom-header-dropdown-link">{{ brand.friendly_name }}</a>
-                            {% endfor %}
-                            <a href="{% url 'real_products' %}" class="bottom-header-dropdown-item-ending">All Brands</a>
-                        </div>
+            <div class="bottom-header-dropdown-heading container-col">DIGITAL</div>
+            <div class="bottom-header-dropdown-container container-row">
+                <div class="bottom-header-dropdown-wrapper container-row">
+                    <div class="bottom-header-dropdown-item container-row">
+                        <h3 class="bottom-header-dropdown-item-heading">All</h3>
+                        <a href="{% url 'digital_products' %}?sort=price&direction=asc" class="bottom-header-dropdown-link">By Price</a>
+                        <a href="{% url 'digital_products' %}?sort=rating&direction=desc" class="bottom-header-dropdown-link">By Rating</a>
+                        <a href="{% url 'digital_products' %}?sort=category&direction=asc" class="bottom-header-dropdown-link">By Category</a>
+                        <a href="{% url 'digital_products' %}?sort=brand&direction=asc" class="bottom-header-dropdown-link">By Brand</a>
+                        <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-item-ending">All Digital</a>
                     </div>
-                </div>
 
-                <div class="bottom-header-dropdown-heading container-col">DIGITAL</div>
-                <div class="bottom-header-dropdown-container container-row">
-                    <div class="bottom-header-dropdown-wrapper container-row">
-                        <div class="bottom-header-dropdown-item container-row">
-                            <h3 class="bottom-header-dropdown-item-heading">All</h3>
-                            <a href="{% url 'digital_products' %}?sort=price&direction=asc" class="bottom-header-dropdown-link">By Price</a>
-                            <a href="{% url 'digital_products' %}?sort=rating&direction=desc" class="bottom-header-dropdown-link">By Rating</a>
-                            <a href="{% url 'digital_products' %}?sort=category&direction=asc" class="bottom-header-dropdown-link">By Category</a>
-                            <a href="{% url 'digital_products' %}?sort=brand&direction=asc" class="bottom-header-dropdown-link">By Brand</a>
-                            <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-item-ending">All Digital</a>
-                        </div>
+                    <div class="bottom-header-dropdown-item container-row">
+                        <h3 class="bottom-header-dropdown-item-heading">By Category</h3>
+                        {% for category in all_digital_categories %}
+                        <a href="{% url 'digital_products' %}?category={{ category.name }}" class="bottom-header-dropdown-link">{{ category.friendly_name }}</a>
+                        {% endfor %}
+                        <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-item-ending">All Categories</a>
+                    </div>
 
-                        <div class="bottom-header-dropdown-item container-row">
-                            <h3 class="bottom-header-dropdown-item-heading">By Category</h3>
-                            {% for category in all_digital_categories %}
-                            <a href="{% url 'digital_products' %}?category={{ category.name }}" class="bottom-header-dropdown-link">{{ category.friendly_name }}</a>
-                            {% endfor %}
-                            <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-item-ending">All Categories</a>
-                        </div>
-
-                        <div class="bottom-header-dropdown-item container-row">
-                            <h3 class="bottom-header-dropdown-item-heading">By Brand</h3>
-                            {% for brand in all_digital_brands %}
-                            <a href="{% url 'real_products' %}?brand={{ brand.name }}" class="bottom-header-dropdown-link">{{ brand.friendly_name }}</a>
-                            {% endfor %}
-                            <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-item-ending">All Brands</a>
-                        </div>
+                    <div class="bottom-header-dropdown-item container-row">
+                        <h3 class="bottom-header-dropdown-item-heading">By Brand</h3>
+                        {% for brand in all_digital_brands %}
+                        <a href="{% url 'real_products' %}?brand={{ brand.name }}" class="bottom-header-dropdown-link">{{ brand.friendly_name }}</a>
+                        {% endfor %}
+                        <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-item-ending">All Brands</a>
                     </div>
                 </div>
             </div>
-         </div>
+        </div>
     </header>
 
     <section class="discount-display-section section">

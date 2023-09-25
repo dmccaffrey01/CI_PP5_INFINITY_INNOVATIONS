@@ -85,3 +85,28 @@
 .summary-subtotal {
     margin-top: 20px;
 }
+
+/* Stripe */
+
+.stipe-card-form-container {
+    width: 100%;
+    align-items: flex-start;
+}
+
+.stripe-card-element-container {
+    width: 100%;
+}
+
+#card-element {
+    padding: 20px;
+    border: 1px solid var(--GRAY-DARK-2);
+    border-radius: 4px;
+}
+
+.StripeElement {
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+}
