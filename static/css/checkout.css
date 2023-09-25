@@ -110,3 +110,46 @@
     border-radius: 4px;
     background-color: white;
 }
+
+/* Checkout Success */
+
+.checkout-success-section-container {
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.order-confirmation-container {
+    padding: 30px;
+    width: 1000px;
+    border-radius: 5px;
+    border: 2px solid var(--GRAY-DARK-1);
+    gap: 10px;
+}
+
+.order-confirmation-section-heading {
+    font-size: 1.3rem;
+    color: var(--GRAY-DARK-2);
+    align-self: flex-start;
+}
+
+.order-confirmation-row {
+    width: 100%;
+}
+
+.order-confirmation-row .left-text {
+    width: 40%;
+    align-items: flex-start;
+    font-weight: 600;
+}
+
+.order-confirmation-row .right-text {
+    width: 60%;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.order-number-container .right-text,
+.order-date-container .right-text {
+    text-transform: uppercase;
+}
+

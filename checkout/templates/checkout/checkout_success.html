@@ -8,11 +8,122 @@
 {% block content %}
 
 <section class="checkout-section section">
-    <div class="checkout-section-container section-container container-col">
+    <div class="checkout-section-container checkout-success-section-container section-container container-col">
         <div class="checkout-section-heading dark-text">Thank You</div>
-        <p class="dark-text">
+        <p class="confirmation-text dark-text">
             Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>
         </p>
+
+        <div class="order-confirmation-container container-col">
+            <p class="order-confirmation-section-heading dark-text">Order Info:</p>
+
+            <div class="order-number-container order-confirmation-row container-row">
+                <p class="left-text dark-text">Order Number</p>
+
+                <p class="right-text dark-text">{{ order.order_number }}</p>
+            </div>
+
+            <div class="order-date-container order-confirmation-row container-row">
+                <p class="left-text dark-text">Order Date</p>
+
+                <p class="right-text dark-text">{{ order.date }}</p>
+            </div>
+
+            <p class="order-confirmation-section-heading dark-text">Order Details:</p>
+
+            {% for item in order.lineitems.all %}
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">{{ item.product.name }}</p>
+
+                <p class="right-text dark-text">{{ item.quantity }} @ ${{ item.product.price }} each</p>
+            </div>
+
+            {% if item.product_theme %}
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Theme</p>
+
+                <p class="right-text dark-text">{{ item.product_theme|upper }}</p>
+            </div>
+            {% endif %}
+            {% endfor %}
+
+            <p class="order-confirmation-section-heading dark-text">Delivering To:</p>
+
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Full Name</p>
+
+                <p class="right-text dark-text">{{ order.full_name }}</p>
+            </div>
+
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Address 1</p>
+
+                <p class="right-text dark-text">{{ order.street_address1 }}</p>
+            </div>
+
+            {% if order.street_address2 %}
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Address 2</p>
+
+                <p class="right-text dark-text">{{ order.street_address2 }}</p>
+            </div>
+            {% endif %}
+
+            {% if order.county %}
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">County</p>
+
+                <p class="right-text dark-text">{{ order.county }}</p>
+            </div>
+            {% endif %}
+
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Town or City</p>
+
+                <p class="right-text dark-text">{{ order.town_or_city }}</p>
+            </div>
+
+            {% if order.postcode %}
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Postal Code</p>
+
+                <p class="right-text dark-text">{{ order.postcode }}</p>
+            </div>
+            {% endif %}
+
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Country</p>
+
+                <p class="right-text dark-text">{{ order.country }}</p>
+            </div>
+
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Phone Number</p>
+
+                <p class="right-text dark-text">{{ order.phone_number }}</p>
+            </div>
+
+            <p class="order-confirmation-section-heading dark-text">Billing Info:</p>
+
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Order Total</p>
+
+                <p class="right-text dark-text">{{ order.order_total }}</p>
+            </div>
+
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Delivery</p>
+
+                <p class="right-text dark-text">{{ order.delivery_cost }}</p>
+            </div>
+
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Grand Total</p>
+
+                <p class="right-text dark-text">{{ order.grand_total }}</p>
+            </div>
+        </div>
+
         <a href="{% url 'products' %}" class="btn">Continue Shopping</a>
     </div>
 </section>
