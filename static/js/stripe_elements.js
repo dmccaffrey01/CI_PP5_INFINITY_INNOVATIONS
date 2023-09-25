@@ -80,27 +80,77 @@ form.addEventListener('submit', function(ev) {
     fadeIn(loadingOverlay, 100);
     fadeOut(formWrapper, 100);
 
-    stripe.confirmCardPayment(clientSecret, {
-            payment_method: {
-                card: card,
-            }
-    }).then(function(result) {
-        if (result.error) {
-            let html = `
-                <div class="stripe-error-icon-container container-col">
-                    <i class="fas fa-times"></i>
-                </div>
-                <div class="stripe-error-message">${result.error.message}</div>`;
-            errorDiv.innerHTML = html;
+    let saveInfoElement = document.querySelector('#id-save-info');
+    let saveInfo = Boolean(saveInfoElement.getAttribute('checked'));
+    let csrfTokenElement = document.querySelector('input[name="csrfmiddlewaretoken"]');]
+    let csrfToken = csrfTokenElement.value;
+    let postData = {
+        'csrfmiddlewaretoken': csrfToken,
+        'client_secret': clientSecret,
+        'save_info': saveInfo,
+    }
+    let url = '/checkout/cache_checkout_data/';
 
-            fadeOut(loadingOverlay, 100);
-            fadeIn(formWrapper, 100);
-            card.update({ 'disabled': false });
-            submitBtn.setAttribute('disabled', false);
-        } else {
-            if (result.paymentIntent.status === 'succeeded') {
-                form.submit();
-            }
-        }
-    });
+    let options = {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(postData),
+    }
+
+    fetch(url, options)
+        .then(() => {
+            stripe.confirmCardPayment(clientSecret, {
+                payment_method: {
+                    card: card,
+                    billing_details: {
+                        name: form.full_name.value.trim(),
+                        phone: form.phone_number.value.trim(),
+                        email: form.email.value.trim(),
+                        address: {
+                            line1: form.street_address1.value.trim(),
+                            line2: form.street_address2.value.trim(),
+                            city: form.town_or_city.value.trim(),
+                            country: form.country.value.trim(),
+                            state: form.county.value.trim(),
+                        }
+                    }
+                },
+                shipping: {
+                    name: form.full_name.value.trim(),
+                    phone: form.phone_number.value.trim(),
+                    address: {
+                        line1: form.street_address1.value.trim(),
+                        line2: form.street_address2.value.trim(),
+                        city: form.town_or_city.value.trim(),
+                        country: form.country.value.trim(),
+                        postal_code: form.postcode.value.trim(),
+                        state: form.county.value.trim(),
+                    }
+                }
+            }).then(function(result) {
+                if (result.error) {
+                    let html = `
+                        <div class="stripe-error-icon-container container-col">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="stripe-error-message">${result.error.message}</div>`;
+                    errorDiv.innerHTML = html;
+        
+                    fadeOut(loadingOverlay, 100);
+                    fadeIn(formWrapper, 100);
+                    card.update({ 'disabled': false });
+                    submitBtn.setAttribute('disabled', false);
+                } else {
+                    if (result.paymentIntent.status === 'succeeded') {
+                        form.submit();
+                    }
+                }
+            });
+        })
+        .catch(error => {
+            // Reaload the page
+            location.reload();
+        });
 });
