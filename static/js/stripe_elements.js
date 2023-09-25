@@ -27,15 +27,58 @@ card.addEventListener('change', (event) => {
     }
 });
 
+// Toggle fade in or out
+
+const fadeIn = (element, duration) => {
+    element.style.opacity = 0;
+    element.style.display = "flex";
+    
+    let intervals = duration / 10;
+    let i = 0;
+
+    let fadeInterval = window.setInterval(() => {
+        if (i >= intervals - 1) {
+            element.style.opacity = 1;
+            clearInterval(fadeInterval);
+        } else {
+            element.style.opacity = (i / intervals);
+            i++;
+        }
+    }, 10);
+};
+
+const fadeOut = (element, duration) => {
+    element.style.opacity = 1;
+    element.style.display = "flex";
+    
+    let intervals = duration / 10;
+    let i = 0;
+
+    let fadeInterval = window.setInterval(() => {
+        if (i >= intervals - 1) {
+            element.style.opacity = 0;
+            element.style.display = "none";
+            clearInterval(fadeInterval);
+        } else {
+            element.style.opacity = 1 - (i / intervals);
+            i++;
+        }
+    }, 10);
+};
+
 // Handle form submit
 
 var form = document.getElementById('payment-form');
 var submitBtn = document.getElementById('submit-button');
+const formWrapper = document.querySelector('.checkout-section-wrapper');
+const loadingOverlay = document.querySelector('.loading-overlay');
 
 form.addEventListener('submit', function(ev) {
     ev.preventDefault();
     card.update({ 'disabled': true });
     submitBtn.setAttribute('disabled', true);
+    fadeIn(loadingOverlay, 100);
+    fadeOut(formWrapper, 100);
 
     stripe.confirmCardPayment(clientSecret, {
             payment_method: {
@@ -50,6 +93,8 @@ form.addEventListener('submit', function(ev) {
                 <div class="stripe-error-message">${result.error.message}</div>`;
             errorDiv.innerHTML = html;
 
+            fadeOut(loadingOverlay, 100);
+            fadeIn(formWrapper, 100);
             card.update({ 'disabled': false });
             submitBtn.setAttribute('disabled', false);
         } else {
