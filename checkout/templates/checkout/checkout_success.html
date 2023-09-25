@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/checkout.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="checkout-section section">
+    <div class="checkout-section-container section-container container-col">
+        <div class="checkout-section-heading dark-text">Thank You</div>
+        <p class="dark-text">
+            Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>
+        </p>
+        <a href="{% url 'products' %}" class="btn">Continue Shopping</a>
+    </div>
+</section>
+
+{% endblock %}
+
