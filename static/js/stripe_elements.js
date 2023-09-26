@@ -82,7 +82,7 @@ form.addEventListener('submit', function(ev) {
 
     let saveInfoElement = document.querySelector('#id-save-info');
     let saveInfo = Boolean(saveInfoElement.getAttribute('checked'));
-    let csrfTokenElement = document.querySelector('input[name="csrfmiddlewaretoken"]');]
+    let csrfTokenElement = document.querySelector('input[name="csrfmiddlewaretoken"]');
     let csrfToken = csrfTokenElement.value;
     let postData = {
         'csrfmiddlewaretoken': csrfToken,

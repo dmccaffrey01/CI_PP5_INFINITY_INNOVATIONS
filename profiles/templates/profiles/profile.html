@@ -29,7 +29,31 @@
 
             <div class="profile-order-history-container container-col">
                 <p class="profile-section-sub-heading dark-text">Order History</p>
-                {{ orders }}
+                <div class="order-history-heading-container container-row">
+                    <div class="order-history-heading order-num-col dark-text">Order Number</div>
+                    <div class="order-history-heading order-date-col dark-text">Date</div>
+                    <div class="order-history-heading order-items-col dark-text">Items</div>
+                    <div class="order-history-heading order-total-col dark-text">Order Total</div>
+                </div>
+                {% for order in orders %}
+                <div class="order-history-item-container container-row">
+                    <a href="{% url 'order_history' order.order_number %}" 
+                    title="{{ order.order_number }}" class="order-num-col dark-text">
+                        {{ order.order_number|truncatechars:6 }}
+                    </a>
+                    <div class="order-date-col dark-text">{{ order.date }}</div>
+                    <div class="order-items-col container-col">
+                        {% for item in order.lineitems.all %}
+                        <div class="dark-text">
+                            {% if item.product.has_themes %}
+                            Theme {{ item.product.theme|upper }}
+                            {% endif %}{{ item.product.name }} x {{ item.quantity }}
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="order-total-col dark-text">{{ order.grand_total }}</div>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>

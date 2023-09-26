@@ -124,7 +124,11 @@
             </div>
         </div>
 
+        {% if from_profile %}
+        <a href="{% url 'profile' %}" class="btn">Return to Profile</a>
+        {% else %}
         <a href="{% url 'products' %}" class="btn">Continue Shopping</a>
+        {% endif %}
     </div>
 </section>
 
