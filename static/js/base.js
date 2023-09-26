@@ -23,3 +23,15 @@ headerDropdownHeadings.forEach((heading, index) => {
         });
     });
 });
+
+const accountHeader = document.querySelector(".account-header-container");
+const accountCartContainer = document.querySelector(".account-cart-container");
+const accountDropdownContainer = document.querySelector(".account-header-dropdown-container");
+
+accountHeader.addEventListener("mouseenter", () => {
+    accountDropdownContainer.style.display = "flex";
+
+    accountCartContainer.addEventListener("mouseleave", () => {
+        accountDropdownContainer.style.display = "none";
+    });
+});

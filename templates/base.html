@@ -48,12 +48,22 @@
             </form>
 
             <div class="account-cart-container container-row">
-                <a href="{% url 'profile' %}" class="account-header-container container-col">
+                <div class="account-header-container container-col">
                     <div class="account-header-img-container img-container">
 
                     </div>
                     <div class="account-header-text dark-text">My Account</div>
-                </a>
+                    
+                </div>
+                <div class="account-header-dropdown-container container-col">
+                    {% if user.is_authenticated %}
+                    <a href="{% url 'profile' %}" class="account-link">View Profile</a>
+                    <a href="{% url 'account_logout' %}" class="account-link">Log Out</a>
+                    {% else %}
+                    <a href="{% url 'account_login' %}" class="account-link">Log In</a>
+                    <a href="{% url 'account_signup' %}" class="account-link">Register</a>
+                    {% endif %}
+                </div>
 
                 <a href="{% url 'view_cart' %}" class="cart-header-container container-col">
                     <div class="cart-header-img-container img-container">

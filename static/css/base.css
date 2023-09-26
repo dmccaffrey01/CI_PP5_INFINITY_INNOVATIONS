@@ -172,6 +172,8 @@ header {
 .account-cart-container {
     width: 400px;
     gap: 30px;
+    position: relative;
+    height: 100%;
 }
 
 .account-header-container,
@@ -185,6 +187,18 @@ header {
     height: 60px;
     border-radius: 50%;
     background-color: var(--MAIN-1);
+}
+
+.account-header-dropdown-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    padding: 20px;
+    background-color: var(--GRAY-LIGHT-1);
+    width: 250px;
+    z-index: 11;
+    height: 110px;
+    gap: 10px;
 }
 
 /* Bottom Header */

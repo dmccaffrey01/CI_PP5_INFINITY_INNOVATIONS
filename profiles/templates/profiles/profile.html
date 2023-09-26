@@ -10,6 +10,28 @@
 <section class="profile-section section">
     <div class="profile-section-container section-container container-col">
         <div class="profile-section-heading dark-text">Profile</div>
+
+        <div class="profile-section-wrapper container-row">
+            <div class="profile-update-form-container container-col">
+                <p class="profile-section-sub-heading dark-text">Default Delivery Information</p>
+                <form action="{% url 'profile' %}" id="profile-update-form" method="POST" class="container-col">
+                    {% csrf_token %}
+                    {{ form.default_phone_number}}
+                    {{ form.default_street_address1 }}
+                    {{ form.default_street_address2 }}
+                    {{ form.default_town_or_city }}
+                    {{ form.default_county}}
+                    {{ form.default_postcode}}
+                    {{ form.default_country}}
+                    <button class="btn">Update Information</button>
+                </form>
+            </div>
+
+            <div class="profile-order-history-container container-col">
+                <p class="profile-section-sub-heading dark-text">Order History</p>
+                {{ orders }}
+            </div>
+        </div>
     </div>
 </section>
 
