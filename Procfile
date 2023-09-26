@@ -1,0 +1,1 @@
+web: gunicorn infinity_innovations.wsgi:application
