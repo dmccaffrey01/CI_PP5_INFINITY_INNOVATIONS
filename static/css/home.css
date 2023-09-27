@@ -1,5 +1,49 @@
 .home-hero-section {
     width: 100%;
-    height: calc(100vh - 200px);
+    height: calc(100vh - 218px);
     background-color: var(--MAIN-1);
+    position: relative;
+}
+
+.home-hero-img-container {
+    width: 100%;
+    height: 100%;
+}
+
+.home-hero-img {
+    width: 100%;
+    height: auto;
+}
+
+.home-hero-heading-container {
+    position: absolute;
+    left: 70px;
+    top: 50%;
+    transform: translateY(-50%);
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.hhh-1,
+.hhh-2 {
+    font-size: 4rem;
+    color: var(--WHITE);
+}
+
+.hhh-3 {
+    color: var(--WHITE);
+    font-size: 2.5rem;
+}
+
+.hhh-btn {
+    margin-left: 40px;
+}
+
+.home-hero-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: var(--TRANSPARENT-DARK-1);
+    position: absolute;
+    left: 0;
+    top: 0;
 }

@@ -55,19 +55,20 @@
                         <img src="{{ MEDIA_URL }}account.png" alt="Logo" class="img-100a">
                     </div>
                     <div class="account-header-text dark-text">My Account</div>
-                    
                     <div class="account-header-dropdown-container container-col">
-                        {% if user.is_authenticated %}
-                        <a href="{% url 'profile' %}" class="account-link dark-text">View Profile</a>
-                        <a href="{% url 'account_logout' %}" class="account-link dark-text">Log Out</a>
-                        {% else %}
-                        <a href="{% url 'account_login' %}" class="account-link dark-text">Log In</a>
-                        <a href="{% url 'account_signup' %}" class="account-link dark-text">Register</a>
-                        {% endif %}
+                        <div class="account-header-dropdown-wrapper container-col">
+                            {% if user.is_authenticated %}
+                            <a href="{% url 'profile' %}" class="account-link dark-text">View Profile</a>
+                            <a href="{% url 'account_logout' %}" class="account-link dark-text">Log Out</a>
+                            {% else %}
+                            <a href="{% url 'account_login' %}" class="account-link dark-text">Log In</a>
+                            <a href="{% url 'account_signup' %}" class="account-link dark-text">Register</a>
+                            {% endif %}
+                        </div>
                     </div>
                 </div>
 
-                <a href="{% url 'view_cart' %}" class="cart-header-container container-col">
+                <div class="cart-header-container container-col">
                     {% if grand_total %}
                     <div class="cart-header-img-container img-container">
                         <img src="{{ MEDIA_URL }}shopping-cart-fill.png" alt="Shopping Cart Fill" class="img-100a">
@@ -76,30 +77,36 @@
                         $<span class="cart-grand-total">{{ grand_total|floatformat:2 }}</span>
                     </div>
                     <div class="cart-header-dropdown-container container-col">
-                        <div class="dark-text">{{ product_count }} item(s) in cart</div>
-                        <div class="cart-header-total-breakdown container-col">
-                            <div class="total-breakdown-item-container container-row">
-                                <div class="breakdown-heading dark-text">Sub Total:</div>
-                                <div class="dark-text">${{ discounted_total|floatformat:2 }}</div>
-                            </div>
-                            
-                            <div class="total-breakdown-item-container container-row">
-                                <div class="breakdown-heading dark-text">Deliver:</div>
-                                <div class="dark-text">${{ delivery|floatformat:2 }}</div>
-                            </div>
+                        <div class="cart-header-dropdown-wrapper container-col">
+                            <div class="cart-header-total-breakdown container-col">
+                                <div class="total-breakdown-item-container container-row">
+                                    <div class="breakdown-heading dark-text">{{ product_count }} item(s) in cart</div>
+                                    <a href="{% url 'view_cart' %}" class="view-cart-link dark-text">View Cart</a>
+                                </div>
 
-                            <div class="total-breakdown-item-container container-row">
-                                <div class="breakdown-heading dark-text">Grand Total:</div>
-                                <div class="dark-text">${{ grand_total|floatformat:2 }}</div>
+                                <div class="total-breakdown-item-container container-row">
+                                    <div class="breakdown-heading dark-text">Sub Total:</div>
+                                    <div class="dark-text">${{ discounted_total|floatformat:2 }}</div>
+                                </div>
+                                
+                                <div class="total-breakdown-item-container container-row">
+                                    <div class="breakdown-heading dark-text">Deliver:</div>
+                                    <div class="dark-text">${{ delivery|floatformat:2 }}</div>
+                                </div>
+
+                                <div class="total-breakdown-item-container container-row">
+                                    <div class="breakdown-heading dark-text">Grand Total:</div>
+                                    <div class="dark-text">${{ grand_total|floatformat:2 }}</div>
+                                </div>
                             </div>
-                        </div>
                         
-                        <a href="{% url 'checkout' %}" class="cart-header-checkout-btn btn">
-                            <span class="fa-icon">
-                                <i class="fa-solid fa-lock"></i>
-                            </span>
-                            Secure Checkout
-                        </a>
+                            <a href="{% url 'checkout' %}" class="cart-header-checkout-btn btn">
+                                <span class="fa-icon">
+                                    <i class="fa-solid fa-lock"></i>
+                                </span>
+                                Secure Checkout
+                            </a>
+                        </div>
                     </div>
                     {% else %}
                     <div class="cart-header-img-container img-container">
@@ -109,7 +116,7 @@
                         $0.00
                     </div>
                     {% endif %}
-                </a>
+                </div>
             </div>
         </div>
 

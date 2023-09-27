@@ -8,7 +8,19 @@
 {% block content %}
 
 <section class="home-hero-section">
-    
+    <div class="home-hero-img-container img-container">
+        <img src="{{ MEDIA_URL }}home-2.png" alt="Home Hero" class="home-hero-img">
+    </div>
+    <div class="home-hero-overlay"></div>
+    <div class="home-hero-heading-container container-col">
+        <h2 class="home-hero-heading hhh-1">Unlock Infinite Worlds</h2>
+        <h1 class="home-hero-heading hhh-2">with Infinity Innovations</h1>
+        <h2 class="home-hero-subheading hhh-3">Your Gateway to the Metaverse!</h2>
+        <a href="{% url 'products' %}" class="hhh-btn btn">
+            <span class="fa-icon"><i class="fa-solid fa-shop"></i></span>
+            Enter Our Shop
+        </a>
+    </div>
 </section>
 
 {% endblock %}
