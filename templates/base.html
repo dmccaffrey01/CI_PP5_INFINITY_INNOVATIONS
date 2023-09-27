@@ -35,12 +35,12 @@
   <body>
     <header class="container-col">
         <div class="top-header-container container-row ">
-            <div class="logo-header-container container-row">
+            <a href="{% url 'home' %}" class="logo-header-container container-row">
                 <div class="logo-img-container img-container">
-                    
+                    <img src="{{ MEDIA_URL }}logo-1a.png" alt="Logo" class="img-100a">
                 </div>
                 <h1 class="logo-text dark-text">Infinity Innovations</h1>
-            </div>
+            </a>
 
             <form class="search-header-container container-row" method="GET" action="{% url 'products' %}">
                 <input type="text" class="search-products-header-input" name="q" placeholder="Search our site">
@@ -52,32 +52,63 @@
             <div class="account-cart-container container-row">
                 <div class="account-header-container container-col">
                     <div class="account-header-img-container img-container">
-
+                        <img src="{{ MEDIA_URL }}account.png" alt="Logo" class="img-100a">
                     </div>
                     <div class="account-header-text dark-text">My Account</div>
                     
-                </div>
-                <div class="account-header-dropdown-container container-col">
-                    {% if user.is_authenticated %}
-                    <a href="{% url 'profile' %}" class="account-link">View Profile</a>
-                    <a href="{% url 'account_logout' %}" class="account-link">Log Out</a>
-                    {% else %}
-                    <a href="{% url 'account_login' %}" class="account-link">Log In</a>
-                    <a href="{% url 'account_signup' %}" class="account-link">Register</a>
-                    {% endif %}
+                    <div class="account-header-dropdown-container container-col">
+                        {% if user.is_authenticated %}
+                        <a href="{% url 'profile' %}" class="account-link dark-text">View Profile</a>
+                        <a href="{% url 'account_logout' %}" class="account-link dark-text">Log Out</a>
+                        {% else %}
+                        <a href="{% url 'account_login' %}" class="account-link dark-text">Log In</a>
+                        <a href="{% url 'account_signup' %}" class="account-link dark-text">Register</a>
+                        {% endif %}
+                    </div>
                 </div>
 
                 <a href="{% url 'view_cart' %}" class="cart-header-container container-col">
+                    {% if grand_total %}
                     <div class="cart-header-img-container img-container">
-
+                        <img src="{{ MEDIA_URL }}shopping-cart-fill.png" alt="Shopping Cart Fill" class="img-100a">
                     </div>
                     <div class="cart-header-text dark-text">
-                        {% if grand_total %}
                         $<span class="cart-grand-total">{{ grand_total|floatformat:2 }}</span>
-                        {% else %}
-                        $0.00
-                        {% endif %}
                     </div>
+                    <div class="cart-header-dropdown-container container-col">
+                        <div class="dark-text">{{ product_count }} item(s) in cart</div>
+                        <div class="cart-header-total-breakdown container-col">
+                            <div class="total-breakdown-item-container container-row">
+                                <div class="breakdown-heading dark-text">Sub Total:</div>
+                                <div class="dark-text">${{ discounted_total|floatformat:2 }}</div>
+                            </div>
+                            
+                            <div class="total-breakdown-item-container container-row">
+                                <div class="breakdown-heading dark-text">Deliver:</div>
+                                <div class="dark-text">${{ delivery|floatformat:2 }}</div>
+                            </div>
+
+                            <div class="total-breakdown-item-container container-row">
+                                <div class="breakdown-heading dark-text">Grand Total:</div>
+                                <div class="dark-text">${{ grand_total|floatformat:2 }}</div>
+                            </div>
+                        </div>
+                        
+                        <a href="{% url 'checkout' %}" class="cart-header-checkout-btn btn">
+                            <span class="fa-icon">
+                                <i class="fa-solid fa-lock"></i>
+                            </span>
+                            Secure Checkout
+                        </a>
+                    </div>
+                    {% else %}
+                    <div class="cart-header-img-container img-container">
+                        <img src="{{ MEDIA_URL }}shopping-cart-empty.png" alt="Shipping Cart Empty" class="img-100a">
+                    </div>
+                    <div class="cart-header-text dark-text">
+                        $0.00
+                    </div>
+                    {% endif %}
                 </a>
             </div>
         </div>

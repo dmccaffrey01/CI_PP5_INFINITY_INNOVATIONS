@@ -27,11 +27,23 @@ headerDropdownHeadings.forEach((heading, index) => {
 const accountHeader = document.querySelector(".account-header-container");
 const accountCartContainer = document.querySelector(".account-cart-container");
 const accountDropdownContainer = document.querySelector(".account-header-dropdown-container");
+const cartHeader = document.querySelector(".cart-header-container");
+const cartDropdownContainer = document.querySelector(".cart-header-dropdown-container");
 
 accountHeader.addEventListener("mouseenter", () => {
     accountDropdownContainer.style.display = "flex";
+    cartDropdownContainer.style.display = "none";
+
+    accountHeader.addEventListener("mouseleave", () => {
+        accountDropdownContainer.style.display = "none";
+    });
+});
+
+cartHeader.addEventListener("mouseenter", () => {
+    cartDropdownContainer.style.display = "flex";
+    accountDropdownContainer.style.display = "none";
 
     accountCartContainer.addEventListener("mouseleave", () => {
-        accountDropdownContainer.style.display = "none";
+        cartDropdownContainer.style.display = "none";
     });
 });

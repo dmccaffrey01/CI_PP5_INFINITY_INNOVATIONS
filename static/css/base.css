@@ -22,7 +22,7 @@
     --TRANSPARENT-LIGHT-2: #f5f5f541;
     --GREEN-1: #4ec437;
     --RED-1: #d31d1d;
-    --MAIN-1: #eea724;
+    --MAIN-1: #ffa351;
 }
 
 body {
@@ -178,27 +178,69 @@ header {
 
 .account-header-container,
 .cart-header-container {
-    gap: 5px
+    gap: 5px;
+    cursor: pointer;
+    position: relative;
+    height: 100%;
 }
 
 .cart-header-img-container,
 .account-header-img-container {
     width: 60px;
     height: 60px;
-    border-radius: 50%;
-    background-color: var(--MAIN-1);
 }
 
-.account-header-dropdown-container {
+.account-header-dropdown-container,
+.cart-header-dropdown-container {
     display: none;
     position: absolute;
     top: 100%;
-    padding: 20px;
+    padding: 20px 40px 30px 40px;
     background-color: var(--GRAY-LIGHT-1);
-    width: 250px;
     z-index: 11;
-    height: 110px;
-    gap: 10px;
+    gap: 15px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.cart-header-dropdown-container .dark-text {
+    text-align: center;
+}
+
+.account-link {
+    position: relative;
+}
+
+.account-link::after {
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    transition: all 0.3s ease;
+    bottom: -3px;
+    background-color: var(--MAIN-1);
+    content: "";
+    left: 0;
+}
+
+.account-link:hover::after {
+    width: 100%;
+}
+
+.cart-header-dropdown-container {
+    width: 400px;
+}
+
+.cart-header-total-breakdown {
+    width: 300px;
+    gap: 10px
+}
+
+.cart-header-checkout-btn .fa-icon {
+    margin-right: 10px;
+}
+
+.total-breakdown-item-container {
+    width: 100%;
+    justify-content: space-between;
 }
 
 /* Bottom Header */
@@ -279,6 +321,27 @@ header {
     font-size: 1.3rem;
     flex-basis: 50%;
     margin-top: 15px;
+    position: relative;
+}
+
+.bottom-header-dropdown-link::after,
+.bottom-header-dropdown-item-ending::after {
+    position: absolute;
+    width: 0px;
+    height: 3px;
+    transition: all 0.3s ease;
+    bottom: -3px;
+    background-color: var(--MAIN-1);
+    content: "";
+    left: 0;
+}
+
+.bottom-header-dropdown-link:hover::after {
+    width: 75%;
+}
+
+.bottom-header-dropdown-item-ending:hover::after {
+    width: 50%;
 }
 
 .bottom-header-dropdown-item {
@@ -292,6 +355,7 @@ header {
     flex-basis: 100%;
     text-align: left;
     margin-top: 15px;
+    position: relative;
 }
 
 /* Discount Displays */
