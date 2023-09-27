@@ -67,7 +67,6 @@ def all_products(request, universe):
 
 
     current_sorting = f'{sort}_{direction}'
-
     context = {
         'products': products,
         'search_term': query,

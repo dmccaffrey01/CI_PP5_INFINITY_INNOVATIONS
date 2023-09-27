@@ -85,3 +85,58 @@
 .atc-add-container {
     gap: 20px;
 }
+
+/* Product Filter Select */
+
+.custom-select-filter-container {
+    width: 300px;
+    padding: 10px 20px;
+    border: 2px solid var(--MAIN-1);
+    border-radius: 5px;
+    justify-content: space-between;
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-select-filter-container i,
+.custom-select-filter-heading {
+    color: var(--MAIN-1);
+    font-size: 1.5rem;
+}
+
+.custom-select-filter-container i {
+    transition: all 0.2s ease;
+}
+
+.custom-select-filter-container.nothing-selected {
+    border: 2px solid var(--GRAY-DARK-2);
+}
+
+.custom-select-filter-container.nothing-selected i,
+.custom-select-filter-container.nothing-selected .custom-select-filter-heading {
+    color: var(--GRAY-DARK-2);
+}
+
+.custom-select-filter-dropdown-container {
+    display: none;
+    position: absolute;
+    top: calc(100% + 10px);
+    width: 300px;
+    border: 2px solid var(--MAIN-1);
+    align-items: flex-start;
+    left: 0;
+    background-color: var(--GRAY-LIGHT-1);
+    border-radius: 5px;
+    z-index: 99;
+    height: 200px;
+    overflow-y: scroll;
+    justify-content: flex-start;
+    gap: 5px
+}
+
+.custom-select-filter-dropdown-container .dropdown-value {
+    cursor: pointer;
+    width: 250px;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
