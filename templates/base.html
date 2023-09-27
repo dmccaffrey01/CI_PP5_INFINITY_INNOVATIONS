@@ -174,7 +174,7 @@
                     <div class="bottom-header-dropdown-item container-row">
                         <h3 class="bottom-header-dropdown-item-heading">By Brand</h3>
                         {% for brand in all_digital_brands %}
-                        <a href="{% url 'real_products' %}?brand={{ brand.name }}" class="bottom-header-dropdown-link">{{ brand.friendly_name }}</a>
+                        <a href="{% url 'digital_products' %}?brand={{ brand.name }}" class="bottom-header-dropdown-link">{{ brand.friendly_name }}</a>
                         {% endfor %}
                         <a href="{% url 'digital_products' %}" class="bottom-header-dropdown-item-ending">All Brands</a>
                     </div>

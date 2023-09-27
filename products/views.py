@@ -54,7 +54,7 @@ def all_products(request, universe):
             brands = request.GET['brand'].split(',')
             products = products.filter(brand__name__in=brands)
             brands = Brand.objects.filter(name__in=brands)
-        
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -89,7 +89,6 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
-
 
 
 
