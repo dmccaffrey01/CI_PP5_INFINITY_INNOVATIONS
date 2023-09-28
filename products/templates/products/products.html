@@ -31,7 +31,7 @@
             </div>
         </div>
 
-        <div class="custom-select-filter-container container-row {% if current_universe == 'all' %}noting-selected{% endif %}" id="universe-filter-selector" data-filter-type="universe">
+        <div class="custom-select-filter-container container-row {% if current_universe == 'all' %}nothing-selected{% endif %}" id="universe-filter-selector" data-filter-type="universe">
             <div class="custom-select-filter-heading dark-text">Universe</div>
 
             <i class="fa-solid fa-chevron-down"></i>
@@ -56,11 +56,34 @@
                 {% endfor %}
                 {% elif current_universe == 'digital' %}
                 {% for category in all_digital_categories %}
-                <div class="dropdown-value dark-text {% if category.name in current_categories %}selected{% endif %}" data-select-value="{{ category.name }}">{{ category.friendly_name }}</div>
+                <div class="dropdown-value dark-text {% if category in current_categories %}selected{% endif %}" data-select-value="{{ category.name }}">{{ category.friendly_name }}</div>
                 {% endfor %}
                 {% else %}
                 {% for category in all_categories %}
-                <div class="dropdown-value dark-text {% if category.name in current_categories %}selected{% endif %}" data-select-value="{{ category.name }}">{{ category.friendly_name }}</div>
+                <div class="dropdown-value dark-text {% if category in current_categories %}selected{% endif %}" data-select-value="{{ category.name }}">{{ category.friendly_name }}</div>
+                {% endfor %}
+                {% endif %}
+            </div>
+        </div>
+
+        <div class="custom-select-filter-container container-row {% if current_brands == None %}nothing-selected{% endif %}" id="brand-filter-selector" data-filter-type="brand">
+            <div class="custom-select-filter-heading dark-text">Brand</div>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+            <div class="custom-select-filter-dropdown-container container-col">
+                <div class="dropdown-value dark-text {% if current_brands == None %}selected{% endif %}" data-select-value="reset">Brand (reset)</div>
+                {% if current_universe == 'real' %}
+                {% for brand in all_real_brands %}
+                <div class="dropdown-value dark-text {% if brand in current_brands %}selected{% endif %}" data-select-value="{{ brand.name }}">{{ brand.friendly_name }}</div>
+                {% endfor %}
+                {% elif current_universe == 'digital' %}
+                {% for brand in all_digital_brands %}
+                <div class="dropdown-value dark-text {% if brand in current_brands %}selected{% endif %}" data-select-value="{{ brand.name }}">{{ brand.friendly_name }}</div>
+                {% endfor %}
+                {% else %}
+                {% for brand in all_brands %}
+                <div class="dropdown-value dark-text {% if brand in current_brands %}selected{% endif %}" data-select-value="{{ brand.name }}">{{ brand.friendly_name }}</div>
                 {% endfor %}
                 {% endif %}
             </div>

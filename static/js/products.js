@@ -45,9 +45,22 @@ const updateFilterURL = (valueElement, type) => {
 
         if (selectedVal != "reset") {
             if (currentUrl.searchParams.has("category")) {
-                let existingCategory = currentUrl.searchParams.get("category");
-                currentUrl.searchParams.set("category", existingCategory + "," + selectedVal);
-                
+                let existingCategories = currentUrl.searchParams.get("category");
+                let splitCategories = existingCategories.split(",");
+
+                let indexOfSelectedVal = splitCategories.indexOf(selectedVal);
+                if (indexOfSelectedVal !== -1) {
+                    splitCategories.splice(indexOfSelectedVal, 1);
+
+                    let remainingCategories = splitCategories.join(",");
+                    if (remainingCategories) {
+                        currentUrl.searchParams.set("category", remainingCategories);
+                    } else {
+                        currentUrl.searchParams.delete("category");
+                    }
+                } else {
+                    currentUrl.searchParams.set("category", existingCategories + "," + selectedVal);
+                }
             } else {
                 currentUrl.searchParams.set("category", selectedVal);
             }
@@ -55,6 +68,37 @@ const updateFilterURL = (valueElement, type) => {
             window.location.replace(currentUrl);
         } else {
             currentUrl.searchParams.delete("category");
+
+            window.location.replace(currentUrl);
+        }
+    } else if (type == "brand") {
+        let currentUrl = new URL(window.location.href);
+
+        if (selectedVal != "reset") {
+            if (currentUrl.searchParams.has("brand")) {
+                let existingBrands = currentUrl.searchParams.get("brand");
+                let splitBrands = existingBrands.split(",");
+
+                let indexOfSelectedVal = splitBrands.indexOf(selectedVal);
+                if (indexOfSelectedVal !== -1) {
+                    splitBrands.splice(indexOfSelectedVal, 1);
+
+                    let remainingBrands = splitBrands.join(",");
+                    if (remainingBrands) {
+                        currentUrl.searchParams.set("brand", remainingBrands);
+                    } else {
+                        currentUrl.searchParams.delete("brand");
+                    }
+                } else {
+                    currentUrl.searchParams.set("brand", existingBrands + "," + selectedVal);
+                }
+            } else {
+                currentUrl.searchParams.set("brand", selectedVal);
+            }
+
+            window.location.replace(currentUrl);
+        } else {
+            currentUrl.searchParams.delete("brand");
 
             window.location.replace(currentUrl);
         }
