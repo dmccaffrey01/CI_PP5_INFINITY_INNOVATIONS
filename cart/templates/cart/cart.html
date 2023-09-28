@@ -15,16 +15,16 @@
         {% if cart_items %}
         <div class="cart-items-container container-col">
             <div class="cart-item-heading-container container-row">
-                <p class="product-info-heading product-info-row-container container-row">
+                <p class="product-info-heading product-info-row-container container-row dark-text">
                     <strong>Product Info</strong>
                 </p>
-                <p class="product-price-heading product-price-row-container container-row">
+                <p class="product-price-heading product-price-row-container container-row dark-text">
                     <strong>Price</strong>
                 </p>
-                <p class="product-qty-heading product-qty-row-container container-row">
+                <p class="product-qty-heading product-qty-row-container container-row dark-text">
                     <strong>Qty</strong>
                 </p>
-                <p class="product-subtotal-heading product-subtotal-row-container container-row">
+                <p class="product-subtotal-heading product-subtotal-row-container container-row dark-text">
                     <strong>Subtotal</strong>
                 </p>
             </div>
@@ -97,6 +97,7 @@
         <div class="cart-total-container container-col">
             <div class="cart-delivery-total-container container-col">
                 <div class="cart-total-text dark-text">Cart Total: ${{ total|floatformat:2 }}</div>
+                <div class="cart-real-world-text dark-text">Real Items Total: ${{ real_items_total|floatformat:2 }}</div>
                 <div class="cart-delivery-text dark-text">Delivery: ${{ delivery|floatformat:2 }}</div>
             </div>
             <div class="grand-total-text dark-text">
@@ -110,14 +111,26 @@
         </div>
 
         <div class="checkout-return-btns-container container-row">
-            <a href="{% url 'products' %}" class="keep-shopping-btn btn">Keep Shopping</a>
-            <a href="{% url 'checkout' %}" class="btn checkout-btn">Secure Checkout</a>
+            <a href="{% url 'products' %}" class="keep-shopping-btn btn">
+                <span class="fa-icon"><i class="fa-solid fa-chevron-left"></i></span>
+                Keep Shopping
+            </a>
+            <a href="{% url 'checkout' %}" class="btn checkout-btn">
+                <span class="fa-icon">
+                    <i class="fa-solid fa-lock"></i>
+                </span>
+                Secure Checkout
+            </a>
         </div>
 
         {% else %}
         <div class="empty-cart-container container-col">
             <p class="dark-text">Your cart is empty!</p>
-            <a href="{% url 'products' %}" class="keep-shopping-btn btn">Keep Shopping</a>
+            <p class="dark-text">If you spend over $200 you will receive {{ discount_percentage }}% off your order</p>
+            <a href="{% url 'products' %}" class="keep-shopping-btn btn">
+                <span class="fa-icon"><i class="fa-solid fa-chevron-left"></i></span>
+                Keep Shopping
+            </a>
         </div>
         {% endif %}
     </div>
@@ -128,37 +141,4 @@
 {% block postloadjs %}
 {{ block.super }}
 <script src="{% static 'js/quantity-input.js' %}"></script>
-<script type="text/javascript">
-    const updateQtyBtns = document.querySelectorAll(".update-qty-btn");
-    const removeItemBtns = document.querySelectorAll(".remove-item-btn");
-
-    updateQtyBtns.forEach((btn) => {
-        btn.addEventListener("click", (e) => {
-            let form = btn.parentElement.parentElement.querySelector(".update-qty-form");
-            form.submit();
-        });
-    });
-
-    removeItemBtns.forEach((btn) => {
-        btn.addEventListener("click", (e) => {
-            let csrfToken = document.querySelector('input[name="csrfmiddlewaretoken"]').value;
-            let itemId = btn.getAttribute("id").split("remove_")[1];
-            let theme = btn.getAttribute("data-product_theme");
-
-            let form = new FormData();
-            form.append("csrfmiddlewaretoken", csrfToken);
-            form.append("product_theme", theme);
-
-            let url = `/cart/remove/${itemId}/`;
-
-            fetch(url, {
-                method: "POST",
-                body: form,
-            })
-            .then(() => {
-                location.reload();
-            });
-        });
-    });
-</script>
 {% endblock %}

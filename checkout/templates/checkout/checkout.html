@@ -27,18 +27,18 @@
                     <div class="delivery-checkout-form-container container-col">
                         <p class="checkout-form-heading dark-text">Delivery</p>
                         {{ order_form.phone_number}}
+                        {{ order_form.country}}
+                        {{ order_form.postcode}}
                         {{ order_form.street_address1 }}
                         {{ order_form.street_address2 }}
                         {{ order_form.town_or_city }}
                         {{ order_form.county}}
-                        {{ order_form.postcode}}
-                        {{ order_form.country}}
                     </div>
 
                     <div class="save-info-checkout-form-container container-row">
                         {% if user.is_authenticated %}
-                        <label for="id-save-info" class="form-check-label">Save this delivery information to my profile</label>
                         <input type="checkbox" id="id-save-info" class="form-check-input" name="save-info" checked>
+                        <label for="id-save-info" class="form-check-label dark-text">Save delivery information</label>
                         {% else %}
                         <label for="id-save-info" class="form-check-label">
                             <a href="{% url 'account_signup' %}" class="dark-text">Create an account</a> or
@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="stipe-card-form-container container-col">
-                        <div class="card-heading dark-text">Payment</div>
+                        <div class="stripe-card-heading dark-text">Payment</div>
                         <div class="stripe-card-element-container">
                             <div id="card-element">
         
@@ -59,16 +59,22 @@
                     </div>
 
                     <div class="submit-checkout-form-container container-col">
-                        <a href="{% url 'view_cart' %}" class="btn">Adjust Cart</a>
-
                         <button class="btn" id="submit-button">
-                            Complete Order
+                            <span class="fa-icon">
+                                <i class="fa-solid fa-credit-card"></i>
+                            </span>
+                            Complete
                         </button>
 
-                        <p class="charged-amount dark-text">
-                            Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong>
-                        </p>
+                        <a href="{% url 'view_cart' %}" class="adjuct-cart-btn btn">
+                            <span class="fa-icon"><i class="fa-solid fa-chevron-left"></i></span>
+                            Adjust Cart
+                        </a>
                     </div>
+
+                    <p class="charged-amount dark-text">
+                        Your card will be charged <strong>${{ grand_total|floatformat:2 }}</strong>
+                    </p>
 
                 </form>
             </div>
@@ -77,7 +83,7 @@
                 <div class="cart-summary-heading dark-text">Order Summary ({{ product_count }})</div>
                 <div class="cart-summary-heading-container container-row">
                     <div class="cart-summary-item-heading dark-text">Item</div>
-                    <div class="cart-summary-subtotal-heading dark-text">Subtotal</div>
+                    <div class="cart-summary-subtotal-heading container-col dark-text">Subtotal</div>
                 </div>
                 {% for item in cart_items %}
                 <div class="cart-summary-product-container container-row">
@@ -91,15 +97,31 @@
                         </a>
 
                         <div class="cart-summary-product-info-container container-col">
-                            <p class="name-summary dark-text">{{ item.product.name }}</p>
-                            <p class="theme-summary dark-text">{{ item.theme|upper }}</p>
-                            <p class="qty-summary dark-text">{{ item.quantity }}</p>
+                            <p class="name-summary dark-text"><strong>Name:</strong> {{ item.product.name }}</p>
+                            <p class="theme-summary dark-text"><strong>Theme:</strong> {{ item.theme|upper }}</p>
+                            <p class="qty-summary dark-text"><strong>Qty:</strong> {{ item.quantity }}</p>
                         </div>
                     </div>
 
-                    <div class="summary-subtotal dark-text">${{ item.product.price | calc_subtotal:item.quantity }}</div>
+                    <div class="summary-subtotal container-col dark-text">${{ item.product.price | calc_subtotal:item.quantity }}</div>
                 </div>
                 {% endfor %}
+
+                <div class="cart-total-container container-col">
+                    <div class="cart-delivery-total-container container-col">
+                        <div class="cart-total-text dark-text">Cart Total: ${{ total|floatformat:2 }}</div>
+                        <div class="cart-real-world-text dark-text">Real Items Total: ${{ real_items_total|floatformat:2 }}</div>
+                        <div class="cart-delivery-text dark-text">Delivery: ${{ delivery|floatformat:2 }}</div>
+                    </div>
+                    <div class="grand-total-text dark-text">
+                        <strong>Grand Total: ${{ grand_total|floatformat:2 }}</strong>
+                    </div>
+                    {% if discount_delta > 0 %}
+                    <p class="discount-delta-text dark-text">
+                        You can get {{ discount_percentage }}$ off by spending <strong>${{ discount_delta }}</strong> more!
+                    </p>
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>

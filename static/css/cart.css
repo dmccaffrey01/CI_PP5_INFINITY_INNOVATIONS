@@ -87,3 +87,73 @@
 .checkout-return-btns-container {
     gap: 20px;
 }
+
+.empty-cart-container {
+    width: 100%;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.atc-qauntity-input-container .qty_input {
+    width: 100%;
+    border: 2px solid var(--GRAY-DARK-1);
+    border-radius: 30px;
+    font-size: 1.5rem;
+    color: var(--GRAY-DARK-1);
+    padding: 10px 20px 10px 70px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.atc-qauntity-input-container {
+    width: 100%;
+    position: relative;
+}
+
+.update-qty-form {
+    width: 75%;
+}
+
+.atc-qauntity-input-container .decrement-qty,
+.atc-qauntity-input-container .increment-qty {
+    position: absolute;
+    width: 20px;
+    height: 100%;
+}
+
+.atc-qauntity-input-container .decrement-qty {
+    left: 0;
+    border-radius: 10px 0 0 10px;
+    border: 2px solid var(--GRAY-DARK-1);
+    border-right: none !important;
+}
+
+.atc-qauntity-input-container .increment-qty {
+    right: 0;
+    border-radius: 0px 10px 10px 0px;
+    border: 2px solid var(--GRAY-DARK-1);
+    border-left: none !important;
+}
+
+.adjust-cart-btns-container {
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 20px;
+}
+
+.adjust-cart-btns-container .btn{
+    width: 120px;
+}
+
+.update-qty-btn {
+    background: var(--GREEN-1);
+}
+
+.remove-item-btn {
+    background: var(--RED-1);
+}
+
+.keep-shopping-btn {
+    background-color: var(--GRAY-DARK-1);
+}

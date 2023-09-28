@@ -6,7 +6,19 @@ let clientSecret = clientSecretElement.textContent.slice(1, -1);
 
 let stripe = Stripe(stripePublicKey);
 let elements = stripe.elements();
-let card = elements.create('card');
+let style = {
+    base: {
+        color: '#333333',
+        fontFamily: 'Roboto, sans-serif',
+        fontSmoothing: 'antialiiased',
+        fontSize: '16px',
+    },
+    invalid: {
+        iconColor: 'd31d1d',
+        color: '#333333',
+    }
+}
+let card = elements.create('card', {style: style});
 card.mount('#card-element');
 
 // Handle realtime validation error on the card element

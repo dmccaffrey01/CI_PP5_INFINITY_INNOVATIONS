@@ -23,7 +23,7 @@ def cart_contents(request):
                 'product': product,
             })
 
-            if product.category == "real":
+            if product.category.universe == "real":
                 real_items_total += product.price
         else:
             product = get_object_or_404(Product, pk=item_id)
@@ -37,7 +37,7 @@ def cart_contents(request):
                     'theme': theme,
                 })
 
-                if product.category == "real":
+                if product.category.universe == "real":
                     real_items_total += product.price
 
     if total >= settings.DISCOUNT_THRESHOLD:
@@ -47,7 +47,10 @@ def cart_contents(request):
         discounted_total = total
         discount_delta = settings.DISCOUNT_THRESHOLD - total
 
-    delivery = real_items_total * Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
+    if real_items_total > 0:
+        delivery = Decimal(settings.STANDARD_DELIVERY_COST)
+    else:
+        delivery = 0
 
     grand_total = delivery + discounted_total
 

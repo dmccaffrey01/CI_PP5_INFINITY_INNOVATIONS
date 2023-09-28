@@ -79,9 +79,9 @@
 
 .account-form-card-input-container input {
     width: 100%;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 20px 10px 20px;
     font-size: 1.5rem;
-    border-radius: 30px;
+    border-radius: 10px;
     border: 2px solid var(--GRAY-DARK-1);
     color: var(--GRAY-DARK-1);
 }

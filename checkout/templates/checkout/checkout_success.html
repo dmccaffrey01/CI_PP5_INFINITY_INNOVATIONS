@@ -125,9 +125,15 @@
         </div>
 
         {% if from_profile %}
-        <a href="{% url 'profile' %}" class="btn">Return to Profile</a>
+        <a href="{% url 'profile' %}" class="btn adjuct-cart-btn">
+            <span class="fa-icon"><i class="fa-solid fa-chevron-left"></i></span>
+            Return to Profile
+        </a>
         {% else %}
-        <a href="{% url 'products' %}" class="btn">Continue Shopping</a>
+        <a href="{% url 'products' %}" class="btn adjuct-cart-btn">
+            <span class="fa-icon"><i class="fa-solid fa-chevron-left"></i></span>
+            Continue Shopping
+        </a>
         {% endif %}
     </div>
 </section>

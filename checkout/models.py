@@ -48,7 +48,10 @@ class Order(models.Model):
         else:
             self.discounted_total = self.order_total
         
-        self.delivery_cost = self.real_items_total + Decimal(settings.STANDARD_DELIVERY_PERCENTAGE / 100)
+        if self.real_items_total > 0:
+            self.delivery_cost = Decimal(settings.STANDARD_DELIVERY_COST)
+        else:
+            self.delivery_cost = 0
 
         self.grand_total = self.discounted_total + self.delivery_cost
         self.save()

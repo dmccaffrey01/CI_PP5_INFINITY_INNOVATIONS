@@ -49,3 +49,35 @@ decrementBtns.forEach((btn) => {
         handleEnableDisable(itemId);
     });
 });
+
+const updateQtyBtns = document.querySelectorAll(".update-qty-btn");
+const removeItemBtns = document.querySelectorAll(".remove-item-btn");
+
+updateQtyBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+        let form = btn.parentElement.parentElement.querySelector(".update-qty-form");
+        form.submit();
+    });
+});
+
+removeItemBtns.forEach((btn) => {
+    btn.addEventListener("click", (e) => {
+        let csrfToken = document.querySelector('input[name="csrfmiddlewaretoken"]').value;
+        let itemId = btn.getAttribute("id").split("remove_")[1];
+        let theme = btn.getAttribute("data-product_theme");
+
+        let form = new FormData();
+        form.append("csrfmiddlewaretoken", csrfToken);
+        form.append("product_theme", theme);
+
+        let url = `/cart/remove/${itemId}/`;
+
+        fetch(url, {
+            method: "POST",
+            body: form,
+        })
+        .then(() => {
+            location.reload();
+        });
+    });
+});
