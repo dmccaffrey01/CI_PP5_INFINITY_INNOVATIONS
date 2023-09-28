@@ -11,7 +11,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -26,7 +27,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -41,7 +43,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -56,7 +59,8 @@
             "rating": 3.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -71,7 +75,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -86,7 +91,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -101,7 +107,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -116,7 +123,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -131,7 +139,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -146,7 +155,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -161,7 +171,8 @@
             "rating": 3.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -176,7 +187,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -191,7 +203,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -206,7 +219,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -221,7 +235,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -236,7 +251,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -251,7 +267,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -266,7 +283,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -281,7 +299,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -296,7 +315,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -311,7 +331,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -326,7 +347,8 @@
             "rating": 4.1,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -341,7 +363,8 @@
             "rating": 4.2,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -356,7 +379,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -371,7 +395,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -386,7 +411,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -401,7 +427,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -416,7 +443,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -431,7 +459,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -446,7 +475,8 @@
             "rating": 4.1,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -461,7 +491,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -476,7 +507,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -491,7 +523,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 1
+            "brand": 1,
+            "has_themes": true
         }
     },
     {
@@ -506,7 +539,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -521,7 +555,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -536,7 +571,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 2
+            "brand": 2,
+            "has_themes": true
         }
     },
     {
@@ -551,7 +587,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -566,7 +603,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -581,7 +619,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 3
+            "brand": 3,
+            "has_themes": true
         }
     },
     {
@@ -596,7 +635,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 5
+            "brand": 5,
+            "has_themes": true
         }
     },
     {
@@ -611,7 +651,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 5
+            "brand": 5,
+            "has_themes": true
         }
     },
     {
@@ -626,7 +667,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 5
+            "brand": 5,
+            "has_themes": true
         }
     },
     {
@@ -641,7 +683,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 5
+            "brand": 5,
+            "has_themes": true
         }
     },
     {
@@ -656,7 +699,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 5
+            "brand": 5,
+            "has_themes": true
         }
     },
     {
@@ -671,7 +715,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 5
+            "brand": 5,
+            "has_themes": true
         }
     },
     {
@@ -686,7 +731,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 4
+            "brand": 4,
+            "has_themes": true
         }
     },
     {
@@ -701,7 +747,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 4
+            "brand": 4,
+            "has_themes": true
         }
     },
     {
@@ -716,7 +763,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 4
+            "brand": 4,
+            "has_themes": true
         }
     },
     {
@@ -731,7 +779,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 4
+            "brand": 4,
+            "has_themes": true
         }
     },
     {
@@ -746,7 +795,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 4
+            "brand": 4,
+            "has_themes": true
         }
     },
     {
@@ -761,7 +811,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 4
+            "brand": 4,
+            "has_themes": true
         }
     },
     {
@@ -776,7 +827,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 4
+            "brand": 4,
+            "has_themes": true
         }
     },
     {
@@ -791,7 +843,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 4
+            "brand": 4,
+            "has_themes": true
         }
     },
     {
@@ -806,7 +859,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 4
+            "brand": 4,
+            "has_themes": true
         }
     },
     {
@@ -821,7 +875,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -836,7 +891,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -851,7 +907,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -866,7 +923,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -881,7 +939,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -896,7 +955,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -911,7 +971,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -926,7 +987,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -941,7 +1003,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 6
+            "brand": 6,
+            "has_themes": true
         }
     },
     {
@@ -956,7 +1019,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 6
+            "brand": 6,
+            "has_themes": true
         }
     },
     {
@@ -971,7 +1035,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 6
+            "brand": 6,
+            "has_themes": true
         }
     },
     {
@@ -986,7 +1051,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 6
+            "brand": 6,
+            "has_themes": true
         }
     },
     {
@@ -1001,7 +1067,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 6
+            "brand": 6,
+            "has_themes": true
         }
     },
     {
@@ -1016,7 +1083,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 6
+            "brand": 6,
+            "has_themes": true
         }
     },
     {
@@ -1031,7 +1099,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 6
+            "brand": 6,
+            "has_themes": true
         }
     },
     {
@@ -1046,7 +1115,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 6
+            "brand": 6,
+            "has_themes": true
         }
     },
     {
@@ -1061,7 +1131,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 6
+            "brand": 6,
+            "has_themes": true
         }
     },
     {
@@ -1076,7 +1147,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1091,7 +1163,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1106,7 +1179,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1121,7 +1195,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1136,7 +1211,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1151,7 +1227,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1166,7 +1243,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1181,7 +1259,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1196,7 +1275,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1211,7 +1291,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1226,7 +1307,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1241,7 +1323,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1256,7 +1339,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1271,7 +1355,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1286,7 +1371,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1301,7 +1387,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1316,7 +1403,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1331,7 +1419,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1346,7 +1435,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1361,7 +1451,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1376,7 +1467,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1391,7 +1483,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1406,7 +1499,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1421,7 +1515,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1436,7 +1531,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1451,7 +1547,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1466,7 +1563,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1481,7 +1579,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1496,7 +1595,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1511,7 +1611,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1526,7 +1627,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1541,7 +1643,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1556,7 +1659,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1571,7 +1675,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1586,7 +1691,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1601,7 +1707,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1616,7 +1723,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1631,7 +1739,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1646,7 +1755,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1661,7 +1771,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1676,7 +1787,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1691,7 +1803,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1706,7 +1819,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1721,7 +1835,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1736,7 +1851,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1751,7 +1867,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1766,7 +1883,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1781,7 +1899,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1796,7 +1915,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1811,7 +1931,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1826,7 +1947,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1841,7 +1963,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": false
         }
     },
     {
@@ -1856,7 +1979,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1871,7 +1995,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1886,7 +2011,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1901,7 +2027,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1916,7 +2043,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1931,7 +2059,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1946,7 +2075,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1961,7 +2091,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1976,7 +2107,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -1991,7 +2123,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2006,7 +2139,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2021,7 +2155,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2036,7 +2171,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2051,7 +2187,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2066,7 +2203,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2081,7 +2219,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2096,7 +2235,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2111,7 +2251,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2126,7 +2267,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2141,7 +2283,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2156,7 +2299,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2171,7 +2315,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2186,7 +2331,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2201,7 +2347,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2216,7 +2363,8 @@
             "rating": 4.7,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2231,7 +2379,8 @@
             "rating": 4.6,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2246,7 +2395,8 @@
             "rating": 4.8,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2261,7 +2411,8 @@
             "rating": 4.9,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2276,7 +2427,8 @@
             "rating": 4.5,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2291,7 +2443,8 @@
             "rating": 4.3,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2306,7 +2459,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     },
     {
@@ -2321,7 +2475,8 @@
             "rating": 4.4,
             "image_url": "https://res.cloudinary.com/dzwyiggcp/image/upload/v1695063346/Infinity%20Innovations/template_uf8jz4.png",
             "image": "template.png",
-            "brand": 7
+            "brand": 7,
+            "has_themes": true
         }
     }
 ]

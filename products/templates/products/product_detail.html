@@ -86,8 +86,16 @@
                     </div>
 
                     <div class="atc-add-container container-col">
-                        <input type="submit" value="Add to Cart" class="atc-add-btn btn">
-                        <a href="{% url 'products' %}" class="atc-return-btn">Keep Shopping</a>
+                        <div class="atc-add-btn-container">
+                            <span class="fa-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                            
+                            <input type="submit" value="Add to Cart" class="atc-add-btn btn">
+                        </div>
+                        <div class="atc-return-btn-container">
+                            <span class="fa-icon"><i class="fa-solid fa-angle-left"></i></span>
+
+                            <a href="{% url 'products' %}" class="atc-return-btn btn">Keep Shopping</a>
+                        </div>
                     </div>
                     <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     {% endwith %}

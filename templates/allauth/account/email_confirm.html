@@ -1,31 +1,56 @@
-{% extends "account/base.html" %}
+{% extends "base.html" %}
+{% load static %}
 
 {% load i18n %}
 {% load account %}
 
 {% block head_title %}{% trans "Confirm E-mail Address" %}{% endblock %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/account.css' %}">
+{% endblock %}
 
 {% block content %}
-<h1>{% trans "Confirm E-mail Address" %}</h1>
 
-{% if confirmation %}
+<section class="account-form-section section">
+    <div class="account-form-section-img-bg-container img-container">
+        <img src="{{ MEDIA_URL }}home-2.png" alt="Metaverse" class="img-100a">
+    </div>
+    <div class="account-form-section-overlay"></div>
+  
+    <div class="account-card-container container-row">
+        <div class="account-card-img-container img-container">
+            <img src="{{ MEDIA_URL }}account-card-2.png" alt="Metaverse" class="img-100a">
+            <div class="account-card-img-overlay"></div>
+        </div>
+  
+        <div class="account-card-no-form-container account-card-form-container container-col">
+            <div class="account-form-card-input-container container-row">
+                <h2 class="dark-text">{% trans "Confirm E-mail Address" %}</h2>
+            </div>
+            {% if confirmation %}
+            <div class="account-form-card-input-container container-row">
+                {% user_display confirmation.email_address.user as user_display %}
 
-{% user_display confirmation.email_address.user as user_display %}
+                <p class="dark-text">{% blocktrans with confirmation.email_address.email as email %}Please confirm that <a class="account-card-sign-up-link" href="mailto:{{ email }}">{{ email }}</a> is an e-mail address for user {{ user_display }}.{% endblocktrans %}</p>
+            </div>
 
-<p>{% blocktrans with confirmation.email_address.email as email %}Please confirm that <a href="mailto:{{ email }}">{{ email }}</a> is an e-mail address for user {{ user_display }}.{% endblocktrans %}</p>
+            <div class="account-form-card-input-container container-row">
+                <form method="post" action="{% url 'account_confirm_email' confirmation.key %}" class="container-col">
+                    {% csrf_token %}
+                    <button type="submit" class="btn">{% trans 'Confirm' %}</button>
+                </form>
+            </div>
 
-<form method="post" action="{% url 'account_confirm_email' confirmation.key %}">
-{% csrf_token %}
-    <button type="submit">{% trans 'Confirm' %}</button>
-</form>
+            {% else %}
+            <div class="account-form-card-input-container container-row">
+                {% url 'account_email' as email_url %}
 
-{% else %}
-
-{% url 'account_email' as email_url %}
-
-<p>{% blocktrans %}This e-mail confirmation link expired or is invalid. Please <a href="{{ email_url }}">issue a new e-mail confirmation request</a>.{% endblocktrans %}</p>
-
-{% endif %}
+                <p>{% blocktrans %}This e-mail confirmation link expired or is invalid. Please <a class="account-card-sign-up-link" href="{{ email_url }}">issue a new e-mail confirmation request</a>.{% endblocktrans %}</p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</section>
 
 {% endblock %}

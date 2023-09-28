@@ -1,0 +1,151 @@
+/* Account */
+
+.account-form-section {
+    width: 100%;
+    height: calc(100vh - 218px);
+    position: relative;
+}
+
+.account-form-section-img-bg-container,
+.account-form-section-overlay,
+.account-card-img-overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.account-form-section-overlay {
+    background-color: var(--TRANSPARENT-DARK-1);
+    backdrop-filter: blur(20px);
+}
+
+.account-card-container {
+    width: 800px;
+    height: 600px;
+    background-color: var(--GRAY-LIGHT-1);
+    z-index: 10;
+    justify-content: flex-start;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.account-card-img-container {
+    width: 400px;
+    height: 100%;
+    position: relative;
+}
+
+.account-card-img-text-container {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.account-card-sign-up-link {
+    color: var(--MAIN-1);
+}
+
+.account-card-img-overlay {
+    background-color: var(--TRANSPARENT-DARK-1);
+}
+
+.account-card-form-container {
+    width: 400px;
+    height: 100%;
+}
+
+.account-card-form {
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
+
+.account-form-card-heading-container {
+    margin-bottom: 30px;
+}
+
+.account-form-card-heading-container .dark-text {
+    font-weight: 400;
+}
+
+.account-form-card-input-container {
+    width: 300px;
+}
+
+.account-form-card-input-container input {
+    width: 100%;
+    padding: 10px 30px 10px 30px;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    border: 2px solid var(--GRAY-DARK-1);
+    color: var(--GRAY-DARK-1);
+}
+
+.account-form-card-input-container input:focus {
+    border: 2px solid var(--MAIN-1);
+    outline: none;
+}
+
+.remember-forget-container {
+    width: 350px;
+    justify-content: space-between;
+}
+
+.remember-me-container {
+    gap: 5px;
+    justify-self: flex-start;
+}
+
+.remember-me-text,
+.forget-password-btn {
+    font-size: 1.2rem;
+}
+
+.forget-password-btn {
+    color: var(--MAIN-1);
+}
+
+input#id_remember {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 2px solid var(--GRAY-DARK-1);
+    border-radius: 3px;
+    outline: none;
+    position: relative;
+    cursor: pointer;
+    padding: 0;
+}
+  
+input#id_remember::before {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 25%;
+    width: 30%;
+    height: 70%;
+    border: solid var(--MAIN-1);
+    border-width: 0 3px 3px 0;
+    transform: translateY(-50%) rotate(45deg);
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
+}
+  
+input#id_remember:checked::before {
+    opacity: 1;
+}
+
+.account-card-no-form-container {
+    gap: 20px;
+}
+
+.account-card-no-form-container .account-form-card-input-container {
+    justify-content: flex-start;
+}

@@ -1,21 +1,63 @@
-{% extends "account/base.html" %}
+{% extends "base.html" %}
+{% load static %}
 
 {% load i18n %}
 
 {% block head_title %}{% trans "Signup" %}{% endblock %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/account.css' %}">
+{% endblock %}
+
 {% block content %}
-<h1>{% trans "Sign Up" %}</h1>
 
-<p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+<section class="account-form-section section">
+  <div class="account-form-section-img-bg-container img-container">
+      <img src="{{ MEDIA_URL }}home-2.png" alt="" class="img-100a">
+  </div>
+  <div class="account-form-section-overlay"></div>
 
-<form class="signup" id="signup_form" method="post" action="{% url 'account_signup' %}">
-  {% csrf_token %}
-  {{ form.as_p }}
-  {% if redirect_field_value %}
-  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-  {% endif %}
-  <button type="submit">{% trans "Sign Up" %} &raquo;</button>
-</form>
+  <div class="account-card-container container-row">
+      <div class="account-card-img-container img-container">
+          <img src="{{ MEDIA_URL }}account-card-2.png" alt="Metaverse" class="img-100a">
+          <div class="account-card-img-overlay"></div>
+          <div class="account-card-img-text-container container-col">
+            <p class="white-text">{% blocktrans %}Already have an account? Then please <a class="account-card-sign-up-link" href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+          </div>
+      </div>
+
+      <div class="account-card-form-container container-col">
+        <form class="signup account-card-form container-col" id="signup_form" method="post" action="{% url 'account_signup' %}">
+          {% csrf_token %}
+          
+          <div class="account-form-card-input-container container-row">
+              {{ form.email }}
+          </div>
+          <div class="account-form-card-input-container container-row">
+              {{ form.email2 }}
+          </div>
+          <div class="account-form-card-input-container container-row">
+            {{ form.username }}
+          </div>
+          <div class="account-form-card-input-container container-row">
+              {{ form.password1 }}
+          </div>
+          <div class="account-form-card-input-container container-row">
+            {{ form.password2 }}
+          </div>
+
+          {% if redirect_field_value %}
+          <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+          {% endif %}
+          
+          <button class="primaryAction account-card-form-submit-btn btn" type="submit">{% trans "Sign Up" %}</button>
+        </form>
+      </div>
+  </div>
+</section>
 
 {% endblock %}
+
+
+
+

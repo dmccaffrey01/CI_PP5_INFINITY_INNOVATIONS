@@ -1,21 +1,49 @@
-{% extends "account/base.html" %}
+{% extends "base.html" %}
+{% load static %}
 
 {% load i18n %}
 
 {% block head_title %}{% trans "Sign Out" %}{% endblock %}
 
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/account.css' %}">
+{% endblock %}
+
 {% block content %}
-<h1>{% trans "Sign Out" %}</h1>
 
-<p>{% trans 'Are you sure you want to sign out?' %}</p>
+<section class="account-form-section section">
+  <div class="account-form-section-img-bg-container img-container">
+      <img src="{{ MEDIA_URL }}home-2.png" alt="" class="img-100a">
+  </div>
+  <div class="account-form-section-overlay"></div>
 
-<form method="post" action="{% url 'account_logout' %}">
-  {% csrf_token %}
-  {% if redirect_field_value %}
-  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}"/>
-  {% endif %}
-  <button type="submit">{% trans 'Sign Out' %}</button>
-</form>
+  <div class="account-card-container container-row">
+      <div class="account-card-img-container img-container">
+          <img src="{{ MEDIA_URL }}account-card-3.png" alt="Metaverse" class="img-100a">
+          <div class="account-card-img-overlay"></div>
+      </div>
 
+      <div class="account-card-form-container container-col">
+        <form class="account-card-form container-col" method="post" action="{% url 'account_logout' %}">
+          {% csrf_token %}
+
+          <div class="account-form-card-input-container container-col">
+            <p class="dark-text center-text">Goodbye from</p>
+            <p class="dark-text center-text">Infinity Innovations</p>
+          </div>
+          
+          <div class="account-form-card-input-container container-row">
+            <p class="dark-text center-text">{% trans 'Are you sure you want to sign out?' %}</p>
+          </div>
+
+          {% if redirect_field_value %}
+          <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+          {% endif %}
+          
+          <button class="primaryAction account-card-form-submit-btn btn" type="submit">{% trans 'Sign Out' %}</button>
+        </form>
+      </div>
+  </div>
+</section>
 
 {% endblock %}
