@@ -134,15 +134,22 @@
     background-color: var(--GRAY-LIGHT-1);
     border-radius: 5px;
     z-index: 99;
-    height: 200px;
+    max-height: 200px;
     overflow-y: scroll;
     justify-content: flex-start;
-    gap: 5px
+    gap: 5px;
+    padding: 10px 15px;
 }
 
 .custom-select-filter-dropdown-container .dropdown-value {
     cursor: pointer;
-    width: 250px;
+    width: 100%;
     border-radius: 5px;
-    padding: 10px 15px;
+    padding: 10px 15px 10px 20px;
+}
+
+.custom-select-filter-dropdown-container .dropdown-value:hover,
+.custom-select-filter-dropdown-container .dropdown-value.selected {
+    background-color: var(--MAIN-1);
+    color: var(--WHITE);
 }

@@ -11,23 +11,23 @@
 <section class="product-list-filter-section section">
     <div class="product-list-filter-section-container section-container container-row">
 
-        <div class="custom-select-filter-container container-row {% if current_sorting == 'None_None' %}noting-selected{% endif %}" id="sort-filter-selector" data-filter-type="sort">
+        <div class="custom-select-filter-container container-row {% if current_sorting == 'None_None' %}nothing-selected{% endif %}" id="sort-filter-selector" data-filter-type="sort">
             <div class="custom-select-filter-heading dark-text">Sort</div>
 
             <i class="fa-solid fa-chevron-down"></i>
 
             <div class="custom-select-filter-dropdown-container container-col">
-                <div class="dropdown-value dark-text" data-select-value="reset">Reset</div>
-                <div class="dropdown-value dark-text" data-select-value="price_asc">Price (low to high)</div>
-                <div class="dropdown-value dark-text" data-select-value="price_desc">Price (high to low)</div>
-                <div class="dropdown-value dark-text" data-select-value="rating_asc">Rating (low to high)</div>
-                <div class="dropdown-value dark-text" data-select-value="rating_desc">Rating (high to low)</div>
-                <div class="dropdown-value dark-text" data-select-value="name_asc">Name (A-Z)</div>
-                <div class="dropdown-value dark-text" data-select-value="name_desc">Name (Z-A)</div>
-                <div class="dropdown-value dark-text" data-select-value="category_asc">Category (A-Z)</div>
-                <div class="dropdown-value dark-text" data-select-value="category_desc">Category (Z-A)</div>
-                <div class="dropdown-value dark-text" data-select-value="brand_asc">Brand (A-Z)</div>
-                <div class="dropdown-value dark-text" data-select-value="brand_desc">Brand (Z-A)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'None_None' %}selected{% endif %}" data-select-value="reset">Sort (reset)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'price_asc' %}selected{% endif %}" data-select-value="price_asc">Price (low to high)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'price_desc' %}selected{% endif %}" data-select-value="price_desc">Price (high to low)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'rating_asc' %}selected{% endif %}" data-select-value="rating_asc">Rating (low to high)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'rating_desc' %}selected{% endif %}" data-select-value="rating_desc">Rating (high to low)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'name_asc' %}selected{% endif %}" data-select-value="name_asc">Name (A-Z)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'name_desc' %}selected{% endif %}" data-select-value="name_desc">Name (Z-A)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'category_asc' %}selected{% endif %}" data-select-value="category_asc">Category (A-Z)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'category_desc' %}selected{% endif %}" data-select-value="category_desc">Category (Z-A)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'brand_asc' %}selected{% endif %}" data-select-value="brand_asc">Brand (A-Z)</div>
+                <div class="dropdown-value dark-text {% if current_sorting == 'brand_desc' %}selected{% endif %}" data-select-value="brand_desc">Brand (Z-A)</div>
             </div>
         </div>
 
@@ -37,37 +37,25 @@
             <i class="fa-solid fa-chevron-down"></i>
 
             <div class="custom-select-filter-dropdown-container container-col">
-                <div class="dropdown-value dark-text" data-select-value="reset">Reset</div>
-                <div class="dropdown-value dark-text" data-select-value="real">Real</div>
-                <div class="dropdown-value dark-text" data-select-value="digital">Digital</div>
+                <div class="dropdown-value dark-text {% if current_universe == 'all' %}selected{% endif %}" data-select-value="reset">Universe (reset)</div>
+                <div class="dropdown-value dark-text {% if current_universe == 'real' %}selected{% endif %}" data-select-value="real">Real</div>
+                <div class="dropdown-value dark-text {% if current_universe == 'digital' %}selected{% endif %}" data-select-value="digital">Digital</div>
             </div>
         </div>
 
-        <!-- <div class="product-list-filter-container container-row">
-            
-            <select id="sort-filter-selector" class="product-filter-selector {% if current_sorting == 'None_None' %}noting-selected{% endif %}">
-                <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort</option>
-                <option value="price_asc" {% if current_sorting == 'price_asc' %}selected{% endif %}>Price (low to high)</option>
-                <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>Price (high to low)</option>
-                <option value="rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>Rating (low to high)</option>
-                <option value="rating_desc" {% if current_sorting == 'rating_desc' %}selected{% endif %}>Rating (high to low)</option>
-                <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>Name (A-Z)</option>
-                <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>Name (Z-A)</option>
-                <option value="category_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Category (A-Z)</option>
-                <option value="category_desc" {% if current_sorting == 'category_desc' %}selected{% endif %}>Category (Z-A)</option>
-                <option value="brand_asc" {% if current_sorting == 'category_asc' %}selected{% endif %}>Brand (A-Z)</option>
-                <option value="brand_desc" {% if current_sorting == 'brand_desc' %}selected{% endif %}>Brand (Z-A)</option>
-            </select>
+        <div class="custom-select-filter-container container-row {% if current_universe == 'all' %}noting-selected{% endif %}" id="category-filter-selector" data-filter-type="universe">
+            <div class="custom-select-filter-heading dark-text">Category</div>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+            <div class="custom-select-filter-dropdown-container container-col">
+                <div class="dropdown-value dark-text {% if current_universe == 'all' %}selected{% endif %}" data-select-value="reset">Universe (reset)</div>
+                <div class="dropdown-value dark-text {% if current_universe == 'real' %}selected{% endif %}" data-select-value="real">Real</div>
+                <div class="dropdown-value dark-text {% if current_universe == 'digital' %}selected{% endif %}" data-select-value="digital">Digital</div>
+            </div>
         </div>
 
-        <div class="product-list-filter-container container-row">
-            <select id="universe-filter-selector" class="product-filter-selector {% if current_universe == 'all' %}nothing-selected{% endif %}">
-                <option value="reset" {% if current_universe == 'all' %}selected{% endif %}>Universe</option>
-                <option value="real" {% if current_universe == 'real' %}selected{% endif %}>Real</option>
-                <option value="digital" {% if current_universe == 'digital' %}selected{% endif %}>Digital</option>
-            </select>
-        </div>
-
+        <!--
         <div class="product-list-filter-container container-row">
             <select id="category-filter-selector" class="product-filter-selector {% if current_categories == None %}nothing-selected{% endif %}">
                 <option value="reset" {% if current_categories == 'None' %}selected{% endif %}>Category</option>
@@ -85,7 +73,8 @@
                 {% endfor %}
                 {% endif %}
             </select>
-        </div> -->
+        </div> 
+    -->
     </div>
 </section>
 

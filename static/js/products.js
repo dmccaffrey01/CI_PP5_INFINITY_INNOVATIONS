@@ -21,22 +21,21 @@ const updateFilterURL = (valueElement, type) => {
     } else if (type == "universe") {
         let currentUrl = new URL(window.location.href);
         let splitUrl = currentUrl.pathname.split("/");
-        console.log(splitUrl);
+        splitUrl.pop();
         
+        if ((splitUrl.slice(-1)[0] == "real" || splitUrl.slice(-1)[0] == "digital") && splitUrl.slice(-2, -1)[0] == "products") {
+            splitUrl.pop();
+        }
         if (selectedVal != "reset") {
-            if (splitUrl.slice(-2)[0] == "real" || splitUrl.slice(-2)[0] == "digital") {
-                splitUrl.pop();
-                splitUrl.pop();
-            }
-         
             splitUrl.push(selectedVal);
-        } else {
-            if ((splitUrl.slice(-2)[0] == "real" || splitUrl.slice(-2)[0] == "digital") && splitUrl.slice(-3, -1)[0] == "products") {
-                splitUrl.pop();
-                splitUrl.pop();
+            if (currentUrl.searchParams.has("category")) {
+                currentUrl.searchParams.delete("category");
+            }
+            if (currentUrl.searchParams.has("brand")) {
+                currentUrl.searchParams.delete("brand");
             }
         }
-        
+            
         currentUrl.pathname = splitUrl.join("/");
         currentUrl.pathname = currentUrl.pathname + "/"
         window.location.replace(currentUrl);
