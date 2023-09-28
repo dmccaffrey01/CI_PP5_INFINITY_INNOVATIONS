@@ -43,38 +43,28 @@
             </div>
         </div>
 
-        <div class="custom-select-filter-container container-row {% if current_universe == 'all' %}noting-selected{% endif %}" id="category-filter-selector" data-filter-type="universe">
+        <div class="custom-select-filter-container container-row {% if current_categories == None %}nothing-selected{% endif %}" id="category-filter-selector" data-filter-type="category">
             <div class="custom-select-filter-heading dark-text">Category</div>
 
             <i class="fa-solid fa-chevron-down"></i>
 
             <div class="custom-select-filter-dropdown-container container-col">
-                <div class="dropdown-value dark-text {% if current_universe == 'all' %}selected{% endif %}" data-select-value="reset">Universe (reset)</div>
-                <div class="dropdown-value dark-text {% if current_universe == 'real' %}selected{% endif %}" data-select-value="real">Real</div>
-                <div class="dropdown-value dark-text {% if current_universe == 'digital' %}selected{% endif %}" data-select-value="digital">Digital</div>
-            </div>
-        </div>
-
-        <!--
-        <div class="product-list-filter-container container-row">
-            <select id="category-filter-selector" class="product-filter-selector {% if current_categories == None %}nothing-selected{% endif %}">
-                <option value="reset" {% if current_categories == 'None' %}selected{% endif %}>Category</option>
+                <div class="dropdown-value dark-text {% if current_categories == None %}selected{% endif %}" data-select-value="reset">Category (reset)</div>
                 {% if current_universe == 'real' %}
                 {% for category in all_real_categories %}
-                <option value="{{ category.name }}" {% if category.name in current_categories %}selected{% endif %}>{{ category.friendly_name }}</option>
+                <div class="dropdown-value dark-text {% if category in current_categories %}selected{% endif %}" data-select-value="{{ category.name }}">{{ category.friendly_name }}</div>
                 {% endfor %}
                 {% elif current_universe == 'digital' %}
                 {% for category in all_digital_categories %}
-                <option value="{{ category.name }}" {% if category.name in current_categories %}selected{% endif %}>{{ category.friendly_name }}</option>
+                <div class="dropdown-value dark-text {% if category.name in current_categories %}selected{% endif %}" data-select-value="{{ category.name }}">{{ category.friendly_name }}</div>
                 {% endfor %}
                 {% else %}
                 {% for category in all_categories %}
-                <option value="{{ category.name }}" {% if category.name in current_categories %}selected{% endif %}>{{ category.friendly_name }}</option>
+                <div class="dropdown-value dark-text {% if category.name in current_categories %}selected{% endif %}" data-select-value="{{ category.name }}">{{ category.friendly_name }}</div>
                 {% endfor %}
                 {% endif %}
-            </select>
-        </div> 
-    -->
+            </div>
+        </div>
     </div>
 </section>
 

@@ -295,7 +295,7 @@ header {
     transform: translateX(-50%);
     background-color: var(--GRAY-DARK-1);
     display: none;
-    padding: 50px;
+    padding: 50px 0;
     gap: 50px;
     z-index: 999;
 }
@@ -325,7 +325,7 @@ header {
 .bottom-header-dropdown-item {
     justify-content: flex-start;
     flex-wrap: wrap;
-    width: 350px;
+    width: 400px;
 }
 
 .bottom-header-dropdown-item-heading {

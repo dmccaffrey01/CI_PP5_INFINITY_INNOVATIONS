@@ -39,6 +39,25 @@ const updateFilterURL = (valueElement, type) => {
         currentUrl.pathname = splitUrl.join("/");
         currentUrl.pathname = currentUrl.pathname + "/"
         window.location.replace(currentUrl);
+
+    } else if (type == "category") {
+        let currentUrl = new URL(window.location.href);
+
+        if (selectedVal != "reset") {
+            if (currentUrl.searchParams.has("category")) {
+                let existingCategory = currentUrl.searchParams.get("category");
+                currentUrl.searchParams.set("category", existingCategory + "," + selectedVal);
+                
+            } else {
+                currentUrl.searchParams.set("category", selectedVal);
+            }
+
+            window.location.replace(currentUrl);
+        } else {
+            currentUrl.searchParams.delete("category");
+
+            window.location.replace(currentUrl);
+        }
     }
 }
 
