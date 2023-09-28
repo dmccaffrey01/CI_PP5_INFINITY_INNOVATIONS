@@ -11,13 +11,13 @@
 <section class="product-list-filter-section section">
     <div class="product-list-filter-section-container section-container container-row">
 
-        <div class="custom-select-filter-container container-row {% if current_sorting == 'None_None' %}noting-selected{% endif %}" id="sort-filter-selector">
+        <div class="custom-select-filter-container container-row {% if current_sorting == 'None_None' %}noting-selected{% endif %}" id="sort-filter-selector" data-filter-type="sort">
             <div class="custom-select-filter-heading dark-text">Sort</div>
 
             <i class="fa-solid fa-chevron-down"></i>
 
             <div class="custom-select-filter-dropdown-container container-col">
-                <div class="dropdown-value dark-text" data-select-value="reset">Sort</div>
+                <div class="dropdown-value dark-text" data-select-value="reset">Reset</div>
                 <div class="dropdown-value dark-text" data-select-value="price_asc">Price (low to high)</div>
                 <div class="dropdown-value dark-text" data-select-value="price_desc">Price (high to low)</div>
                 <div class="dropdown-value dark-text" data-select-value="rating_asc">Rating (low to high)</div>
@@ -28,6 +28,18 @@
                 <div class="dropdown-value dark-text" data-select-value="category_desc">Category (Z-A)</div>
                 <div class="dropdown-value dark-text" data-select-value="brand_asc">Brand (A-Z)</div>
                 <div class="dropdown-value dark-text" data-select-value="brand_desc">Brand (Z-A)</div>
+            </div>
+        </div>
+
+        <div class="custom-select-filter-container container-row {% if current_universe == 'all' %}noting-selected{% endif %}" id="universe-filter-selector" data-filter-type="universe">
+            <div class="custom-select-filter-heading dark-text">Universe</div>
+
+            <i class="fa-solid fa-chevron-down"></i>
+
+            <div class="custom-select-filter-dropdown-container container-col">
+                <div class="dropdown-value dark-text" data-select-value="reset">Reset</div>
+                <div class="dropdown-value dark-text" data-select-value="real">Real</div>
+                <div class="dropdown-value dark-text" data-select-value="digital">Digital</div>
             </div>
         </div>
 

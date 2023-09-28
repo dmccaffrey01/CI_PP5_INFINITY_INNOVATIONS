@@ -37,7 +37,7 @@
         <div class="top-header-container container-row ">
             <a href="{% url 'home' %}" class="logo-header-container container-row">
                 <div class="logo-img-container img-container">
-                    <img src="{{ MEDIA_URL }}logo-1a.png" alt="Logo" class="img-100a">
+                    <img src="{{ MEDIA_URL }}logo-2.png" alt="Logo" class="img-100a">
                 </div>
                 <h1 class="logo-text dark-text">Infinity Innovations</h1>
             </a>
@@ -76,6 +76,14 @@
                     <div class="cart-header-text dark-text">
                         $<span class="cart-grand-total">{{ grand_total|floatformat:2 }}</span>
                     </div>
+                    {% else %}
+                    <div class="cart-header-img-container img-container">
+                        <img src="{{ MEDIA_URL }}shopping-cart-empty.png" alt="Shipping Cart Empty" class="img-100a">
+                    </div>
+                    <div class="cart-header-text dark-text">
+                        $0.00
+                    </div>
+                    {% endif %}
                     <div class="cart-header-dropdown-container container-col">
                         <div class="cart-header-dropdown-wrapper container-col">
                             <div class="cart-header-total-breakdown container-col">
@@ -108,14 +116,6 @@
                             </a>
                         </div>
                     </div>
-                    {% else %}
-                    <div class="cart-header-img-container img-container">
-                        <img src="{{ MEDIA_URL }}shopping-cart-empty.png" alt="Shipping Cart Empty" class="img-100a">
-                    </div>
-                    <div class="cart-header-text dark-text">
-                        $0.00
-                    </div>
-                    {% endif %}
                 </div>
             </div>
         </div>

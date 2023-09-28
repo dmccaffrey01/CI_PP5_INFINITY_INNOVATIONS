@@ -46,7 +46,7 @@ accountHeader.addEventListener("mouseenter", () => {
         accountWrapper.style.transform = "translateY(-100%)"
         window.setTimeout(() => {
             accountDropdownContainer.style.display = "none";
-        }, 500);
+        }, 100);
     });
 });
 
@@ -64,7 +64,7 @@ cartHeader.addEventListener("mouseenter", () => {
         cartWrapper.style.transform = "translateY(-100%)";
         window.setTimeout(() => {
             cartDropdownContainer.style.display = "none";
-        }, 500);
+        }, 100);
     });
 });
 

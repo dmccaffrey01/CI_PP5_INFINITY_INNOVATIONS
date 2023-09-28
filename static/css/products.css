@@ -88,6 +88,12 @@
 
 /* Product Filter Select */
 
+.product-list-filter-section-container {
+    gap: 20px;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
 .custom-select-filter-container {
     width: 300px;
     padding: 10px 20px;
