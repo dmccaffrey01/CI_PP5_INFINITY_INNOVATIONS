@@ -33,7 +33,11 @@
             <div class="cart-item-product-container cart-item-row-container container-row">
                 <div class="product-info-row-container container-row">
                     <div class="product-info-img-container img-container">
+                        {% if item.product.image %}
                         <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" class="img-100a">
+                        {% else %}
+                        <img src="{{ MEDIA_URL }}template.png" alt="{{ item.product.name }}" class="img-100a">
+                        {% endif %}
                     </div>
 
                     <div class="product-info-text-container container-col">
