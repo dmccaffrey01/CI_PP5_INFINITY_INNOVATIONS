@@ -54,3 +54,37 @@
     align-items: flex-start;
     gap: 15px;
 }
+
+/* Contact */
+
+.contact-form {
+    gap: 20px;
+    padding: 50px;
+    border: 2px solid var(--MAIN-1);
+    border-radius: 5px;
+}
+
+.contact-form-input-container {
+    width: 450px;
+    align-items: flex-start;
+    gap: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 450px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid var(--GRAY-DARK-2);
+    color: var(--GRAY-DARK-1);
+}
+
+.contact-form input:focus {
+    border: 2px solid var(--MAIN-1);
+    outline: none;
+}
+
+.contact-form-submit-btn {
+    width: 450px;
+}
