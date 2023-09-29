@@ -1,5 +1,9 @@
 /* View Cart */
 
+.view-cart-section {
+    min-height: calc(100vh - 218px);
+}
+
 .view-cart-section-container {
     width: 1400px;
 }
@@ -92,6 +96,9 @@
     width: 100%;
     align-items: flex-start;
     gap: 20px;
+    align-self: flex-start;
+    justify-self: flex-start;
+    margin-bottom: 200px;
 }
 
 .atc-qauntity-input-container .qty_input {
