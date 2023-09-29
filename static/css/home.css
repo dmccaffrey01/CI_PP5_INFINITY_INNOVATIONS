@@ -47,3 +47,10 @@
     left: 0;
     top: 0;
 }
+
+/* Policy */
+
+.policy-section-container {
+    align-items: flex-start;
+    gap: 15px;
+}
