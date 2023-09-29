@@ -43,7 +43,6 @@ const fadeInFadeOut = (inOrOut) => {
 
 const closeNotification = () => {
     fadeInFadeOut("out");
-    notificationClosed = true;
 }
 
 const displayNotification = () => {
@@ -55,6 +54,7 @@ const displayNotification = () => {
         if (notificationClosed) {
             return;
         } else {
+            notificationClosed = true;
             closeNotification();
         }
         
@@ -62,7 +62,12 @@ const displayNotification = () => {
 }
 
 notificationClose.addEventListener("click", () => {
-    closeNotification();
+    if (notificationClosed) {
+        return;
+    } else {
+        notificationClosed = true;
+        closeNotification();
+    }
 });
 
 document.addEventListener("DOMContentLoaded", () => {

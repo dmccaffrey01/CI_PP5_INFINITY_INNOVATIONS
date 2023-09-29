@@ -36,6 +36,13 @@
             </p>
             {% endif %}
 
+            {% if request.user.is_superuser %}
+            <div class="product-management-btns-container container-row">
+                <a href="{% url 'edit_product' product.id %}" class="edit-btn btn">Edit</a>
+                <a href="{% url 'delete_product' product.id %}" class="delete-btn btn">Delete</a>
+            </div>
+            {% endif %}
+
             {% if product.description %}
             <p class="product-detail-description dark-text">
                 {{ product.description }}

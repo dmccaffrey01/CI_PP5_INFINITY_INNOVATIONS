@@ -303,3 +303,20 @@
 .cancel-btn {
     background-color: var(--GRAY-DARK-1);
 }
+
+.product-management-btns-container {
+    gap: 20px;
+    width: 100%;
+}
+
+.product-management-btns-container .btn {
+    width: 200px;
+}
+
+.product-management-btns-container .delete-btn {
+    background: var(--RED-1);
+}
+
+.product-management-btns-container .edit-btn {
+    background-color: var(--GREEN-1);
+}
