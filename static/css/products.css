@@ -242,3 +242,64 @@
 .product-list-display-section {
     padding: 25px 0 0 0;
 }
+
+/* Add Products */
+
+.add-product-section-container {
+    align-items: flex-start;
+    width: 1200px;
+}
+
+.add-product-section-heading {
+    font-size: 2.5rem;
+}
+
+.add-product-section-subheading {
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.add-products-form-container {
+    width: 600px;
+}
+
+.add-product-form {
+    width: 100%;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.add-product-form-input-container {
+    align-items: flex-start;
+    gap: 5px;
+    width: 100%;
+}
+
+.add-product-form input,
+.add-product-form select,
+.add-product-form textarea {
+    width: 100%;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid var(--GRAY-DARK-2);
+    color: var(--GRAY-DARK-1);
+}
+
+.add-product-form input:focus {
+    border: 2px solid var(--MAIN-1);
+    outline: none;
+}
+
+.add-product-form-btns-container {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.add-product-form-btns-container .btn {
+    width: 230px;
+}
+
+.cancel-btn {
+    background-color: var(--GRAY-DARK-1);
+}

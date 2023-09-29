@@ -49,7 +49,7 @@
     margin-top: 10px;
 }
 
-.profile-update-form input:focus {
+#profile-update-form input:focus {
     border: 2px solid var(--MAIN-1);
     outline: none;
 }
