@@ -66,12 +66,24 @@
 
 .order-history-item-container {
     margin-top: 10px;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
-.order-num-col,
 .order-total-col,
-.order-date-col,
-.order-items-col {
+.order-date-col {
     width: 25%;
+    padding-right: 20px;
+}
+
+.order-items-col {
+    gap: 8px;
+    width: 30%;
+    padding-right: 20px;
+    align-items: flex-start;
+}
+
+.order-num-col {
+    width: 20%;
     padding-right: 20px;
 }

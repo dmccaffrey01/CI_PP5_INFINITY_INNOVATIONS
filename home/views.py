@@ -3,6 +3,7 @@ from .models import ContactMessage
 from .forms import ContactForm
 from django.core.mail import send_mail
 import os
+from django.contrib import messages
 
 def index(request):
     """A view to render the index page"""
@@ -22,6 +23,7 @@ def contact(request):
         if form.is_valid():
             form.save()
             send_contact_email(form.cleaned_data)
+            messages.success(request, 'Your message has been sent, Thank you')
             return redirect('home')
     else:
         form = ContactForm()

@@ -17,12 +17,13 @@
                 <form action="{% url 'profile' %}" id="profile-update-form" method="POST" class="container-col">
                     {% csrf_token %}
                     {{ form.default_phone_number}}
+                    {{ form.default_country}}
+                    {{ form.default_postcode}}
                     {{ form.default_street_address1 }}
                     {{ form.default_street_address2 }}
                     {{ form.default_town_or_city }}
                     {{ form.default_county}}
-                    {{ form.default_postcode}}
-                    {{ form.default_country}}
+                    
                     <button class="profile-update-form-submit-btn btn">
                         <span class="fa-icon"><i class="fa-solid fa-pen-to-square"></i></span>
                         Update Information
@@ -44,13 +45,14 @@
                     title="{{ order.order_number }}" class="order-num-col dark-text">
                         {{ order.order_number|truncatechars:6 }}
                     </a>
-                    <div class="order-date-col dark-text">{{ order.date }}</div>
+                    <div class="order-date-col dark-text container-col">{{ order.date }}</div>
                     <div class="order-items-col container-col">
                         {% for item in order.lineitems.all %}
                         <div class="dark-text">
-                            {% if item.product.has_themes %}
-                            {{ item.product_theme|upper }}
-                            {% endif %}{{ item.product.name }} x {{ item.quantity }}
+                            {{ item.quantity }} x {{ item.product.name }}
+                            {% if item.product_theme != None %}
+                            - {{ item.product_theme|capfirst }}
+                            {% endif %}
                         </div>
                         {% endfor %}
                     </div>
