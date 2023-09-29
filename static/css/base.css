@@ -452,3 +452,62 @@ footer {
     height: 80px;
     width: 80px;
 }
+
+/* Messages */
+
+.message-container {
+    position: fixed;
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 999;
+}
+
+.toast-notification-container {
+    width: 450px;
+    border-radius: 3px;
+    padding: 20px 40px;
+    gap: 10px;
+    display: none;
+}
+
+.toast-success {
+    background-color: var(--GRAY-LIGHT-1);
+    border-bottom: 3px solid var(--GREEN-1);
+    border-top: 3px solid var(--GREEN-1);
+}
+
+.toast-error {
+    background-color: var(--GRAY-LIGHT-1);
+    border-bottom: 3px solid var(--RED-1);
+    border-top: 3px solid var(--RED-1);
+}
+
+.toast-info {
+    background-color: var(--GRAY-LIGHT-1);
+    border-bottom: 3px solid #f7e226;
+    border-top: 3px solid #f7e226;
+}
+
+.toast-warning {
+    background-color: var(--GRAY-LIGHT-1);
+    border-bottom: 3px solid #dd8500;
+    border-top: 3px solid #dd8500;
+}
+
+.toast-header {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.toast-body {
+    width: 100%;
+    align-items: flex-start;
+}
+
+.close-toast-btn {
+    padding: 0;
+    background-color: transparent !important;
+    border: none !important;
+    cursor: pointer;
+}

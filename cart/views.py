@@ -1,18 +1,16 @@
 from django.shortcuts import render, redirect, reverse, HttpResponse
+from products.models import Product
+from django.contrib import messages
 
 def view_cart(request):
     """ A view that renders the cart contents page """
 
-    context = {
-
-    }
-
-    return render(request, 'cart/cart.html', context)
+    return render(request, 'cart/cart.html')
 
 
 def add_to_cart(request, item_id):
     """ Add a quantity of the specified product to the shopping cart """
-
+    product = Product.objects.get(pk=item_id)
     quantity = int(request.POST.get('quantity'))
     redirect_url = request.POST.get('redirect_url')
     theme = None
@@ -33,6 +31,7 @@ def add_to_cart(request, item_id):
             cart[item_id] += quantity
         else:
             cart[item_id] = quantity
+            messages.success(request, f'Added {product.name} to your cart')
 
     request.session['cart'] = cart
 
@@ -74,19 +73,13 @@ def remove_from_cart(request, item_id):
         if 'product_theme' in request.POST:
             theme = request.POST['product_theme']
         cart = request.session.get('cart', {})
-        print(cart[item_id]['items_by_theme'])
-        print(theme)
-        print(request.POST)
         if theme:
             del cart[item_id]['items_by_theme'][theme]
-            print(cart[item_id]['items_by_theme'])
             if not cart[item_id]['items_by_theme']:
                 cart.pop(item_id)
         else:
             cart.pop(item_id)
-
         request.session['cart'] = cart
-
         return HttpResponse(status=200)
     except Exception as e:
         return HttpResponse(status=500)

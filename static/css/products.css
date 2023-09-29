@@ -97,7 +97,7 @@
 .theme-select-input,
 .atc-qauntity-input-container .qty_input {
     width: 100%;
-    border: 3px solid var(--GRAY-DARK-1);
+    border: 2px solid var(--GRAY-DARK-2);
     border-radius: 30px;
     font-size: 1.5rem;
     color: var(--GRAY-DARK-1);
@@ -108,7 +108,7 @@
 }
 
 .theme-select-input:focus {
-    border: 3px solid var(--MAIN-1);
+    border: 2px solid var(--MAIN-1);
     outline: none !important;
 }
 
@@ -131,14 +131,14 @@
 .atc-qauntity-input-container .decrement-qty {
     left: 0;
     border-radius: 10px 0 0 10px;
-    border: 3px solid var(--GRAY-DARK-1);
+    border: 2px solid var(--GRAY-DARK-2);
     border-right: none !important;
 }
 
 .atc-qauntity-input-container .increment-qty {
     right: 0;
     border-radius: 0px 10px 10px 0px;
-    border: 3px solid var(--GRAY-DARK-1);
+    border: 2px solid var(--GRAY-DARK-2);
     border-left: none !important;
 }
 
