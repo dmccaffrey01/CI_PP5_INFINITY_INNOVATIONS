@@ -73,3 +73,7 @@
 </section>
 {% endblock %}
 
+{% block postloadjs %}
+{{ block.super }}
+<script src="{% static 'js/product-management.js' %}"></script>
+{% endblock %}

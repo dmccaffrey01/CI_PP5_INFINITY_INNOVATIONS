@@ -247,7 +247,9 @@
 
     {% block postloadjs %}
     <script src="{% static 'js/base.js' %}"></script>
+    {% if messages %}
     <script src="{% static 'js/toasts.js' %}"></script>
+    {% endif %}
     {% endblock %}
   </body>
 </html>
