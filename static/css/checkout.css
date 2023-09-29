@@ -55,7 +55,7 @@
     padding: 10px 20px 10px 20px;
     font-size: 1.5rem;
     border-radius: 10px;
-    border: 2px solid var(--GRAY-DARK-1);
+    border: 2px solid var(--GRAY-DARK-2);
     color: var(--GRAY-DARK-1);
     margin-top: 10px;
 }
@@ -71,7 +71,7 @@ input#id-save-info {
     -moz-appearance: none;
     width: 1.5rem;
     height: 1.5rem;
-    border: 2px solid var(--GRAY-DARK-1);
+    border: 2px solid var(--GRAY-DARK-2);
     border-radius: 3px;
     outline: none;
     position: relative;
@@ -168,8 +168,6 @@ input#id-save-info:checked::before {
     gap: 15px;
 }
 
-
-
 /* Stripe */
 
 .stipe-card-form-container {
@@ -184,7 +182,7 @@ input#id-save-info:checked::before {
 #card-element {
     height: 40px;
     padding: 10px;
-    border: 2px solid var(--GRAY-DARK-1);
+    border: 2px solid var(--GRAY-DARK-2);
     border-radius: 5px;
     background-color: var(--GRAY-LIGHT-1);
 }
@@ -192,7 +190,7 @@ input#id-save-info:checked::before {
 .StripeElement {
     height: 40px;
     padding: 10px;
-    border: 2px solid var(--GRAY-DARK-1);
+    border: 2px solid var(--GRAY-DARK-2);
     border-radius: 5px;
     background-color: var(--GRAY-LIGHT-1);
 }
@@ -212,7 +210,7 @@ input#id-save-info:checked::before {
     padding: 30px;
     width: 1000px;
     border-radius: 5px;
-    border: 2px solid var(--GRAY-DARK-1);
+    border: 2px solid var(--GRAY-DARK-2);
     gap: 10px;
 }
 

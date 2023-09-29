@@ -8,13 +8,20 @@
 
 .profile-section-wrapper {
     width: 100%;
+    justify-content: space-between;
     align-items: flex-start;
 }
 
-.profile-update-form-container,
 .profile-order-history-container {
-    width: 50%;
-    padding: 0 50px;
+    width: 900px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-height: 636px;
+    overflow-y: scroll;
+}
+
+.profile-update-form-container {
+    width: 400px;
     align-items: flex-start;
     justify-content: flex-start;
 }
@@ -27,4 +34,44 @@
 .profile-section-sub-heading {
     align-self: flex-start;
     margin-bottom: 20px;
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+#profile-update-form input,
+#profile-update-form select {
+    width: 300px;
+    padding: 10px 20px 10px 20px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 2px solid var(--GRAY-DARK-2);
+    color: var(--GRAY-DARK-1);
+    margin-top: 10px;
+}
+
+.profile-update-form input:focus {
+    border: 2px solid var(--MAIN-1);
+    outline: none;
+}
+
+.profile-update-form-submit-btn {
+    margin-top: 20px;
+    width: 300px;
+}
+
+.order-history-heading-container,
+.order-history-item-container {
+    width: 100%;
+}
+
+.order-history-item-container {
+    margin-top: 10px;
+}
+
+.order-num-col,
+.order-total-col,
+.order-date-col,
+.order-items-col {
+    width: 25%;
+    padding-right: 20px;
 }

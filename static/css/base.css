@@ -144,9 +144,9 @@ header {
 
 .search-products-header-input {
     padding: 10px 40px;
-    border-radius: 15px 0 0 15px;
+    border-radius: 10px 0 0 10px;
     font-size: 1.5rem;
-    border: 3px solid var(--GRAY-DARK-1);
+    border: 2px solid var(--GRAY-DARK-2);
     border-right: none !important;
     width: 530px;
     height: 60px;
@@ -159,8 +159,8 @@ header {
 }
 
 .search-products-header-btn {
-    border-radius: 0 15px 15px 0;
-    border: 3px solid var(--GRAY-DARK-1);
+    border-radius: 0 10px 10px 0;
+    border: 2px solid var(--GRAY-DARK-2);
     border-left: none !important;
     background-color: var(--MAIN-1);
     width: 70px;
@@ -169,7 +169,7 @@ header {
 }
 
 .search-products-header-input:focus + .search-products-header-btn {
-    border: 3px solid var(--MAIN-1);
+    border: 2px solid var(--MAIN-1);
     border-left: none !important;
 }
 

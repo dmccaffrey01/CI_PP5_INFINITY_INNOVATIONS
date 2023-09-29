@@ -23,7 +23,10 @@
                     {{ form.default_county}}
                     {{ form.default_postcode}}
                     {{ form.default_country}}
-                    <button class="btn">Update Information</button>
+                    <button class="profile-update-form-submit-btn btn">
+                        <span class="fa-icon"><i class="fa-solid fa-pen-to-square"></i></span>
+                        Update Information
+                    </button>
                 </form>
             </div>
 
@@ -46,7 +49,7 @@
                         {% for item in order.lineitems.all %}
                         <div class="dark-text">
                             {% if item.product.has_themes %}
-                            Theme {{ item.product.theme|upper }}
+                            {{ item.product_theme|upper }}
                             {% endif %}{{ item.product.name }} x {{ item.quantity }}
                         </div>
                         {% endfor %}
