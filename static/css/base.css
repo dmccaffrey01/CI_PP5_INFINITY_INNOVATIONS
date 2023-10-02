@@ -791,6 +791,15 @@ footer {
     display: none;
 }
 
+.toast-notification-container .toast-body {
+    width: 100%;
+}
+
+.toast-notification-container .notification-message {
+    word-wrap: break-word;
+    width: 100%;
+}
+
 .toast-success {
     background-color: var(--GRAY-LIGHT-1);
     border-bottom: 3px solid var(--GREEN-1);

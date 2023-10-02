@@ -13,7 +13,7 @@
         <div class="checkout-section-heading dark-text">Checkout</div>
         <div class="checkout-section-wrapper container-row">
             <div class="checkout-form-container container-col">
-                <p class="dark-text">Please fill out the form below to complete your order</p>
+                <p class="checkout-form-top-text dark-text">Please fill out the form below to complete your order</p>
 
                 <form action="{% url 'checkout' %}" method="POST" class="checkout-form container-col" id="payment-form">
                     {% csrf_token %}

@@ -1,13 +1,13 @@
 /* Checkout */
 
-.checkout-section-container {
-    width: 1400px;
-}
-
 .checkout-section-heading {
     align-self: flex-start;
     font-size: 2.5rem;
     margin-bottom: 30px;
+}
+
+.checkout-section {
+    min-height: calc(100vh - 200%);
 }
 
 .checkout-section-wrapper {
@@ -106,6 +106,34 @@ input#id-save-info:checked::before {
     background-color: var(--GRAY-DARK-1);
 }
 
+.checkout-form-top-text {
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1500px) {
+    .checkout-form input,
+    .checkout-form select {
+        font-size: 1.3rem;
+    }
+
+    .checkout-form-container {
+        width: 380px;
+    }
+}
+
+@media (max-width: 1080px) {
+    .checkout-section-wrapper {
+        justify-content: center;
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+
+    .checkout-form-container {
+        width: 330px;
+        align-self: flex-start;
+    }
+}
+
 /* Cart Summary */
 
 .cart-summary-container {
@@ -121,6 +149,11 @@ input#id-save-info:checked::before {
 .cart-summary-product-item-container {
     width: 80%;
     justify-content: flex-start;
+}
+
+.cart-summary-item-heading,
+.cart-summary-subtotal-heading {
+    font-weight: 600;
 }
 
 .cart-summary-subtotal-heading,
@@ -168,6 +201,27 @@ input#id-save-info:checked::before {
     gap: 15px;
 }
 
+@media (max-width: 768px) {
+
+    .cart-summary-container {
+        width: 330px;
+    }
+
+    .cart-summary-img-container {
+        width: 90px;
+        height: 90px;
+    }
+
+    .cart-summary-product-info-container {
+        width: calc(100% - 90px);
+        padding: 0 0 0 10px;
+    }
+
+    .summary-subtotal {
+        margin-top: 0;
+        align-self: flex-end;
+    }
+}
 /* Stripe */
 
 .stipe-card-form-container {
@@ -247,7 +301,7 @@ input#id-save-info:checked::before {
     height: 100vh;
     background-color: var(--TRANSPARENT-DARK-1);
     display: none;
-    z-index: 99;
+    z-index: 9999;
     left: 0;
     top: 0;
 }
@@ -273,4 +327,35 @@ input#id-save-info:checked::before {
 @keyframes spin {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
+}
+
+@media (max-width: 1080px) {
+
+    .order-confirmation-container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .order-confirmation-container {
+        width: 330px;
+    }
+
+    .order-confirmation-row {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .order-confirmation-row .left-text {
+        width: 100%;
+    }
+
+    .order-confirmation-row .right-text {
+        align-items: flex-start;
+        text-align: start;
+        width: 100%;
+        word-wrap: break-word;
+    }
 }

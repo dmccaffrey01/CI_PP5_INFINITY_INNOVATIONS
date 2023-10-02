@@ -93,7 +93,12 @@ form.addEventListener('submit', function(ev) {
     fadeOut(formWrapper, 100);
 
     let saveInfoElement = document.querySelector('#id-save-info');
-    let saveInfo = Boolean(saveInfoElement.getAttribute('checked'));
+    let saveInfo;
+    if (saveInfoElement) {
+        saveInfo = Boolean(saveInfoElement.getAttribute('checked'));
+    } else {
+        saveInfo = false;
+    }
     let csrfTokenElement = document.querySelector('input[name="csrfmiddlewaretoken"]');
     let csrfToken = csrfTokenElement.value;
     let postData = {
