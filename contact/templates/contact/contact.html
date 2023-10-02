@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/contact.css' %}">
+{% endblock %}
+
+{% block content %}
+<section class="section contact-section">
+    <div class="contact-section-container section-container container-row">
+        <form action="{% url 'contact' %}" class="contact-form container-col" method="POST">
+            {% csrf_token %}
+            <div class="contact-form-input-container container-col">
+                <div class="dark-text">Name</div>
+                {{ form.name }}
+            </div>
+            <div class="contact-form-input-container container-col">
+                <div class="dark-text">Email</div>
+                {{ form.email }}
+            </div>
+            <div class="contact-form-input-container container-col">
+                <div class="dark-text">Message</div>
+                {{ form.message}}
+            </div>
+            <button type="submit" class="contact-form-submit-btn btn">Send</button>
+        </form>
+
+        <div class="contact-info-container container-col">
+            <div class="dark-text">Please get in contact with us if you have any questions and need help:</div>
+            <div class="contact-info-text dark-text">infinityinnovationsinfo@gmail.com</div>
+            <div class="contact-info-text dark-text">(555) 555-5555</div>
+        </div>
+    </div>
+</section>
+{% endblock %}
