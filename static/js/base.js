@@ -68,6 +68,6 @@ cartHeader.addEventListener("mouseenter", () => {
     });
 });
 
-cartHeader.addEventListener("click", () => {
-    window.location.href = '/cart/';
-});
+// cartHeader.addEventListener("click", () => {
+//     window.location.href = '/cart/';
+// });

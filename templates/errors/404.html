@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="home-hero-section">
+    <div class="home-hero-img-container img-container">
+        <img src="{{ MEDIA_URL }}home-2.png" alt="Home Hero" class="home-hero-img">
+    </div>
+    <div class="home-hero-overlay"></div>
+    <div class="home-hero-heading-container container-col">
+        <h2 class="home-hero-heading hhh-1">404</h2>
+        <h2 class="home-hero-subheading hhh-3">Sorry, this page isn't available</h2>
+        <a href="{% url 'products' %}" class="hhh-btn btn">
+            <span class="fa-icon"><i class="fa-solid fa-shop"></i></span>
+            Return to Shop
+        </a>
+    </div>
+</section>
+
+{% endblock %}
