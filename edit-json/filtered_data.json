@@ -1,0 +1,106 @@
+[
+    {
+        "number": 29,
+        "body": "As a **customer** I can **see a notification when completing an action** so that **I know my action was a success**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 28,
+        "body": "As a **customer** I can **view a specific brand of products** so that **I can find the product I'm looking for**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 27,
+        "body": "As a **customer** I can **view a specific category of products** so that **find the product I want to buy**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 24,
+        "body": "As a **customer** I can **talk to a chatbot** so that **I can get help when buying**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 23,
+        "body": "As a **site admin** I can **update products from the list** so that **customers have correct information about products**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 22,
+        "body": "As a **site admin** I can **delete products from the list** so that **customers can buy new products**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 21,
+        "body": "As a **site admin** I can **add new categories to list** so that **customers can easily navigate products**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 20,
+        "body": "As a **site admin** I can **add new products to the list** so that **customers can buy new products**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 19,
+        "body": "As a **customer** I can **contact the site admin** so that **I can talk about any issues I might have**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 18,
+        "body": "As a **site admin** I can **display a welcoming home screen** so that **customers will be willing to buy**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 17,
+        "body": "As a **customer** I can **update and save my profile information** so that **easily buy again**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 16,
+        "body": "As a **customer** I can **receive a confimation email** so that **I can receive my order**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 15,
+        "body": "As a **customer** I can **pay for the items in my cart** so that **I can receive the order**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 14,
+        "body": "As a **customer** I can **change the item type and quantity** so that **I can change what I'm buying**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 13,
+        "body": "As a **customer** I can **delete items from my cart** so that **I can change my order and what I'm buying**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 12,
+        "body": "As a **customer** I can **view my items in the cart** so that **I know what I'm buying**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 11,
+        "body": "As a **customer** I can **add multiple items of product to the cart** so that **buy more than one item**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 10,
+        "body": "As a **customer** I can **choose the correct product theme** so that **I can buy the correct product theme**\n\nTasks:\n- Model\n- View\n- Template\n"
+    },
+    {
+        "number": 9,
+        "body": "As a **customer** I can **add a product to my cart** so that **I can buy it later**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 8,
+        "body": "As a **customer** I can **click to see more info on a product** so that **decide to buy the item**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 7,
+        "body": "As a **customer** I can **sort the list of products** so that **find the item I want to buy**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 6,
+        "body": "As a **customer** I can **filter list of products** so that **I can find the item I want to buy**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 5,
+        "body": "As a **customer** I can **search list of products** so that **I can find the item I want to buy**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template\r\n"
+    },
+    {
+        "number": 4,
+        "body": "As a **customer** I can **view a list of products** so that **decide what item I'm buying**\r\n\r\nTasks:\r\n- Model\r\n- View\r\n- Template"
+    },
+    {
+        "number": 3,
+        "body": "As a **customer** I can **easily navigate the website** so that **I find my item and pay for it**\n\nTasks:\n- Create base html\n- Create nav bar\n"
+    },
+    {
+        "number": 2,
+        "body": "As a **customer** I can **login, register and logout** so that **buy items and save my information**\n\nTasks:\n- Install Allauth\n- Add settings\n- Edit templates\n"
+    }
+]
