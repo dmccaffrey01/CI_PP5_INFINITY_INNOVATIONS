@@ -164,13 +164,14 @@ Infinity Innovations maintains an active presence on both Facebook and Instagram
 ### Mailing List
 Infinity Innovations relies on the trusted Mailchimp platform to manage our mailing list, allowing users to enjoy exclusive benefits and stay up-to-date with the latest advancements in the metaverse.
 
-Join Our Mailing List: By joining our mailing list, you'll receive exciting updates, special promotions, and insider insights. Don't miss out; join us today for a journey into the virtual frontier!
+**Join Our Mailing List:** To become a part of our community, simply provide your email address on our website. By joining our mailing list, you'll receive exciting updates, special promotions, and insider insights. Don't miss out; join us today for a journey into the virtual frontier!
 
-Mailchimp Signup
+[Mailchimp signup](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/web-marketing/mc-signup.png)
 
-Personalized Updates: Our segmented mailing list enables us to tailor our emails to your interests, ensuring you receive content relevant to your preferences. Be the first to know about new product releases, metaverse events, and exclusive offers.
+**Personalized Updates:** Our segmented mailing list enables us to tailor our emails to your interests, ensuring you receive content relevant to your preferences. Be the first to know about new product releases, metaverse events, and exclusive offers.
 
-Mailchimp Email Example
+[Mailchimp example](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/web-marketing/mc-example-1.png)
+[Mailchimp example](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/web-marketing/mc-example-2.png)
 
 Join the Infinity Innovations mailing list now and embark on a virtual adventure like never before!
 
