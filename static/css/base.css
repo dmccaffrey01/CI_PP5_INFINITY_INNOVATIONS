@@ -392,6 +392,10 @@ header {
     .fa-icon {
         margin-right: 8px;
     }
+
+    .view-cart-link {
+        color: var(--MAIN-1);
+    }
 }
 
 @media (max-width: 1080px) {
@@ -477,6 +481,10 @@ header {
         gap: 5px;
     }
 
+    .view-cart-link {
+        color: var(--MAIN-1);
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -524,6 +532,10 @@ header {
     .account-header-dropdown-wrapper,
     .cart-header-dropdown-wrapper {
         top: 160px;
+    }
+
+    .view-cart-link {
+        color: var(--MAIN-1);
     }
 
 }
