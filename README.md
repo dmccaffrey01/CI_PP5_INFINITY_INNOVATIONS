@@ -152,3 +152,26 @@ Infinity Innovations is poised to be a leader in the emerging metaverse industry
 As the metaverse continues to evolve, Infinity Innovations will remain at the forefront of technological advancements, driving the convergence of the physical and digital realms to create immersive and transformative experiences for users around the world.
 
 ##### Back to [top](#table-of-contents)<hr>
+
+## Marketing  
+
+Infinity Innovations maintains an active presence on both Facebook and Instagram, providing our community with the latest updates, product highlights, and immersive content experiences.
+
+[**Facebook Page**](https://www.facebook.com/profile.php?id=61552186373211&is_tour_dismissed=true): Our Facebook page is the hub for announcements of upcoming events, product launches, and user-generated content sharing. Follow us on Facebook to stay connected and informed.
+
+[**Instagram**](https://www.instagram.com/infinityinnovationsvr/): On Instagram, we showcase captivating glimpses of our VR/AR products in action, share behind-the-scenes insights into our company, and explore the limitless possibilities of the metaverse. Discover the future with us on Instagram.
+
+### Mailing List
+Infinity Innovations relies on the trusted Mailchimp platform to manage our mailing list, allowing users to enjoy exclusive benefits and stay up-to-date with the latest advancements in the metaverse.
+
+Join Our Mailing List: By joining our mailing list, you'll receive exciting updates, special promotions, and insider insights. Don't miss out; join us today for a journey into the virtual frontier!
+
+Mailchimp Signup
+
+Personalized Updates: Our segmented mailing list enables us to tailor our emails to your interests, ensuring you receive content relevant to your preferences. Be the first to know about new product releases, metaverse events, and exclusive offers.
+
+Mailchimp Email Example
+
+Join the Infinity Innovations mailing list now and embark on a virtual adventure like never before!
+
+##### Back to [top](#table-of-contents)<hr>

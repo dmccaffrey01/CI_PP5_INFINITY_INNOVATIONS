@@ -15,7 +15,8 @@
 }
 
 .contact-form input,
-.contact-form textarea {
+.contact-form textarea,
+.mc-input {
     width: 450px;
     padding: 10px 20px 10px 20px;
     font-size: 1.5rem;
@@ -24,7 +25,9 @@
     color: var(--GRAY-DARK-1);
 }
 
-.contact-form input:focus {
+.contact-form input:focus,
+.mc-input:focus,
+.contact-form textarea:focus {
     border: 2px solid var(--MAIN-1);
     outline: none;
 }
@@ -59,4 +62,41 @@
     .contact-info-container {
         width: 330px;
     }
+}
+
+/* Mail Chimp */
+
+#mc_embed_signup {
+    background:#f5f5f5; 
+    clear:left; 
+    font:14px Helvetica,Arial,sans-serif; 
+    width: 299px;
+}
+
+.optionalParent p,
+.indicates-required {
+    display: none;
+}
+
+.social-media-container,
+.newsletter-container,
+.mc-form-container {
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.mc-input {
+    width: 200px;
+    font-size: 1.3rem;
+    padding: 8px 16px;
+}
+
+.mc-form-container .btn {
+    font-size: 1.3rem;
+    padding: 8px 16px;
+}
+
+.social-media-container i {
+    color: var(--MAIN-1);
+    font-size: 1.5rem;
 }
