@@ -1,10 +1,10 @@
 # eCommerce: Infinity Innovations
 
-![]()
+![Site Home Page](https://raw.githubusercontent.com/DillonMcCaffrey/CI_PP5_INFINITY_INNOVATIONS/main/docs/docs-home-page.png)
 
 **Developer: Dillon Mc Caffrey**
 
-💻 [Visit live website]()  
+💻 [Visit live website](https://ci-pp5-infinity-innovations-75b032391d20.herokuapp.com/)  
 (Ctrl + click to open in new tab)
 
 
