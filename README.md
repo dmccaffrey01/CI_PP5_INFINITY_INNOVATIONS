@@ -271,7 +271,7 @@ Join the Infinity Innovations mailing list now and embark on a virtual adventure
 
 <details><summary>Epic Overview</summary>
 
-![Epics](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-overview-1.png)
+![Epics](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-overview-1.png)<br>
 ![Epics](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-overview-2.png)
 </details>
 
@@ -292,7 +292,7 @@ Join the Infinity Innovations mailing list now and embark on a virtual adventure
 
 <details><summary>Epic 4</summary>
 
-![Epic 4a](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-4-a.png)
+![Epic 4a](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-4-a.png)<br>
 ![Epic 4b](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/epic-4-b.png)
 </details>
 
@@ -313,8 +313,8 @@ Join the Infinity Innovations mailing list now and embark on a virtual adventure
 
 <details><summary>User Stories</summary>
 
-![User Stories 1](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/user-stories-1.png)
-![User Stories 2](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/user-stories-2.png)
+![User Stories 1](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/user-stories-1.png)<br>
+![User Stories 2](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/user-stories-2.png)<br>
 ![User Stories 3](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/agile/user-stories-3.png)
 </details>
 
@@ -326,3 +326,42 @@ Join the Infinity Innovations mailing list now and embark on a virtual adventure
 
 ##### Back to [top](#table-of-contents)<hr>
 
+## Wireframes
+I used Balsamiq to create wireframes for my project. It's a user-friendly wireframing tool that enables me to quickly and easily create mockups for my website or application. It offers a wide range of pre-built UI elements, and allows for easy collaboration with my team. I linked a pdf of my wireframes, which you can access it and check it out the design, layout and the flow of the project before implementing it in the real product.  
+
+<details><summary>Wireframe Home</summary>  
+
+![Wireframe Home](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-home.png)
+</details>
+
+<details><summary>Wireframe Product List</summary>  
+
+![Wireframe Product List](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-product-list.png)
+</details>
+
+<details><summary>Wireframe Product Detail</summary>  
+
+![Wireframe Product Detail](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-product-detail.png)
+</details>
+
+<details><summary>Wireframe Cart</summary>  
+
+![Wireframe Cart](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-cart.png)
+</details>
+
+<details><summary>Wireframe Checkout</summary>  
+
+![Wireframe Checkout](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-checkout.png)
+</details>
+
+<details><summary>Wireframe Profile</summary>  
+
+![Wireframe Profile](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-profile.png)
+</details>
+
+<details><summary>Wireframe Contact</summary>  
+
+![Wireframe Contact](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-contact.png)
+</details>
+
+<hr>
