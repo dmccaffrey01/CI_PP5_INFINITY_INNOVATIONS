@@ -364,4 +364,26 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 ![Wireframe Contact](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/wireframes/wireframe-contact.png)
 </details>
 
+##### Back to [top](#table-of-contents)<hr>
+
+## Design
+
+### Colors
+
+
+The color I chose was orange and dark gray with a light gray background.  
+<details><summary>See Color Palette</summary>
+
+![Color Palette](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/contents/color-palette.png)
+</details>
+
+### Fonts
+
+ The fonts selected was from Google Fonts, Roboto and Montserrat.
+
+ <details><summary>See Font Image</summary>
+
+![Font Image](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/contents/font-roboto.png)
+![Font Image](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/contents/font-montserrat.png)
+</details>
 <hr>
