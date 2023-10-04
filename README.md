@@ -415,9 +415,9 @@ The footer contains contact info, links to the privacy policy and links to the c
   - Register
   - 404
 
-  ##### Back to [top](#table-of-contents)<hr>
+##### Back to [top](#table-of-contents)<hr>
 
-  ## AWS 
+## AWS 
 
 I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable cloud storage service provided by Amazon Web Services. It allows me to easily store and retrieve large amounts of data, and its built-in security features provide added protection for my files. I chose S3 for its scalability, durability, and security features.
 
@@ -440,7 +440,7 @@ I built my database with Python and the Django framework using PostgreSQL for th
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/database-diagram.png">
 </details>
 
- ##### Back to [top](#table-of-contents)<hr>
+##### Back to [top](#table-of-contents)<hr>
 
  ## Models  
 
@@ -554,3 +554,39 @@ I built my database with Python and the Django framework using PostgreSQL for th
 |            | message           | TextField  |
 |            | name           | CharField  |
 |            | timestamp           | DateTimeField  |
+
+##### Back to [top](#table-of-contents)<hr>
+
+## Technologies Used
+
+### Languages & Frameworks
+
+- HTML
+- CSS
+- Javascript
+- Python
+- Django
+
+
+### Libraries & Tools
+
+- [Balsamiq](https://balsamiq.com/)
+- [Favicon.io](https://favicon.io)
+- [Chrome dev tools](https://developers.google.com/web/tools/chrome-devtools/)
+- [Font Awesome](https://fontawesome.com/)
+- [Git](https://git-scm.com/)
+- [GitHub](https://github.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Heroku Platform](https://id.heroku.com/login)
+- [AWS](https://aws.amazon.com/)
+- [jQuery](https://jquery.com)
+- [Postgres](https://www.postgresql.org/)
+- Validation:
+  - [WC3 Validator](https://validator.w3.org/)
+  - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
+  - [JShint](https://jshint.com/)
+  - [CI Python Liner(PEP8)](https://pep8ci.herokuapp.com/)
+  - [Lighthouse](https://developers.google.com/web/tools/lighthouse/)
+  - [Wave Validator](https://wave.webaim.org/)
+
+##### Back to [top](#table-of-contents)
