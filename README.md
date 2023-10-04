@@ -441,3 +441,116 @@ I built my database with Python and the Django framework using PostgreSQL for th
 </details>
 
  ##### Back to [top](#table-of-contents)<hr>
+
+ ## Models  
+
+### User Model
+
+| Key        | Name         | Type        |
+| ---------- | ------------ | ----------- |
+| PrimaryKey | user_id      | AutoField   |
+|            | password     | VARCHAR     |
+|            | last_login   | VARCHAR     |
+|            | is_superuser | BOOLEAN     |
+|            | username     | VARCHAR     |
+|            | first_name   | VARCHAR     |
+|            | last_name    | VARCHAR     |
+|            | email        | VARCHAR     |
+|            | is_staff     | BOOLEAN     |
+|            |              |             |
+|            | is_active    | BOOLEAN     |
+|            | date_joined  | VARCHAR     |
+
+### User Profile Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | user_profile_id      | AutoField     |
+| ForeignKey | user                 | User model    |
+|            | default_phone_number | CharField     |
+|            | default_street_address1 | CharField |
+|            | default_street_address2 | CharField |
+|            | default_town_city    | CharField |
+|            | default_county       | CharField |
+|            | default_postcode     | CharField |
+|            | default_country      | CharField |
+
+### Product Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | id                   | AutoField     |
+| ForeignKey | brand                | Brand model   |
+| ForeignKey | category             | Category model |
+|            | name                 | CharField     |
+|            | sku                 | CharField     |
+|            | price                 | DecimalField |
+|            | rating               | DecimalField |
+|            | description          | TextField     |
+|            | has_themes           | BooleanField  |
+|            | image           | ImageField  |
+|            | image_url           | URLField  |
+
+### Category Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | id                   | AutoField     |
+|            | friendly_name           | CharField  |
+|            | name           | CharField  |
+|            | universe           | CharField  |
+
+### Brand Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | id                   | AutoField     |
+|            | friendly_name           | CharField  |
+|            | name           | CharField  |
+|            | universe           | CharField  |
+
+### Order Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | id                   | AutoField     |
+| ForeignKey | user_profile           | Profile model  |
+|            | country           | CourntyField  |
+|            | county           | CharField  |
+|            | date           | DateTimeField  |
+|            | delivery_cost           | DecimalField  |
+|            | discounted_total           | DecimalField  |
+|            | email           | EmailField  |
+|            | full_name           | CharField  |
+|            | grand_total           | DecimalField  |
+|            | order_total           | DecimalField  |
+|            | real_items_total           | DecimalField  |
+|            | order_number           | CharField  |
+|            | phone_number           | CharField  |
+|            | postcode           | CharField  |
+|            | street_address1           | CharField  |
+|            | street_address2           | CharField  |
+|            | stripe_pid           | CharField  |
+|            | town_or_city           | CharField  |
+|            | original_cart           | TextField  |
+
+### OrderLineItem Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | id                   | AutoField     |
+| ForeginKey | order                   | Order model     |
+| ForeginKey | product                   | Product model     |
+|            | lineitem_total           | DecimalField  |
+|            | product_theme           | CharField  |
+|            | quantity           | IntegerField  |
+
+### ContactMessage Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | id                   | AutoField     |
+|            | email           | EmailField  |
+|            | message           | TextField  |
+|            | name           | CharField  |
+|            | timestamp           | DateTimeField  |
