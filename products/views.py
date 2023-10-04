@@ -6,6 +6,7 @@ from django.http import HttpResponse
 from django.db.models.functions import Lower
 from .models import Product, Category, Brand
 from .forms import ProductForm
+import json
 
 
 def all_products(request, universe):
