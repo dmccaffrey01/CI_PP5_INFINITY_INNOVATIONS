@@ -416,3 +416,28 @@ The footer contains contact info, links to the privacy policy and links to the c
   - 404
 
   ##### Back to [top](#table-of-contents)<hr>
+
+  ## AWS 
+
+I am using AWS S3 buckets to store my data. S3 is a highly scalable and durable cloud storage service provided by Amazon Web Services. It allows me to easily store and retrieve large amounts of data, and its built-in security features provide added protection for my files. I chose S3 for its scalability, durability, and security features.
+
+<details><summary>See AWS Images</summary>
+
+
+![AWS Bucket](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-bucket.png)<br>
+![AWS Media](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-media.png)<br>
+![AWS Static](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-static.png)
+</details>
+
+##### Back to [top](#table-of-contents)<hr>
+
+
+## Database
+
+I built my database with Python and the Django framework using PostgreSQL for the deployed Heroku version (production). It's a powerful and open-source object-relational database system that is known for its reliability, robustness, and performance. I chose it because it provides a flexible tool for efficiently managing and organizing my data.
+
+<details><summary>See Database Diagram</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/database-diagram.png">
+</details>
+
+ ##### Back to [top](#table-of-contents)<hr>
