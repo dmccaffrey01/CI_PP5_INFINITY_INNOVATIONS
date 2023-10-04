@@ -383,7 +383,36 @@ The color I chose was orange and dark gray with a light gray background.
 
  <details><summary>See Font Image</summary>
 
-![Font Image](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/contents/font-roboto.png)
+![Font Image](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/contents/font-roboto.png)<br>
 ![Font Image](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/contents/font-montserrat.png)
 </details>
-<hr>
+
+##### Back to [top](#table-of-contents)<hr>
+
+## Structure
+
+The site was designed for the user to be familiar with the layout.
+
+The header contains a top section and a bottom section, the top section includes the logo, search bar, account and cart buttons.
+
+The footer contains contact info, links to the privacy policy and links to the contact page.
+
+### Website pages
+
+- The site consists of the following pages:
+  - Home
+  - Product List
+  - Product Detail
+  - Cart
+  - Checkout
+  - Checkout Success
+  - Contact
+  - Register
+  - Profile
+  - Login
+  - Logout
+  - Reset Password
+  - Register
+  - 404
+
+  ##### Back to [top](#table-of-contents)<hr>
