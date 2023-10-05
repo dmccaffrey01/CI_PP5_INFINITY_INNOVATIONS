@@ -838,6 +838,31 @@ login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infin
 | Error | N/A | N/A | N/A |
 | Warning | N/A | N/A | N/A | 
 
+### Register  
+
+register.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Faccounts%2Fsignup%2F) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+### Logout 
+
+<details><summary>logout.html</summary>
+
+![logout](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-logout.png)
+</details>
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
 ### Products 
 
 products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fproducts%2F) 
@@ -859,3 +884,92 @@ product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
 | Warning | N/A | N/A | N/A |  
+
+### Cart
+
+cart.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fcart%2F) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+### Checkout
+
+checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fcheckout%2F) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+### Checkout Success
+
+<details><summary>checkout_success.html</summary>
+
+![checkout_success](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-checkout-success.png)
+</details>
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+### Profile
+
+<details><summary>profile.html</summary>
+
+![profile](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-profile.png)
+</details>
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+### Contact
+
+contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fcontact%2F) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+### Add Product
+
+<details><summary>add_product.html</summary>
+
+![add_product](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-add-product.png)
+</details>
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+### Edit Product
+
+<details><summary>edit_product.html</summary>
+
+![edit_product](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-edit-product.png)
+</details>
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 

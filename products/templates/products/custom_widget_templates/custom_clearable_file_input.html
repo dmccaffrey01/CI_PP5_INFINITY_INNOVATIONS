@@ -1,7 +1,7 @@
 {% if widget.is_initial %}
     <p class="dark-text">{{ widget.initial_text }}: </p>
     <a href="{{ widget.value.url }}" class="custom-select-img-container img-container">
-        <img class="img-100a" src="{{ widget.value.url }}">
+        <img class="img-100a" src="{{ widget.value.url }}" alt="product_image">
     </a>
 
     {% if not widget.required %}
