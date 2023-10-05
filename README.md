@@ -664,6 +664,36 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ![Home Hero](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-home-hero.png)
 </details>
 
+### Login
+
+- User can login to their account
+- User stories covered: 1
+
+<details><summary>See feature images</summary>
+
+![Login](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-login.png)
+</details>
+
+### Register
+
+- User can register an account
+- User stories covered: 1
+
+<details><summary>See feature images</summary>
+
+![Register](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-register.png)
+</details>
+
+### Logout
+
+- User can logout of their account
+- User stories covered: 1
+
+<details><summary>See feature images</summary>
+
+![Logout](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-logout.png)
+</details>
+
 ### Product List
 
 - Displays products in list
@@ -699,7 +729,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![Product List](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-filter.png)
+![Product Detail](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-detail.png)
 </details>
 
 
