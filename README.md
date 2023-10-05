@@ -1069,3 +1069,29 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 
 
 ##### Back to [top](#table-of-contents)<hr> 
+
+## PEP8 Validation
+[CI Python Linter](https://pep8ci.herokuapp.com/) was used to check the code for PEP8 requirements.
+
+
+<summary>Cart</summary>
+
+<details><summary>contexts.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
+</details>
+
+<details><summary>basket_tools.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
+</details>
+
+<details><summary>test_views.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
+</details>

@@ -38,7 +38,7 @@ def cart_contents(request):
                 })
 
                 if product.category.universe == "real":
-                    real_items_total += product.price
+                    real_items_total += product.price * quantity
 
     if total >= settings.DISCOUNT_THRESHOLD:
         discounted_total = total - (Decimal(settings.STANDARD_DISCOUNT_PERCENTAGE / 100) * total)
