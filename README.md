@@ -590,3 +590,15 @@ I built my database with Python and the Django framework using PostgreSQL for th
   - [Wave Validator](https://wave.webaim.org/)
 
 ##### Back to [top](#table-of-contents)
+
+## Features  
+
+
+### Search Engine Optimisation (SEO)
+I have used meta tags in the HTML of my web app's pages to optimize them for search engines. The description tag provides a brief summary of the content on the page, while the keywords tag lists relevant keywords to help search engines understand the content of the webpage and its relevance to related search queries.
+
+
+<details><summary>See SEO image</summary>
+
+![SEO](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/seo-meta.png)
+</details>  
