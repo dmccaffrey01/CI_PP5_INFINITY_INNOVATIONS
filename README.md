@@ -911,7 +911,7 @@ checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-in
 
 <details><summary>checkout_success.html</summary>
 
-![checkout_success](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-checkout-success.png)
+![checkout_success](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-checkou-success.png)
 </details>
 - No Errors Found
 
@@ -1024,3 +1024,48 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 <details><summary>profile.css</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
 </details> 
+
+##### Back to [top](#table-of-contents)
+
+### JavaScript Validation
+JSHint javaScript Validation Service was used to validate all javaScript files.
+
+<details><summary>base.js</summary>  
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-base.png">
+</details>  
+
+- No issues raised
+
+<details><summary>product-management.js</summary>  
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-product-management.png">
+</details>  
+
+- No issues raised
+
+<details><summary>products.js</summary>  
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-products.png">
+</details>  
+
+- No issues raised
+
+<details><summary>quantity-input.js</summary>  
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-quantity-input.png">
+</details>  
+
+- No issues raised
+
+<details><summary>stripe_elements.js</summary>  
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-stripe-elements.png">
+</details>  
+
+- one undefined variable Stripe which originates from a external script
+- one undefined variable $ which originates from jquery a external script
+
+<details><summary>toasts.js</summary>  
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-toasts.png">
+</details>  
+
+- No issues raised
+
+
+##### Back to [top](#table-of-contents)<hr> 

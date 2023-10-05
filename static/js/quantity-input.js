@@ -1,6 +1,6 @@
 const incrementBtns = document.querySelectorAll(".increment-qty");
 const decrementBtns = document.querySelectorAll(".decrement-qty");
-const allQtyInputs = document.querySelectorAll(".qty_input")
+const allQtyInputs = document.querySelectorAll(".qty_input");
 
 const handleEnableDisable = (itemId) => {
     let inputSelector = "#id_qty_" + itemId;
@@ -17,7 +17,7 @@ const handleEnableDisable = (itemId) => {
 
     decrementBtn.disabled = minusDisabled;
     incrementBtn.disabled = plusDisabled;
-}
+};
 
 allQtyInputs.forEach((input) => {
     let itemId = input.getAttribute("data-item_id");
@@ -81,3 +81,4 @@ removeItemBtns.forEach((btn) => {
         });
     });
 });
+    

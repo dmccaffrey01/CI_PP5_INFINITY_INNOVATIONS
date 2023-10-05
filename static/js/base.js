@@ -10,7 +10,7 @@ const removeActiveDropdown = (i) => {
             headerDropdownHeadings[k].classList.remove("active");
         }
     });
-}
+};
 
 headerDropdownHeadings.forEach((heading, index) => {
     heading.addEventListener("mouseenter", () => {
@@ -40,10 +40,10 @@ accountHeader.addEventListener("mouseenter", () => {
     accountWrapper.style.transform = "translateY(-80%)";
     window.setTimeout(() => {
         accountWrapper.style.transform = "translateY(0%)";
-    }, 10)
+    }, 10);
 
     accountHeader.addEventListener("mouseleave", () => {
-        accountWrapper.style.transform = "translateY(-100%)"
+        accountWrapper.style.transform = "translateY(-100%)";
         window.setTimeout(() => {
             accountDropdownContainer.style.display = "none";
         }, 100);
@@ -58,7 +58,7 @@ cartHeader.addEventListener("mouseenter", () => {
     cartWrapper.style.transform = "translateY(-80%)";
     window.setTimeout(() => {
         cartWrapper.style.transform = "translateY(0%)";
-    }, 10)
+    }, 10);
 
     accountCartContainer.addEventListener("mouseleave", () => {
         cartWrapper.style.transform = "translateY(-100%)";

@@ -17,7 +17,7 @@ let style = {
         iconColor: 'd31d1d',
         color: '#333333',
     }
-}
+};
 let card = elements.create('card', {style: style});
 card.mount('#card-element');
 
@@ -105,7 +105,7 @@ form.addEventListener('submit', function(ev) {
         'csrfmiddlewaretoken': csrfToken,
         'client_secret': clientSecret,
         'save_info': saveInfo,
-    }
+    };
     let url = '/checkout/cache_checkout_data/';
 
     $.post(url, postData).done(() => {

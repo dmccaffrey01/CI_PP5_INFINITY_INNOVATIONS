@@ -1,5 +1,4 @@
 let notificationContainer = document.querySelector(".toast-notification-container");
-let notificationMessage = document.querySelector(".notification-message");
 let notificationClose = document.querySelector(".close-toast-btn");
 let notificationClosed = true;
 
@@ -39,11 +38,11 @@ const fadeInFadeOut = (inOrOut) => {
         }
     }, 10);
 
-}
+};
 
 const closeNotification = () => {
     fadeInFadeOut("out");
-}
+};
 
 const displayNotification = () => {
     fadeInFadeOut("in");
@@ -59,7 +58,7 @@ const displayNotification = () => {
         }
         
     }, 4000);
-}
+};
 
 notificationClose.addEventListener("click", () => {
     if (notificationClosed) {

@@ -37,7 +37,7 @@ const updateFilterURL = (valueElement, type) => {
         }
             
         currentUrl.pathname = splitUrl.join("/");
-        currentUrl.pathname = currentUrl.pathname + "/"
+        currentUrl.pathname = currentUrl.pathname + "/";
         window.location.replace(currentUrl);
 
     } else if (type == "category") {
@@ -103,7 +103,7 @@ const updateFilterURL = (valueElement, type) => {
             window.location.replace(currentUrl);
         }
     }
-}
+};
 
 const closeFilterDropdown = (selector) => {
     selector.classList.remove("active");
@@ -115,7 +115,7 @@ const closeFilterDropdown = (selector) => {
     let icon = selector.querySelector(".fa-chevron-down");
 
     icon.style.transform = "rotate(0deg)";
-}
+};
 
 const openFilterDropdown = (selector, type) => {
     selector.classList.add("active");
@@ -136,7 +136,7 @@ const openFilterDropdown = (selector, type) => {
             closeFilterDropdown(selector);
         });
     });
-}
+};
 
 const filterSelectors = document.querySelectorAll(".custom-select-filter-container");
 
