@@ -711,7 +711,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 - Contains dropdown select boxes
 - The products can be sorted or filtered by universe, category and brand
-- User stories covered: 4, 5
+- User stories covered: 4, 5, 19, 20
 
 <details><summary>See feature images</summary>
 
@@ -732,5 +732,78 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ![Product Detail](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-detail.png)
 </details>
 
+### Notification
 
+- User is displayed with a notification when they complete and action
+- Success, error, info and warning messages are displayed
+- User stories covered: 21
 
+<details><summary>See feature images</summary>
+
+![Notification](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-notification.png)
+</details>
+
+### Cart
+
+- Displays the items in the cart with information and subtotal
+- User can view items in the cart
+- User can update the quantity of item in the cart
+- User can delete the item from the cart
+- Cart summary is displayed, cart total, real items total, delivery and grand total
+- User can return to products
+- User can click button to checkout
+- User stories covered: 11, 12, 13
+
+<details><summary>See feature images</summary>
+
+![Cart](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-cart.png)
+</details>
+
+### Checkout
+
+- Checkout form: user fills in their name, email, phone number, addresss
+- User can save their delivery information
+- User can input their card number to pay
+- User can return to cart
+- Displays order summary, total of cart and amount card will be charged
+- User stories covered: 14
+
+<details><summary>See feature images</summary>
+
+![Checkout](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-checkout.png)
+</details>
+
+### Checkout Success
+
+- Order confirmation is displayed
+- Order number, date, order items, delivery information and total is displayed
+- A confirmation email is sent
+- User can return to products
+- User stories covered: 15
+
+<details><summary>See feature images</summary>
+
+![Checkout Success](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-checkout-success.png)
+</details>
+
+### Profile
+
+- Default delivery information form can be filled out to update the user's information
+- Order history is displayed
+- Order number, date, items and total are displayed
+- User stories covered: 16
+
+<details><summary>See feature images</summary>
+
+![Profile](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-profile.png)
+</details>
+
+### Product Management
+
+- Add/Edit product forms can be filled out to update or add products to the database and list
+- User stories covered: 23, 25, 266
+
+<details><summary>See feature images</summary>
+
+![Product Management](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-management.png)
+</details>
