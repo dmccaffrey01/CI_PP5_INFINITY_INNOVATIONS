@@ -818,7 +818,40 @@ The W3C Markup Validation Service was used to validate the HTML of the website.
 
 ### Home  
 
-index.html [results]() 
+index.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2F) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+### Login  
+
+login.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Faccounts%2Flogin%2F) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+### Products 
+
+products.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fproducts%2F) 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  
+
+### Product Detail 
+
+product_detail.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fproducts%2F10%2F) 
 - No Errors Found
 
 
