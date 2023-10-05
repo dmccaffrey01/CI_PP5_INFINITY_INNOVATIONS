@@ -28,12 +28,12 @@
           {% csrf_token %}
 
           <div class="account-form-card-input-container container-col">
-            <p class="dark-text center-text">Goodbye from</p>
-            <p class="dark-text center-text">Infinity Innovations</p>
+            <p class="dark-text">Goodbye from</p>
+            <p class="dark-text">Infinity Innovations</p>
           </div>
           
           <div class="account-form-card-input-container container-row">
-            <p class="dark-text center-text">{% trans 'Are you sure you want to sign out?' %}</p>
+            <p class="dark-text">{% trans 'Are you sure you want to sign out?' %}</p>
           </div>
 
           {% if redirect_field_value %}

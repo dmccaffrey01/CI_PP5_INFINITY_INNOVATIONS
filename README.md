@@ -602,3 +602,105 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ![SEO](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/seo-meta.png)
 </details>  
+
+## Features
+
+### Top Header
+
+- Featured on all pages
+- The Logo when clicked bring the user back to the homepage
+- The search bar is used to search for products in the store
+- The Account button is used to navigate to the profile, contact, custom admin, register, login and logout pages
+- The cart button is used to navigate to the cart and checkout pages and get a summary of the cart
+- User stories covered: 2, 4
+
+<details><summary>See feature images</summary>
+
+![Top Header](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-top-header.png)
+</details>
+
+### Bottom Header
+
+- Featured on all pages
+- There is 2 buttons, one for real products and one for digital products
+- The two buttons open a dropdown, where the products can be filtered and sorted in multiple ways
+- User stories covered: 2, 5, 6
+
+<details><summary>See feature images</summary>
+
+![Bottom Header](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-bottom-header.png)
+</details>
+
+### Discount Display
+
+- Featured on all pages
+- Displays the discount and discount threshold
+- User stories covered: 22
+
+<details><summary>See feature images</summary>
+
+![Discount Display](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-discount-display.png)
+</details>
+
+### Footer
+
+- Featured on all pages
+- Contains private policy, social media, contact links with contact info
+- User stories covered: 2, 17
+
+<details><summary>See feature images</summary>
+
+![Footer](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-footer.png)
+</details>
+
+### Home Hero
+
+- Welcomes user to website
+- Call to action to shop products
+- User stories covered: 22
+
+<details><summary>See feature images</summary>
+
+![Home Hero](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-home-hero.png)
+</details>
+
+### Product List
+
+- Displays products in list
+- Each product is displayed with image, name, price and rating
+- Each product can be clicked to open the product detail
+- The total number of products in list is also displayed
+- User stories covered: 3
+
+<details><summary>See feature images</summary>
+
+![Product List](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-list.png)
+</details>
+
+### Product Filter
+
+- Contains dropdown select boxes
+- The products can be sorted or filtered by universe, category and brand
+- User stories covered: 4, 5
+
+<details><summary>See feature images</summary>
+
+![Product List](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-filter.png)
+</details>
+
+### Product Detail
+
+- The product's image, name, price, rating, description is displayed
+- The user can select the product theme
+- The user can select the quantity of the product
+- The user can add the item to the cart
+- The user can return back to product list
+- User stories covered: 7, 8, 9, 10
+
+<details><summary>See feature images</summary>
+
+![Product List](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-filter.png)
+</details>
+
+
+

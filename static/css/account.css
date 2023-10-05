@@ -78,6 +78,7 @@
 
 .account-form-card-input-container {
     width: 300px;
+    align-items: flex-start;
 }
 
 .account-form-card-input-container input {
