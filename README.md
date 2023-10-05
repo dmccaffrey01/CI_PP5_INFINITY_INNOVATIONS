@@ -973,3 +973,54 @@ contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-inf
 |-------------|-------------|----------------------|-------------|
 | Error | N/A | N/A | N/A |
 | Warning | N/A | N/A | N/A | 
+
+### 404
+
+<details><summary>404.html</summary>
+
+![404](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-edit-product.png)
+</details>
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
+##### Back to [top](#table-of-contents)
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+
+<details><summary>base.css</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
+</details> 
+
+<details><summary>account.css</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
+</details> 
+
+<details><summary>cart.css</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
+</details> 
+
+<details><summary>checkout.css</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
+</details> 
+
+<details><summary>contact.css</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
+</details> 
+
+<details><summary>home.css</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
+</details> 
+
+<details><summary>products.css</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
+</details> 
+
+<details><summary>profile.css</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-css.png">
+</details> 
