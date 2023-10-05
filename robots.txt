@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /products/add/
+Disallow: /products/edit/
+Disallow: /products/delete/
+Sitemap: https://ci-pp5-infinity-innovations-75b032391d20.herokuapp.com/sitemap.xml
