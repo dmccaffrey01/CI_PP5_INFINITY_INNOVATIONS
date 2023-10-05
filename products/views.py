@@ -6,13 +6,11 @@ from django.http import HttpResponse
 from django.db.models.functions import Lower
 from .models import Product, Category, Brand
 from .forms import ProductForm
-import json
 
 
 def all_products(request, universe):
     """ A view to show all products, including sorting and search queries """
     current_universe = 'all'
-
     if universe == 'real':
         products = Product.objects.filter(category__universe='real')
         current_universe = 'real'

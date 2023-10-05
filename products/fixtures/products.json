@@ -9,7 +9,7 @@
             "price": 399.99,
             "category": 1,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/vr+headset/images/headset-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/headset-1.png",
             "image": "headset-1.png",
             "brand": 1,
             "has_themes": true
@@ -25,7 +25,7 @@
             "price": 549.99,
             "category": 1,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/vr+headset/images/headset-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/headset-2.png",
             "image": "headset-2.png",
             "brand": 1,
             "has_themes": true
@@ -41,7 +41,7 @@
             "price": 699.99,
             "category": 1,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/vr+headset/images/headset-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/headset-3.png",
             "image": "headset-3.png",
             "brand": 1,
             "has_themes": true
@@ -57,7 +57,7 @@
             "price": 449.99,
             "category": 1,
             "rating": 3.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/vr+headset/images/headset-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/headset-4.png",
             "image": "headset-4.png",
             "brand": 2,
             "has_themes": true
@@ -73,7 +73,7 @@
             "price": 599.99,
             "category": 1,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/vr+headset/images/headset-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/headset-5.png",
             "image": "headset-5.png",
             "brand": 2,
             "has_themes": true
@@ -89,7 +89,7 @@
             "price": 749.99,
             "category": 1,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/vr+headset/images/headset-6.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/headset-6.png",
             "image": "headset-6.png",
             "brand": 2,
             "has_themes": true
@@ -105,7 +105,7 @@
             "price": 429.99,
             "category": 1,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/vr+headset/images/headset-7.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/headset-7.png",
             "image": "headset-7.png",
             "brand": 3,
             "has_themes": true
@@ -121,7 +121,7 @@
             "price": 579.99,
             "category": 1,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/vr+headset/images/headset-8.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/headset-8.png",
             "image": "headset-8.png",
             "brand": 3,
             "has_themes": true
@@ -137,7 +137,7 @@
             "price": 729.99,
             "category": 1,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/vr+headset/images/headset-9.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/headset-9.png",
             "image": "headset-9.png",
             "brand": 3,
             "has_themes": true
@@ -153,7 +153,7 @@
             "price": 249.99,
             "category": 2,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/lense/images/lense-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/lense-1.png",
             "image": "lense-1.png",
             "brand": 1,
             "has_themes": true
@@ -169,7 +169,7 @@
             "price": 299.99,
             "category": 2,
             "rating": 3.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/lense/images/lense-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/lense-2.png",
             "image": "lense-2.png",
             "brand": 1,
             "has_themes": true
@@ -185,7 +185,7 @@
             "price": 259.99,
             "category": 2,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/lense/images/lense-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/lense-3.png",
             "image": "lense-3.png",
             "brand": 2,
             "has_themes": true
@@ -201,7 +201,7 @@
             "price": 319.99,
             "category": 2,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/lense/images/lense-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/lense-4.png",
             "image": "lense-4.png",
             "brand": 2,
             "has_themes": true
@@ -217,7 +217,7 @@
             "price": 269.99,
             "category": 2,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/lense/images/lense-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/lense-5.png",
             "image": "lense-5.png",
             "brand": 3,
             "has_themes": true
@@ -233,7 +233,7 @@
             "price": 339.99,
             "category": 2,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/lense/images/lense-6.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/lense-6.png",
             "image": "lense-6.png",
             "brand": 3,
             "has_themes": true
@@ -249,7 +249,7 @@
             "price": 499.99,
             "category": 3,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/glasses/images/glass-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/glass-1.png",
             "image": "glass-1.png",
             "brand": 1,
             "has_themes": true
@@ -265,7 +265,7 @@
             "price": 649.99,
             "category": 3,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/glasses/images/glass-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/glass-2.png",
             "image": "glass-2.png",
             "brand": 1,
             "has_themes": true
@@ -281,7 +281,7 @@
             "price": 799.99,
             "category": 3,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/glasses/images/glass-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/glass-3.png",
             "image": "glass-3.png",
             "brand": 1,
             "has_themes": true
@@ -297,7 +297,7 @@
             "price": 499.99,
             "category": 3,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/glasses/images/glass-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/glass-4.png",
             "image": "glass-4.png",
             "brand": 2,
             "has_themes": true
@@ -313,7 +313,7 @@
             "price": 649.99,
             "category": 3,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/glasses/images/glass-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/glass-5.png",
             "image": "glass-5.png",
             "brand": 2,
             "has_themes": true
@@ -329,7 +329,7 @@
             "price": 799.99,
             "category": 3,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/glasses/images/glass-6.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/glass-6.png",
             "image": "glass-6.png",
             "brand": 2,
             "has_themes": true
@@ -345,7 +345,7 @@
             "price": 499.99,
             "category": 3,
             "rating": 4.1,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/glasses/images/glass-7.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/glass-7.png",
             "image": "glass-7.png",
             "brand": 3,
             "has_themes": true
@@ -361,7 +361,7 @@
             "price": 649.99,
             "category": 3,
             "rating": 4.2,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/glasses/images/glass-8.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/glass-8.png",
             "image": "glass-8.png",
             "brand": 3,
             "has_themes": true
@@ -377,7 +377,7 @@
             "price": 799.99,
             "category": 3,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/glasses/images/glass-9.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/glass-9.png",
             "image": "glass-9.png",
             "brand": 3,
             "has_themes": true
@@ -393,7 +393,7 @@
             "price": 899.99,
             "category": 4,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/treadmill/images/treadmill-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/treadmill-1.png",
             "image": "treadmill-1.png",
             "brand": 1,
             "has_themes": true
@@ -409,7 +409,7 @@
             "price": 1099.99,
             "category": 4,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/treadmill/images/treadmill-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/treadmill-2.png",
             "image": "treadmill-2.png",
             "brand": 1,
             "has_themes": true
@@ -425,7 +425,7 @@
             "price": 899.99,
             "category": 4,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/treadmill/images/treadmill-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/treadmill-3.png",
             "image": "treadmill-3.png",
             "brand": 2,
             "has_themes": true
@@ -441,7 +441,7 @@
             "price": 1099.99,
             "category": 4,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/treadmill/images/treadmill-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/treadmill-4.png",
             "image": "treadmill-4.png",
             "brand": 2,
             "has_themes": true
@@ -457,7 +457,7 @@
             "price": 899.99,
             "category": 4,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/treadmill/images/treadmill-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/treadmill-5.png",
             "image": "treadmill-5.png",
             "brand": 3,
             "has_themes": true
@@ -473,7 +473,7 @@
             "price": 1099.99,
             "category": 4,
             "rating": 4.1,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/treadmill/images/treadmill-6.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/treadmill-6.png",
             "image": "treadmill-6.png",
             "brand": 3,
             "has_themes": true
@@ -489,7 +489,7 @@
             "price": 349.99,
             "category": 5,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/future+watches/images/watch-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/watch-1.png",
             "image": "watch-1.png",
             "brand": 1,
             "has_themes": true
@@ -505,7 +505,7 @@
             "price": 429.99,
             "category": 5,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/future+watches/images/watch-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/watch-2.png",
             "image": "watch-2.png",
             "brand": 1,
             "has_themes": true
@@ -521,7 +521,7 @@
             "price": 499.99,
             "category": 5,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/future+watches/images/watch-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/watch-3.png",
             "image": "watch-3.png",
             "brand": 1,
             "has_themes": true
@@ -537,7 +537,7 @@
             "price": 359.99,
             "category": 5,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/future+watches/images/watch-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/watch-4.png",
             "image": "watch-4.png",
             "brand": 2,
             "has_themes": true
@@ -553,7 +553,7 @@
             "price": 439.99,
             "category": 5,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/future+watches/images/watch-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/watch-5.png",
             "image": "watch-5.png",
             "brand": 2,
             "has_themes": true
@@ -569,7 +569,7 @@
             "price": 519.99,
             "category": 5,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/future+watches/images/watch-6.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/watch-6.png",
             "image": "watch-6.png",
             "brand": 2,
             "has_themes": true
@@ -585,7 +585,7 @@
             "price": 369.99,
             "category": 5,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/future+watches/images/watch-7.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/watch-7.png",
             "image": "watch-7.png",
             "brand": 3,
             "has_themes": true
@@ -601,7 +601,7 @@
             "price": 449.99,
             "category": 5,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/future+watches/images/watch-8.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/watch-8.png",
             "image": "watch-8.png",
             "brand": 3,
             "has_themes": true
@@ -617,7 +617,7 @@
             "price": 529.99,
             "category": 5,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Real+World/future+watches/images/watch-9.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/watch-9.png",
             "image": "watch-9.png",
             "brand": 3,
             "has_themes": true
@@ -633,7 +633,7 @@
             "price": 69.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/DC/images/batman.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/batman.png",
             "image": "batman.png",
             "brand": 5,
             "has_themes": true
@@ -649,7 +649,7 @@
             "price": 69.99,
             "category": 6,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/DC/images/catwoman.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/catwoman.png",
             "image": "catwoman.png",
             "brand": 5,
             "has_themes": true
@@ -665,7 +665,7 @@
             "price": 69.99,
             "category": 6,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/DC/images/flash.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/flash.png",
             "image": "flash.png",
             "brand": 5,
             "has_themes": true
@@ -681,7 +681,7 @@
             "price": 79.99,
             "category": 6,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/DC/images/harley+quinn.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/harley+quinn.png",
             "image": "harley quinn.png",
             "brand": 5,
             "has_themes": true
@@ -697,7 +697,7 @@
             "price": 79.99,
             "category": 6,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/DC/images/joker.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/joker.png",
             "image": "joker.png",
             "brand": 5,
             "has_themes": true
@@ -713,7 +713,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/DC/images/superman.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/superman.png",
             "image": "superman.png",
             "brand": 5,
             "has_themes": true
@@ -729,7 +729,7 @@
             "price": 79.99,
             "category": 6,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/Marvel/images/black+widow.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/black+widow.png",
             "image": "black widow.png",
             "brand": 4,
             "has_themes": true
@@ -745,7 +745,7 @@
             "price": 79.99,
             "category": 6,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/Marvel/images/captain+america.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/captain+america.png",
             "image": "captain america.png",
             "brand": 4,
             "has_themes": true
@@ -761,7 +761,7 @@
             "price": 79.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/Marvel/images/hulk.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/hulk.png",
             "image": "hulk.png",
             "brand": 4,
             "has_themes": true
@@ -777,7 +777,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/Marvel/images/ironman.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/ironman.png",
             "image": "ironman.png",
             "brand": 4,
             "has_themes": true
@@ -793,7 +793,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/Marvel/images/magneto.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/magneto.png",
             "image": "magneto.png",
             "brand": 4,
             "has_themes": true
@@ -809,7 +809,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/Marvel/images/spiderman.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/spiderman.png",
             "image": "spiderman.png",
             "brand": 4,
             "has_themes": true
@@ -825,7 +825,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/Marvel/images/thanos.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/thanos.png",
             "image": "thanos.png",
             "brand": 4,
             "has_themes": true
@@ -841,7 +841,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/Marvel/images/thor.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/thor.png",
             "image": "thor.png",
             "brand": 4,
             "has_themes": true
@@ -857,7 +857,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Superheroes/Marvel/images/wolverine.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/wolverine.png",
             "image": "wolverine.png",
             "brand": 4,
             "has_themes": true
@@ -873,7 +873,7 @@
             "price": 79.99,
             "category": 6,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Fantasy/images/female-dwarf.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/female-dwarf.png",
             "image": "female-dwarf.png",
             "brand": 7,
             "has_themes": true
@@ -889,7 +889,7 @@
             "price": 79.99,
             "category": 6,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Fantasy/images/female-elf.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/female-elf.png",
             "image": "female-elf.png",
             "brand": 7,
             "has_themes": true
@@ -905,7 +905,7 @@
             "price": 79.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Fantasy/images/female-orc.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/female-orc.png",
             "image": "female-orc.png",
             "brand": 7,
             "has_themes": true
@@ -921,7 +921,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Fantasy/images/male-dwarf.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/male-dwarf.png",
             "image": "male-dwarf.png",
             "brand": 7,
             "has_themes": true
@@ -937,7 +937,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Fantasy/images/male-elf.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/male-elf.png",
             "image": "male-elf.png",
             "brand": 7,
             "has_themes": true
@@ -953,7 +953,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Fantasy/images/male-orc.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/male-orc.png",
             "image": "male-orc.png",
             "brand": 7,
             "has_themes": true
@@ -969,7 +969,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Fantasy/images/witch.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/witch.png",
             "image": "witch.png",
             "brand": 7,
             "has_themes": true
@@ -985,7 +985,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Fantasy/images/wizard.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/wizard.png",
             "image": "wizard.png",
             "brand": 7,
             "has_themes": true
@@ -1001,7 +1001,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Star+Wars/images/darth+maul.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/darth+maul.png",
             "image": "darth maul.png",
             "brand": 6,
             "has_themes": true
@@ -1017,7 +1017,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Star+Wars/images/darth+vadar.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/darth+vadar.png",
             "image": "darth vadar.png",
             "brand": 6,
             "has_themes": true
@@ -1033,7 +1033,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Star+Wars/images/han+solo.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/han+solo.png",
             "image": "han solo.png",
             "brand": 6,
             "has_themes": true
@@ -1049,7 +1049,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Star+Wars/images/luke+skywalker.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/luke+skywalker.png",
             "image": "luke skywalker.png",
             "brand": 6,
             "has_themes": true
@@ -1065,7 +1065,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Star+Wars/images/mandalorian.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/mandalorian.png",
             "image": "mandalorian.png",
             "brand": 6,
             "has_themes": true
@@ -1081,7 +1081,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Star+Wars/images/obi+wan.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/obi+wan.png",
             "image": "obi wan.png",
             "brand": 6,
             "has_themes": true
@@ -1097,7 +1097,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Star+Wars/images/r2d2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/r2d2.png",
             "image": "r2d2.png",
             "brand": 6,
             "has_themes": true
@@ -1113,7 +1113,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Star+Wars/images/storm+trooper.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/storm+trooper.png",
             "image": "storm trooper.png",
             "brand": 6,
             "has_themes": true
@@ -1129,7 +1129,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Star+Wars/images/yoda.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/yoda.png",
             "image": "yoda.png",
             "brand": 6,
             "has_themes": true
@@ -1145,7 +1145,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/History/egyptian.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/egyptian.png",
             "image": "egyptian.png",
             "brand": 7,
             "has_themes": true
@@ -1161,7 +1161,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/History/female+cowboy.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/female+cowboy.png",
             "image": "female cowboy.png",
             "brand": 7,
             "has_themes": true
@@ -1177,7 +1177,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/History/female+egyptian+.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/female+egyptian+.png",
             "image": "female egyptian .png",
             "brand": 7,
             "has_themes": true
@@ -1193,7 +1193,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/History/female+pirate.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/female+pirate.png",
             "image": "female pirate.png",
             "brand": 7,
             "has_themes": true
@@ -1209,7 +1209,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/History/king.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/king.png",
             "image": "king.png",
             "brand": 7,
             "has_themes": true
@@ -1225,7 +1225,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/History/male+cowboy.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/male+cowboy.png",
             "image": "male cowboy.png",
             "brand": 7,
             "has_themes": true
@@ -1241,7 +1241,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/History/male+pirate.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/male+pirate.png",
             "image": "male pirate.png",
             "brand": 7,
             "has_themes": true
@@ -1257,7 +1257,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/History/queen+.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/queen+.png",
             "image": "queen .png",
             "brand": 7,
             "has_themes": true
@@ -1273,7 +1273,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Space/alien-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/alien-1.png",
             "image": "alien-1.png",
             "brand": 7,
             "has_themes": true
@@ -1289,7 +1289,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Space/alien-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/alien-2.png",
             "image": "alien-2.png",
             "brand": 7,
             "has_themes": true
@@ -1305,7 +1305,7 @@
             "price": 89.99,
             "category": 6,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Space/alien-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/alien-3.png",
             "image": "alien-3.png",
             "brand": 7,
             "has_themes": true
@@ -1321,7 +1321,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Space/astronaut-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/astronaut-1.png",
             "image": "astronaut-1.png",
             "brand": 7,
             "has_themes": true
@@ -1337,7 +1337,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Space/astronaut-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/astronaut-2.png",
             "image": "astronaut-2.png",
             "brand": 7,
             "has_themes": true
@@ -1353,7 +1353,7 @@
             "price": 99.99,
             "category": 6,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Avatar/Space/astronaut-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/astronaut-3.png",
             "image": "astronaut-3.png",
             "brand": 7,
             "has_themes": true
@@ -1369,7 +1369,7 @@
             "price": 149.99,
             "category": 7,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/melee/curved-sword.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/curved-sword.png",
             "image": "curved-sword.png",
             "brand": 7,
             "has_themes": true
@@ -1385,7 +1385,7 @@
             "price": 139.99,
             "category": 7,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/melee/sword-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/sword-1.png",
             "image": "sword-1.png",
             "brand": 7,
             "has_themes": true
@@ -1401,7 +1401,7 @@
             "price": 159.99,
             "category": 7,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/melee/axe-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/axe-2.png",
             "image": "axe-2.png",
             "brand": 7,
             "has_themes": true
@@ -1417,7 +1417,7 @@
             "price": 169.99,
             "category": 7,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/melee/hammer.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/hammer.png",
             "image": "hammer.png",
             "brand": 7,
             "has_themes": true
@@ -1433,7 +1433,7 @@
             "price": 129.99,
             "category": 7,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/melee/knuckles.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/knuckles.png",
             "image": "knuckles.png",
             "brand": 7,
             "has_themes": true
@@ -1449,7 +1449,7 @@
             "price": 159.99,
             "category": 7,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/melee/mace.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/mace.png",
             "image": "mace.png",
             "brand": 7,
             "has_themes": true
@@ -1465,7 +1465,7 @@
             "price": 169.99,
             "category": 7,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/melee/axe-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/axe-1.png",
             "image": "axe-1.png",
             "brand": 7,
             "has_themes": true
@@ -1481,7 +1481,7 @@
             "price": 249.99,
             "category": 7,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/shotgun-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/shotgun-1.png",
             "image": "shotgun-1.png",
             "brand": 7,
             "has_themes": true
@@ -1497,7 +1497,7 @@
             "price": 199.99,
             "category": 7,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/pistol-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/pistol-1.png",
             "image": "pistol-1.png",
             "brand": 7,
             "has_themes": true
@@ -1513,7 +1513,7 @@
             "price": 299.99,
             "category": 7,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/ray-gun-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/ray-gun-1.png",
             "image": "ray-gun-1.png",
             "brand": 7,
             "has_themes": true
@@ -1529,7 +1529,7 @@
             "price": 299.99,
             "category": 7,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/assault-rifle-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/assault-rifle-1.png",
             "image": "assault-rifle-1.png",
             "brand": 7,
             "has_themes": true
@@ -1545,7 +1545,7 @@
             "price": 199.99,
             "category": 7,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/bow-arrow-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/bow-arrow-1.png",
             "image": "bow-arrow-1.png",
             "brand": 7,
             "has_themes": true
@@ -1561,7 +1561,7 @@
             "price": 199.99,
             "category": 7,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/pistol-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/pistol-2.png",
             "image": "pistol-2.png",
             "brand": 7,
             "has_themes": true
@@ -1577,7 +1577,7 @@
             "price": 249.99,
             "category": 7,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/rifle-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/rifle-1.png",
             "image": "rifle-1.png",
             "brand": 7,
             "has_themes": true
@@ -1593,7 +1593,7 @@
             "price": 249.99,
             "category": 7,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/rifle-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/rifle-2.png",
             "image": "rifle-2.png",
             "brand": 7,
             "has_themes": true
@@ -1609,7 +1609,7 @@
             "price": 199.99,
             "category": 7,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/pistol-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/pistol-3.png",
             "image": "pistol-3.png",
             "brand": 7,
             "has_themes": true
@@ -1625,7 +1625,7 @@
             "price": 199.99,
             "category": 7,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/crossbow-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/crossbow-1.png",
             "image": "crossbow-1.png",
             "brand": 7,
             "has_themes": true
@@ -1641,7 +1641,7 @@
             "price": 279.99,
             "category": 7,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/assault-rifle-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/assault-rifle-2.png",
             "image": "assault-rifle-2.png",
             "brand": 7,
             "has_themes": true
@@ -1657,7 +1657,7 @@
             "price": 259.99,
             "category": 7,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/rifle-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/rifle-3.png",
             "image": "rifle-3.png",
             "brand": 7,
             "has_themes": true
@@ -1673,7 +1673,7 @@
             "price": 299.99,
             "category": 7,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/assault-rifle-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/assault-rifle-3.png",
             "image": "assault-rifle-3.png",
             "brand": 7,
             "has_themes": true
@@ -1689,7 +1689,7 @@
             "price": 269.99,
             "category": 7,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/assaul-rifle-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/assaul-rifle-4.png",
             "image": "assaul-rifle-4.png",
             "brand": 7,
             "has_themes": true
@@ -1705,7 +1705,7 @@
             "price": 279.99,
             "category": 7,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/shotgun-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/shotgun-2.png",
             "image": "shotgun-2.png",
             "brand": 7,
             "has_themes": true
@@ -1721,7 +1721,7 @@
             "price": 299.99,
             "category": 7,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/assaul-rifle-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/assaul-rifle-5.png",
             "image": "assaul-rifle-5.png",
             "brand": 7,
             "has_themes": true
@@ -1737,7 +1737,7 @@
             "price": 299.99,
             "category": 7,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/rifle-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/rifle-4.png",
             "image": "rifle-4.png",
             "brand": 7,
             "has_themes": true
@@ -1753,7 +1753,7 @@
             "price": 249.99,
             "category": 7,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/bow-arrow-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/bow-arrow-2.png",
             "image": "bow-arrow-2.png",
             "brand": 7,
             "has_themes": true
@@ -1769,7 +1769,7 @@
             "price": 199.99,
             "category": 7,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/pistol-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/pistol-4.png",
             "image": "pistol-4.png",
             "brand": 7,
             "has_themes": true
@@ -1785,7 +1785,7 @@
             "price": 349.99,
             "category": 7,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Weapons/ranged/ray-gun-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/ray-gun-2.png",
             "image": "ray-gun-2.png",
             "brand": 7,
             "has_themes": true
@@ -1801,7 +1801,7 @@
             "price": 799.99,
             "category": 8,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Real+Estate/real-estate-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/real-estate-1.png",
             "image": "real-estate-1.png",
             "brand": 7,
             "has_themes": false
@@ -1817,7 +1817,7 @@
             "price": 899.99,
             "category": 8,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Real+Estate/real-estate-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/real-estate-2.png",
             "image": "real-estate-2.png",
             "brand": 7,
             "has_themes": false
@@ -1833,7 +1833,7 @@
             "price": 949.99,
             "category": 8,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Real+Estate/real-estate-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/real-estate-3.png",
             "image": "real-estate-3.png",
             "brand": 7,
             "has_themes": false
@@ -1849,7 +1849,7 @@
             "price": 769.99,
             "category": 8,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Real+Estate/real-estate-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/real-estate-4.png",
             "image": "real-estate-4.png",
             "brand": 7,
             "has_themes": false
@@ -1865,7 +1865,7 @@
             "price": 849.99,
             "category": 8,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Real+Estate/real-estate-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/real-estate-5.png",
             "image": "real-estate-5.png",
             "brand": 7,
             "has_themes": false
@@ -1881,7 +1881,7 @@
             "price": 929.99,
             "category": 8,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Real+Estate/real-estate-6.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/real-estate-6.png",
             "image": "real-estate-6.png",
             "brand": 7,
             "has_themes": false
@@ -1897,7 +1897,7 @@
             "price": 879.99,
             "category": 8,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Real+Estate/real-estate-7.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/real-estate-7.png",
             "image": "real-estate-7.png",
             "brand": 7,
             "has_themes": false
@@ -1913,7 +1913,7 @@
             "price": 989.99,
             "category": 8,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Real+Estate/real-estate-8.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/real-estate-8.png",
             "image": "real-estate-8.png",
             "brand": 7,
             "has_themes": false
@@ -1929,7 +1929,7 @@
             "price": 999.99,
             "category": 8,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Real+Estate/real-estate-9.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/real-estate-9.png",
             "image": "real-estate-9.png",
             "brand": 7,
             "has_themes": false
@@ -1945,7 +1945,7 @@
             "price": 1.0,
             "category": 10,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Currency/coins.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/coins.png",
             "image": "coins.png",
             "brand": 7,
             "has_themes": false
@@ -1961,7 +1961,7 @@
             "price": 10.0,
             "category": 10,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Currency/gems.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/gems.png",
             "image": "gems.png",
             "brand": 7,
             "has_themes": false
@@ -1977,7 +1977,7 @@
             "price": 189.99,
             "category": 9,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/helmets/helmet-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/helmet-1.png",
             "image": "helmet-1.png",
             "brand": 7,
             "has_themes": true
@@ -1993,7 +1993,7 @@
             "price": 169.99,
             "category": 9,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/helmets/helmet-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/helmet-2.png",
             "image": "helmet-2.png",
             "brand": 7,
             "has_themes": true
@@ -2009,7 +2009,7 @@
             "price": 199.99,
             "category": 9,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/helmets/helmet-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/helmet-3.png",
             "image": "helmet-3.png",
             "brand": 7,
             "has_themes": true
@@ -2025,7 +2025,7 @@
             "price": 179.99,
             "category": 9,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/helmets/helmet-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/helmet-4.png",
             "image": "helmet-4.png",
             "brand": 7,
             "has_themes": true
@@ -2041,7 +2041,7 @@
             "price": 159.99,
             "category": 9,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/helmets/helmet-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/helmet-5.png",
             "image": "helmet-5.png",
             "brand": 7,
             "has_themes": true
@@ -2057,7 +2057,7 @@
             "price": 169.99,
             "category": 9,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/helmets/helmet-6.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/helmet-6.png",
             "image": "helmet-6.png",
             "brand": 7,
             "has_themes": true
@@ -2073,7 +2073,7 @@
             "price": 189.99,
             "category": 9,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/helmets/helmet-7.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/helmet-7.png",
             "image": "helmet-7.png",
             "brand": 7,
             "has_themes": true
@@ -2089,7 +2089,7 @@
             "price": 179.99,
             "category": 9,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/helmets/helmet-8.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/helmet-8.png",
             "image": "helmet-8.png",
             "brand": 7,
             "has_themes": true
@@ -2105,7 +2105,7 @@
             "price": 279.99,
             "category": 9,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/body/body-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/body-1.png",
             "image": "body-1.png",
             "brand": 7,
             "has_themes": true
@@ -2121,7 +2121,7 @@
             "price": 259.99,
             "category": 9,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/body/body-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/body-2.png",
             "image": "body-2.png",
             "brand": 7,
             "has_themes": true
@@ -2137,7 +2137,7 @@
             "price": 299.99,
             "category": 9,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/body/body-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/body-3.png",
             "image": "body-3.png",
             "brand": 7,
             "has_themes": true
@@ -2153,7 +2153,7 @@
             "price": 269.99,
             "category": 9,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/body/body-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/body-4.png",
             "image": "body-4.png",
             "brand": 7,
             "has_themes": true
@@ -2169,7 +2169,7 @@
             "price": 249.99,
             "category": 9,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/body/body-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/body-5.png",
             "image": "body-5.png",
             "brand": 7,
             "has_themes": true
@@ -2185,7 +2185,7 @@
             "price": 289.99,
             "category": 9,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/body/body-6.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/body-6.png",
             "image": "body-6.png",
             "brand": 7,
             "has_themes": true
@@ -2201,7 +2201,7 @@
             "price": 279.99,
             "category": 9,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/body/body7.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/body7.png",
             "image": "body7.png",
             "brand": 7,
             "has_themes": true
@@ -2217,7 +2217,7 @@
             "price": 259.99,
             "category": 9,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/body/body-8.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/body-8.png",
             "image": "body-8.png",
             "brand": 7,
             "has_themes": true
@@ -2233,7 +2233,7 @@
             "price": 139.99,
             "category": 9,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/boots/boots-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/boots-1.png",
             "image": "boots-1.png",
             "brand": 7,
             "has_themes": true
@@ -2249,7 +2249,7 @@
             "price": 129.99,
             "category": 9,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/boots/boots-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/boots-2.png",
             "image": "boots-2.png",
             "brand": 7,
             "has_themes": true
@@ -2265,7 +2265,7 @@
             "price": 149.99,
             "category": 9,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/boots/boots-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/boots-3.png",
             "image": "boots-3.png",
             "brand": 7,
             "has_themes": true
@@ -2281,7 +2281,7 @@
             "price": 159.99,
             "category": 9,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/boots/boots-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/boots-4.png",
             "image": "boots-4.png",
             "brand": 7,
             "has_themes": true
@@ -2297,7 +2297,7 @@
             "price": 169.99,
             "category": 9,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/boots/boots-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/boots-5.png",
             "image": "boots-5.png",
             "brand": 7,
             "has_themes": true
@@ -2313,7 +2313,7 @@
             "price": 179.99,
             "category": 9,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/boots/boots-6.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/boots-6.png",
             "image": "boots-6.png",
             "brand": 7,
             "has_themes": true
@@ -2329,7 +2329,7 @@
             "price": 169.99,
             "category": 9,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/boots/boots-7.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/boots-7.png",
             "image": "boots-7.png",
             "brand": 7,
             "has_themes": true
@@ -2345,7 +2345,7 @@
             "price": 159.99,
             "category": 9,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/boots/boots-8.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/boots-8.png",
             "image": "boots-8.png",
             "brand": 7,
             "has_themes": true
@@ -2361,7 +2361,7 @@
             "price": 179.99,
             "category": 9,
             "rating": 4.7,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/gauntlets/gauntlets-1.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/gauntlets-1.png",
             "image": "gauntlets-1.png",
             "brand": 7,
             "has_themes": true
@@ -2377,7 +2377,7 @@
             "price": 169.99,
             "category": 9,
             "rating": 4.6,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/gauntlets/gauntlets-2.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/gauntlets-2.png",
             "image": "gauntlets-2.png",
             "brand": 7,
             "has_themes": true
@@ -2393,7 +2393,7 @@
             "price": 189.99,
             "category": 9,
             "rating": 4.8,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/gauntlets/gauntlets-3.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/gauntlets-3.png",
             "image": "gauntlets-3.png",
             "brand": 7,
             "has_themes": true
@@ -2409,7 +2409,7 @@
             "price": 199.99,
             "category": 9,
             "rating": 4.9,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/gauntlets/gauntlets-4.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/gauntlets-4.png",
             "image": "gauntlets-4.png",
             "brand": 7,
             "has_themes": true
@@ -2425,7 +2425,7 @@
             "price": 169.99,
             "category": 9,
             "rating": 4.5,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/gauntlets/gauntlets-5.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/gauntlets-5.png",
             "image": "gauntlets-5.png",
             "brand": 7,
             "has_themes": true
@@ -2441,7 +2441,7 @@
             "price": 159.99,
             "category": 9,
             "rating": 4.3,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/gauntlets/gauntlets-6.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/gauntlets-6.png",
             "image": "gauntlets-6.png",
             "brand": 7,
             "has_themes": true
@@ -2457,7 +2457,7 @@
             "price": 189.99,
             "category": 9,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/gauntlets/gauntlets-7.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/gauntlets-7.png",
             "image": "gauntlets-7.png",
             "brand": 7,
             "has_themes": true
@@ -2473,7 +2473,7 @@
             "price": 179.99,
             "category": 9,
             "rating": 4.4,
-            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/item+category+data/Digital+World/Armour/gauntlets/gauntlets-8.png",
+            "image_url": "https://ci-pp5-infinity-innovations.s3.eu-west-1.amazonaws.com/media/gauntlets-8.png",
             "image": "gauntlets-8.png",
             "brand": 7,
             "has_themes": true

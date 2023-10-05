@@ -783,7 +783,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 <details><summary>See feature images</summary>
 
-![Checkout Success](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-checkout-success.png)
+![Checkout Success](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-chechout-success.png)
 </details>
 
 ### Profile
@@ -807,3 +807,22 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 ![Product Management](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-management.png)
 </details>
+
+##### Back to [top](#table-of-contents)
+
+## Validation  
+
+## HTML Validation
+
+The W3C Markup Validation Service was used to validate the HTML of the website.  
+
+### Home  
+
+index.html [results]() 
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A |  

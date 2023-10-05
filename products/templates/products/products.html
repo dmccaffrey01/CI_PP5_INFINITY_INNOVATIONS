@@ -12,7 +12,7 @@
     <div class="product-list-filter-section-container section-container container-row">
 
         <div class="custom-select-filter-container container-row {% if current_sorting == 'None_None' %}nothing-selected{% endif %}" id="sort-filter-selector" data-filter-type="sort">
-            <div class="custom-select-filter-heading dark-text">Sort</div>
+            <h3 class="custom-select-filter-heading dark-text">Sort</h3>
 
             <i class="fa-solid fa-chevron-down"></i>
 
@@ -32,7 +32,7 @@
         </div>
 
         <div class="custom-select-filter-container container-row {% if current_universe == 'all' %}nothing-selected{% endif %}" id="universe-filter-selector" data-filter-type="universe">
-            <div class="custom-select-filter-heading dark-text">Universe</div>
+            <h3 class="custom-select-filter-heading dark-text">Universe</h3>
 
             <i class="fa-solid fa-chevron-down"></i>
 
@@ -44,7 +44,7 @@
         </div>
 
         <div class="custom-select-filter-container container-row {% if current_categories == None %}nothing-selected{% endif %}" id="category-filter-selector" data-filter-type="category">
-            <div class="custom-select-filter-heading dark-text">Category</div>
+            <h3 class="custom-select-filter-heading dark-text">Category</h3>
 
             <i class="fa-solid fa-chevron-down"></i>
 
@@ -67,7 +67,7 @@
         </div>
 
         <div class="custom-select-filter-container container-row {% if current_brands == None %}nothing-selected{% endif %}" id="brand-filter-selector" data-filter-type="brand">
-            <div class="custom-select-filter-heading dark-text">Brand</div>
+            <h3 class="custom-select-filter-heading dark-text">Brand</h3>
 
             <i class="fa-solid fa-chevron-down"></i>
 
@@ -95,12 +95,12 @@
     <div class="product-list-display-section-container section-container container-col">
         {% if search_term %}
         <div class="search-results-display-container container-col">
-            <p class="dark-text">Your search results for:</p>
+            <h3 class="dark-text">Your search results for:</h3>
             <p class="dark-text search-term-display">"{{ search_term }}"</p>
             <p class="search-results-length dark-text">{{ products|length }} product(s) found</p>
         </div>
         {% else %}
-        <p class="dark-text">{{ products|length }} Products</p>
+        <h3 class="dark-text">{{ products|length }} Products</h3>
         {% endif %}
     </div>
 </section>
@@ -122,7 +122,7 @@
             </div>
 
             <div class="product-card-text-container container-col">
-                <p class="product-card-name dark-text">{{ product.name }}</p>
+                <h3 class="product-card-name dark-text">{{ product.name }}</h3>
 
                 <p class="product-card-price dark-text">$ {{ product.price }}</p>
 
