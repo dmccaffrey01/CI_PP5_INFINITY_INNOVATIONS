@@ -18,12 +18,9 @@ class TestContactModels(TestCase):
             message='test',
         )
 
-
-
-
     def tearDown(self):
         """
-        Delete test products and orders
+        Delete test contact message
         """
         self.contact_message.delete()
 
