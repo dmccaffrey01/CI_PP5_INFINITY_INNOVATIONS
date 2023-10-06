@@ -38,6 +38,9 @@ def all_products(request, universe):
 
             if sortkey == 'category':
                 sortkey = 'category__name'
+            
+            if sortkey == 'brand':
+                sortkey = 'brand__name'
 
             if 'direction' in request.GET:
                 direction = request.GET['direction']
