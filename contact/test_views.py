@@ -11,12 +11,15 @@ class TestViews(TestCase):
         self.client = Client()
 
     def test_contact_view(self):
+        """ Test contact view """
         response = self.client.get(self.contact_url)
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'contact/contact.html')
 
     @patch('django.core.mail.send_mail')
     def test_contact_post_view(self, mock_send_mail):
+        """ Test contact post view """
+        
         response = self.client.post(self.contact_url, {
             'name': 'test',
             'email': 'test@test.com',
