@@ -109,4 +109,50 @@
     gap: 15px;
 }
 
+/* Home Gallery */
+
+.home-gallery-section-container {
+    gap: 30px;
+}
+
+.home-gallery-heading-container {
+    gap: 10px;
+}
+
+.home-gallery-heading {
+    font-size: 2.5rem;
+}
+
+.home-gallery-container {
+    gap: 20px;
+}
+
+.home-gallery-img-container {
+    width: 330px;
+    height: 330px;
+}
+
+/* Home Taglines */
+
+.home-tagline-section {
+    background-color: var(--MAIN-1);
+}
+
+.home-tagline-container {
+    height: 150px;
+    width: 900px;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.home-tagline-text {
+    font-size: 2.5rem;
+}
+
+.home-tagline-img-container {
+    width: 80px;
+    height: 80px;
+}
+
+
 
