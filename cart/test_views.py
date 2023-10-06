@@ -1,4 +1,3 @@
-from django.contrib.messages import get_messages
 from django.urls import reverse
 from django.test import TestCase, Client
 
@@ -6,6 +5,8 @@ from products.models import Product, Category, Brand
 
 
 class TestViews(TestCase):
+    """ Class to test checkout view """
+    
     def setUp(self):
         self.category = Category.objects.create(name='Test Category')
         self.brand = Brand.objects.create(name='Test Brand')

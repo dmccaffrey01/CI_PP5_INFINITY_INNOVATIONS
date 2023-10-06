@@ -1,4 +1,3 @@
-from django.contrib.messages import get_messages
 from django.urls import reverse
 from django.test import TestCase, Client
 from unittest.mock import patch
