@@ -34,10 +34,20 @@
                 <img src="{{ MEDIA_URL }}home-gallery-1.png" alt="Metaverse World" class="img-100a">
             </div>
             <div class="home-gallery-img-container img-container">
-                <img src="{{ MEDIA_URL }}home-gallery-2.png" alt="Metaverse World" class="img-100a">
+                <img src="{{ MEDIA_URL }}home-gallery-5.png" alt="Metaverse World" class="img-100a">
             </div>
             <div class="home-gallery-img-container img-container">
                 <img src="{{ MEDIA_URL }}home-gallery-3.png" alt="Metaverse World" class="img-100a">
+            </div>
+
+            <div class="home-gallery-img-container img-container">
+                <img src="{{ MEDIA_URL }}home-gallery-4.png" alt="Metaverse World" class="img-100a">
+            </div>
+            <div class="home-gallery-img-container img-container">
+                <img src="{{ MEDIA_URL }}home-gallery-2.png" alt="Metaverse World" class="img-100a">
+            </div>
+            <div class="home-gallery-img-container img-container">
+                <img src="{{ MEDIA_URL }}home-gallery-6.png" alt="Metaverse World" class="img-100a">
             </div>
         </div>
 
@@ -49,7 +59,43 @@
         <div class="home-tagline-img-container img-container">
             <img src="{{ MEDIA_URL }}logo-2-white.png" alt="White Logo" class="img-100a">
         </div>
-        <div class="home-tagline-text white-text" id="typewriter-text"></div>
+        <h3 class="home-tagline-text white-text container-row" id="typewriter-text"></h3>
+    </div>
+</section>
+
+<section class="home-categories-section section">
+    <div class="home-categories-section-container section-container container-col">
+        <h2 class="home-categories-section-heading dark-text">Explore our Top Categories</h2>
+        <h3 class="home-categories-heading dark-text">Real</h3>
+        <div class="home-category-container container-row" data-url="real-vr_headset">
+            <div class="home-category-heading left white-text">Headsets</div>
+            <div class="home-category-heading-container left"></div>
+            <div class="home-category-img-container img-container">
+                <img src="{{ MEDIA_URL }}home-category-1.png" alt="VR Headset Image" class="img-100a">
+            </div>
+        </div>
+        <div class="home-category-container container-row" data-url="real-ar_glasses">
+            <div class="home-category-heading right white-text">Glasses</div>
+            <div class="home-category-heading-container right"></div>
+            <div class="home-category-img-container img-container">
+                <img src="{{ MEDIA_URL }}home-category-2.png" alt="VR Glasses Image" class="img-100a">
+            </div>
+        </div>
+        <h3 class="home-categories-heading digital dark-text">Digital</h3>
+        <div class="home-category-container container-row" data-url="digital-weapons">
+            <div class="home-category-heading left white-text">Weapons</div>
+            <div class="home-category-heading-container left"></div>
+            <div class="home-category-img-container img-container">
+                <img src="{{ MEDIA_URL }}home-category-3.png" alt="Weapons Image" class="img-100a">
+            </div>
+        </div>
+        <div class="home-category-container container-row" data-url="digital-armour">
+            <div class="home-category-heading right white-text">Armour</div>
+            <div class="home-category-heading-container right"></div>
+            <div class="home-category-img-container img-container">
+                <img src="{{ MEDIA_URL }}home-category-4.png" alt="Armour Image" class="img-100a">
+            </div>
+        </div>
     </div>
 </section>
 
@@ -57,5 +103,5 @@
 
 {% block extra_js %}
 {{ block.super }}
-<script src="{% static 'js/typewriter.js' %}"></script>
+<script src="{% static 'js/home.js' %}"></script>
 {% endblock %}

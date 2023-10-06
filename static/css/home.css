@@ -125,6 +125,8 @@
 
 .home-gallery-container {
     gap: 20px;
+    width: 1050px;
+    flex-wrap: wrap;
 }
 
 .home-gallery-img-container {
@@ -139,14 +141,15 @@
 }
 
 .home-tagline-container {
-    height: 150px;
-    width: 900px;
+    height: 140px;
+    width: 830px;
     justify-content: flex-start;
     gap: 50px;
 }
 
 .home-tagline-text {
     font-size: 2.5rem;
+    height: 80px;
 }
 
 .home-tagline-img-container {
@@ -154,5 +157,112 @@
     height: 80px;
 }
 
+.bigTriangleColor {
+    background-color: var(--GRAY-LIGHT-1);
+}
 
+.bigTriangleColor path {
+    fill: var(--MAIN-1)
+}
+
+
+/* Home Categories */
+
+.home-categories-section-container {
+    align-items: flex-start;
+    width: 1000px;
+}
+
+.home-categories-section-heading {
+    font-size: 2.5rem;
+    align-self: center;
+}
+
+.home-categories-heading {
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+.home-category-container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.home-category-heading {
+    position: absolute;
+    font-size: 2.5rem;
+    z-index: 11;
+    cursor: pointer;
+    top: 50%;
+}
+
+.home-category-heading.left {
+    left: 12.5%;
+    transform: translate(-50%, -50%);
+}
+
+.home-category-heading.right {
+    right: 12.5%;
+    transform: translate(50%, -50%);
+}
+
+.home-category-heading-container {
+    width: 100%;
+    height: 100%;
+    background-color: var(--TRANSPARENT-DARK-3);
+    position: absolute;
+    cursor: pointer;
+    z-index: 10;
+    transition: all 0.7s ease;
+}
+
+.home-category-heading-container.left {
+    transform: translateX(-70%);
+    left: 0;
+    border-radius: 0 150px 150px 0;
+}
+
+.home-category-heading-container.right {
+    transform: translateX(70%);
+    right: 0;
+    border-radius: 150px 0 0 150px;
+}
+
+.home-category-container:hover .home-category-heading-container {
+    transform: translateX(0%);
+    border-radius: 0;
+}
+
+.home-category-heading::after {
+    height: 4px;
+    content: "";
+    background-color: var(--MAIN-1);
+    position: absolute;
+    bottom: 0;
+    transition: all 0.8s ease;
+    width: 0;
+}
+
+.home-category-heading.left::after {
+    left: 0;
+}
+
+.home-category-heading.right::after {
+    right: 0;
+}
+
+
+.home-category-container:hover .home-category-heading::after {
+    width: 100%;
+}
+
+.home-category-img-container {
+    width: 100%;
+    height: 100%;
+}
 

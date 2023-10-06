@@ -1,5 +1,5 @@
 const typeWriterText = [
-    "Unmatched Quality, Unbeatable Experience!", 
+    "Exceptional and Amazing Experience!", 
     "Elevate Your Metaverse Journey!",
     "Explore Our Premium Selection Today!"
 ]
@@ -127,4 +127,27 @@ const typewriter = () => {
 
 document.addEventListener('DOMContentLoaded', () => {
     typewriter();
+
+    const categoryContainers = document.querySelectorAll(".home-category-container");
+
+    categoryContainers.forEach((container) => {
+        container.addEventListener("click", () => {
+            let dataUrl = container.getAttribute("data-url");
+
+            let splitData = dataUrl.split("-");
+            let universe = splitData[0];
+            let category = splitData[1];
+
+            let currentUrl = new URL(window.location);
+
+            currentUrl.pathname += "products/" + universe + "/";
+
+            currentUrl.searchParams.set("category", category);
+
+            window.location.replace(currentUrl);
+        });
+    });
 });
+
+
+
