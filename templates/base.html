@@ -64,7 +64,7 @@
                         <div class="account-header-dropdown-wrapper container-col">
                             {% if user.is_authenticated %}
                             {% if request.user.is_superuser %}
-                            <a href="{% url 'add_product' %}" class="dark-text account-link">Product Management</a>
+                            <a href="{% url 'custom_admin' %}" class="dark-text account-link">Admin</a>
                             {% endif %}
                             <a href="{% url 'contact' %}" class="dark-text account-link">Contact Us</a>
                             <a href="{% url 'profile' %}" class="account-link dark-text">View Profile</a>
