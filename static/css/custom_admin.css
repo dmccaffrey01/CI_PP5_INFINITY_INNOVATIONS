@@ -40,6 +40,7 @@
 }
 
 .admin-home-card-select-container {
+    display: none;
     position: absolute;
     height: calc(100vh - 318px);
     width: 400px;
@@ -60,6 +61,7 @@
     backdrop-filter: blur(10px);
     left: 0;
     top: 0;
+    display: none;
 }
 
 .admin-home-card-select-container-upper {
@@ -68,14 +70,20 @@
     width: 100%;
     gap: 15px;
     padding: 30px;
+    position: relative;
+}
+
+.admin-home-card-select-close-btn {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 2.5rem;
+    color: var(--WHITE);
+    cursor: pointer;
 }
 
 .admin-home-card-select-heading {
     font-size: 2rem;
-}
-
-.admin-home-card-select-subheading {
-    font-size: 1.7rem;
 }
 
 .admin-home-card-select-search-container {
@@ -96,26 +104,26 @@
     outline: none;
 }
 
-.search-icon, .close-icon {
+.search-input-search-icon, .search-input-close-icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    cursor: pointer;
     font-size: 1.5rem;
     color: var(--GRAY-DARK-1);
 }
 
-.search-icon.search, .close-icon.search {
+.search-input-search-icon.search, .search-input-close-icon.search {
     color: var(--MAIN-1);
 }
 
-.search-icon {
+.search-input-search-icon {
     left: 10px;
 }
 
-.close-icon {
+.search-input-close-icon {
     right: 10px;
     font-size: 2rem;
+    cursor: pointer;
 }
 
 .admin-home-card-select-container-lower {
@@ -141,6 +149,14 @@
     cursor: pointer;
 }
 
+.admin-home-card-select-item-container.selected {
+    background-color: var(--MAIN-1);
+}
+
+.admin-home-card-select-item-container.selected .admin-home-card-select-item-name {
+    color: var(--WHITE);
+}
+
 .admin-home-card-select-item-img-container {
     height: 120px;
     width: 120px;
@@ -154,4 +170,53 @@
 
 .admin-home-card-select-btn-container {
     height: 100px;
+}
+
+/* Popup */
+
+.admin-home-select-popup-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}
+
+.admin-home-select-notification-container {
+    width: 550px;
+    border-radius: 3px;
+    padding: 20px 40px;
+    gap: 10px;
+    display: none;
+    background-color: var(--GRAY-LIGHT-1);
+    border-bottom: 3px solid var(--RED-1);
+    border-top: 3px solid var(--RED-1);
+}
+
+.admin-home-select-notification-container .admin-home-select-popup-message {
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.admin-home-select-popup-header {
+    width: 100%;
+    justify-content: space-between;
+}
+
+.admin-home-select-popup-body {
+    width: 100%;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.admin-home-select-popup-btns-container {
+    gap: 20px;
+}
+
+.admin-home-select-popup-cancel-btn {
+    background-color: var(--GRAY-DARK-1);
+}
+
+.admin-home-select-popup-confirm-btn {
+    background-color: var(--RED-1);
 }

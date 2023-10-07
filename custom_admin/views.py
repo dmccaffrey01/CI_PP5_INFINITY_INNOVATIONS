@@ -1,8 +1,9 @@
-from django.shortcuts import render, redirect, reverse
+from django.shortcuts import render, redirect, reverse, get_object_or_404
 import os
 from django.contrib import messages
 from .forms import ProductForm
 from django.contrib.auth.decorators import login_required
+from products.models import Product
 
 @login_required
 def custom_admin(request):
