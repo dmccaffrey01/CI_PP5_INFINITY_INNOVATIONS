@@ -1,7 +1,9 @@
-from .models import Brand, Category
+from products.models import Brand, Category, Product
 
 
-def all_brands_categories(request):
+def all_model_objects(request):
+
+    all_products = Product.objects.all()
 
     all_brands = Brand.objects.all()
     all_real_brands = all_brands.filter(universe='real')
@@ -12,6 +14,7 @@ def all_brands_categories(request):
     all_digital_categories = all_categories.filter(universe='digital')
 
     context = {
+        'all_products': all_products,
         'all_brands': all_brands,
         'all_real_brands': all_real_brands,
         'all_digital_brands': all_digital_brands,

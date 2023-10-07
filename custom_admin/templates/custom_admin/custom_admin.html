@@ -6,5 +6,36 @@
 {% endblock %}
 
 {% block content %}
+<section class="admin-home-section section">
+    <div class="admin-home-section-container section-container container-row">
+        <div class="admin-home-card-container container-col">
+            <h2 class="admin-home-card-heading white-text container-col">Product Management</h2>
+            <div class="admin-home-card-body container-col">
+                <a href="{% url 'add_product' %}" class="dark-text">Add a product</a>
+                <p class="admin-home-card-open-select dark-text" data-action="edit_product">Edit a product</p>
+                <p class="admin-home-card-open-select dark-text" data-action="delete_product">Delete a product</p>
+                <div class="admin-home-card-select-container container-col">
+                    <div class="admin-home-card-select-heading dark-text">Select Product(s)</div>
+                    <div class="admin-home-card-select-subheading dark-text">(<span class="select-amount">0</span>) products selected</div>
+                    <div class="admin-home-card-select-search-container">
+                        <input type="text" autocomplete="off" class="admin-home-card-select-search-input" name="q" placeholder="Search name of product">
+                        <span class="search-icon"><i class="fas fa-search"></i></span>
+                        <span class="close-icon"><i class="fa-solid fa-xmark"></i></span>
+                    </div>
+                    <div class="admin-home-card-select-items-container container-col">
+                        {% for product in all_products %}
+                        <div class="admin-home-card-select-item-container container-row">
+                            <div class="admin-home-card-select-item-img-container img-container">
+                                <img src="{{ product.image.url }}" alt="{{ product.name }}" class="product-img img-100a">
+                            </div>
 
+                            <p class="product-name dark-text">{{ product.name }}</p>
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 {% endblock %}

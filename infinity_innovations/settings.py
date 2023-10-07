@@ -84,7 +84,7 @@ TEMPLATES = [
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
-                'products.contexts.all_brands_categories',
+                'custom_admin.contexts.all_model_objects',
                 'cart.contexts.cart_contents',
             ],
         },
