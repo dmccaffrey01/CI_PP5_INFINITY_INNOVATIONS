@@ -40,3 +40,20 @@ class CategoryForm(forms.ModelForm):
 
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'product-form-field'
+
+
+class BrandForm(forms.ModelForm):
+
+    class Meta:
+        model = Brand
+        fields = '__all__'
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+        universes = [('real', 'Real'), ('digital', 'Digital')]
+
+        self.fields['universe'] = forms.ChoiceField(choices=universes, widget=forms.Select)
+
+        for field_name, field in self.fields.items():
+            field.widget.attrs['class'] = 'product-form-field'

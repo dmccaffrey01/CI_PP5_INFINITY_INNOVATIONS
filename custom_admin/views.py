@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 import os
 from django.contrib import messages
-from .forms import ProductForm, CategoryForm
+from .forms import ProductForm, CategoryForm, BrandForm
 from django.contrib.auth.decorators import login_required
 from products.models import Product, Category, Brand
 from profiles.models import UserProfile
@@ -170,6 +170,83 @@ def delete_category(request, category_id):
     category = get_object_or_404(Category, pk=category_id)
     category.delete()
     messages.success(request, 'Category deleted!')
+
+    return redirect(reverse('custom_admin'))
+
+
+@login_required
+def add_brand(request):
+    """ Add a brand to the store """
+
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only admins can add brands')
+        return redirect(reverse('home'))
+
+    if request.method == 'POST':
+        form = BrandForm(request.POST)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully added brand!')
+            return redirect(reverse('custom_admin'))
+        else:
+            messages.error(request, 'Failed to add brand. Please ensure the form is valid.')
+        
+    else:
+        form = BrandForm()
+
+    template = 'brands/add_brand.html'
+
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
+
+
+@login_required
+def edit_brand(request, brand_id):
+    """ Edit a brand in the store """
+
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only admins can edit brands')
+        return redirect(reverse('home'))
+
+    brand = get_object_or_404(Brand, pk=brand_id)
+
+    if request.method == 'POST':
+        form = BrandForm(request.POST, instance=brand)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated brand!')
+            return redirect(reverse('custom_admin'))
+        else:
+            messages.error(request, 'Failed to update brand. Please ensure the form is valid.')
+        
+    else:
+        form = BrandForm(instance=brand)
+        messages.info(request, f'You are editing {brand.name}')
+
+    template = 'brands/edit_brand.html'
+
+    context = {
+        'form': form,
+        'brand': brand,
+    }
+
+    return render(request, template, context)
+
+
+@login_required
+def delete_brand(request, brand_id):
+    """ Delete a brand from the store """
+
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only admins can delete categories')
+        return redirect(reverse('home'))
+
+    brand = get_object_or_404(Brand, pk=brand_id)
+    brand.delete()
+    messages.success(request, 'Brand deleted!')
 
     return redirect(reverse('custom_admin'))
 
