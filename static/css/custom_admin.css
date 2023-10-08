@@ -238,6 +238,10 @@
     background-color: var(--RED-1);
 }
 
+.admin-home-select-popup-close-btn {
+    cursor: pointer;
+}
+
 /* Add Products */
 
 .add-product-section-container {

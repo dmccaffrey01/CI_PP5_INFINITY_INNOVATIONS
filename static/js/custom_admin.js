@@ -143,17 +143,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 messageElement.innerHTML = message;
 
+                if (!url) {
+                    let btnsContainer = document.querySelector(".admin-home-select-popup-btns-container");
 
-                let popupCancelBtn = notificationContainer.querySelector(".admin-home-select-popup-cancel-btn");
-                let confirmBtn = notificationContainer.querySelector(".admin-home-select-popup-confirm-btn");
+                    btnsContainer.style.display = "none";
+                } else {
+                    let popupCancelBtn = notificationContainer.querySelector(".admin-home-select-popup-cancel-btn");
+                    let confirmBtn = notificationContainer.querySelector(".admin-home-select-popup-confirm-btn");
 
-                popupCancelBtn.addEventListener("click", () => {
-                    notificationContainer.style.display = 'none';
-                });
+                    popupCancelBtn.addEventListener("click", () => {
+                        notificationContainer.style.display = 'none';
+                    });
 
-                confirmBtn.addEventListener("click", () => {
-                    window.location.replace(url);
-                });
+                    confirmBtn.addEventListener("click", () => {
+                        window.location.replace(url);
+                    });
+                }
 
                 notificationContainer.style.display = 'flex';
 
@@ -167,26 +172,38 @@ document.addEventListener("DOMContentLoaded", () => {
             const getSelectedId = () => {
                 let id;
 
+                let selectedCount = 0;
+
                 selectItems.forEach((selectItem) => {
                     if (selectItem.classList.contains("selected")) {
                         id = selectItem.getAttribute("data-id");
+                        selectedCount++;
                     }
                 });
+
+                if (selectedCount > 1) {
+                    return false;
+                }
 
                 return id
             }
 
             const handleSelectBtn = () => {
                 let selectedId = getSelectedId()
-                
-                let currentUrl = new URL(window.location);
 
-                currentUrl.pathname += `${modelType}/${action}/${selectedId}`;
+                if (selectedId) {
 
-                if (action == "delete") {
-                    displayPopup("Are you sure you want to delete the selected item?", currentUrl);
+                    let currentUrl = new URL(window.location);
+
+                    currentUrl.pathname += `${modelType}/${action}/${selectedId}`;
+
+                    if (action == "delete") {
+                        displayPopup("Are you sure you want to delete the selected item?", currentUrl);
+                    } else {
+                        window.location.replace(currentUrl);
+                    }
                 } else {
-                    window.location.replace(currentUrl);
+                    displayPopup("You have either selected zero or more than one item, Please try again", false)
                 }
             }
 
