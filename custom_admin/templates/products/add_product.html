@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_css %}
-<link rel="stylesheet" href="{% static 'css/products.css' %}">
+<link rel="stylesheet" href="{% static 'css/custom_admin.css' %}">
 {% endblock %}
 
 {% block content %}
@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="add-product-form-btns-container container-row">
-                    <a href="{% url 'products' %}" class="cancel-btn btn">
+                    <a href="{% url 'custom_admin' %}" class="cancel-btn btn">
                         <span class="fa-icon"><i class="fa-solid fa-chevron-left"></i></span>
                         Cancel
                     </a>

@@ -48,6 +48,40 @@
                 </div>
             </div>
         </div>
+
+        <div class="admin-home-card-container container-col">
+            <h2 class="admin-home-card-heading white-text container-col">Category Management</h2>
+            <div class="admin-home-card-body container-col">
+                <a href="{% url 'add_category' %}" class="dark-text">Add a category</a>
+                <p class="admin-home-card-open-select dark-text" data-action="edit" data-model-type="categories">Edit a category</p>
+                <p class="admin-home-card-open-select dark-text" data-action="delete" data-model-type="categories">Delete a category</p>
+                <div class="admin-home-card-select-overlay"></div>
+                <div class="admin-home-card-select-container container-col">
+                    <div class="admin-home-card-select-container-upper container-col">
+                        <span class="admin-home-card-select-close-btn"><i class="fa-solid fa-xmark"></i></span>
+                        <div class="admin-home-card-select-heading white-text">Select Category</div>
+                        <form class="admin-home-card-select-search-container" method="GET">
+                            <input type="text" autocomplete="off" class="admin-home-card-select-search-input" name="q" placeholder="Search name of category">
+                            <span class="search-input-search-icon"><i class="fas fa-search"></i></span>
+                            <span class="search-input-close-icon"><i class="fa-solid fa-xmark"></i></span>
+                        </form>
+                    </div>
+                    <div class="admin-home-card-select-container-lower container-col">
+                        <div class="admin-home-card-select-items-container container-col">
+                            {% for category in all_categories %}
+                            <div class="admin-home-card-select-item-container no-img-container container-row" data-name="{{ category.name }}" data-id="{{ category.id }}">
+                                <div class="admin-home-card-select-item-img-container"></div>
+                                <p class="admin-home-card-select-item-name dark-text">{{ category.friendly_name }}</p>
+                            </div>
+                            {% endfor %}
+                        </div>
+                        <div class="admin-home-card-select-btn-container container-col">
+                            <div class="admin-home-card-select-btn btn">Select</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 

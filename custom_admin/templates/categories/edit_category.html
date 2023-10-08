@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/custom_admin.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="add-product-section section">
+    <div class="add-product-section-container section-container container-col">
+        <h2 class="add-product-section-heading dark-text">Category Management</h2>
+        <div class="add-product-section-subheading dark-text">Edit a Category</div>
+        <div class="add-product-form-container container-col">
+
+            <form action="{% url 'edit_category' %}" method="POST" class="add-product-form container-col" id="payment-form" enctype="multipart/form-data">
+                {% csrf_token %}
+
+                <div class="add-product-form-input-container container-col">
+                    <p class="dark-text">Name</p>
+                    {{ form.name }}
+                </div>
+
+                <div class="add-product-form-input-container container-col">
+                    <p class="dark-text">Friendly Name</p>
+                    {{ form.friendly_name }}
+                </div>
+
+                <div class="add-product-form-input-container container-col">
+                    <p class="dark-text">Universe</p>
+                    {{ form.universe }}
+                </div>
+
+                <div class="add-product-form-btns-container container-row">
+                    <a href="{% url 'custom_admin' %}" class="cancel-btn btn">
+                        <span class="fa-icon"><i class="fa-solid fa-chevron-left"></i></span>
+                        Cancel
+                    </a>
+                    <button type="submit" class="btn add-product-submit-btn">
+                        <span class="fa-icon"><i class="fa-solid fa-pen-to-square"></i></span>
+                        Edit Category
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+{% endblock %}
