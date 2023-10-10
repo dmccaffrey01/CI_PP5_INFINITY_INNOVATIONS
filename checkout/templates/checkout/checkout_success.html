@@ -112,6 +112,18 @@
             </div>
 
             <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Discount</p>
+
+                <p class="right-text dark-text">{{ discount_percentage }}%</p>
+            </div>
+
+            <div class="order-confirmation-row container-row">
+                <p class="left-text dark-text">Discount Total</p>
+
+                <p class="right-text dark-text">{{ order.discounted_total }}</p>
+            </div>
+
+            <div class="order-confirmation-row container-row">
                 <p class="left-text dark-text">Delivery</p>
 
                 <p class="right-text dark-text">{{ order.delivery_cost }}</p>

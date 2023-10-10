@@ -410,3 +410,52 @@
     }
 }
 
+/* Home Reviews section */
+
+.home-reviews-section {
+    background-color: var(--MAIN-1);
+}
+
+.home-reviews-section-container {
+    gap: 30px;
+}
+
+.home-review-display {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.home-review-btn {
+    background-color: var(--GRAY-DARK-1);
+}
+
+/* Reviews section */
+
+.reviews-section {
+    min-height: calc(100vh - 218px);
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.reviews-section-heading {
+    font-size: 2.5rem;
+}
+
+.reviews-section-container {
+    gap: 30px;
+    padding: 0 15%;
+}
+
+.review-text {
+    color: var(--GRAY-DARK-2);
+}
+
+.reviews-quote-icon {
+    font-size: 2.5rem;
+    color: var(--MAIN-1);
+}
+
+.review-container {
+    gap: 20px;
+    align-items: flex-start;
+}
