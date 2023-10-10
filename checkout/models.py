@@ -4,6 +4,7 @@ from decimal import Decimal
 from django.db import models
 from django.db.models import Sum
 from django.conf import settings
+from datetime import timedelta
 
 from django_countries.fields import CountryField
 
@@ -86,3 +87,27 @@ class OrderLineItem(models.Model):
 
     def __str__(self):
         return f'SKU {self.product.sku} on order {self.order.order_number}'
+
+
+class TrackingOrder(models.Model):
+    order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='trackingOrder')
+    tracking_number = models.CharField(max_length=32, null=False, editable=False)
+    status = models.CharField(max_length=32, null=False, blank=False, default="On Route")
+    location = models.CharField(max_length=32, null=False, blank=False, default="Mockville, MO")
+    estimated_delivery = models.DateTimeField()
+
+    def save(self, *args, **kwargs):
+        """
+        Override the original save method to set the tracking number
+        estimated delivery
+        if it hasn't been set already
+        """
+        if not self.tracking_number:
+            self.tracking_number = f'tn_{self.order.order_number}'
+            self.estimated_delivery = self.order.date + timedelta(days=5)
+        super().save(*args, **kwargs)
+    
+    def __str__(self):
+        return self.tracking_number
+
+    
