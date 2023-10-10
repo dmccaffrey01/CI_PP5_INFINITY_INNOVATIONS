@@ -91,7 +91,7 @@ class OrderLineItem(models.Model):
 
 class TrackingOrder(models.Model):
     order = models.ForeignKey(Order, null=False, blank=False, on_delete=models.CASCADE, related_name='trackingOrder')
-    tracking_number = models.CharField(max_length=32, null=False, editable=False)
+    tracking_number = models.CharField(max_length=64, null=False, editable=False)
     status = models.CharField(max_length=32, null=False, blank=False, default="On Route")
     location = models.CharField(max_length=32, null=False, blank=False, default="Mockville, MO")
     estimated_delivery = models.DateTimeField()
