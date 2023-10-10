@@ -4,6 +4,7 @@ from django.views.decorators.http import require_POST
 import os
 import json
 from django.http import JsonResponse
+from django.views.decorators.csrf import csrf_exempt
 
 
 def index(request):
@@ -29,13 +30,13 @@ def reviews(request):
 
 
 @require_POST
+@csrf_exempt
 def add_review_api(request):
 
     api_key = request.META.get('HTTP_REVIEW_POST_API_KEY')
 
     if api_key == os.environ.get('REVIEW_POST_API_KEY') and request.method == 'POST':
-        data = json.loads(request.body)
-        message = data.get('message')
+        message = request.POST.get('message')
 
         if message:
             review = Review.objects.create(message=message)
