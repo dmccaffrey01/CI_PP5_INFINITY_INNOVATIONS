@@ -102,7 +102,7 @@ input#id-save-info:checked::before {
     width: 200px;
 }
 
-.adjuct-cart-btn {
+.adjust-cart-btn {
     background-color: var(--GRAY-DARK-1);
 }
 
@@ -254,6 +254,11 @@ input#id-save-info:checked::before {
 }
 
 /* Checkout Success */
+
+.checkout-section {
+    min-height: calc(100vh - 218px);
+    justify-content: flex-start;
+}
 
 .checkout-success-section-container {
     align-items: flex-start;

@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/checkout.css' %}">
+{% endblock %}
+
+{% block content %}
+
+<section class="checkout-section section">
+    <div class="checkout-section-container checkout-success-section-container section-container container-col">
+
+        <div class="order-confirmation-container container-col">
+            <p class="order-confirmation-section-heading dark-text">Track Order Info:</p>
+
+            <div class="order-number-container order-confirmation-row container-row">
+                <p class="left-text dark-text">Tracking Number</p>
+
+                <p class="right-text dark-text">{{ tracking_order.tracking_number }}</p>
+            </div>
+
+            <div class="order-date-container order-confirmation-row container-row">
+                <p class="left-text dark-text">Status</p>
+
+                <p class="right-text dark-text">{{ tracking_order.status }}</p>
+            </div>
+
+            <div class="order-date-container order-confirmation-row container-row">
+                <p class="left-text dark-text">Location</p>
+
+                <p class="right-text dark-text">{{ tracking_order.location }}</p>
+            </div>
+
+            <div class="order-date-container order-confirmation-row container-row">
+                <p class="left-text dark-text">Estimated Delivery</p>
+
+                <p class="right-text dark-text">{{ tracking_order.estimated_delivery }}</p>
+            </div>
+        </div>
+        <a href="{% url 'profile' %}" class="btn adjust-cart-btn">
+            <span class="fa-icon"><i class="fa-solid fa-chevron-left"></i></span>
+            Return to Profile
+        </a>
+    </div>
+</section>
+
+{% endblock %}
+
