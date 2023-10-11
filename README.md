@@ -255,14 +255,21 @@ Join the Infinity Innovations mailing list now and embark on a virtual adventure
 19. As a **customer** I can **view a specific category of products** so that **find the product I want to buy**
 20. As a **customer** I can **view a specific brand of products** so that **I can find the product I'm looking for**
 21. As a **customer** I can **see a notification when completing an action** so that **I know my action was a success**
+22. As a **customer** I can **track my order** so that **I can see when it is delivered and where my order is**
+23. As a **customer** I can **see and write a review** so that **decide to buy and give feedback**
 
 ### Site Admin
 
-22. As a **site admin** I can **display a welcoming home screen** so that **customers will be willing to buy**
-23. As a **site admin** I can **add new products to the list** so that **customers can buy new products**
-24. As a **site admin** I can **add new categories to list** so that **customers can easily navigate products**
-25. As a **site admin** I can **delete products from the list** so that **customers can buy new products**
+24. As a **site admin** I can **display a welcoming home screen** so that **customers will be willing to buy**
+25. As a **site admin** I can **add new products to the list** so that **customers can buy new products**
 26. As a **site admin** I can **update products from the list** so that **customers have correct information about products**
+27. As a **site admin** I can **delete products from the list** so that **customers can buy new products**
+28. As a **site admin** I can **add new categories to list** so that **customers can easily navigate products**
+29. As a **site admin** I can **update categories from the list** so that **customers can correctly see each category**
+30. As a **site admin** I can **delete categories from the list** so that **I can update products into their correct category**
+31. As a **site admin** I can **add new brands to list** so that **customers can easily navigate products**
+32. As a **site admin** I can **update brands from the list** so that **customers can correctly see each brand**
+33. As a **site admin** I can **delete brands from the list** so that **I can update products into their correct brand**
 
 ### Kanban, Epics & User Stories
 - GitHub Kanban was used to track all open user stories
@@ -409,6 +416,8 @@ The footer contains contact info, links to the privacy policy and links to the c
   - Contact
   - Register
   - Profile
+  - Reviews
+  - Policy
   - Login
   - Logout
   - Reset Password
@@ -555,6 +564,15 @@ I built my database with Python and the Django framework using PostgreSQL for th
 |            | name           | CharField  |
 |            | timestamp           | DateTimeField  |
 
+### Review Model
+
+| Key        | Name                 | Type          |
+| ---------- | -------------------- | ------------- |
+| PrimaryKey | id                   | AutoField     |
+|            | message           | TextField  |
+
+
+
 ##### Back to [top](#table-of-contents)<hr>
 
 ## Technologies Used
@@ -581,6 +599,7 @@ I built my database with Python and the Django framework using PostgreSQL for th
 - [AWS](https://aws.amazon.com/)
 - [jQuery](https://jquery.com)
 - [Postgres](https://www.postgresql.org/)
+- [Voiceflow](https://www.voiceflow.com/)
 - Validation:
   - [WC3 Validator](https://validator.w3.org/)
   - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
@@ -635,7 +654,7 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 
 - Featured on all pages
 - Displays the discount and discount threshold
-- User stories covered: 22
+- User stories covered: 24
 
 <details><summary>See feature images</summary>
 
@@ -653,15 +672,51 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ![Footer](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-footer.png)
 </details>
 
+### Chatbot
+
+- Featured on all pages
+- Allows user to chat with a ai bot to answer questions and provide links to products
+- Used for customer support
+- For best use there is 4 things to ask:
+  - General information about Infinity innovations, looking for a product, tracking orders, write a review
+- User stories covered: 18
+
+<details><summary>See feature images</summary>
+
+![Chatbot](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-chatbot.png)
+</details>
+
 ### Home Hero
 
 - Welcomes user to website
 - Call to action to shop products
-- User stories covered: 22
+- User stories covered: 24
 
 <details><summary>See feature images</summary>
 
 ![Home Hero](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-home-hero.png)
+</details>
+
+### Home Categories
+
+- Welcomes user to website
+- User can navigate to categories
+- User stories covered: 24
+
+<details><summary>See feature images</summary>
+
+![Home Categories](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-home-categories.png)
+</details>
+
+### Home Review
+
+- Welcomes user to website
+- User can view reviews
+- User stories covered: 24, 23
+
+<details><summary>See feature images</summary>
+
+![Home Review](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-home-review.png)
 </details>
 
 ### Login
@@ -786,6 +841,18 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ![Checkout Success](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-chechout-success.png)
 </details>
 
+### Track Order
+
+- Order delivery details are displayed
+- User can track the number of the order
+- See if it is delivered or where the item is
+- User stories covered: 22
+
+<details><summary>See feature images</summary>
+
+![Track Order](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-track-order.png)
+</details>
+
 ### Profile
 
 - Default delivery information form can be filled out to update the user's information
@@ -798,14 +865,27 @@ I have used meta tags in the HTML of my web app's pages to optimize them for sea
 ![Profile](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-profile.png)
 </details>
 
-### Product Management
+### Custom Admin
 
-- Add/Edit product forms can be filled out to update or add products to the database and list
-- User stories covered: 23, 25, 266
+- Page where you can manage product, category and brand items in the database
+- Clicking on the links will open a select box to search and select the item or open the form page to edit/add the item
+- The user can click the delete to select and delete an item also
+- User stories covered: 25, 26, 27, 28, 29, 30, 31, 32, 33
 
 <details><summary>See feature images</summary>
 
-![Product Management](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-management.png)
+![Custom Admin](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-custom-admin.png)
+</details>
+
+### Custom Admin Management
+
+- Page where you can manage product, category and brand items in the database
+- Admin can fill out form to add or edit the item
+- User stories covered: 25, 26, 27, 28, 29, 30, 31, 32, 33
+
+<details><summary>See feature images</summary>
+
+![Custom Admin Management](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/features/feature-product-management.png)
 </details>
 
 ##### Back to [top](#table-of-contents)
