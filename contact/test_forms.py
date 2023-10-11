@@ -18,7 +18,7 @@ class TestContactForms(TestCase):
         })
 
         self.assertTrue(form.is_valid())
-    
+
     def test_invalid_contact_form(self):
         """
         This test tests the contact form object
