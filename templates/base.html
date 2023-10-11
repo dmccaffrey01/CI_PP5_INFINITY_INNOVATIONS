@@ -48,8 +48,8 @@
             </a>
 
             <form class="search-header-container container-row" method="GET" action="{% url 'products' %}">
-                <label for="q" class="sr-only"></label>
-                <input type="text" class="search-products-header-input" name="q" placeholder="Search our site">
+                <label for="product-search-input" class="sr-only"></label>
+                <input type="text" class="search-products-header-input" name="q" placeholder="Search our site" id="product-search-input">
                 <button class="search-products-header-btn container-col" type="submit">
                     <i class="fas fa-search white-text" aria-hidden="true"></i>
                     <span class="sr-only">Search Button</span>
