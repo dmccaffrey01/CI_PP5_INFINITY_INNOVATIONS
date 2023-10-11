@@ -1489,6 +1489,10 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-register.png">
 </details>
 
+<details><summary>Admin Management</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-management.png">
+</details>
+
 <details><summary>404</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-home.png">
 </details>
@@ -1499,7 +1503,66 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 
 Performance, best practices and SEO was tested using Lighthouse.
 
-#### Desktop
 <details><summary>Home</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-home.png">
+</details>
+
+<details><summary>Product List</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-product-list.png">
+</details> 
+
+<details><summary>Product Detail</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-product-detail.png">
+</details>
+
+<details><summary>Checkout</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-checkout.png">
+</details>
+
+<details><summary>Checkout Success</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-checkout-success.png">
+</details>
+
+<details><summary>Contact</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-contact.png">
+</details>
+
+<details><summary>Profile</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-profile.png">
+</details>
+
+<details><summary>Reviews</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-reviews.png">
+</details>
+
+<details><summary>Policy</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-policy.png">
+</details>
+
+<details><summary>Login</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-login.png">
+</details>
+
+<details><summary>Logout</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-logout.png">
+</details>
+
+<details><summary>Reset Password</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-reset-password.png">
+</details>
+
+<details><summary>Register</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-register.png">
+</details>
+
+<details><summary>Custom Admin</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-custom-admin.png">
+</details>
+
+<details><summary>Admin Management</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-management.png">
+</details>
+
+<details><summary>404</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-home.png">
 </details>
