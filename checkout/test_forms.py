@@ -32,6 +32,3 @@ class TestCheckoutForms(TestCase):
         form = OrderForm({})
 
         self.assertFalse(form.is_valid())
-
-
-

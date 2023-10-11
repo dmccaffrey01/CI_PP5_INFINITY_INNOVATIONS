@@ -7,7 +7,7 @@ from .models import Order
 
 
 class TestStripeWHHandler(TestCase):
-    
+
     def setUp(self):
         self.order = Order.objects.create(
             full_name='test',
@@ -36,5 +36,6 @@ class TestStripeWHHandler(TestCase):
         self.assertEqual(response.status_code, 200)
 
     def test_handle_payment_intent_payment_failed(self):
-        response = self.handler.handle_payment_intent_payment_failed({'type': 'test'})
+        response = self.handler.handle_payment_intent_payment_failed(
+            {'type': 'test'})
         self.assertEqual(response.status_code, 200)

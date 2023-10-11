@@ -36,7 +36,8 @@ class TestViews(TestCase):
 
         self.cache_checkout_data_url = reverse('cache_checkout_data')
         self.checkout_url = reverse('checkout')
-        self.checkout_success_url = reverse('checkout_success', args=[self.order.order_number])
+        self.checkout_success_url = reverse(
+            'checkout_success', args=[self.order.order_number])
 
         self.client = Client()
 
@@ -98,7 +99,7 @@ class TestViews(TestCase):
             'client_secret': 'test_secret',
         })
         self.assertEqual(response.status_code, 302)
-    
+
     @patch('stripe.PaymentIntent.modify')
     def test_checkout_view_c(self, mock_modify_payment_intent):
         session = self.client.session

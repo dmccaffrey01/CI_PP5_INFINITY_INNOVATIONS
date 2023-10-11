@@ -26,7 +26,9 @@ class TestCheckoutModels(TestCase):
             real_items_total=9.99,
             order_total=9.99,
         )
-        self.category = Category.objects.create(name='Test Category', universe='real')
+        self.category = Category.objects.create(
+                                                name='Test Category',
+                                                universe='real')
         self.brand = Brand.objects.create(name='Test Brand', universe='real')
         self.product1 = Product.objects.create(
             name='Test Product',
@@ -41,7 +43,6 @@ class TestCheckoutModels(TestCase):
         )
 
         self.order1.save()
-
 
     def tearDown(self):
         """
@@ -59,6 +60,7 @@ class TestCheckoutModels(TestCase):
         self.order1.save()
 
         saved_instance = Order.objects.get(id=1)
-        self.assertEqual(saved_instance.real_items_total, round(Decimal(9.99), 2))
+        self.assertEqual(
+            saved_instance.real_items_total, round(Decimal(9.99), 2))
         self.assertEqual(saved_instance.grand_total, round(Decimal(17.98), 2))
         self.assertEqual(str(saved_instance), str(str_instance))
