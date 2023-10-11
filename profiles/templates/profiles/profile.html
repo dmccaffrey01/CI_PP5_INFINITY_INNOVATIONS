@@ -16,12 +16,19 @@
                 <p class="profile-section-sub-heading dark-text">Default Delivery Information</p>
                 <form action="{% url 'profile' %}" id="profile-update-form" method="POST" class="container-col">
                     {% csrf_token %}
+                    <label for="id_default_phone_number" class="sr-only">phone_number</label>
                     {{ form.default_phone_number}}
+                    <label for="id_default_country" class="sr-only">default_country</label>
                     {{ form.default_country}}
+                    <label for="id_default_postcode" class="sr-only">default_postcode</label>
                     {{ form.default_postcode}}
+                    <label for="id_default_street_address1" class="sr-only">default_street_address1</label>
                     {{ form.default_street_address1 }}
+                    <label for="id_default_street_address2" class="sr-only">default_street_address2</label>
                     {{ form.default_street_address2 }}
+                    <label for="id_default_town_or_city" class="sr-only">default_town_or_city</label>
                     {{ form.default_town_or_city }}
+                    <label for="id_default_county" class="sr-only">default_county</label>
                     {{ form.default_county}}
                     
                     <button class="profile-update-form-submit-btn btn">

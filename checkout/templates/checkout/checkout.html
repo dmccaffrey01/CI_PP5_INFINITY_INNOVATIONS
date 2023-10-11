@@ -20,18 +20,27 @@
 
                     <div class="details-checkout-form-container container-col">
                         <p class="checkout-form-heading dark-text">Details</p>
+                        <label for="id_full_name" class="sr-only">Full Name</label>
                         {{ order_form.full_name }}
+                        <label for="id_email" class="sr-only">Email</label>
                         {{ order_form.email }}
                     </div>
 
                     <div class="delivery-checkout-form-container container-col">
                         <p class="checkout-form-heading dark-text">Delivery</p>
+                        <label for="id_phone_number" class="sr-only">Phone Number</label>
                         {{ order_form.phone_number}}
+                        <label for="id_country" class="sr-only">Country</label>
                         {{ order_form.country}}
+                        <label for="id_postcode" class="sr-only">Postcode</label>
                         {{ order_form.postcode}}
+                        <label for="id_street_address1" class="sr-only">Street Address 1</label>
                         {{ order_form.street_address1 }}
+                        <label for="id_street_address2" class="sr-only">Street Address 1</label>
                         {{ order_form.street_address2 }}
+                        <label for="id_town_or_city" class="sr-only">Town or City</label>
                         {{ order_form.town_or_city }}
+                        <label for="id_county" class="sr-only">County</label>
                         {{ order_form.county}}
                     </div>
 

@@ -414,8 +414,8 @@ The footer contains contact info, links to the privacy policy and links to the c
   - Checkout
   - Checkout Success
   - Contact
-  - Register
   - Profile
+  - Track Order
   - Reviews
   - Policy
   - Login
@@ -1428,3 +1428,68 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 </details>
 
 ##### Back to [top](#table-of-contents)<hr> 
+
+## Accessibility  
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was used to ensure the website met high accessibility standards.  
+- All pages returned 0 errors.
+- I have added sr only tags throught the website to ensure that the website is accessible
+- There are contrast errors, there is not a dark enough orange to have white text, I have decided to change the color as dark as I can but these contrast errors still exist
+- To suit the them of my website I'm keeping the orange color
+- All alerts presented were for redundant links whichweres taken into account during development.
+
+<details><summary>Home</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-home.png">
+</details>
+
+<details><summary>Product List</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-product-list.png">
+</details> 
+
+<details><summary>Product Detail</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-product-detail.png">
+</details>
+
+<details><summary>Checkout</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-checkout.png">
+</details>
+
+<details><summary>Checkout Success</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-checkout-success.png">
+</details>
+
+<details><summary>Contact</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-contact.png">
+</details>
+
+<details><summary>Profile</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-profile.png">
+</details>
+
+<details><summary>Reviews</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-reviews.png">
+</details>
+
+<details><summary>Policy</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-policy.png">
+</details>
+
+<details><summary>Login</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-login.png">
+</details>
+
+<details><summary>Logout</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-logout.png">
+</details>
+
+<details><summary>Reset Password</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-password-reset.png">
+</details>
+
+<details><summary>Register</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-register.png">
+</details>
+
+<details><summary>404</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-home.png">
+</details>
+

@@ -66,8 +66,10 @@
                                 data-item_id="{{ item.item_id }}"
                                 id="decrement-qty_{{ item.item_id }}">
                                 <i class="fas fa-minus"></i>
+                                <span class="sr-only">Decrement Quantity</span>
                             </button>
 
+                            <label for="id_qty_{{ item.item_id }}" class="sr-only">Quantity input</label>
                             <input type="number" 
                             name="quantity" min="1" max="99" 
                             data-item_id="{{ item.item_id }}" 
@@ -79,6 +81,7 @@
                                 data-item_id="{{ item.item_id }}"
                                 id="increment-qty_{{ item.item_id }}">
                                 <i class="fas fa-plus"></i>
+                                <span class="sr-only">Increment Quantity</span>
                             </button>
                             {% if item.product.has_themes %}
                             <input type="hidden" name="product_theme" value="{{ item.theme }}">
