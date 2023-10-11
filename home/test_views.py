@@ -15,7 +15,7 @@ class TestViews(TestCase):
 
     def test_home_view(self):
         """ Test home view """
-        
+
         response = self.client.get(self.home_url)
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'home/index.html')
@@ -44,7 +44,7 @@ class TestViews(TestCase):
         }
 
         custom_header = {
-            'HTTP_REVIEW_POST_API_KEY':'mock_api',
+            'HTTP_REVIEW_POST_API_KEY': 'mock_api',
         }
 
         response = self.client.post(

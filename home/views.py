@@ -12,10 +12,12 @@ def index(request):
 
     return render(request, 'home/index.html')
 
+
 def policy(request):
     """A view to render the policy page"""
 
     return render(request, 'policy/policy.html')
+
 
 def reviews(request):
     """A view to render the reviews page"""
@@ -35,7 +37,8 @@ def add_review_api(request):
 
     api_key = request.META.get('HTTP_REVIEW_POST_API_KEY')
 
-    if api_key == os.environ.get('REVIEW_POST_API_KEY') and request.method == 'POST':
+    if api_key == os.environ.get(
+            'REVIEW_POST_API_KEY') and request.method == 'POST':
         message = request.POST.get('message')
 
         if message:
@@ -47,4 +50,3 @@ def add_review_api(request):
             return JsonResponse({"status": "Message is missing"}, status=400)
     else:
         return JsonResponse({"status": "Invalid API"}, status=400)
-    
