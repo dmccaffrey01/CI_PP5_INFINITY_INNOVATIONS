@@ -1187,18 +1187,22 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
 </details>
 
-<details><summary>basket_tools.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
+<details><summary>cart_tools.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-cart-tools.png">
 </details>
 
-<details><summary>views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
+<details><summary>test_contexts.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-test-contexts.png">
 </details>
 
 <details><summary>test_views.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-test-views.png">
 </details>
 
 <details><summary>urls.py</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-contexts.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-cart-views.png">
 </details>

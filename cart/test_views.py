@@ -6,7 +6,7 @@ from products.models import Product, Category, Brand
 
 class TestViews(TestCase):
     """ Class to test checkout view """
-    
+
     def setUp(self):
         self.category = Category.objects.create(name='Test Category')
         self.brand = Brand.objects.create(name='Test Brand')
@@ -18,7 +18,8 @@ class TestViews(TestCase):
         )
         self.add_to_cart_url = reverse('add_to_cart', args=[self.product.id])
         self.adjust_cart_url = reverse('adjust_cart', args=[self.product.id])
-        self.remove_from_cart_url = reverse('remove_from_cart', args=[self.product.id])
+        self.remove_from_cart_url = reverse(
+            'remove_from_cart', args=[self.product.id])
         self.redirect_url = reverse('view_cart')
 
         self.client = Client()
@@ -32,7 +33,7 @@ class TestViews(TestCase):
         response = self.client.get(self.redirect_url)
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'cart/cart.html')
-    
+
     def test_add_to_cart_view_a(self):
         response = self.client.post(self.add_to_cart_url, {
             'quantity': 1,
@@ -41,7 +42,9 @@ class TestViews(TestCase):
         })
 
         self.assertEqual(response.status_code, 302)
-        self.assertEqual(self.client.session.get('cart'), {'1': {'items_by_theme': {'original': 1}}})
+        self.assertEqual(
+            self.client.session.get(
+                'cart'), {'1': {'items_by_theme': {'original': 1}}})
 
         response = self.client.post(self.add_to_cart_url, {
             'quantity': 1,
@@ -49,7 +52,9 @@ class TestViews(TestCase):
             'product_theme': 'original',
         })
 
-        self.assertEqual(self.client.session.get('cart'), {'1': {'items_by_theme': {'original': 2}}})
+        self.assertEqual(
+            self.client.session.get(
+                'cart'), {'1': {'items_by_theme': {'original': 2}}})
         self.assertEqual(response.status_code, 302)
 
         response = self.client.post(self.add_to_cart_url, {
@@ -83,7 +88,7 @@ class TestViews(TestCase):
 
         self.assertEqual(self.client.session.get('cart'), {'1': 2})
         self.assertEqual(response.status_code, 302)
-    
+
     def test_adjust_cart_view_a(self):
         session = self.client.session
         session['cart'] = {'1': {'items_by_theme': {'original': 2}}}
@@ -95,7 +100,9 @@ class TestViews(TestCase):
         })
 
         self.assertEqual(response.status_code, 302)
-        self.assertEqual(self.client.session.get('cart'), {'1': {'items_by_theme': {'original': 1}}})
+        self.assertEqual(
+            self.client.session.get(
+                'cart'), {'1': {'items_by_theme': {'original': 1}}})
 
         response = self.client.post(self.adjust_cart_url, {
             'quantity': 0,
@@ -148,4 +155,3 @@ class TestViews(TestCase):
 
         self.assertEqual(self.client.session.get('cart'), {})
         self.assertEqual(response.status_code, 200)
-

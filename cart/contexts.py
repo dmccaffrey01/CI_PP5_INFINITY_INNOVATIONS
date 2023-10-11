@@ -41,7 +41,8 @@ def cart_contents(request):
                     real_items_total += product.price * quantity
 
     if total >= settings.DISCOUNT_THRESHOLD:
-        discounted_total = total - (Decimal(settings.STANDARD_DISCOUNT_PERCENTAGE / 100) * total)
+        discounted_total = total - (
+            Decimal(settings.STANDARD_DISCOUNT_PERCENTAGE / 100) * total)
         discount_delta = 0
     else:
         discounted_total = total
