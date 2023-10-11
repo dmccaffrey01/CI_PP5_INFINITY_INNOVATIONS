@@ -76,8 +76,10 @@
                                 data-item_id="{{ product.id }}"
                                 id="decrement-qty_{{ product.id }}">
                                 <i class="fas fa-minus"></i>
+                                <span class="sr-only">Decrement Quantity</span>
                             </button>
 
+                            <label for="quantity" class="sr-only">Quantity Input</label>
                             <input type="number" 
                             name="quantity" value="1" min="1" max="99" 
                             data-item_id="{{ product.id }}" 
@@ -88,6 +90,7 @@
                                 data-item_id="{{ product.id }}"
                                 id="increment-qty_{{ product.id }}">
                                 <i class="fas fa-plus"></i>
+                                <span class="sr-only">Increment Quantity</span>
                             </button>
                         </div>
                     </div>
