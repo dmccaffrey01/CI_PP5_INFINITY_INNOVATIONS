@@ -1015,6 +1015,20 @@ checkout.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-in
 | Error | N/A | N/A | N/A |
 | Warning | N/A | N/A | N/A | 
 
+### Track Order
+
+<details><summary>tracking_order.html</summary>
+
+![Track Order](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-profile.png)
+</details>
+- No Errors Found
+
+
+| **Level** | **Feature** | **Issue Description** | **Comment** |
+|-------------|-------------|----------------------|-------------|
+| Error | N/A | N/A | N/A |
+| Warning | N/A | N/A | N/A | 
+
 ### Contact
 
 contact.html [results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fci-pp5-infinity-innovations-75b032391d20.herokuapp.com%2Fcontact%2F) 
@@ -1111,6 +1125,19 @@ The W3C Jigsaw CSS Validation Service was used to validate the CSS of the websit
 JSHint javaScript Validation Service was used to validate all javaScript files.
 
 <details><summary>base.js</summary>  
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-base.png">
+</details>  
+
+- No issues raised
+
+<details><summary>custom_admin.js</summary>  
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-base.png">
+</details>  
+
+- No issues raised
+
+
+<details><summary>home.js</summary>  
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-js-base.png">
 </details>  
 

@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
                     let selectItem = removedSelectItems[i].itemElement;
                     selectItem.remove();
                 }
-            }
+            };
 
             const addLastRemovedSelectItems = () => {
                 let removedSelectItems = removedSelectItemsArr.pop();
@@ -71,17 +71,17 @@ document.addEventListener("DOMContentLoaded", () => {
                 setTimeout(() => {
                     handleInput();
                 }, 0);
-            }
+            };
 
             const addAllRemovedSelectItems = () => {
                 while(removedSelectItemsArr.length != 0) {
                     addLastRemovedSelectItems();
                 }
-            }
+            };
 
             const handleBackspaceInput = () => {
                 addLastRemovedSelectItems();
-            }
+            };
 
             searchInput.addEventListener("input", handleInput);
 
@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         selectItem.classList.remove("selected");
                     }
                 });
-            }
+            };
 
             selectItems.forEach((selectItem, i) => {
                 selectItem.addEventListener("click", () => {
@@ -167,7 +167,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 popupCloseBtn.addEventListener("click", () => {
                     notificationContainer.style.display = 'none';
                 });
-            }
+            };
 
             const getSelectedId = () => {
                 let id;
@@ -185,11 +185,11 @@ document.addEventListener("DOMContentLoaded", () => {
                     return false;
                 }
 
-                return id
-            }
+                return id;
+            };
 
             const handleSelectBtn = () => {
-                let selectedId = getSelectedId()
+                let selectedId = getSelectedId();
 
                 if (selectedId) {
 
@@ -203,9 +203,9 @@ document.addEventListener("DOMContentLoaded", () => {
                         window.location.replace(currentUrl);
                     }
                 } else {
-                    displayPopup("You have either selected zero or more than one item, Please try again", false)
+                    displayPopup("You have either selected zero or more than one item, Please try again", false);
                 }
-            }
+            };
 
             selectBtn.addEventListener("click", handleSelectBtn);
 

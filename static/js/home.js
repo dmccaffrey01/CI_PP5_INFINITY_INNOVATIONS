@@ -2,7 +2,7 @@ const typeWriterText = [
     "Exceptional and Amazing Experience!", 
     "Elevate Your Metaverse Journey!",
     "Explore Our Premium Selection Today!"
-]
+];
 
 let clearTypewriterText = (i) => {
     const typeWriterTextElement = document.querySelector("#typewriter-text");
@@ -26,7 +26,7 @@ let clearTypewriterText = (i) => {
             clearTextCounter++;
         }
     }, 10);
-}
+};
 
 let typewriterCount = 0;
 let typewriterOn = false;
@@ -38,7 +38,7 @@ const typewriter = () => {
 
     if (typewriterOnFirstTime) {
         typewriterOnFirstTime = false;
-
+        typeWriterTextElement.innerText = "";
         let currentText = typeWriterText[typewriterCount];
 
         typewriterCount++;
@@ -90,8 +90,6 @@ const typewriter = () => {
 
             let clearWaitTime = waitTime - (totalTime + totalClearTime + 1200);
 
-            let t1 = waitTime - (totalTime + totalClearTime)
-
             let letterCount = 0;
 
             let typewriterInterval = window.setInterval(() => {
@@ -123,7 +121,7 @@ const typewriter = () => {
         }
         
     }, waitTime);
-}
+};
 
 document.addEventListener('DOMContentLoaded', () => {
     typewriter();
@@ -148,6 +146,3 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 });
-
-
-
