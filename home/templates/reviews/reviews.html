@@ -9,15 +9,15 @@
 <section class="section reviews-section">
     
     <div class="reviews-section-container section-container container-col">
-        <h2 class="reviews-section-heading">
+        <h2 class="reviews-section-heading dark-text">
             Our Customer Reviews
         </h2>
         {% for review in reviews %}
         <div class="review-container container-row">
             <i class="fa-solid fa-quote-left reviews-quote-icon"></i>
-            <div class="review-text dark-text">
+            <p class="review-text dark-text">
                 {{ review.message }}
-            </div>
+            </p>
         </div>
         {% endfor %}
     </div>
