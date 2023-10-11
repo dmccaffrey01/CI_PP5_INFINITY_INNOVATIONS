@@ -45,13 +45,17 @@ class TestViews(TestCase):
         self.products_url = reverse('products')
         self.real_products_url = reverse('real_products')
         self.digital_products_url = reverse('digital_products')
-        self.product_detail_url = reverse('product_detail', args=[self.product.id])
+        self.product_detail_url = reverse(
+            'product_detail', args=[self.product.id])
         self.add_product_url = reverse('add_product')
         self.edit_product_url = reverse('edit_product', args=[self.product.id])
-        self.delete_product_url = reverse('delete_product', args=[self.product.id])
+        self.delete_product_url = reverse(
+            'delete_product', args=[self.product.id])
         self.add_category_url = reverse('add_category')
-        self.edit_category_url = reverse('edit_category', args=[self.category.id])
-        self.delete_category_url = reverse('delete_category', args=[self.category.id])
+        self.edit_category_url = reverse(
+            'edit_category', args=[self.category.id])
+        self.delete_category_url = reverse(
+            'delete_category', args=[self.category.id])
         self.add_brand_url = reverse('add_brand')
         self.edit_brand_url = reverse('edit_brand', args=[self.brand.id])
         self.delete_brand_url = reverse('delete_brand', args=[self.brand.id])
@@ -66,20 +70,19 @@ class TestViews(TestCase):
 
     def test_fail_custom_admin_view(self):
         """ Test custom admin view """
-        
+
         self.client.login(username='testuser', password='testpassword')
         response = self.client.get(self.custom_admin_url)
         self.assertEqual(response.status_code, 302)
 
     def test_success_custom_admin_view(self):
         """ Test custom admin view """
-        
+
         self.client.login(username='testadmin', password='testpassword')
         response = self.client.get(self.custom_admin_url)
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'custom_admin/custom_admin.html')
 
-    
     def test_fail_add_product_view(self):
         """ Test fail add product view """
 

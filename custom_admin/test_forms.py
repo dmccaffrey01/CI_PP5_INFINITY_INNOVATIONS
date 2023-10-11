@@ -21,7 +21,6 @@ class TestProductForms(TestCase):
             universe='real',
         )
 
-
     def test_product_form(self):
         """
         This test tests the product form object
@@ -41,7 +40,7 @@ class TestProductForms(TestCase):
         })
 
         self.assertTrue(form.is_valid())
-    
+
     def test_invalid_product_form(self):
         """
         This test tests the product form object
@@ -64,7 +63,6 @@ class TestProductForms(TestCase):
 
         self.assertTrue(form.is_valid())
 
-    
     def test_brand_form(self):
         """
         This test tests the brand form object
@@ -77,4 +75,3 @@ class TestProductForms(TestCase):
         })
 
         self.assertTrue(form.is_valid())
-    

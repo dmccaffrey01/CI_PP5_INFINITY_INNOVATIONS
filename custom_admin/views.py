@@ -7,15 +7,13 @@ from products.models import Product, Category, Brand
 from profiles.models import UserProfile
 
 
-
 @login_required
 def custom_admin(request):
     """A view to render the custom admin page"""
-    
+
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only admins can enter this page')
         return redirect(reverse('home'))
-
 
     return render(request, 'custom_admin/custom_admin.html')
 
@@ -35,8 +33,10 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
-        
+            messages.error(
+                request,
+                'Failed to add product. Please ensure the form is valid.')
+
     else:
         form = ProductForm()
 
@@ -66,8 +66,10 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
-        
+            messages.error(
+                request,
+                'Failed to update product. Please ensure the form is valid.')
+
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
@@ -112,8 +114,10 @@ def add_category(request):
             messages.success(request, 'Successfully added category!')
             return redirect(reverse('custom_admin'))
         else:
-            messages.error(request, 'Failed to add category. Please ensure the form is valid.')
-        
+            messages.error(
+                request,
+                'Failed to add category. Please ensure the form is valid.')
+
     else:
         form = CategoryForm()
 
@@ -143,8 +147,10 @@ def edit_category(request, category_id):
             messages.success(request, 'Successfully updated category!')
             return redirect(reverse('custom_admin'))
         else:
-            messages.error(request, 'Failed to update category. Please ensure the form is valid.')
-        
+            messages.error(
+                request,
+                'Failed to update category. Please ensure the form is valid.')
+
     else:
         form = CategoryForm(instance=category)
         messages.info(request, f'You are editing {category.name}')
@@ -189,8 +195,10 @@ def add_brand(request):
             messages.success(request, 'Successfully added brand!')
             return redirect(reverse('custom_admin'))
         else:
-            messages.error(request, 'Failed to add brand. Please ensure the form is valid.')
-        
+            messages.error(
+                request,
+                'Failed to add brand. Please ensure the form is valid.')
+
     else:
         form = BrandForm()
 
@@ -220,8 +228,10 @@ def edit_brand(request, brand_id):
             messages.success(request, 'Successfully updated brand!')
             return redirect(reverse('custom_admin'))
         else:
-            messages.error(request, 'Failed to update brand. Please ensure the form is valid.')
-        
+            messages.error(
+                request,
+                'Failed to update brand. Please ensure the form is valid.')
+
     else:
         form = BrandForm(instance=brand)
         messages.info(request, f'You are editing {brand.name}')
@@ -249,4 +259,3 @@ def delete_brand(request, brand_id):
     messages.success(request, 'Brand deleted!')
 
     return redirect(reverse('custom_admin'))
-

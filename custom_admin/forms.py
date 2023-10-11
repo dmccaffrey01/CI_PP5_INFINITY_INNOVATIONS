@@ -9,7 +9,8 @@ class ProductForm(forms.ModelForm):
         model = Product
         fields = '__all__'
 
-    image = forms.ImageField(label='Image', required=False, widget=CustomClearableFileInput)
+    image = forms.ImageField(
+        label='Image', required=False, widget=CustomClearableFileInput)
 
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
@@ -36,7 +37,8 @@ class CategoryForm(forms.ModelForm):
 
         universes = [('real', 'Real'), ('digital', 'Digital')]
 
-        self.fields['universe'] = forms.ChoiceField(choices=universes, widget=forms.Select)
+        self.fields['universe'] = forms.ChoiceField(
+                choices=universes, widget=forms.Select)
 
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'product-form-field'
@@ -53,7 +55,8 @@ class BrandForm(forms.ModelForm):
 
         universes = [('real', 'Real'), ('digital', 'Digital')]
 
-        self.fields['universe'] = forms.ChoiceField(choices=universes, widget=forms.Select)
+        self.fields['universe'] = forms.ChoiceField(
+            choices=universes, widget=forms.Select)
 
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'product-form-field'
