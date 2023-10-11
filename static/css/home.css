@@ -1,7 +1,7 @@
 .home-hero-section {
     width: 100%;
     height: calc(100vh - 218px);
-    background-color: var(--MAIN-1);
+    background-color: var(--GRAY-DARK-1);
     position: relative;
 }
 
