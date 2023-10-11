@@ -1340,3 +1340,27 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 </details>
 
 <hr>
+
+### Infinity Innovations
+
+<details><summary>asgi.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-ii-asgi.png">
+</details>
+
+<details><summary>settings.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-ii-settings.png">
+</details>
+
+<details><summary>urls.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-ii-urls.png">
+</details>
+
+<details><summary>views.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-ii-views.png">
+</details>
+
+<details><summary>wsgi.py</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/validation/validation-py-ii-wsgi.png">
+</details>
+
+<hr>
