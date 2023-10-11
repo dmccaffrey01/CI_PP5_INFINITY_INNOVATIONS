@@ -29,9 +29,12 @@ class TestViews(TestCase):
         self.tracking_number = f'tn_{self.order.order_number}'
 
         self.profile_url = reverse('profile')
-        self.order_history_url = reverse('order_history', args=[self.order.order_number])
-        self.track_order_url = reverse('track_order', args=[self.order.order_number])
-        self.track_order_api_url = reverse('track_order_api', args=[self.tracking_number])
+        self.order_history_url = reverse(
+                'order_history', args=[self.order.order_number])
+        self.track_order_url = reverse(
+                'track_order', args=[self.order.order_number])
+        self.track_order_api_url = reverse(
+                'track_order_api', args=[self.tracking_number])
 
         self.client = Client()
 
@@ -48,7 +51,7 @@ class TestViews(TestCase):
 
     def test_post_profile_view(self):
         """ Test profile post view """
-        
+
         response = self.client.post(self.profile_url, {
             'default_phone_number': '123',
             'default_country': 'US',

@@ -21,10 +21,11 @@ def profile(request):
             form.save()
             messages.success(request, 'Profile updated successfully')
         else:
-            messages.error(request, 'Update failed. Please ensure the fomr is valid.')
+            messages.error(
+                request, 'Update failed. Please ensure the fomr is valid.')
     else:
         form = UserProfileForm(instance=profile)
-    
+
     orders = profile.orders.all()
 
     template = 'profiles/profile.html'
@@ -87,7 +88,6 @@ def track_order(request, order_number):
     return render(request, template, context)
 
 
-
 def track_order_api(request, tracking_number):
     """ Return tracking order information for api in json response """
 
@@ -97,7 +97,7 @@ def track_order_api(request, tracking_number):
 
     if created:
         tracking_order.save()
-    
+
     current_datetime = timezone.now()
 
     if tracking_order.estimated_delivery < current_datetime:
