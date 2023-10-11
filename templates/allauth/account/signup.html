@@ -31,18 +31,23 @@
           {% csrf_token %}
           
           <div class="account-form-card-input-container container-row">
+            <label for="id_email" class="sr-only">email input</label>
               {{ form.email }}
           </div>
           <div class="account-form-card-input-container container-row">
+            <label for="id_email2" class="sr-only">email2 input</label>
               {{ form.email2 }}
           </div>
           <div class="account-form-card-input-container container-row">
+            <label for="id_username" class="sr-only">username input</label>
             {{ form.username }}
           </div>
           <div class="account-form-card-input-container container-row">
+            <label for="id_password1" class="sr-only">password1 input</label>
               {{ form.password1 }}
           </div>
           <div class="account-form-card-input-container container-row">
+            <label for="id_password2" class="sr-only">password2 input</label>
             {{ form.password2 }}
           </div>
 
