@@ -1430,7 +1430,7 @@ JSHint javaScript Validation Service was used to validate all javaScript files.
 ##### Back to [top](#table-of-contents)<hr> 
 
 ## Accessibility  
-The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was used to ensure the website met high accessibility standards.  
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards.  
 - All pages returned 0 errors.
 - I have added sr only tags throught the website to ensure that the website is accessible
 - There are contrast errors, there is not a dark enough orange to have white text, I have decided to change the color as dark as I can but these contrast errors still exist
@@ -1482,7 +1482,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 </details>
 
 <details><summary>Reset Password</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-password-reset.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-password-rest.png">
 </details>
 
 <details><summary>Register</summary>
@@ -1493,3 +1493,13 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/accessibility/access-home.png">
 </details>
 
+##### Back to [top](#table-of-contents)<hr> 
+
+## Lighthouse
+
+Performance, best practices and SEO was tested using Lighthouse.
+
+#### Desktop
+<details><summary>Home</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-home.png">
+</details>
