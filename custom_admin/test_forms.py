@@ -1,6 +1,6 @@
 from django.test import TestCase
-from ..custom_admin.forms import ProductForm
-from .models import Category, Brand
+from .forms import ProductForm, CategoryForm, BrandForm
+from products.models import Category, Brand
 
 
 class TestProductForms(TestCase):
@@ -50,3 +50,31 @@ class TestProductForms(TestCase):
         form = ProductForm({})
 
         self.assertFalse(form.is_valid())
+
+    def test_category_form(self):
+        """
+        This test tests the category form object
+        """
+
+        form = CategoryForm({
+            'name': 'TestCategory',
+            'friendly_name': 'TestCategory',
+            'universe': 'real',
+        })
+
+        self.assertTrue(form.is_valid())
+
+    
+    def test_brand_form(self):
+        """
+        This test tests the brand form object
+        """
+
+        form = BrandForm({
+            'name': 'TestBrand',
+            'friendly_name': 'TestBrand',
+            'universe': 'real',
+        })
+
+        self.assertTrue(form.is_valid())
+    

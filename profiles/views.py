@@ -105,14 +105,6 @@ def track_order_api(request, tracking_number):
         tracking_order.location = order.street_address1
         tracking_order.save()
 
-
-    current_datetime = timezone.now()
-
-    if tracking_order.estimated_delivery < current_datetime:
-        tracking_order.status = "Delivered"
-        tracking_order.location = tracking_order.order.street_address1
-        tracking_order.save()
-
     response = {
         'tracking_number': tracking_order.tracking_number,
         'status': tracking_order.status,

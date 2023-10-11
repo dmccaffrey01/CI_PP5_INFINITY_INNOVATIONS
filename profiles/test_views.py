@@ -2,7 +2,8 @@ from django.test import TestCase, Client
 from django.urls import reverse
 from django.contrib.auth.models import User
 from .models import UserProfile
-from checkout.models import Order
+from checkout.models import Order, TrackingOrder
+from datetime import datetime, timedelta
 
 
 class TestViews(TestCase):
@@ -25,8 +26,12 @@ class TestViews(TestCase):
             county='test'
         )
 
+        self.tracking_number = f'tn_{self.order.order_number}'
+
         self.profile_url = reverse('profile')
         self.order_history_url = reverse('order_history', args=[self.order.order_number])
+        self.track_order_url = reverse('track_order', args=[self.order.order_number])
+        self.track_order_api_url = reverse('track_order_api', args=[self.tracking_number])
 
         self.client = Client()
 
@@ -65,3 +70,19 @@ class TestViews(TestCase):
         response = self.client.get(self.order_history_url)
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response, 'checkout/checkout_success.html')
+
+    def test_track_order_view(self):
+        """ Test track order view """
+        self.order.date = datetime.now() - timedelta(weeks=2)
+        self.order.save()
+        response = self.client.get(self.track_order_url)
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed(response, 'tracking/tracking_order.html')
+
+    def test_track_order_api(self):
+        """ Test track order api """
+
+        self.order.date = datetime.now() - timedelta(weeks=2)
+        self.order.save()
+        response = self.client.get(self.track_order_api_url)
+        self.assertEqual(response.status_code, 200)
