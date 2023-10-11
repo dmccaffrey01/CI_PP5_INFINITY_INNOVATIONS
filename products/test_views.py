@@ -44,10 +44,12 @@ class TestViews(TestCase):
         self.products_url = reverse('products')
         self.real_products_url = reverse('real_products')
         self.digital_products_url = reverse('digital_products')
-        self.product_detail_url = reverse('product_detail', args=[self.product.id])
+        self.product_detail_url = reverse(
+            'product_detail', args=[self.product.id])
         self.add_product_url = reverse('add_product')
         self.edit_product_url = reverse('edit_product', args=[self.product.id])
-        self.delete_product_url = reverse('delete_product', args=[self.product.id])
+        self.delete_product_url = reverse(
+            'delete_product', args=[self.product.id])
 
         self.client = Client()
 

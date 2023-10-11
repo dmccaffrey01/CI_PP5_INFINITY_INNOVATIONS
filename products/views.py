@@ -6,7 +6,6 @@ from django.db.models.functions import Lower
 from .models import Product, Category, Brand
 
 
-
 def all_products(request, universe):
     """ A view to show all products, including sorting and search queries """
     current_universe = 'all'
@@ -36,7 +35,7 @@ def all_products(request, universe):
 
             if sortkey == 'category':
                 sortkey = 'category__name'
-            
+
             if sortkey == 'brand':
                 sortkey = 'brand__name'
 
@@ -44,7 +43,7 @@ def all_products(request, universe):
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
-            
+
             products = products.order_by(sortkey)
 
         if 'category' in request.GET:
@@ -63,10 +62,9 @@ def all_products(request, universe):
                 messages.error(request, "You didn't enter an search criteria!")
                 return redirect(reverse('products'))
 
-
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(
+                name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
-
 
     current_sorting = f'{sort}_{direction}'
     context = {
@@ -83,12 +81,10 @@ def all_products(request, universe):
 
 def product_detail(request, product_id):
     """ A view to show show individual product details """
-    
+
     product = get_object_or_404(Product, pk=product_id)
     context = {
         'product': product,
     }
 
     return render(request, 'products/product_detail.html', context)
-
-
