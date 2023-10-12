@@ -378,7 +378,7 @@ I used Balsamiq to create wireframes for my project. It's a user-friendly wirefr
 ### Colors
 
 
-The color I chose was orange and dark gray with a light gray background.  
+The color I chose was orange and dark gray with a light gray background.  structure
 <details><summary>See Color Palette</summary>
 
 ![Color Palette](https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/contents/color-palette.png)
@@ -571,7 +571,22 @@ I built my database with Python and the Django framework using PostgreSQL for th
 | PrimaryKey | id                   | AutoField     |
 |            | message           | TextField  |
 
+## Voiceflow AI Chatbot
 
+- The ai chatbot used on the website was built with voiceflow. I uploaded a knowledge base, it then uses an chatgpt api to return responses using the knowledge base.
+- The chatbot listens for certain triggers, then if it receives a message it will trigger a set response, and then returns to the main loop
+- There are 4 triggers:
+  - first it listens for a question about leaving a review, eg. "I really like the product I bought"
+  - second it listens for a question about tracking information, eg. "When will my order be delivered" - asking for the order number after
+  - third it listens for a question about looking for products, eg. "Do you sell vr headsets"
+  - Finally it listens for general questions about the company, eg. "Who is the founders of Infinity Innovaitons"
+
+<details><summary>See Chatbot diagram</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/chatbot-diagram-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/chatbot-diagram-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/chatbot-diagram-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/database/chatbot-diagram-4.png">
+</details>
 
 ##### Back to [top](#table-of-contents)<hr>
 
@@ -600,6 +615,7 @@ I built my database with Python and the Django framework using PostgreSQL for th
 - [jQuery](https://jquery.com)
 - [Postgres](https://www.postgresql.org/)
 - [Voiceflow](https://www.voiceflow.com/)
+- [ScribeHow](https://scribehow.com/scribe-ai)
 - Validation:
   - [WC3 Validator](https://validator.w3.org/)
   - [Jigsaw W3 Validator](https://jigsaw.w3.org/css-validator/)
@@ -2415,6 +2431,6 @@ You can clone the repository by following these steps:
 ## Acknowledgements
 
 ### Special thanks to the following:
-- My Mentor Mo Shami for his excellent guidance and valuable advice  
+- My Mentor Mo Shami for his excellent guidance and valuable advice 
 - Code Institute Slack Community
 - Code Institute Tutor Support
