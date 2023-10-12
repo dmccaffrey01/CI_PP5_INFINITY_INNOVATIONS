@@ -1630,6 +1630,22 @@ Performance, best practices and SEO was tested using Lighthouse.
 <br>
 
 3. As a **customer** I can **view a list of products** so that **decide what item I'm buying**
+
+2. As a **customer** I can **easily navigate the website** so that **I find my item and pay for it**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Proudct List | Click the call to action button in the home hero or use the real or digital header buttons to navigate to the product list page | User is presented with list of products | Works as expected |
+
+<details><summary>See Proudct list Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-list-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-list-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-list-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-product-list-4.png"><br>
+</details> 
+
+<br>
+
 4. As a **customer** I can **search list of products** so that **I can find the item I want to buy**
 5. As a **customer** I can **filter list of products** so that **I can find the item I want to buy**
 6. As a **customer** I can **sort the list of products** so that **find the item I want to buy**
