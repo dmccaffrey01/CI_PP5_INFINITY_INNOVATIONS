@@ -1850,6 +1850,19 @@ Performance, best practices and SEO was tested using Lighthouse.
 <br>
 
 17. As a **customer** I can **contact the site admin** so that **I can talk about any issues I might have**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Contact | Hover and click the view contact button in the top right, fill out form, click the send button | User is brought to contact page, user is notified | Works as expected |
+
+<details><summary>See Contact Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-contact-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-contact-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-contact-3.png"><br>
+</details> 
+
+<br>
+
 18. As a **customer** I can **talk to a chatbot** so that **I can get help when buying**
 19. As a **customer** I can **view a specific category of products** so that **find the product I want to buy**
 20. As a **customer** I can **view a specific brand of products** so that **I can find the product I'm looking for**
