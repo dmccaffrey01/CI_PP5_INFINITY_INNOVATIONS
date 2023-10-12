@@ -1892,9 +1892,79 @@ Performance, best practices and SEO was tested using Lighthouse.
 <br>
 
 19. As a **customer** I can **view a specific category of products** so that **find the product I want to buy**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Proudct Filter | Navigate to the product list page, click the filter box's, select a filter from the dropdown menu | User is presented with list of products that they filtered for | Works as expected |
+
+<details><summary>See Proudct Filter Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-4.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-6.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-7.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-8.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-9.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-10.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-11.png"><br>
+</details> 
+
+<br>
+
 20. As a **customer** I can **view a specific brand of products** so that **I can find the product I'm looking for**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Proudct Filter | Navigate to the product list page, click the filter box's, select a filter from the dropdown menu | User is presented with list of products that they filtered for | Works as expected |
+
+<details><summary>See Proudct Filter Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-4.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-6.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-7.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-8.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-9.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-10.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-filter-sort-11.png"><br>
+</details> 
+
+<br>
+
 21. As a **customer** I can **see a notification when completing an action** so that **I know my action was a success**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Profile | Hover and click the view profile button in the top right, fill out form, click the update information form | User is brought to profile page, user is notified | Works as expected |
+
+<details><summary>See Profile Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-4.png"><br>
+</details> 
+
+<br>
+
 22. As a **customer** I can **track my order** so that **I can see when it is delivered and where my order is**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Track Order | Hover and click the view profile button in the top right, click the order number under order history, click track order | User is brought to track order page | Works as expected |
+
+<details><summary>See Track Order Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-track-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-track-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-track-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-track-4.png"><br>
+</details> 
+
+<br>
+
 23. As a **customer** I can **see and write a review** so that **decide to buy and give feedback**
 
 24. As a **site admin** I can **display a welcoming home screen** so that **customers will be willing to buy**
