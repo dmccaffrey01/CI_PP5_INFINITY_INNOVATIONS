@@ -1648,9 +1648,9 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
-| Proudct S | Click the search input in the header, type in what you want to search for, press enter or click the search button | User is presented with list of products that they searched for | Works as expected |
+| Proudct Search | Click the search input in the header, type in what you want to search for, press enter or click the search button | User is presented with list of products that they searched for | Works as expected |
 
-<details><summary>See Proudct S Images</summary>
+<details><summary>See Proudct Search Images</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-1.png"><br>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-2.png"><br>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-3.png"><br>
@@ -1660,7 +1660,41 @@ Performance, best practices and SEO was tested using Lighthouse.
 <br>
 
 5. As a **customer** I can **filter list of products** so that **I can find the item I want to buy**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Proudct Filter | Navigate to the product list page, click the filter box's, select a filter from the dropdown menu | User is presented with list of products that they filtered for | Works as expected |
+
+<details><summary>See Proudct Filter Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-4.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-6.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-7.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-8.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-9.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-10.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-11.png"><br>
+</details> 
+
+<br>
+
 6. As a **customer** I can **sort the list of products** so that **find the item I want to buy**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Proudct Sort | Navigate to the product list page, click the sort dropdown box, select a sort filter from the dropdown menu | User is presented with list of products sorted in their selected choice | Works as expected |
+
+<details><summary>See Proudct Sort Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-fiter-sort-3.png"><br>
+</details> 
+
+<br>
+
 7. As a **customer** I can **click to see more info on a product** so that **decide to buy the item**
 8. As a **customer** I can **add a product to my cart** so that **I can buy it later**
 9. As a **customer** I can **choose the correct product theme** so that **I can buy the correct product theme**
