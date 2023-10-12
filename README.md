@@ -1762,8 +1762,50 @@ Performance, best practices and SEO was tested using Lighthouse.
 <br>
 
 11. As a **customer** I can **view my items in the cart** so that **I know what I'm buying**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Cart | Hover and click the cart button in the top right | User's cart is displayed | Works as expected |
+
+<details><summary>See Cart Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-2.png"><br>
+</details> 
+
+<br>
+
 12. As a **customer** I can **delete items from my cart** so that **I can change my order and what I'm buying**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Cart | Hover and click the cart button in the top right, click the delete button | Item from the cart is deleted, user is notified | Works as expected |
+
+<details><summary>See Cart Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-4.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-5.png"><br>
+</details> 
+
+<br>
+
 13. As a **customer** I can **change the item type and quantity** so that **I can change what I'm buying**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Cart | Hover and click the cart button in the top right, click the quantity input and enter quantity and click update | Item from the cart is updated, user is notified | Works as expected |
+
+<details><summary>See Cart Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-6.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-7.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-cart-8.png"><br>
+</details> 
+
+<br>
+
 14. As a **customer** I can **pay for the items in my cart** so that **I can receive the order**
 15. As a **customer** I can **receive a confimation email** so that **I can receive my order**
 16. As a **customer** I can **update and save my profile information** so that **easily buy again**
