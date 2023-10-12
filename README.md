@@ -1581,8 +1581,10 @@ Performance, best practices and SEO was tested using Lighthouse.
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
 | Register | Hover over or click the account button, then click the register button, use your email and enter into the two email fields, enter a username, and a password into the two password fields, click sign up button, go to your email and confirm the email, you are now registered | User is brought to the sign up page, user is then sent confirmation email, user is then sent to confirmation page, user is then notified that they have registered | Works as expected |
+| Login | Hover over or click the account button, then click the login button, use your email and enter into the email field, or enter your username, and then enter your password into the password field, click sign in button, you are now logged in | User is brought to the login page, user is then notified that they have logged in | Works as expected |
+| Logout | Hover over or click the account button, then click the logout button, click sign out button, you are now logged out | User is brought to the logout page, user is then notified that they have logged out | Works as expected |
 
-<details><summary>See Images</summary>
+<details><summary>See Register Images</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-1.png">
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-2.png">
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-3.png">
@@ -1594,10 +1596,31 @@ Performance, best practices and SEO was tested using Lighthouse.
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-9.png">
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-10.png">
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-11.png">
-</details>  
+</details>
 
+<details><summary>See Login Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-1.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-2.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-3.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-4.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-5.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-login-6.png">
+</details> 
+
+<details><summary>See Logout Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-logout-1.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-logout-2.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-logout-3.png">
+</details> 
+
+<br>
 
 2. As a **customer** I can **easily navigate the website** so that **I find my item and pay for it**
+
+
+
+<br>
+
 3. As a **customer** I can **view a list of products** so that **decide what item I'm buying**
 4. As a **customer** I can **search list of products** so that **I can find the item I want to buy**
 5. As a **customer** I can **filter list of products** so that **I can find the item I want to buy**
