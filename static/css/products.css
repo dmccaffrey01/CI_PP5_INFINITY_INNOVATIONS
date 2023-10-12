@@ -178,6 +178,24 @@
     transform: translateY(-50%);
 }
 
+.product-management-btns-container {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.product-management-btns-container .btn {
+    width: 150px;
+}
+
+.product-management-btns-container .edit-btn {
+    background-color: var(--GREEN-1);
+}
+
+.product-management-btns-container .delete-btn {
+    background-color: var(--RED-1);
+}
+
 @media (max-width: 1500px) {
     .product-detail-section-container {
         width: 1000px;

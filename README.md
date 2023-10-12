@@ -33,6 +33,7 @@
       - [AWS](#aws)
       - [Database](#database)
       - [Models](#models)
+      - [Voiceflow Chatbot](#voiceflow-chatbot)
   - [Technologies Used](#technologies-used)
   - [Features](#features)
   - [Validation](#validation)
@@ -571,7 +572,7 @@ I built my database with Python and the Django framework using PostgreSQL for th
 | PrimaryKey | id                   | AutoField     |
 |            | message           | TextField  |
 
-## Voiceflow AI Chatbot
+## Voiceflow Chatbot
 
 - The ai chatbot used on the website was built with voiceflow. I uploaded a knowledge base, it then uses an chatgpt api to return responses using the knowledge base.
 - The chatbot listens for certain triggers, then if it receives a message it will trigger a set response, and then returns to the main loop
