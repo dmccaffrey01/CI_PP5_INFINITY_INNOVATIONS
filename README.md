@@ -1967,13 +1967,160 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 23. As a **customer** I can **see and write a review** so that **decide to buy and give feedback**
 
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| ChatBot | Click the chatbot button in the bottom right, say a good thing about your product you bought, click yes sure after response, enter a short review | Chatbot returns answer asking you to enter a competition, chatbot will take short review and make a full review | Works as expected |
+
+<details><summary>See Chatbot Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-6.png"><br>
+</details> 
+
+<br>
+
 24. As a **site admin** I can **display a welcoming home screen** so that **customers will be willing to buy**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Home | Click the home button in the top left | Welcoming home screen is displayed | Works as expected |
+
+<details><summary>See Home Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-home-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-home-2.png"><br>
+</details> 
+
+<br>
+
 25. As a **site admin** I can **add new products to the list** so that **customers can buy new products**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Custom Admin | Click the admin button in the top right unser the account dropdown, click the add product button under product management, fill out form and click add product button | User is taken to custom admin, then to form page | Works as expected |
+
+<details><summary>See Custom Admin Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-3.png"><br>
+</details> 
+
+<br>
+
 26. As a **site admin** I can **update products from the list** so that **customers have correct information about products**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Custom Admin | Click the admin button in the top right unser the account dropdown, click the edit product button under product management, select your product, click select button, fill out form and click edit product button | User is taken to custom admin, then to form page | Works as expected |
+
+<details><summary>See Custom Admin Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-4.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
+</details> 
+
+<br>
+
 27. As a **site admin** I can **delete products from the list** so that **customers can buy new products**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Custom Admin | Click the admin button in the top right unser the account dropdown, click the delete product button under product management, select your product, click select button, fill out form and click delete product button | User is taken to custom admin, then to form page | Works as expected |
+
+<details><summary>See Custom Admin Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-7.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
+</details> 
+
+<br>
+
 28. As a **site admin** I can **add new categories to list** so that **customers can easily navigate products**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Custom Admin | Click the admin button in the top right unser the account dropdown, click the add category button under category management, fill out form and click add category button | User is taken to custom admin, then to form page | Works as expected |
+
+<details><summary>See Custom Admin Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-8.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-3.png"><br>
+</details> 
+
+<br>
+
 29. As a **site admin** I can **update categories from the list** so that **customers can correctly see each category**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Custom Admin | Click the admin button in the top right unser the account dropdown, click the edit category button under category management, select your category, click select button, fill out form and click edit category button | User is taken to custom admin, then to form page | Works as expected |
+
+<details><summary>See Custom Admin Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-9.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
+</details> 
+
+<br>
+
 30. As a **site admin** I can **delete categories from the list** so that **I can update products into their correct category**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Custom Admin | Click the admin button in the top right unser the account dropdown, click the delete product button under product management, select your product, click select button, fill out form and click delete product button | User is taken to custom admin, then to form page | Works as expected |
+
+<details><summary>See Custom Admin Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-12.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
+</details> 
+
+<br>
+
 31. As a **site admin** I can **add new brands to list** so that **customers can easily navigate products**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Custom Admin | Click the admin button in the top right unser the account dropdown, click the add brand button under brand management, fill out form and click add brand button | User is taken to custom admin, then to form page | Works as expected |
+
+<details><summary>See Custom Admin Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-14.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-3.png"><br>
+</details> 
+
+<br>
+
 32. As a **site admin** I can **update brands from the list** so that **customers can correctly see each brand**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Custom Admin | Click the admin button in the top right unser the account dropdown, click the edit brand button under brand management, select your brand, click select button, fill out form and click edit brand button | User is taken to custom admin, then to form page | Works as expected |
+
+<details><summary>See Custom Admin Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-15.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
+</details> 
+
+<br>
+
 33. As a **site admin** I can **delete brands from the list** so that **I can update products into their correct brand**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Custom Admin | Click the admin button in the top right unser the account dropdown, click the delete brand button under brand management, select your brand, click select button, fill out form and click delete brand button | User is taken to custom admin, then to form page | Works as expected |
+
+<details><summary>See Custom Admin Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-18.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-admin-6.png"><br>
+</details> 
+
+##### Back to [top](#table-of-contents)<hr> 
