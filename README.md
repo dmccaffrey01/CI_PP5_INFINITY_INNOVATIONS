@@ -1807,8 +1807,48 @@ Performance, best practices and SEO was tested using Lighthouse.
 <br>
 
 14. As a **customer** I can **pay for the items in my cart** so that **I can receive the order**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Checkout | Hover and click the cart button in the top right, click the checkout order button, fill out form, click the complete order button | User is brought to checkout page, user is notified when order is complete | Works as expected |
+
+<details><summary>See Checkout Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-4.png"><br>
+</details> 
+
+<br>
+
 15. As a **customer** I can **receive a confimation email** so that **I can receive my order**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Checkout Success | Hover and click the cart button in the top right, click the checkout order button, fill out form, click the complete order button | User is brought to checkout page, user is notified when order is complete | Works as expected |
+
+<details><summary>See Checkout Success Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-checkout-6.png"><br>
+</details> 
+
+<br>
+
 16. As a **customer** I can **update and save my profile information** so that **easily buy again**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Profile | Hover and click the view profile button in the top right, fill out form, click the update information form | User is brought to profile page, user is notified | Works as expected |
+
+<details><summary>See Profile Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-profile-4.png"><br>
+</details> 
+
+<br>
+
 17. As a **customer** I can **contact the site admin** so that **I can talk about any issues I might have**
 18. As a **customer** I can **talk to a chatbot** so that **I can get help when buying**
 19. As a **customer** I can **view a specific category of products** so that **find the product I want to buy**
