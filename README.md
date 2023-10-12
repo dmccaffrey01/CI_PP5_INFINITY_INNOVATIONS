@@ -1864,6 +1864,33 @@ Performance, best practices and SEO was tested using Lighthouse.
 <br>
 
 18. As a **customer** I can **talk to a chatbot** so that **I can get help when buying**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| ChatBot | Click the chatbot button in the bottom right, ask it a question about the company | Chatbot returns answer about the company | Works as expected |
+| ChatBot | Click the chatbot button in the bottom right, say a good thing about your product you bought, click yes sure after response, enter a short review | Chatbot returns answer asking you to enter a competition, chatbot will take short review and make a full review | Works as expected |
+| ChatBot | Click the chatbot button in the bottom right, ask it a question about the your order tracking, then type in your order number | Chatbot returns answer to what your order status is and tracks the order | Works as expected |
+| ChatBot | Click the chatbot button in the bottom right, ask it a question about the your looking for products, click yes sure button | Chatbot returns answer about your desired products, also return links to products | Works as expected |
+
+<details><summary>See Contact Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-4.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-5.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-6.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-7.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-8.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-9.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-10.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-11.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-12.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-13.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-chatbot-14.png"><br>
+</details> 
+
+<br>
+
 19. As a **customer** I can **view a specific category of products** so that **find the product I want to buy**
 20. As a **customer** I can **view a specific brand of products** so that **I can find the product I'm looking for**
 21. As a **customer** I can **see a notification when completing an action** so that **I know my action was a success**
