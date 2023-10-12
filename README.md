@@ -2124,3 +2124,84 @@ Performance, best practices and SEO was tested using Lighthouse.
 </details> 
 
 ##### Back to [top](#table-of-contents)<hr> 
+
+### Automated testing
+
+- Testing was done using the built in Django module, unittest.
+- Coverage was also usesd to generate a report
+
+#### Cart
+
+- test_contexts.py
+- test_views.py
+
+<details><summary> See images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-cart.png">
+</details>'
+
+#### Checkout
+
+- test_forms.py
+- test_models.py
+- test_views.py
+- test_webhook_handler.py
+
+<details><summary> See images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-checkout.png">
+</details>
+
+#### Contact
+
+- test_forms.py
+- test_models.py
+- test_views.py
+
+<details><summary> See images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-contact.png">
+</details>
+
+#### Custom Admin
+
+- test_forms.py
+- test_views.py
+
+<details><summary> See images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-custom-admin.png">
+</details>
+
+#### Home
+
+- test_views.py
+
+<details><summary> See images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-home.png">
+</details>
+
+#### Products
+
+- test_models.py
+- test_views.py
+
+<details><summary> See images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-products.png">
+</details>
+
+#### Profiles
+
+- test_forms.py
+- test_models.py
+- test_views.py
+
+<details><summary> See images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-profiles.png">
+</details>
+
+### Coverage  
+A Python test plugin called coverage was used to generate the following results and display how much of the code was covered by the unittest module.
+
+<details><summary> Coverage</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-coverage-1.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/auto-tests/at-coverage-2.png">
+</details>
+
+##### Back to [top](#table-of-contents)<hr> 
