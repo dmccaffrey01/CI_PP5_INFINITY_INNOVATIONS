@@ -1566,3 +1566,67 @@ Performance, best practices and SEO was tested using Lighthouse.
 <details><summary>404</summary>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/lighthouse/lh-home.png">
 </details>
+
+##### Back to [top](#table-of-contents)<hr> 
+
+## Testing
+
+1. Manual testing User Stories
+2. Automated testing
+
+### Manual testing
+
+1. As a **customer** I can **login, register and logout** so that **buy items and save my information**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Register | Hover over or click the account button, then click the register button, use your email and enter into the two email fields, enter a username, and a password into the two password fields, click sign up button, go to your email and confirm the email, you are now registered | User is brought to the sign up page, user is then sent confirmation email, user is then sent to confirmation page, user is then notified that they have registered | Works as expected |
+
+<details><summary>See Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-1.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-2.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-3.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-4.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-5.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-6.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-7.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-8.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-9.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-10.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-register-11.png">
+</details>  
+
+
+2. As a **customer** I can **easily navigate the website** so that **I find my item and pay for it**
+3. As a **customer** I can **view a list of products** so that **decide what item I'm buying**
+4. As a **customer** I can **search list of products** so that **I can find the item I want to buy**
+5. As a **customer** I can **filter list of products** so that **I can find the item I want to buy**
+6. As a **customer** I can **sort the list of products** so that **find the item I want to buy**
+7. As a **customer** I can **click to see more info on a product** so that **decide to buy the item**
+8. As a **customer** I can **add a product to my cart** so that **I can buy it later**
+9. As a **customer** I can **choose the correct product theme** so that **I can buy the correct product theme**
+10. As a **customer** I can **add multiple items of product to the cart** so that **buy more than one item**
+11. As a **customer** I can **view my items in the cart** so that **I know what I'm buying**
+12. As a **customer** I can **delete items from my cart** so that **I can change my order and what I'm buying**
+13. As a **customer** I can **change the item type and quantity** so that **I can change what I'm buying**
+14. As a **customer** I can **pay for the items in my cart** so that **I can receive the order**
+15. As a **customer** I can **receive a confimation email** so that **I can receive my order**
+16. As a **customer** I can **update and save my profile information** so that **easily buy again**
+17. As a **customer** I can **contact the site admin** so that **I can talk about any issues I might have**\
+18. As a **customer** I can **talk to a chatbot** so that **I can get help when buying**
+19. As a **customer** I can **view a specific category of products** so that **find the product I want to buy**
+20. As a **customer** I can **view a specific brand of products** so that **I can find the product I'm looking for**
+21. As a **customer** I can **see a notification when completing an action** so that **I know my action was a success**
+22. As a **customer** I can **track my order** so that **I can see when it is delivered and where my order is**
+23. As a **customer** I can **see and write a review** so that **decide to buy and give feedback**
+
+24. As a **site admin** I can **display a welcoming home screen** so that **customers will be willing to buy**
+25. As a **site admin** I can **add new products to the list** so that **customers can buy new products**
+26. As a **site admin** I can **update products from the list** so that **customers have correct information about products**
+27. As a **site admin** I can **delete products from the list** so that **customers can buy new products**
+28. As a **site admin** I can **add new categories to list** so that **customers can easily navigate products**
+29. As a **site admin** I can **update categories from the list** so that **customers can correctly see each category**
+30. As a **site admin** I can **delete categories from the list** so that **I can update products into their correct category**
+31. As a **site admin** I can **add new brands to list** so that **customers can easily navigate products**
+32. As a **site admin** I can **update brands from the list** so that **customers can correctly see each brand**
+33. As a **site admin** I can **delete brands from the list** so that **I can update products into their correct brand**
