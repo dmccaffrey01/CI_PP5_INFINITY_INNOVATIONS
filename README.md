@@ -2307,7 +2307,7 @@ To set up an AWS S3 bucket:
 
 1. Sign in to the AWS Management Console and open the Amazon S3 console.  
 <details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-1.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-1.png"><br>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-2.png">
 </details>
 
@@ -2318,7 +2318,7 @@ To set up an AWS S3 bucket:
 
 3. Enter a unique name for your bucket, and select the region where you want the bucket to be located.
 <details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-4.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-4.png"><br>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-5.png">
 </details>
 
@@ -2328,13 +2328,13 @@ To set up an AWS S3 bucket:
 
 6. Set up the appropriate permissions for the bucket, such as access control lists (ACLs) and bucket policies, to control who can access the data in the bucket.  
 <details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-6.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-6.png"><br>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-7.png">
 </details>
 
 7. Upload files to the bucket using the AWS S3 console, the AWS S3 CLI, or the AWS S3 SDK.  
 <details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-8.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-8.png"><br>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/aws/aws-9.png">
 </details>
 
@@ -2348,13 +2348,13 @@ To set up an AWS S3 bucket:
 1. Register for a Stripe account at stripe.com
 2. Log into your Stripe account and navigate to the Developers section  
 <details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-1.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-1.png"><br>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-2.png">
 </details>  
 
 3. In the Developers section, locate the API keys section and take note of the publishable and secret keys  
 <details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-3.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-3.png"><br>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-4.png">
 </details> 
 
@@ -2362,13 +2362,13 @@ To set up an AWS S3 bucket:
 
 5. Return to the Developers section of your Stripe account and click on the Webhooks tab  
 <details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-5.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-5.png"><br>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-6.png">
 </details> 
 
 6. Create a webhook with the URL of your website, such as https://example.com/checkout/wh/  
 <details><summary>See Images</summary>
-<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-7.png">
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-7.png"><br>
 <img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/stripe/stripe-8.png">
 </details> 
 
