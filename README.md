@@ -1631,8 +1631,6 @@ Performance, best practices and SEO was tested using Lighthouse.
 
 3. As a **customer** I can **view a list of products** so that **decide what item I'm buying**
 
-2. As a **customer** I can **easily navigate the website** so that **I find my item and pay for it**
-
 | Feature | Action | Expected Result | Actual Result |
 | ------- | ------ | --------------- | ------------- |
 | Proudct List | Click the call to action button in the home hero or use the real or digital header buttons to navigate to the product list page | User is presented with list of products | Works as expected |
@@ -1647,6 +1645,20 @@ Performance, best practices and SEO was tested using Lighthouse.
 <br>
 
 4. As a **customer** I can **search list of products** so that **I can find the item I want to buy**
+
+| Feature | Action | Expected Result | Actual Result |
+| ------- | ------ | --------------- | ------------- |
+| Proudct S | Click the search input in the header, type in what you want to search for, press enter or click the search button | User is presented with list of products that they searched for | Works as expected |
+
+<details><summary>See Proudct S Images</summary>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-1.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-2.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-3.png"><br>
+<img src="https://raw.githubusercontent.com/dmccaffrey01/CI_PP5_INFINITY_INNOVATIONS/main/docs/manual-testing/mt-search-4.png"><br>
+</details> 
+
+<br>
+
 5. As a **customer** I can **filter list of products** so that **I can find the item I want to buy**
 6. As a **customer** I can **sort the list of products** so that **find the item I want to buy**
 7. As a **customer** I can **click to see more info on a product** so that **decide to buy the item**
