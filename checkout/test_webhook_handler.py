@@ -7,7 +7,9 @@ from .models import Order
 
 
 class TestStripeWHHandler(TestCase):
-
+    """
+    Class to test the WH_Handler
+    """
     def setUp(self):
         self.order = Order.objects.create(
             full_name='test',

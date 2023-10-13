@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
     const selectLinks = document.querySelectorAll(".admin-home-card-open-select");
 
+    // Listen for open select clicks
     selectLinks.forEach((link) => {
         link.addEventListener("click", () => {
             let homeCard = link.parentNode;

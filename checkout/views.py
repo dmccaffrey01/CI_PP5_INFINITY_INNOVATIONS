@@ -17,6 +17,9 @@ import json
 
 @require_POST
 def cache_checkout_data(request):
+    """
+    Update stripe with cart and save info
+    """
     try:
         pid = request.POST.get('client_secret').split('_secret')[0]
         stripe.api_key = settings.STRIPE_SECRET_KEY
@@ -34,6 +37,10 @@ def cache_checkout_data(request):
 
 
 def checkout(request):
+    """
+    View to load checkout form
+    Submit checkout to stripe
+    """
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
 

@@ -3,6 +3,7 @@ from .models import Product, Category, Brand
 
 
 class ProductAdmin(admin.ModelAdmin):
+    """ Product admin """
     list_display = (
         'sku',
         'name',
@@ -15,12 +16,14 @@ class ProductAdmin(admin.ModelAdmin):
     ordering = ('sku',)
 
 class CategoryAdmin(admin.ModelAdmin):
+    """ Category admin """
     list_display = (
         'friendly_name',
         'name',
     )
 
 class BrandAdmin(admin.ModelAdmin):
+    """ Brand admin """
     list_display = (
         'friendly_name',
         'name',

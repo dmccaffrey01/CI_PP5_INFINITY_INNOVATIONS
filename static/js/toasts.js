@@ -2,6 +2,7 @@ let notificationContainer = document.querySelector(".toast-notification-containe
 let notificationClose = document.querySelector(".close-toast-btn");
 let notificationClosed = true;
 
+// Handle notification display
 const fadeInFadeOut = (inOrOut) => {
     let startingOpacity;
     let endingOpacity;

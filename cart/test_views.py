@@ -8,6 +8,7 @@ class TestViews(TestCase):
     """ Class to test checkout view """
 
     def setUp(self):
+        """ Create urls, product, category, brand, client"""
         self.category = Category.objects.create(name='Test Category')
         self.brand = Brand.objects.create(name='Test Brand')
         self.product = Product.objects.create(
@@ -25,6 +26,7 @@ class TestViews(TestCase):
         self.client = Client()
 
     def tearDown(self):
+        """ Delete all """
         self.product.delete()
         self.category.delete()
         self.brand.delete()

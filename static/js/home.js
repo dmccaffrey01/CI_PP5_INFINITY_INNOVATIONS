@@ -4,6 +4,7 @@ const typeWriterText = [
     "Explore Our Premium Selection Today!"
 ];
 
+// Clear typewriter text
 let clearTypewriterText = (i) => {
     const typeWriterTextElement = document.querySelector("#typewriter-text");
     let text = typeWriterText[i];
@@ -33,6 +34,7 @@ let typewriterOn = false;
 let typewriterOnFirstTime = true;
 let waitTime = 5500;
 
+// Displays text in typewriter way
 const typewriter = () => {
     const typeWriterTextElement = document.querySelector("#typewriter-text");
 

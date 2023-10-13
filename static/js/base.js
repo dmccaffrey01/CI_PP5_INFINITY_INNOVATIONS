@@ -2,7 +2,7 @@ const headerDropdownHeadings = document.querySelectorAll(".bottom-header-dropdow
 const headerDropdownContainers = document.querySelectorAll(".bottom-header-dropdown-container");
 const bottomHeaderContainer = document.querySelector(".bottom-header-container");
 
-
+// Remove other active header dropdowns
 const removeActiveDropdown = (i) => {
     headerDropdownContainers.forEach((container, k) => {
         if (k !== i && container.classList.contains("active")) {
@@ -12,6 +12,7 @@ const removeActiveDropdown = (i) => {
     });
 };
 
+// Listen for dropdown hover
 headerDropdownHeadings.forEach((heading, index) => {
     heading.addEventListener("mouseenter", () => {
         removeActiveDropdown(index);
@@ -32,6 +33,7 @@ const cartHeader = document.querySelector(".cart-header-container");
 const cartDropdownContainer = document.querySelector(".cart-header-dropdown-container");
 const cartWrapper = document.querySelector(".cart-header-dropdown-wrapper");
 
+// Listen for account dropdown hover
 accountHeader.addEventListener("mouseenter", () => {
     cartDropdownContainer.style.display = "none";
     cartWrapper.style.transform = "translateY(-100%)";
@@ -50,6 +52,7 @@ accountHeader.addEventListener("mouseenter", () => {
     });
 });
 
+// Listen for cart dropdown hover
 cartHeader.addEventListener("mouseenter", () => {
     accountDropdownContainer.style.display = "none";
     accountWrapper.style.transform = "translateY(-100%)";

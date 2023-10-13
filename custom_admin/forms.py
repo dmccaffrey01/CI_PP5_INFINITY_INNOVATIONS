@@ -4,7 +4,9 @@ from products.models import Product, Category, Brand
 
 
 class ProductForm(forms.ModelForm):
-
+    """
+    Class for the product form model
+    """
     class Meta:
         model = Product
         fields = '__all__'
@@ -27,7 +29,9 @@ class ProductForm(forms.ModelForm):
 
 
 class CategoryForm(forms.ModelForm):
-
+    """
+    Class for the category form model
+    """
     class Meta:
         model = Category
         fields = '__all__'
@@ -45,7 +49,9 @@ class CategoryForm(forms.ModelForm):
 
 
 class BrandForm(forms.ModelForm):
-
+    """
+    Class for the brand form model
+    """
     class Meta:
         model = Brand
         fields = '__all__'

@@ -8,6 +8,9 @@ from .models import Order
 
 
 class TestViews(TestCase):
+    """
+    Class to test the checkout views
+    """
     def setUp(self):
         self.category = Category.objects.create(name='Test Category')
         self.brand = Brand.objects.create(name='Test Brand')

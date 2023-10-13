@@ -2,7 +2,9 @@ from products.models import Brand, Category, Product
 
 
 def all_model_objects(request):
-
+    """
+    Context to get all products, brands and categories
+    """
     all_products = Product.objects.all()
 
     all_brands = Brand.objects.all()

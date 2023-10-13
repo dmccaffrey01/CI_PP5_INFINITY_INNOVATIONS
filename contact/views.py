@@ -27,6 +27,9 @@ def contact(request):
 
 
 def send_contact_email(data):
+    """
+    Send a contact email
+    """
     subject = 'New Contact Message'
     message = f"Name: {data['name']}\nEmail: "\
               f"{data['email']}\n\n{data['message']}"

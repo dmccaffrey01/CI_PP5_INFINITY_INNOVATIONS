@@ -13,6 +13,9 @@ from profiles.models import UserProfile
 
 
 class Order(models.Model):
+    """
+    Order model that is created when a user checksout
+    """
     order_number = models.CharField(max_length=32, null=False, editable=False)
     user_profile = models.ForeignKey(UserProfile, on_delete=models.SET_NULL,
                                      blank=True, null=True,
@@ -83,6 +86,9 @@ class Order(models.Model):
 
 
 class OrderLineItem(models.Model):
+    """
+    Order line containing each product purchased
+    """
     order = models.ForeignKey(
         Order, null=False, blank=False,
         on_delete=models.CASCADE, related_name='lineitems')

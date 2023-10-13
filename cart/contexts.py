@@ -5,7 +5,8 @@ from products.models import Product
 
 
 def cart_contents(request):
-
+    """ Context to return cart items and totals """
+    
     cart_items = []
     total = 0
     real_items_total = 0

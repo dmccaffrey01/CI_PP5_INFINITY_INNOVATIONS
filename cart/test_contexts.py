@@ -7,7 +7,10 @@ from .contexts import cart_contents
 
 
 class CartContentsTestCase(TestCase):
+    """ Tests for cart contexts """
+
     def setUp(self):
+        """ Create products, brands and categories """
         self.category1 = Category.objects.create(
             name='Test Category 1', universe='real', pk=1)
         self.brand1 = Brand.objects.create(
@@ -33,6 +36,7 @@ class CartContentsTestCase(TestCase):
         )
 
     def test_cart_contents_a(self):
+        """ Test the cart contexts """
         request = HttpRequest()
         middleware = SessionMiddleware()
         middleware.process_request(request)
@@ -59,6 +63,7 @@ class CartContentsTestCase(TestCase):
             round(cart_context['grand_total'], 2), round(Decimal(27.99), 2))
 
     def test_cart_contents_b(self):
+        """ Test the cart contexts """
         request = HttpRequest()
         middleware = SessionMiddleware()
         middleware.process_request(request)
@@ -88,6 +93,7 @@ class CartContentsTestCase(TestCase):
             round(cart_context['grand_total'], 2), Decimal('277.99'))
 
     def tearDown(self):
+        """ Delete all """
         self.product1.delete()
         self.product2.delete()
         self.category1.delete()

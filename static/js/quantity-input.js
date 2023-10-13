@@ -1,3 +1,4 @@
+// Handle quantity button clicks
 const incrementBtns = document.querySelectorAll(".increment-qty");
 const decrementBtns = document.querySelectorAll(".decrement-qty");
 const allQtyInputs = document.querySelectorAll(".qty_input");

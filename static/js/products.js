@@ -1,3 +1,4 @@
+// Filter select dropdown change
 const updateFilterURL = (valueElement, type) => {
     let selectedVal = valueElement.getAttribute("data-select-value");
 

@@ -34,7 +34,7 @@ def reviews(request):
 @require_POST
 @csrf_exempt
 def add_review_api(request):
-
+    """ Add a review api call """
     api_key = request.META.get('HTTP_REVIEW_POST_API_KEY')
 
     if api_key == os.environ.get(
